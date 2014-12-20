@@ -1,0 +1,22 @@
+<xml>
+  <MagnetismMapping>
+    <item> minecraft:iron_ore:0-1 </item>
+    <strength> 5 </strength>
+  </MagnetismMapping>
+  <MagnetismMapping>
+    <item> minecraft:iron_ingot:0-1 </item>
+    <strength> 5 </strength>
+  </MagnetismMapping>
+  <MagnetismMapping>
+    <item> Femtocraft:BlockOreLodestone:0-1 </item>
+    <strength> 50 </strength>
+  </MagnetismMapping>
+  <MagnetismMapping>
+    <item> Femtocraft:ItemNuggetLodestone:0-1 </item>
+    <strength> 10 </strength>
+  </MagnetismMapping>
+  <MagnetismMapping>
+    <item> Femtocraft:ItemChunkLodestone:0-1 </item>
+    <strength> 40 </strength>
+  </MagnetismMapping>
+</xml>

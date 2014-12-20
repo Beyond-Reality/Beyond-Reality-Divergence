@@ -1,0 +1,29 @@
+<xml>
+  <TemporalRecipe>
+    <configurators length="3">
+      <configurators0> Femtocraft:ItemTemporalResonator:0-1 </configurators0>
+      <configurators1> Femtocraft:ItemSchedulerCore:0-1 </configurators1>
+      <configurators2> minecraft:clock:0-1 </configurators2>
+    </configurators>
+    <input> Femtocraft:ItemSelfFulfillingOracle:0-1 </input>
+    <output> Femtocraft:ItemInfallibleEstimator:0-1 </output>
+    <techLevel> nano </techLevel>
+    <tech> Temporal Pipelining </tech>
+    <ticks> 200 </ticks>
+  </TemporalRecipe>
+  <TemporalRecipe>
+    <configurators length="6">
+      <configurators0> Femtocraft:ItemInfallibleEstimator:0-1 </configurators0>
+      <configurators1> Femtocraft:ItemOrpheusProcessor:0-1 </configurators1>
+      <configurators2> Femtocraft:ItemPanLocationalComputer:0-1 </configurators2>
+      <configurators3> Femtocraft:ItemInfallibleEstimator:0-1 </configurators3>
+      <configurators4> Femtocraft:ItemOrpheusProcessor:0-1 </configurators4>
+      <configurators5> Femtocraft:ItemPanLocationalComputer:0-1 </configurators5>
+    </configurators>
+    <input> Femtocraft:ItemInfallibleEstimator:0-1 </input>
+    <output> Femtocraft:ItemInfinitelyRecursiveALU:0-1 </output>
+    <techLevel> femto </techLevel>
+    <tech> Temporal Threading </tech>
+    <ticks> 800 </ticks>
+  </TemporalRecipe>
+</xml>
