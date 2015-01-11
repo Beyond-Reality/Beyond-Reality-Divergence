@@ -1,6 +1,6 @@
-BeyondReality Sue Generis (Unique)
+Beyond Reality: Divergence
 ====================
-Pack is currenty in development name is a place holder. This pack is meant continue our mission to bring a Unique experience different from everything else to a mod pack.
+Pack is currenty in development. This pack is meant continue our mission to bring a Unique experience different from everything else to a mod pack.
 
 Issues
 ==================
