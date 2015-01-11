@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <xml>
   <AssemblerRecipe>
     <input length="9">
@@ -15,7 +16,7 @@
     <output> Femtocraft:ItemCrystallite:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Applied Particle Physics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -33,7 +34,7 @@
     <output> Femtocraft:ItemMineralite:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Applied Particle Physics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -51,7 +52,7 @@
     <output> Femtocraft:ItemMetallite:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Applied Particle Physics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -69,7 +70,7 @@
     <output> Femtocraft:ItemFaunite:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Applied Particle Physics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -87,7 +88,7 @@
     <output> Femtocraft:ItemElectrite:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Applied Particle Physics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -105,7 +106,7 @@
     <output> Femtocraft:ItemFlorite:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Applied Particle Physics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -123,7 +124,7 @@
     <output> Femtocraft:ItemMicroCrystal:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -141,7 +142,7 @@
     <output> Femtocraft:ItemProteinChain:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -159,7 +160,7 @@
     <output> Femtocraft:ItemNerveCluster:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -177,7 +178,7 @@
     <output> Femtocraft:ItemConductiveAlloy:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -195,7 +196,7 @@
     <output> Femtocraft:ItemMetalComposite:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -213,7 +214,7 @@
     <output> Femtocraft:ItemFibrousStrand:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -231,7 +232,7 @@
     <output> Femtocraft:ItemMineralLattice:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -249,7 +250,7 @@
     <output> Femtocraft:ItemFungalSpores:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -267,7 +268,7 @@
     <output> Femtocraft:ItemIonicChunk:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -285,7 +286,7 @@
     <output> Femtocraft:ItemReplicatingMaterial:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -303,7 +304,7 @@
     <output> Femtocraft:ItemSpinyFilament:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -321,7 +322,7 @@
     <output> Femtocraft:ItemHardenedBulb:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -339,7 +340,7 @@
     <output> Femtocraft:ItemMorphicChannel:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -357,7 +358,7 @@
     <output> Femtocraft:ItemSynthesizedFiber:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -375,7 +376,7 @@
     <output> Femtocraft:ItemOrganometallicPlate:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Advanced Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -393,7 +394,7 @@
     <output> minecraft:stone:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -411,7 +412,7 @@
     <output> minecraft:grass:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -429,7 +430,7 @@
     <output> minecraft:dirt:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -447,7 +448,25 @@
     <output> minecraft:cobblestone:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemFibrousStrand:0-1 </input0>
+      <input1> Femtocraft:ItemFibrousStrand:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:planks:32767-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -465,7 +484,7 @@
     <output> minecraft:planks:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Recomposition </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -483,7 +502,7 @@
     <output> minecraft:sapling:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -501,7 +520,7 @@
     <output> minecraft:sand:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -519,7 +538,7 @@
     <output> minecraft:leaves:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -537,7 +556,7 @@
     <output> minecraft:web:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -555,7 +574,7 @@
     <output> minecraft:deadbush:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -573,7 +592,7 @@
     <output> minecraft:yellow_flower:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -591,7 +610,7 @@
     <output> minecraft:red_flower:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -609,7 +628,7 @@
     <output> minecraft:brown_mushroom:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -627,7 +646,7 @@
     <output> minecraft:red_mushroom:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -645,7 +664,7 @@
     <output> minecraft:mossy_cobblestone:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -663,7 +682,7 @@
     <output> minecraft:obsidian:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -681,7 +700,7 @@
     <output> minecraft:ice:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -699,7 +718,7 @@
     <output> minecraft:cactus:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -717,7 +736,7 @@
     <output> minecraft:pumpkin:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -733,9 +752,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:netherrack:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -751,9 +770,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:soul_sand:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -769,9 +788,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:glowstone_dust:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -789,7 +808,7 @@
     <output> minecraft:melon_block:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -807,7 +826,7 @@
     <output> minecraft:vine:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -825,7 +844,7 @@
     <output> minecraft:mycelium:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -843,7 +862,7 @@
     <output> minecraft:waterlily:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -859,9 +878,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:end_stone:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -879,7 +898,7 @@
     <output> minecraft:cocoa:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -897,7 +916,7 @@
     <output> minecraft:apple:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -915,7 +934,7 @@
     <output> minecraft:coal:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -933,7 +952,7 @@
     <output> minecraft:diamond:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -951,7 +970,7 @@
     <output> minecraft:iron_ingot:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -969,7 +988,7 @@
     <output> minecraft:gold_ingot:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -987,7 +1006,7 @@
     <output> minecraft:stick:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1005,7 +1024,7 @@
     <output> minecraft:string:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1023,7 +1042,7 @@
     <output> minecraft:feather:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1041,7 +1060,7 @@
     <output> minecraft:gunpowder:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1059,7 +1078,7 @@
     <output> minecraft:wheat_seeds:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1077,7 +1096,7 @@
     <output> minecraft:wheat:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1095,7 +1114,7 @@
     <output> minecraft:flint:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1113,7 +1132,7 @@
     <output> minecraft:porkchop:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1131,7 +1150,7 @@
     <output> minecraft:cooked_porkchop:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1149,7 +1168,7 @@
     <output> minecraft:redstone:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1167,7 +1186,7 @@
     <output> minecraft:snowball:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1185,7 +1204,7 @@
     <output> minecraft:leather:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1203,7 +1222,7 @@
     <output> minecraft:clay_ball:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1221,7 +1240,7 @@
     <output> minecraft:reeds:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1239,7 +1258,7 @@
     <output> minecraft:slime_ball:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1257,7 +1276,7 @@
     <output> minecraft:egg:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1275,7 +1294,7 @@
     <output> minecraft:fish:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1293,7 +1312,7 @@
     <output> minecraft:cooked_fished:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1308,10 +1327,280 @@
       <input8> </input8>
     </input>
     <mass> 1 </mass>
-    <output> minecraft:dye:32767-1 </output>
+    <output> minecraft:dye:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:1-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:2-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:3-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:4-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:5-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:6-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:7-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:8-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:9-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:10-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:11-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:12-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:13-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:14-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemReplicatingMaterial:0-1 </input0>
+      <input1> Femtocraft:ItemSynthesizedFiber:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:dye:15-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1329,7 +1618,7 @@
     <output> minecraft:bone:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1347,7 +1636,7 @@
     <output> minecraft:pumpkin_seeds:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1365,7 +1654,7 @@
     <output> minecraft:melon_seeds:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1383,7 +1672,7 @@
     <output> minecraft:beef:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1401,7 +1690,7 @@
     <output> minecraft:cooked_beef:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1419,7 +1708,7 @@
     <output> minecraft:chicken:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1437,7 +1726,7 @@
     <output> minecraft:cooked_chicken:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1455,7 +1744,7 @@
     <output> minecraft:rotten_flesh:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1473,7 +1762,7 @@
     <output> minecraft:ender_pearl:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1489,9 +1778,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:ghast_tear:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1507,9 +1796,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:nether_wart:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1527,7 +1816,7 @@
     <output> minecraft:spider_eye:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1543,9 +1832,9 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:blaze_powder:0-1 </output>
-    <techLevel> micro </techLevel>
-    <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1563,7 +1852,7 @@
     <output> minecraft:emerald:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1581,7 +1870,7 @@
     <output> minecraft:carrot:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1599,7 +1888,7 @@
     <output> minecraft:potato:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1617,7 +1906,7 @@
     <output> minecraft:baked_potato:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1635,7 +1924,7 @@
     <output> minecraft:poisonous_potato:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Basic Chemistry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1669,9 +1958,189 @@
     </input>
     <mass> 1 </mass>
     <output> minecraft:nether_star:0-1 </output>
-    <techLevel> micro </techLevel>
+    <techLevel> femto </techLevel>
     <technology> Nether Star Fabrication </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemIonicChunk:0-1 </input0>
+      <input1> Femtocraft:ItemHardenedBulb:0-1 </input1>
+      <input2> Femtocraft:ItemIonicChunk:0-1 </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:quartz:0-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> minecraft:blaze_powder:0-1 </input0>
+      <input1> minecraft:brick:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> minecraft:netherbrick:0-1 </output>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemConductiveAlloy:0-1 </input0>
+      <input1> Femtocraft:ItemMorphicChannel:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> Femtocraft:ItemDustFarenite:0-1 </output>
+    <techLevel> nano </techLevel>
+    <technology> Thorium Fissibility </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> minecraft:blaze_powder:0-1 </input0>
+      <input1> Femtocraft:ItemDustFarenite:0-1 </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> Femtocraft:ItemDustMalenite:0-2 </output>
+    <techLevel> femto </techLevel>
+    <technology> Dimensional Transformation </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemMetalComposite:0-1 </input0>
+      <input1> Femtocraft:ItemHardenedBulb:0-1 </input1>
+      <input2> Femtocraft:ItemMetalComposite:0-1 </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> Femtocraft:ItemIngotTitanium:0-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemMetalComposite:0-1 </input0>
+      <input1> Femtocraft:ItemHardenedBulb:0-1 </input1>
+      <input2> Femtocraft:ItemConductiveAlloy:0-1 </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> Femtocraft:ItemIngotPlatinum:0-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemMetalComposite:0-1 </input0>
+      <input1> Femtocraft:ItemHardenedBulb:0-1 </input1>
+      <input2> Femtocraft:ItemIonicChunk:0-1 </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 1 </mass>
+    <output> Femtocraft:ItemIngotThorium:0-1 </output>
+    <techLevel> micro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> minecraft:sand:0-1 </input0>
+      <input1> </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> minecraft:glass:0-1 </output>
+    <techLevel> macro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemConductivePowder:0-1 </input0>
+      <input1> </input1>
+      <input2> </input2>
+      <input3> Femtocraft:ItemBoard:0-1 </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> Femtocraft:ItemDopedBoard:0-1 </output>
+    <techLevel> macro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> minecraft:clay_ball:0-1 </input0>
+      <input1> </input1>
+      <input2> </input2>
+      <input3> </input3>
+      <input4> </input4>
+      <input5> </input5>
+      <input6> </input6>
+      <input7> </input7>
+      <input8> </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> minecraft:brick:0-1 </output>
+    <techLevel> macro </techLevel>
+    <technology> Basic Chemistry </technology>
+    <type> Decomposition </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1722,10 +2191,10 @@
       <input8> Femtocraft:ItemIngotTemperedTitanium:0-1 </input8>
     </input>
     <mass> 0 </mass>
-    <output> Femtocraft:BlockAtmosphericChargingCapacitor:0-1 </output>
+    <output> Femtocraft:BlockCapacitorMicroCharging:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Potential Harvesting </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1743,53 +2212,53 @@
     <output> Femtocraft:BlockVacuumTube:0-16 </output>
     <techLevel> micro </techLevel>
     <technology> Vacuum Tubes </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:quartz:0-1 </input0>
-      <input1> Femtocraft:ItemIngotFarenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustFarenite:0-1 </input1>
       <input2> minecraft:quartz:0-1 </input2>
       <input3> Femtocraft:ItemDopedBoard:0-1 </input3>
       <input4> Femtocraft:ItemMicrochip:0-1 </input4>
       <input5> Femtocraft:ItemDopedBoard:0-1 </input5>
       <input6> minecraft:quartz:0-1 </input6>
-      <input7> Femtocraft:ItemIngotFarenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustFarenite:0-1 </input7>
       <input8> minecraft:quartz:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemNanochip:0-2 </output>
     <techLevel> micro </techLevel>
     <technology> Nano Circuits </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:comparator:0-1 </input0>
-      <input1> Femtocraft:ItemIngotFarenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustFarenite:0-1 </input1>
       <input2> minecraft:redstone:0-1 </input2>
-      <input3> Femtocraft:ItemIngotFarenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustFarenite:0-1 </input3>
       <input4> Femtocraft:ItemNanochip:0-1 </input4>
-      <input5> Femtocraft:ItemIngotFarenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustFarenite:0-1 </input5>
       <input6> minecraft:redstone:0-1 </input6>
-      <input7> Femtocraft:ItemIngotFarenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustFarenite:0-1 </input7>
       <input8> minecraft:comparator:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemNanoCalculator:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Nano Circuits </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
-      <input0> Femtocraft:ItemIngotFarenite:0-1 </input0>
+      <input0> Femtocraft:ItemDustFarenite:0-1 </input0>
       <input1> minecraft:redstone:0-1 </input1>
       <input2> minecraft:comparator:0-1 </input2>
       <input3> minecraft:redstone:0-1 </input3>
       <input4> Femtocraft:ItemNanochip:0-1 </input4>
       <input5> minecraft:redstone_torch:0-1 </input5>
-      <input6> Femtocraft:ItemIngotFarenite:0-1 </input6>
+      <input6> Femtocraft:ItemDustFarenite:0-1 </input6>
       <input7> minecraft:redstone:0-1 </input7>
       <input8> minecraft:comparator:0-1 </input8>
     </input>
@@ -1797,32 +2266,32 @@
     <output> Femtocraft:ItemNanoRegulator:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Nano Circuits </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:repeater:0-1 </input0>
-      <input1> Femtocraft:ItemIngotFarenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustFarenite:0-1 </input1>
       <input2> minecraft:repeater:0-1 </input2>
-      <input3> Femtocraft:ItemIngotFarenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustFarenite:0-1 </input3>
       <input4> Femtocraft:ItemNanochip:0-1 </input4>
-      <input5> Femtocraft:ItemIngotFarenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustFarenite:0-1 </input5>
       <input6> minecraft:comparator:0-1 </input6>
-      <input7> Femtocraft:ItemIngotFarenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustFarenite:0-1 </input7>
       <input8> minecraft:repeater:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemNanoSimulator:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Nano Circuits </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:quartz:0-1 </input0>
       <input1> </input1>
       <input2> </input2>
-      <input3> Femtocraft:ItemIngotFarenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustFarenite:0-1 </input3>
       <input4> </input4>
       <input5> </input5>
       <input6> minecraft:quartz:0-1 </input6>
@@ -1833,7 +2302,7 @@
     <output> Femtocraft:ItemFluidicConductor:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Farenite Stabilization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1851,7 +2320,7 @@
     <output> Femtocraft:ItemNanoPlating:0-3 </output>
     <techLevel> micro </techLevel>
     <technology> Artificial Materials </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1869,7 +2338,7 @@
     <output> Femtocraft:ItemBasicAICore:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Advanced Programming </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1887,7 +2356,7 @@
     <output> Femtocraft:ItemLearningCore:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Pattern Recognition </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1905,7 +2374,7 @@
     <output> Femtocraft:ItemSchedulerCore:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Workload Scheduling </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1923,7 +2392,7 @@
     <output> Femtocraft:ItemManagerCore:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Resource Optimization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1941,7 +2410,7 @@
     <output> Femtocraft:ItemNanoCoil:0-6 </output>
     <techLevel> micro </techLevel>
     <technology> Farenite Stabilization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1959,7 +2428,7 @@
     <output> Femtocraft:BlockNanoCable:0-8 </output>
     <techLevel> micro </techLevel>
     <technology> Farenite Stabilization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1977,7 +2446,7 @@
     <output> Femtocraft:BlockNanoInnervator:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Kinetic Dissociation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -1995,7 +2464,7 @@
     <output> Femtocraft:BlockNanoDismantler:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Atomic Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2013,7 +2482,7 @@
     <output> Femtocraft:BlockNanoFabricator:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Atomic Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2031,16 +2500,16 @@
     <output> Femtocraft:BlockCryoEndothermalChargingBase:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Geothermal Harnessing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> Femtocraft:ItemNanoPlating:0-1 </input0>
       <input1> Femtocraft:ItemNanoCoil:0-1 </input1>
       <input2> Femtocraft:ItemNanoPlating:0-1 </input2>
-      <input3> Femtocraft:ItemIngotFarenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustFarenite:0-1 </input3>
       <input4> Femtocraft:ItemNanochip:0-1 </input4>
-      <input5> Femtocraft:ItemIngotFarenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustFarenite:0-1 </input5>
       <input6> Femtocraft:ItemNanoPlating:0-1 </input6>
       <input7> Femtocraft:ItemNanoCoil:0-1 </input7>
       <input8> Femtocraft:ItemNanoPlating:0-1 </input8>
@@ -2049,7 +2518,7 @@
     <output> Femtocraft:BlockCryoEndothermalChargingCoil:0-1 </output>
     <techLevel> micro </techLevel>
     <technology> Geothermal Harnessing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2067,7 +2536,7 @@
     <output> Femtocraft:ItemTemporalResonator:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spacetime Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2085,7 +2554,7 @@
     <output> Femtocraft:ItemDimensionalMonopole:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spacetime Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2103,7 +2572,7 @@
     <output> Femtocraft:ItemSelfFulfillingOracle:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spacetime Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2121,7 +2590,7 @@
     <output> Femtocraft:ItemCrossDimensionalCommunicator:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spacetime Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2139,7 +2608,7 @@
     <output> Femtocraft:BlockNanoHorologe:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Temporal Pipelining </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2157,7 +2626,7 @@
     <output> Femtocraft:BlockNanoEnmesher:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Dimensional Braiding </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2175,7 +2644,7 @@
     <output> Femtocraft:ItemDigitalSchematic:0-8 </output>
     <techLevel> nano </techLevel>
     <technology> Digitized Workloads </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2193,7 +2662,7 @@
     <output> Femtocraft:BlockOrbitalEqualizer:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Potentiality Transformation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2211,7 +2680,7 @@
     <output> Femtocraft:BlockNanoCubeFrame:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Industrial Storage </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2229,7 +2698,7 @@
     <output> Femtocraft:BlockNanoCubePort:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Industrial Storage </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2247,7 +2716,7 @@
     <output> Femtocraft:ItemFissionReactorPlating:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Harnessed Nuclear Decay </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2265,7 +2734,7 @@
     <output> Femtocraft:BlockFissionReactorHousing:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Harnessed Nuclear Decay </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2283,7 +2752,7 @@
     <output> Femtocraft:BlockFissionReactorCore:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Harnessed Nuclear Decay </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2301,79 +2770,79 @@
     <output> Femtocraft:BlockDecontaminationChamber:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Harnessed Nuclear Decay </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
-      <input0> Femtocraft:ItemIngotFarenite:0-1 </input0>
+      <input0> Femtocraft:ItemDustFarenite:0-1 </input0>
       <input1> </input1>
-      <input2> Femtocraft:ItemIngotFarenite:0-1 </input2>
+      <input2> Femtocraft:ItemDustFarenite:0-1 </input2>
       <input3> Femtocraft:ItemIngotThorium:0-1 </input3>
-      <input4> Femtocraft:ItemIngotFarenite:0-1 </input4>
+      <input4> Femtocraft:ItemDustFarenite:0-1 </input4>
       <input5> Femtocraft:ItemIngotThorium:0-1 </input5>
-      <input6> Femtocraft:ItemIngotFarenite:0-1 </input6>
+      <input6> Femtocraft:ItemDustFarenite:0-1 </input6>
       <input7> </input7>
-      <input8> Femtocraft:ItemIngotFarenite:0-1 </input8>
+      <input8> Femtocraft:ItemDustFarenite:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemIngotThFaSalt:0-2 </output>
     <techLevel> nano </techLevel>
     <technology> Thorium Fissibility </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:ender_eye:0-1 </input0>
-      <input1> Femtocraft:ItemIngotMalenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustMalenite:0-1 </input1>
       <input2> minecraft:ender_eye:0-1 </input2>
-      <input3> Femtocraft:ItemIngotMalenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustMalenite:0-1 </input3>
       <input4> minecraft:quartz:0-1 </input4>
-      <input5> Femtocraft:ItemIngotMalenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustMalenite:0-1 </input5>
       <input6> minecraft:ender_eye:0-1 </input6>
-      <input7> Femtocraft:ItemIngotMalenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustMalenite:0-1 </input7>
       <input8> minecraft:ender_eye:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemMinosGate:0-2 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Interactivity </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:magma_cream:0-1 </input0>
-      <input1> Femtocraft:ItemIngotMalenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustMalenite:0-1 </input1>
       <input2> minecraft:magma_cream:0-1 </input2>
-      <input3> Femtocraft:ItemIngotMalenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustMalenite:0-1 </input3>
       <input4> minecraft:quartz:0-1 </input4>
-      <input5> Femtocraft:ItemIngotMalenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustMalenite:0-1 </input5>
       <input6> minecraft:magma_cream:0-1 </input6>
-      <input7> Femtocraft:ItemIngotMalenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustMalenite:0-1 </input7>
       <input8> minecraft:magma_cream:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemCharosGate:0-2 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Interactivity </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:fire_charge:0-1 </input0>
-      <input1> Femtocraft:ItemIngotMalenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustMalenite:0-1 </input1>
       <input2> minecraft:fire_charge:0-1 </input2>
-      <input3> Femtocraft:ItemIngotMalenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustMalenite:0-1 </input3>
       <input4> minecraft:quartz:0-1 </input4>
-      <input5> Femtocraft:ItemIngotMalenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustMalenite:0-1 </input5>
       <input6> minecraft:fire_charge:0-1 </input6>
-      <input7> Femtocraft:ItemIngotMalenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustMalenite:0-1 </input7>
       <input8> minecraft:fire_charge:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemCerberusGate:0-2 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Interactivity </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2391,7 +2860,7 @@
     <output> Femtocraft:ItemErinyesCircuit:0-3 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Computing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2409,7 +2878,7 @@
     <output> Femtocraft:ItemMinervaComplex:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Computing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2420,23 +2889,23 @@
       <input4> minecraft:sticky_piston:0-1 </input4>
       <input5> Femtocraft:ItemCerberusGate:0-1 </input5>
       <input6> Femtocraft:ItemErinyesCircuit:0-1 </input6>
-      <input7> Femtocraft:ItemIngotMalenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustMalenite:0-1 </input7>
       <input8> Femtocraft:ItemErinyesCircuit:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemAtlasMount:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Robotics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> Femtocraft:ItemErinyesCircuit:0-1 </input0>
       <input1> Femtocraft:ItemMinervaComplex:0-1 </input1>
       <input2> Femtocraft:ItemErinyesCircuit:0-1 </input2>
-      <input3> Femtocraft:ItemIngotMalenite:0-1 </input3>
+      <input3> Femtocraft:ItemDustMalenite:0-1 </input3>
       <input4> minecraft:feather:0-1 </input4>
-      <input5> Femtocraft:ItemIngotMalenite:0-1 </input5>
+      <input5> Femtocraft:ItemDustMalenite:0-1 </input5>
       <input6> Femtocraft:ItemErinyesCircuit:0-1 </input6>
       <input7> Femtocraft:ItemMinervaComplex:0-1 </input7>
       <input8> Femtocraft:ItemErinyesCircuit:0-1 </input8>
@@ -2445,7 +2914,7 @@
     <output> Femtocraft:ItemHermesBus:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Computing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2463,25 +2932,25 @@
     <output> Femtocraft:ItemHerculesDrive:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Robotics </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> Femtocraft:ItemMinervaComplex:0-1 </input0>
-      <input1> Femtocraft:ItemIngotMalenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustMalenite:0-1 </input1>
       <input2> Femtocraft:ItemMinervaComplex:0-1 </input2>
       <input3> Femtocraft:ItemInfallibleEstimator:0-1 </input3>
       <input4> minecraft:comparator:0-1 </input4>
       <input5> Femtocraft:ItemPanLocationalComputer:0-1 </input5>
       <input6> Femtocraft:ItemErinyesCircuit:0-1 </input6>
-      <input7> Femtocraft:ItemIngotMalenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustMalenite:0-1 </input7>
       <input8> Femtocraft:ItemErinyesCircuit:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemOrpheusProcessor:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Quantum Computing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2499,7 +2968,7 @@
     <output> Femtocraft:ItemFemtoPlating:0-2 </output>
     <techLevel> nano </techLevel>
     <technology> Element Manufacturing </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2517,7 +2986,7 @@
     <output> Femtocraft:BlockFemtoImpulser:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Particle Excitation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2535,7 +3004,7 @@
     <output> Femtocraft:BlockFemtoRepurposer:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Particle Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2553,25 +3022,25 @@
     <output> Femtocraft:BlockFemtoCoagulator:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Particle Manipulation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
       <input0> minecraft:netherbrick:0-1 </input0>
-      <input1> Femtocraft:ItemIngotMalenite:0-1 </input1>
+      <input1> Femtocraft:ItemDustMalenite:0-1 </input1>
       <input2> minecraft:netherbrick:0-1 </input2>
       <input3> minecraft:netherbrick:0-1 </input3>
-      <input4> Femtocraft:ItemIngotMalenite:0-1 </input4>
+      <input4> Femtocraft:ItemDustMalenite:0-1 </input4>
       <input5> minecraft:netherbrick:0-1 </input5>
       <input6> minecraft:netherbrick:0-1 </input6>
-      <input7> Femtocraft:ItemIngotMalenite:0-1 </input7>
+      <input7> Femtocraft:ItemDustMalenite:0-1 </input7>
       <input8> minecraft:netherbrick:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:ItemStyxValve:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Demonic Particulates </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2589,7 +3058,7 @@
     <output> Femtocraft:ItemFemtoCoil:0-6 </output>
     <techLevel> nano </techLevel>
     <technology> Demonic Particulates </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2607,7 +3076,7 @@
     <output> Femtocraft:BlockFemtoCable:0-8 </output>
     <techLevel> nano </techLevel>
     <technology> Demonic Particulates </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2625,7 +3094,7 @@
     <output> Femtocraft:BlockPhlegethonTunnelCore:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spontaneous Generation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2643,7 +3112,7 @@
     <output> Femtocraft:ItemPhlegethonTunnelPrimer:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spontaneous Generation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2661,7 +3130,7 @@
     <output> Femtocraft:BlockPhlegethonTunnelFrame:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spontaneous Generation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2679,7 +3148,7 @@
     <output> Femtocraft:BlockSisyphusStabilizer:0-1 </output>
     <techLevel> nano </techLevel>
     <technology> Spontaneous Generation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2697,7 +3166,7 @@
     <output> Femtocraft:ItemQuantumSchematic:0-8 </output>
     <techLevel> femto </techLevel>
     <technology> Spin Retention </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2715,7 +3184,7 @@
     <output> Femtocraft:BlockFemtoChronoshifter:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Temporal Threading </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2733,7 +3202,7 @@
     <output> Femtocraft:BlockFemtoEntangler:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Dimensional Superpositions </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2751,7 +3220,7 @@
     <output> Femtocraft:BlockNullEqualizer:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Spontaneous Generation </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2769,7 +3238,7 @@
     <output> Femtocraft:BlockFemtoCubePort:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Corruption Stabilization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2787,7 +3256,7 @@
     <output> Femtocraft:BlockFemtoCubeFrame:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Corruption Stabilization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2805,7 +3274,7 @@
     <output> Femtocraft:BlockFemtoCubeChassis:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Corruption Stabilization </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2823,25 +3292,25 @@
     <output> Femtocraft:ItemStellaratorPlating:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
-      <input0> Femtocraft:BlockSisyphusStabilizer:0-1 </input0>
+      <input0> Femtocraft:ItemInfiniteVolumePolychora:0-1 </input0>
       <input1> Femtocraft:ItemStellaratorPlating:0-1 </input1>
-      <input2> Femtocraft:BlockSisyphusStabilizer:0-1 </input2>
+      <input2> Femtocraft:ItemInfiniteVolumePolychora:0-1 </input2>
       <input3> Femtocraft:ItemStellaratorPlating:0-1 </input3>
       <input4> minecraft:nether_star:0-1 </input4>
       <input5> Femtocraft:ItemStellaratorPlating:0-1 </input5>
-      <input6> Femtocraft:BlockSisyphusStabilizer:0-1 </input6>
+      <input6> Femtocraft:ItemInfinitelyRecursiveALU:0-1 </input6>
       <input7> Femtocraft:ItemStellaratorPlating:0-1 </input7>
-      <input8> Femtocraft:BlockSisyphusStabilizer:0-1 </input8>
+      <input8> Femtocraft:ItemInfinitelyRecursiveALU:0-1 </input8>
     </input>
     <mass> 0 </mass>
     <output> Femtocraft:BlockStellaratorCore:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2859,7 +3328,7 @@
     <output> Femtocraft:BlockStellaratorFocus:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2867,7 +3336,7 @@
       <input1> Femtocraft:ItemStellaratorPlating:0-1 </input1>
       <input2> minecraft:netherbrick:0-1 </input2>
       <input3> Femtocraft:ItemStellaratorPlating:0-1 </input3>
-      <input4> minecraft:nether_brick:0-1 </input4>
+      <input4> Femtocraft:BlockSisyphusStabilizer:0-1 </input4>
       <input5> Femtocraft:ItemStellaratorPlating:0-1 </input5>
       <input6> minecraft:netherbrick:0-1 </input6>
       <input7> Femtocraft:ItemStellaratorPlating:0-1 </input7>
@@ -2877,7 +3346,7 @@
     <output> Femtocraft:BlockStellaratorHousing:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2895,7 +3364,7 @@
     <output> Femtocraft:BlockStellaratorOpticalMaser:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2913,7 +3382,7 @@
     <output> Femtocraft:BlockPlasmaConduit:0-8 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2931,7 +3400,7 @@
     <output> Femtocraft:BlockPlasmaVent:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Stellar Mimicry </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2946,10 +3415,10 @@
       <input8> Femtocraft:BlockPlasmaConduit:0-1 </input8>
     </input>
     <mass> 0 </mass>
-    <output> Femtocraft:BlockPlasmaTurbine:0-1 </output>
+    <output> Femtocraft:BlockPlasmaSolenoid:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Energy Conversion </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
   </AssemblerRecipe>
   <AssemblerRecipe>
     <input length="9">
@@ -2967,6 +3436,78 @@
     <output> Femtocraft:BlockPlasmaCondenser:0-1 </output>
     <techLevel> femto </techLevel>
     <technology> Matter Conversion </technology>
-    <type> Reversable </type>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemNanochip:0-1 </input0>
+      <input1> Femtocraft:BlockFissionReactorHousing:0-1 </input1>
+      <input2> Femtocraft:ItemNanochip:0-1 </input2>
+      <input3> Femtocraft:BlockFissionReactorHousing:0-1 </input3>
+      <input4> minecraft:hopper:0-1 </input4>
+      <input5> Femtocraft:BlockFissionReactorHousing:0-1 </input5>
+      <input6> Femtocraft:ItemNanoRegulator:0-1 </input6>
+      <input7> Femtocraft:BlockFissionReactorHousing:0-1 </input7>
+      <input8> Femtocraft:ItemNanoRegulator:0-1 </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> Femtocraft:BlockMagnetohydrodynamicGenerator:0-1 </output>
+    <techLevel> nano </techLevel>
+    <technology> Harnessed Nuclear Decay </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> Femtocraft:ItemNanochip:0-1 </input0>
+      <input1> Femtocraft:BlockFissionReactorHousing:0-1 </input1>
+      <input2> Femtocraft:ItemNanochip:0-1 </input2>
+      <input3> Femtocraft:BlockFissionReactorHousing:0-1 </input3>
+      <input4> Femtocraft:BlockCryoEndothermalChargingBase:0-1 </input4>
+      <input5> Femtocraft:BlockFissionReactorHousing:0-1 </input5>
+      <input6> Femtocraft:ItemNanoRegulator:0-1 </input6>
+      <input7> Femtocraft:BlockFissionReactorHousing:0-1 </input7>
+      <input8> Femtocraft:ItemNanoRegulator:0-1 </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> Femtocraft:BlockSteamGenerator:0-1 </output>
+    <techLevel> nano </techLevel>
+    <technology> Harnessed Nuclear Decay </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> </input0>
+      <input1> </input1>
+      <input2> Femtocraft:ItemNanoCoil:0-1 </input2>
+      <input3> Femtocraft:ItemNanoPlating:0-1 </input3>
+      <input4> Femtocraft:ItemInterfaceDeviceMicro:0-1 </input4>
+      <input5> </input5>
+      <input6> Femtocraft:ItemNanoCalculator:0-1 </input6>
+      <input7> Femtocraft:ItemNanoPlating:0-1 </input7>
+      <input8> </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> Femtocraft:ItemInterfaceDeviceNano:0-1 </output>
+    <techLevel> nano </techLevel>
+    <technology> Potentiality Transformation </technology>
+    <type> Reversible </type>
+  </AssemblerRecipe>
+  <AssemblerRecipe>
+    <input length="9">
+      <input0> </input0>
+      <input1> </input1>
+      <input2> Femtocraft:ItemFemtoCoil:0-1 </input2>
+      <input3> Femtocraft:ItemFemtoPlating:0-1 </input3>
+      <input4> Femtocraft:ItemInterfaceDeviceNano:0-1 </input4>
+      <input5> </input5>
+      <input6> Femtocraft:ItemErinyesCircuit:0-1 </input6>
+      <input7> Femtocraft:ItemFemtoPlating:0-1 </input7>
+      <input8> </input8>
+    </input>
+    <mass> 0 </mass>
+    <output> Femtocraft:ItemInterfaceDeviceFemto:0-1 </output>
+    <techLevel> nano </techLevel>
+    <technology> Element Manufacturing </technology>
+    <type> Reversible </type>
   </AssemblerRecipe>
 </xml>
