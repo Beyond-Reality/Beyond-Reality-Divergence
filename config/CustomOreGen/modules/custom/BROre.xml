@@ -1,95 +1,104 @@
- <!--**********   Vanilla Deposit Removal   *************-->
-      <IfModInstalled name='beyondrealitycore'>
+<IfModInstalled name='beyondrealitycore'>
 
 	  
-	  <ConfigSection>
-			<IfCondition condition=':= dimension.generator != "HellRandomLevelSource" &amp; dimension.generator != "EndRandomLevelSource"'>
-				<Substitute name='OreSubstitute' block='minecraft:stone'>
-					<Description> 
-						Replaces all generated ore clusters with stone.   
-					</Description>
-					<Comment>  
-						Clear the fucking ore spawn :) .
-					</Comment>
-						<ReplacesOre block='oreAmber' />
-						<ReplacesOre block='oreAmethyst' />
-						<ReplacesOre block='oreBauxite' />
-						<ReplacesOre block='oreCertusQuartz' />
-						<ReplacesOre block='oreCinnabar' />
-						<ReplacesOre block='oreCoal' />
-						<ReplacesOre block='oreCopper' />
-						<ReplacesOre block='oreDarkIron' />
-						<ReplacesOre block='oreDiamond' />
-						<ReplacesOre block='oreEmerald' />
-						<ReplacesOre block='oreGold' />
-						<ReplacesOre block='oreIron' />
-						<ReplacesOre block='oreLapis' />
-						<ReplacesOre block='oreLead' />
-						<ReplacesOre block='oreNickel' />
-						<ReplacesOre block='orePoorCopper' />
-						<ReplacesOre block='orePoorGold' />
-						<ReplacesOre block='orePoorIron' />
-						<ReplacesOre block='orePoorLead' />
-						<ReplacesOre block='orePoorTin' />
-						<ReplacesOre block='oreRedstone' />
-						<ReplacesOre block='oreRuby' />
-						<ReplacesOre block='oreSalt' />
-						<ReplacesOre block='oreSaltpeter' />
-						<ReplacesOre block='oreSapphire' />
-						<ReplacesOre block='oreSilver' />
-						<ReplacesOre block='oreSulfur' />
-						<ReplacesOre block='oreTeslatite' />
-						<ReplacesOre block='oreTin' />
-						<ReplacesOre block='oreTitanium' />
-						<ReplacesOre block='oreTungsten' />
-						<ReplacesOre block='oreUranium' />
-						<ReplacesOre block='oreZinc' />
-						<ReplacesOre block='orePitchblende' />
-						<ReplacesOre block='oreMagnetite' />
-						<ReplacesOre block='oreCadmium' />
-						<ReplacesOre block='oreIndium' />
-						<ReplacesOre block='oreCalcite' />
-						<ReplacesOre block='oreFluorite' /> 
-						<ReplacesOre block='chisel:limestone' />
-				</Substitute>
-			</IfCondition>
-		</ConfigSection>
+<ConfigSection>
+	
+	<IfCondition condition=':= dimension.generator != "HellRandomLevelSource" &amp; dimension.generator != "EndRandomLevelSource"'>
+	
+	<Substitute name='OreSubstitute' block='minecraft:stone'>
+	
+	<Description> 
+		Replaces all generated ore clusters with stone.   
+	</Description>
+	
+	<Comment>  
+		Clearing all ore spawn.
+	</Comment>
+	
+			<ReplacesOre block='oreAmber' />
+			<ReplacesOre block='oreAmethyst' />
+			<ReplacesOre block='oreBauxite' />
+			<ReplacesOre block='oreCertusQuartz' />
+			<ReplacesOre block='oreCinnabar' />
+			<ReplacesOre block='oreCoal' />
+			<ReplacesOre block='oreCopper' />
+			<ReplacesOre block='oreDarkIron' />
+			<ReplacesOre block='oreDiamond' />
+			<ReplacesOre block='oreEmerald' />
+			<ReplacesOre block='oreGold' />
+			<ReplacesOre block='oreIron' />
+			<ReplacesOre block='oreLapis' />
+			<ReplacesOre block='oreLead' />
+			<ReplacesOre block='oreNickel' />
+			<ReplacesOre block='orePoorCopper' />
+			<ReplacesOre block='orePoorGold' />
+			<ReplacesOre block='orePoorIron' />
+			<ReplacesOre block='orePoorLead' />
+			<ReplacesOre block='orePoorTin' />
+			<ReplacesOre block='oreRedstone' />
+			<ReplacesOre block='oreRuby' />
+			<ReplacesOre block='oreSalt' />
+			<ReplacesOre block='oreSaltpeter' />
+			<ReplacesOre block='oreSapphire' />
+			<ReplacesOre block='oreSilver' />
+			<ReplacesOre block='oreSulfur' />
+			<ReplacesOre block='oreTeslatite' />
+			<ReplacesOre block='oreTin' />
+			<ReplacesOre block='oreTitanium' />
+			<ReplacesOre block='oreTungsten' />
+			<ReplacesOre block='oreUranium' />
+			<ReplacesOre block='oreZinc' />
+			<ReplacesOre block='orePitchblende' />
+			<ReplacesOre block='oreMagnetite' />
+			<ReplacesOre block='oreCadmium' />
+			<ReplacesOre block='oreIndium' />
+			<ReplacesOre block='oreCalcite' />
+			<ReplacesOre block='oreFluorite' /> 
+			<ReplacesOre block='chisel:limestone' />
+		</Substitute>
+	</IfCondition>
+</ConfigSection>
 		
 		
-		<ConfigSection>
-		<BiomeSet name='Mountain'>
+<ConfigSection>
+		
+	<BiomeSet name='Mountain'>
         <Biome name='alps'/> <!-- BOP -->
         <Biome name='highlands'/> <!-- BOP -->
         <Biome name='crag'/> <!-- BOP -->
         <Biome name='ice mountains'/>
 		<Biome name='Extreme\s*Hills'/>
-        <Biome name='Extreme\s*Hills\s*Edge'/>
-      </BiomeSet>
-	  </ConfigSection>
+		<Biome name='Extreme\s*Hills\s*Edge'/>
+	</BiomeSet>
+</ConfigSection>
      
 	  
-	  <ConfigSection>
+<ConfigSection>
 	  
-	  <!-- Small presets -->
-	   <StandardGenPreset name='SmallStone'>
-            <Setting name='Size' avg='1' range='0' />
-            <ReplacesOre block='blockLimestone' />
-            <ReplacesOre block='blockMarble' />
-            <ReplacesOre block='marble' />
-            <ReplacesOre block='stone' />
-            <ReplacesOre block='stoneBasalt' />
-            <ReplacesOre block='stoneMarble' />
-        </StandardGenPreset>
-        <StandardGenPreset name='SmallNetherrack'>
-            <Setting name='Size' avg='1' range='0' />
-            <ReplacesOre block='stoneNetherrack' />
-        </StandardGenPreset>
-        <StandardGenPreset name='SmallEndstone'>
-            <Setting name='Size' avg='1' range='0' />
-            <ReplacesOre block='stoneEndstone' />
-        </StandardGenPreset>
-    </ConfigSection>
-    <ConfigSection>
+	  <!-- Sparse presets -->
+	<StandardGenPreset name='SparseStone'>
+		<Setting name='Size' avg='1' range='0' />
+		<ReplacesOre block='blockLimestone' />
+		<ReplacesOre block='blockMarble' />
+		<ReplacesOre block='marble' />
+		<ReplacesOre block='stone' />
+		<ReplacesOre block='stoneBasalt' />
+		<ReplacesOre block='stoneMarble' />
+	</StandardGenPreset>
+	
+    <StandardGenPreset name='SparseNetherrack'>
+       <Setting name='Size' avg='1' range='0' />
+       <ReplacesOre block='stoneNetherrack' />
+	</StandardGenPreset>
+	
+    <StandardGenPreset name='SparseEndstone'>
+		<Setting name='Size' avg='1' range='0' />
+		<ReplacesOre block='stoneEndstone' />	
+	</StandardGenPreset>
+	
+</ConfigSection>
+    
+<ConfigSection>
 	
         <!-- Large presets -->
 		 
@@ -99,563 +108,591 @@
             <Setting name='OreVolumeNoiseCutoff' avg='0' range='0' />
             <Setting name='OreRadiusMult' avg='1' range='0.1' />
         </CloudPreset>
+		
         <CloudPreset name='LargeStone' inherits='Large'>
 			<ReplacesOre block='stone' />
-            <ReplacesOre block='stoneBasalt' />
-            
+            <ReplacesOre block='stoneBasalt' />    
             <Replaces block='bluepower:marble' />
 			<Replaces block='minecraft:gravel'/>
             <Replaces block='minecraft:sandstone'/>
         </CloudPreset>
+		
         <CloudPreset name='LargeNetherrack' inherits='Large'>
             <ReplacesOre block='stoneNetherrack' />
         </CloudPreset>
+		
         <CloudPreset name='LargeEndstone' inherits='Large'>
             <ReplacesOre block='stoneEndstone' />
         </CloudPreset>
 		
 		<!--HugeVeins-->
 		
-		<VeinsPreset name='HugeVeins' branchType='Bezier'>                       
-           <Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
-            <Setting name='BranchFrequency' avg='8' range='4'/>
-            <Setting name='BranchInclination' avg='0.7' range='0.85'/>
-            <Setting name='BranchLength' avg='300' range='200' type='normal'/>
-            <Setting name='BranchHeightLimit' avg='1000'/>
-            <Setting name='SegmentForkFrequency' avg='0.02'/>
-            <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
-            <Setting name='SegmentLength' avg='30' range='6' />
-            <Setting name='SegmentAngle' avg='0.30' range='0.30'/>
-            <Setting name='SegmentRadius' avg='0.025' range='0.2'/>
-            <Setting name='OreRadiusMult' avg='1' range='0.25'/>
-            <ReplacesOre block='stone' />
-            <ReplacesOre block='stoneBasalt' />
-            
-            <Replaces block='bluepower:marble' />
-			<Replaces block='minecraft:gravel'/>
-            <Replaces block='minecraft:sandstone'/>
-            <Biome name='.*'/>
-        </VeinsPreset>
+	<VeinsPreset name='HugeVeins' branchType='Bezier'>       
+		<Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+        <Setting name='BranchFrequency' avg='8' range='4'/>
+        <Setting name='BranchInclination' avg='0.7' range='0.85'/>
+        <Setting name='BranchLength' avg='300' range='200' type='normal'/>
+        <Setting name='BranchHeightLimit' avg='1000'/>
+        <Setting name='SegmentForkFrequency' avg='0.02'/>
+        <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
+        <Setting name='SegmentLength' avg='30' range='6' />
+        <Setting name='SegmentAngle' avg='0.30' range='0.30'/>
+        <Setting name='SegmentRadius' avg='0.025' range='0.2'/>
+        <Setting name='OreRadiusMult' avg='1' range='0.25'/>
+        <ReplacesOre block='stone' />
+        <ReplacesOre block='stoneBasalt' />
+        <Replaces block='bluepower:marble' />
+		<Replaces block='minecraft:gravel'/>
+        <Replaces block='minecraft:sandstone'/>
+        <Biome name='.*'/>
+	</VeinsPreset>
     
-	</ConfigSection>
-		
-		
-		<ConfigSection>
-		<IfCondition condition=':= dimension.generator != "HellRandomLevelSource" &amp; dimension.generator != "EndRandomLevelSource"'>
+</ConfigSection>
 				
-		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Iron Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->		
-		<Cloud name='IronCloudMix' inherits='LargeStone' wireframeColor='0xffff00ff'>
-                <OreBlock block='minecraft:iron_ore' weight='0.275' />
-                <OreBlock block='denseores:block0' weight='0.035' />
-				<OreBlock block='beyondrealitycore:tinyoreIron' weight='0.085' />	
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='45' range='15' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
-			
-		<Veins name='IronVeinMix' inherits='HugeVeins' wireframeColor='0xff000f00' >
-				<OreBlock block='minecraft:iron_ore' weight='0.275' />
-                <OreBlock block='denseores:block0' weight='0.035' />
-				<OreBlock block='beyondrealitycore:tinyoreIron' weight='0.185' />	
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='40' range='64' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>    
-            </Veins>   
+<ConfigSection>
+	
+	<IfCondition condition=':= dimension.generator != "HellRandomLevelSource" &amp; dimension.generator != "EndRandomLevelSource"'
+	>
 
-		<StandardGen name='Small Iron' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreIron' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='45' range='30' scaleTo='biome' />
-            </StandardGen>			
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Iron Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->		
+	<Cloud name='IronCloudMix' inherits='LargeStone' wireframeColor='0xffff00ff'>
+		<OreBlock block='minecraft:iron_ore' weight='0.275' />
+		<OreBlock block='denseores:block0' weight='0.035' />
+		<OreBlock block='beyondrealitycore:tinyoreIron' weight='0.085' />	
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='45' range='15' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
+			
+	<Veins name='IronVeinMix' inherits='HugeVeins' wireframeColor='0xff000f00' >
+		<OreBlock block='minecraft:iron_ore' weight='0.275' />
+		<OreBlock block='denseores:block0' weight='0.035' />
+		<OreBlock block='beyondrealitycore:tinyoreIron' weight='0.185' />	
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='40' range='10' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>   
+
+	<StandardGen name='Sparse Iron' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreIron' />
+		<Setting name='Frequency' avg='45' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='45' range='30' scaleTo='biome' />
+	</StandardGen>			
 			
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Gold Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-		<Cloud name='GoldCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='minecraft:gold_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:1' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreGold' weight='0.185' />	
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='24' range='15' scaleTo='biome' />
-            </Cloud>
+	<Cloud name='GoldCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='minecraft:gold_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:1' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreGold' weight='0.185' />	
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='20' range='5' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='GoldMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='minecraft:gold_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:1' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreGold' weight='0.185' />
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='40' range='64' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins> 
-
-		<StandardGen name='Small Gold' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreGold' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>	
+	<Veins name='GoldMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='minecraft:gold_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:1' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreGold' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='20' range='6' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>
+	
+	<StandardGen name='Sparse Gold' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreGold' />
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='20' range='30' scaleTo='biome' />
+	</StandardGen>	
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Diamond Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		
-		<Veins name='DiamondMix' inherits='HugeVeins' wireframeColor='0xffff0000' >
-                <OreBlock block='minecraft:diamond_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:3' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreDiamond' weight='0.185' />
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.1' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='10' range='25' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='1'/> 			
-            </Veins> 
+	<Veins name='DiamondMix' inherits='HugeVeins' wireframeColor='0xffff0000' >
+		<OreBlock block='minecraft:diamond_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:3' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreDiamond' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='3.1' range='6' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='18' range='4' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='1'/>  	
+	</Veins> 
 
-		<StandardGen name='Small Diamond' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreDiamond'/>
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='10' range='16' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Diamond' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreDiamond'/>
+		<Setting name='Frequency' avg='20' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='18' range='4' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Emerald Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		
-		<Veins name='EmeraldMix' inherits='HugeVeins' wireframeColor='0xffff0000' >
-                <OreBlock block='minecraft:emerald_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:4' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreEmerald' weight='0.185' />
-				<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.1' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='45' range='75' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='1'/>  
-            </Veins>
+	<Veins name='EmeraldMix' inherits='HugeVeins' wireframeColor='0xffff0000' >
+		<OreBlock block='minecraft:emerald_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:4' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreEmerald' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='3.1' range='6' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='55' range='15' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='1'/>  
+	</Veins>
 			
-			<StandardGen name='Small Emerald' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreEmerald' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='30' range='40' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Emerald' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreEmerald' />
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='50' range='10' scaleTo='biome' />
+	</StandardGen>
 
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RedStone Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='RedStoneCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='minecraft:redstone_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:5' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreRedstone' weight='0.185' />
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='16' range='20' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='RedStoneCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='minecraft:redstone_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:5' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreRedstone' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='25' range='5' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='RedStoneMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='minecraft:redstone_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:5' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreRedstone' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='16' range='20' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>   
+	<Veins name='RedStoneMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='minecraft:redstone_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:5' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreRedstone' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='16' range='5' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>   
 			
-			<StandardGen name='Small RedStone' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreRedstone' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='26' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse RedStone' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreRedstone' />
+		<Setting name='Frequency' avg='24' range='4' scaleTo='biome' />
+		<Setting name='Height' avg='20' range='26' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Lapis Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='LapisCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='minecraft:lapis_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:2' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreLapis' weight='0.185' />				
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='16' range='20' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='LapisCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='minecraft:lapis_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:2' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreLapis' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='13' range='5' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='LapisMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='minecraft:lapis_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:2' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreLapis' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='16' range='20' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>   
+	<Veins name='LapisMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='minecraft:lapis_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:2' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreLapis' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='13' range='5' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>   
 			
-			<StandardGen name='Small Lapis' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreLapis' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='26' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Lapis' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreLapis' />
+		<Setting name='Frequency' avg='13' range='4' scaleTo='biome' />
+		<Setting name='Height' avg='13' range='4' scaleTo='biome' />
+		</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Coal Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='CoalCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='minecraft:coal_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:6' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreCoal' weight='0.185' />
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='45' range='60' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='CoalCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='minecraft:coal_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:6' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreCoal' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='55' range='25' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='CoalMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='minecraft:coal_ore' weight='0.275' />
-                <OreBlock block='denseores:block0:6' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreCoal' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='50' range='64' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>   
+	<Veins name='CoalMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='minecraft:coal_ore' weight='0.275' />
+		<OreBlock block='denseores:block0:6' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreCoal' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='55' range='25' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>   
 			
-			<StandardGen name='Small Coal' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreCoal' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='50' range='75' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Coal' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreCoal' />
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='55' range='25' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Forestry Apatite~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-			<Veins name='ApatiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreApatite' weight='0.275' />	
-				<OreBlock block='denseores:block0:8' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreApatite' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='50' range='64' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/> 
-            </Veins>  
+	<Veins name='ApatiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreApatite' weight='0.275' />	
+		<OreBlock block='denseores:block0:8' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreApatite' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='55' range='10' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/> 
+	</Veins>  
 			
-			<StandardGen name='Small Apatite' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreApatite' />
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='50' range='75' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Apatite' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreApatite' />
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='55' range='10' scaleTo='biome' />
+	</StandardGen>
 
-				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Copper Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Copper Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='CopperCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreCopper' weight='0.275' />
-                <OreBlock block='denseores:block0:10' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreCopper' weight='0.185' />					
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='45' range='60' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='CopperCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreCopper' weight='0.275' />
+		<OreBlock block='denseores:block0:9' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreCopper' weight='0.185' />	
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='58' range='10' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='CopperMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreCopper' weight='0.275' />
-                <OreBlock block='denseores:block0:10' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreCopper' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='50' range='64' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='CopperMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreCopper' weight='0.275' />
+		<OreBlock block='denseores:block0:10' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreCopper' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='58' range='10' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Copper' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreCopper' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='50' range='75' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Copper' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreCopper' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='58' range='10' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Tin Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='TinCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreTin' weight='0.275' />
-                <OreBlock block='denseores:block0:9' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreTin' weight='0.185' />					
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='60' range='80' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='TinCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreTin' weight='0.275' />
+		<OreBlock block='denseores:block0:10' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreTin' weight='0.185' />	
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='60' range='10' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='TinMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreTin' weight='0.275' />
-                <OreBlock block='denseores:block0:9' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreTin' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='70' range='85' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
+	<Veins name='TinMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreTin' weight='0.275' />
+		<OreBlock block='denseores:block0:9' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreTin' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='70' range='10' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-            </Veins>  
-
-		<StandardGen name='Small Tin' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreTin' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='65' range='75' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Tin' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreTin' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='65' range='10' scaleTo='biome' />
+	</StandardGen>
 			
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Lead Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='LeadCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreLead' weight='0.275' />
-                <OreBlock block='denseores:block0:11' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreLead' weight='0.185' />					
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='22' range='33' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='LeadCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreLead' weight='0.275' />
+		<OreBlock block='denseores:block0:11' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreLead' weight='0.185' />	
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='26' range='5' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='LeadMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreLead' weight='0.275' />
-                <OreBlock block='denseores:block0:11' weight='0.023' />	
-				<OreBlock block='beyondrealitycore:tinyoreLead' weight='0.185' />				
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='LeadMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreLead' weight='0.275' />
+		<OreBlock block='denseores:block0:11' weight='0.023' />	
+		<OreBlock block='beyondrealitycore:tinyoreLead' weight='0.185' />
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='26' range='3' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Lead' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreLead' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Lead' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreLead' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='26' range='3' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Silver Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='SilverCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreSilver' weight='0.275' />
-                <OreBlock block='denseores:block0:11' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreSilver' weight='0.185' />					
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='22' range='33' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='SilverCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreSilver' weight='0.275' />
+		<OreBlock block='denseores:block0:11' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreSilver' weight='0.185' />	
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='35' range='10' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='SilverMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreSilver' weight='0.275' />
-                <OreBlock block='denseores:block0:11' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreSilver' weight='0.185' />						
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='SilverMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreSilver' weight='0.275' />
+		<OreBlock block='denseores:block0:11' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreSilver' weight='0.185' />		
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='35' range='5' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Silver' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreSilver' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Silver' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreSilver' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='35' range='5' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Nickel Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='NickelCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreNickel' weight='0.275' />
-                <OreBlock block='denseores:block0:12' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreNickel' weight='0.185' />				
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='22' range='33' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='NickelCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreNickel' weight='0.275' />
+		<OreBlock block='denseores:block0:12' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreNickel' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='30' range='5' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='NickelMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreNickel' weight='0.275' />
-                <OreBlock block='denseores:block0:12' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreNickel' weight='0.185' />						
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='NickelMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreNickel' weight='0.275' />
+		<OreBlock block='denseores:block0:12' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreNickel' weight='0.185' />		
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='30' range='5' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Nickel' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreNickel' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Nickel' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreNickel' />	
+		<Setting name='Frequency' avg='30' range='5' scaleTo='biome' />
+		<Setting name='Height' avg='20' range='30' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Aluminium Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='AluminiumCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreAluminium' weight='0.275' />
-                <OreBlock block='denseores:block0:13' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreAluminium' weight='0.185' />				
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='22' range='33' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='AluminiumCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreAluminium' weight='0.275' />
+		<OreBlock block='denseores:block0:13' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreAluminium' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='38' range='10' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='AluminiumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreAluminium' weight='0.275' />
-                <OreBlock block='denseores:block0:13' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreAluminium' weight='0.185' />							
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='AluminiumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreAluminium' weight='0.275' />
+		<OreBlock block='denseores:block0:13' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreAluminium' weight='0.185' />			
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='38' range='15' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Aluminium' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreAluminium' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Aluminium' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreAluminium' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='38' range='15' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Platinum Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='PlatinumCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:orePlatinum' weight='0.275' />
-                <OreBlock block='denseores:block0:14' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyorePlatinum' weight='0.185' />				
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='22' range='33' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.03' range='0' />
-            </Cloud>
+	<Cloud name='PlatinumCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:orePlatinum' weight='0.275' />
+		<OreBlock block='denseores:block0:14' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyorePlatinum' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='27' range='10' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 		
-		<Veins name='PlatinumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:orePlatinum' weight='0.275' />
-                <OreBlock block='denseores:block0:14' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyorePlatinum' weight='0.185' />							
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='3.9' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='PlatinumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:orePlatinum' weight='0.275' />
+		<OreBlock block='denseores:block0:14' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyorePlatinum' weight='0.185' />			
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='27' range='10' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Platinum' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyorePlatinum' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Platinum' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyorePlatinum' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='27' range='10' scaleTo='biome' />
+	</StandardGen>
 			
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Cadmium Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			
-				<Cloud name='CadmiumCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='beyondrealitycore:oreCadmium' weight='0.275' />
-                <OreBlock block='denseores:block0:15' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreCadmium' weight='0.185' />				
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='22' range='33' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-            </Cloud>
+	<Cloud name='CadmiumCloudMix' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='beyondrealitycore:oreCadmium' weight='0.275' />
+		<OreBlock block='denseores:block0:15' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreCadmium' weight='0.185' />
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='5' range='7' />
+		<Setting name='CloudThickness' avg='5' range='10' />
+		<Setting name='CloudHeight' avg='45' range='5' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.3' range='0' />
+		<setting name='OreRadiusMult' avg='1.0' range='0.1' />
+		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+	</Cloud>
 
-		<StandardGen name='Small Cadmium' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreCadmium' />	
-                <Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Cadmium' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreCadmium' />	
+		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='45' range='5' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Indium Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		
-		<Veins name='IndiumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreIndium' weight='0.275' />
-                <OreBlock block='denseores:block1' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreIndium' weight='0.185' />							
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='IndiumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreIndium' weight='0.275' />
+		<OreBlock block='denseores:block1' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreIndium' weight='0.185' />			
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='22' range='2' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Indium' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreIndium' />	
-                <Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Indium' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreIndium' />	
+		<Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='22' range='2' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Magnetite Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		
-		<Veins name='MagnetiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreMagnetite' weight='0.275' />
-                <OreBlock block='denseores:block1:1' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreMagnetite' weight='0.185' />							
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='MagnetiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreMagnetite' weight='0.275' />
+		<OreBlock block='denseores:block1:1' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreMagnetite' weight='0.185' />			
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='40' range='3' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Magnetite' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreMagnetite' />	
-                <Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Magnetite' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreMagnetite' />	
+		<Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='40' range='3' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Uranium Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		
-		<Veins name='UraniumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreUranium' weight='0.275' />
-                <OreBlock block='denseores:block1:6' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreUranium' weight='0.185' />							
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='UraniumMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreUranium' weight='0.275' />
+		<OreBlock block='denseores:block1:6' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreUranium' weight='0.185' />			
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='19' range='5' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Uranium' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreUranium' />	
-                <Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Uranium' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreUranium' />	
+		<Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='19' range='5' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Zinc Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		
-		<Veins name='ZincMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-                <OreBlock block='beyondrealitycore:oreZinc' weight='0.275' />
-                <OreBlock block='denseores:block1:5' weight='0.023' />
-				<OreBlock block='beyondrealitycore:tinyoreZinc' weight='0.185' />							
-				<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-				<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
-				<Setting name='MotherlodeHeight' avg='22' range='35' type='normal'/>
-				<Setting name='OreDensity' avg='0.7' range='0'/>  
-            </Veins>  
+	<Veins name='ZincMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
+		<OreBlock block='beyondrealitycore:oreZinc' weight='0.275' />
+		<OreBlock block='denseores:block1:5' weight='0.023' />
+		<OreBlock block='beyondrealitycore:tinyoreZinc' weight='0.185' />			
+		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='2.6' range='6' type='normal'/>
+		<Setting name='MotherlodeHeight' avg='50' range='10' type='normal'/>
+		<Setting name='OreDensity' avg='0.7' range='0'/>  
+	</Veins>  
 
-		<StandardGen name='Small Zinc' inherits='SmallStone'>
-                <OreBlock block='beyondrealitycore:tinyoreZinc' />	
-                <Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
-                <Setting name='Height' avg='20' range='30' scaleTo='biome' />
-            </StandardGen>
+	<StandardGen name='Sparse Zinc' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreZinc' />	
+		<Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='50' range='10' scaleTo='biome' />
+	</StandardGen>
 			
 		<!-- !~~~~~~~~~~~~~~~~~~ LIME STONE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
 			
-			<Cloud name='LimeStone' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
-                <OreBlock block='chisel:limestone' weight='0.7' />		
-                <Setting name='DistributionFrequency' avg='0.004' range='0' scaleTo='biome' />
-                <Setting name='CloudRadius' avg='20' range='10' />
-                <Setting name='CloudThickness' avg='20' range='10' />
-                <Setting name='CloudHeight' avg='64' range='55' scaleTo='biome' />
-                <Setting name='OreDensity' avg='0.7' range='0' />
-				<BiomeType name="river"/>
-            </Cloud>
+	<Cloud name='LimeStone' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
+		<OreBlock block='chisel:limestone' weight='0.7' />		
+		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='20' range='10' />
+		<Setting name='CloudThickness' avg='20' range='10' />
+		<Setting name='CloudHeight' avg='64' range='1' scaleTo='biome' />
+		<Setting name='OreDensity' avg='0.7' range='0' />
+		<BiomeType name="river"/>
+	</Cloud>
 			
 			
 			
-					
-			</IfCondition>		
-				
-			</ConfigSection>
+	
+</IfCondition>		
+
+		</ConfigSection>
 			
 			</IfModInstalled>
