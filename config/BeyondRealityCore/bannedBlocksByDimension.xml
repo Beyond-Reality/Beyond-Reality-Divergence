@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><root><dimension-id DimensionId="-1"><name>minecraft:ice</name></dimension-id></root>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<root>
+
+	<dimension-id DimensionId="-1">
+		<name>minecraft:ice</name>
+	</dimension-id>
+
+</root>

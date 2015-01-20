@@ -51,10 +51,16 @@
 			<ReplacesOre block='orePitchblende' />
 			<ReplacesOre block='oreMagnetite' />
 			<ReplacesOre block='oreCadmium' />
+			<ReplacesOre block='orePlatinum' />
 			<ReplacesOre block='oreIndium' />
 			<ReplacesOre block='oreCalcite' />
 			<ReplacesOre block='oreFluorite' /> 
+			<ReplacesOre block='oreThorium' /> 
 			<ReplacesOre block='chisel:limestone' />
+			<ReplacesOre block='OreFarenite' />
+			<ReplacesOre block='jurassicraft:tile.fossil_ore' />
+			<ReplacesOre block='LanteaCraft:lanteaOreBlock' />
+			<ReplacesOre block='LanteaCraft:lanteaOreBlock:2' />
 		</Substitute>
 	</IfCondition>
 </ConfigSection>
@@ -131,8 +137,8 @@
 		<Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
         <Setting name='BranchFrequency' avg='8' range='4'/>
         <Setting name='BranchInclination' avg='0.7' range='0.85'/>
-        <Setting name='BranchLength' avg='300' range='200' type='normal'/>
-        <Setting name='BranchHeightLimit' avg='1000'/>
+        <Setting name='BranchLength' avg='300' range='50' type='normal'/>
+        <Setting name='BranchHeightLimit' avg='20'/>
         <Setting name='SegmentForkFrequency' avg='0.02'/>
         <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
         <Setting name='SegmentLength' avg='30' range='6' />
@@ -160,10 +166,10 @@
 		<OreBlock block='denseores:block0' weight='0.035' />
 		<OreBlock block='beyondrealitycore:tinyoreIron' weight='0.085' />	
 		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='CloudRadius' avg='12' range='3' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='45' range='15' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 			
@@ -171,8 +177,8 @@
 		<OreBlock block='minecraft:iron_ore' weight='0.275' />
 		<OreBlock block='denseores:block0' weight='0.035' />
 		<OreBlock block='beyondrealitycore:tinyoreIron' weight='0.185' />	
-		<Setting name='MotherlodeFrequency' avg='0.003' /> <!-- Change of generating in a 16x16 Chunk -->
-		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal' />
+		<Setting name='MotherlodeFrequency' avg='0.002' /> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='3.0' range='1' type='normal' />
 		<Setting name='MotherlodeHeight' avg='40' range='10' type='normal' />
 		<Setting name='OreDensity' avg='1.0' range='0' />  
 	</Veins>   
@@ -188,11 +194,11 @@
 		<OreBlock block='minecraft:gold_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:1' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreGold' weight='0.185' />	
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='3' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='20' range='5' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 		
@@ -200,8 +206,8 @@
 		<OreBlock block='minecraft:gold_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:1' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreGold' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
-		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeSize' avg='3.1' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='20' range='6' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
 	</Veins>
@@ -218,7 +224,7 @@
 		<OreBlock block='minecraft:diamond_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:3' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreDiamond' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='3.1' range='6' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='18' range='4' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='1'/>  	
@@ -236,7 +242,7 @@
 		<OreBlock block='minecraft:emerald_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:4' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreEmerald' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='3.1' range='6' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='55' range='15' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='1'/>  
@@ -254,11 +260,11 @@
 		<OreBlock block='minecraft:redstone_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:5' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreRedstone' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='8' range='2' />
+		<Setting name='CloudThickness' avg='7' range='3' />
 		<Setting name='CloudHeight' avg='25' range='5' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 		
@@ -266,7 +272,7 @@
 		<OreBlock block='minecraft:redstone_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:5' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreRedstone' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='16' range='5' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
@@ -284,11 +290,11 @@
 		<OreBlock block='minecraft:lapis_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:2' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreLapis' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='6' range='1' />
+		<Setting name='CloudThickness' avg='7' range='2' />
 		<Setting name='CloudHeight' avg='13' range='5' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 		
@@ -296,7 +302,7 @@
 		<OreBlock block='minecraft:lapis_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:2' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreLapis' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='13' range='5' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
@@ -314,9 +320,9 @@
 		<OreBlock block='minecraft:coal_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:6' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreCoal' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='20' range='10' />
-		<Setting name='CloudThickness' avg='14' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='17' range='3' />
+		<Setting name='CloudThickness' avg='17' range='2' />
 		<Setting name='CloudHeight' avg='55' range='25' scaleTo='biome' />
 		<Setting name='OreDensity' avg='1.0' range='0' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
@@ -326,7 +332,7 @@
 		<OreBlock block='minecraft:coal_ore' weight='0.275' />
 		<OreBlock block='denseores:block0:6' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreCoal' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='55' range='25' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
@@ -344,7 +350,7 @@
 		<OreBlock block='beyondrealitycore:oreApatite' weight='0.275' />	
 		<OreBlock block='denseores:block0:8' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreApatite' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='55' range='10' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0'/> 
@@ -362,11 +368,11 @@
 		<OreBlock block='beyondrealitycore:oreCopper' weight='0.275' />
 		<OreBlock block='denseores:block0:9' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreCopper' weight='0.185' />	
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='16' range='10' />
-		<Setting name='CloudThickness' avg='12' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='3' />
+		<Setting name='CloudThickness' avg='12' range='3' />
 		<Setting name='CloudHeight' avg='58' range='10' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 		
@@ -374,7 +380,7 @@
 		<OreBlock block='beyondrealitycore:oreCopper' weight='0.275' />
 		<OreBlock block='denseores:block0:10' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreCopper' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='58' range='10' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
@@ -392,11 +398,11 @@
 		<OreBlock block='beyondrealitycore:oreTin' weight='0.275' />
 		<OreBlock block='denseores:block0:10' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreTin' weight='0.185' />	
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='3' />
+		<Setting name='CloudThickness' avg='10' range='2' />
 		<Setting name='CloudHeight' avg='60' range='10' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 		
@@ -404,7 +410,7 @@
 		<OreBlock block='beyondrealitycore:oreTin' weight='0.275' />
 		<OreBlock block='denseores:block0:9' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreTin' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='70' range='10' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
@@ -422,11 +428,11 @@
 		<OreBlock block='beyondrealitycore:oreLead' weight='0.275' />
 		<OreBlock block='denseores:block0:11' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreLead' weight='0.185' />	
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='26' range='5' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 		
@@ -434,7 +440,7 @@
 		<OreBlock block='beyondrealitycore:oreLead' weight='0.275' />
 		<OreBlock block='denseores:block0:11' weight='0.023' />	
 		<OreBlock block='beyondrealitycore:tinyoreLead' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.003'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.002'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='26' range='3' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0' />
@@ -452,9 +458,9 @@
 		<OreBlock block='beyondrealitycore:oreSilver' weight='0.275' />
 		<OreBlock block='denseores:block0:11' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreSilver' weight='0.185' />	
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='35' range='10' scaleTo='biome' />
 		<Setting name='OreDensity' avg='0.3' range='0' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
@@ -482,9 +488,9 @@
 		<OreBlock block='beyondrealitycore:oreNickel' weight='0.275' />
 		<OreBlock block='denseores:block0:12' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreNickel' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='30' range='5' scaleTo='biome' />
 		<Setting name='OreDensity' avg='0.3' range='0' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
@@ -512,9 +518,9 @@
 		<OreBlock block='beyondrealitycore:oreAluminium' weight='0.275' />
 		<OreBlock block='denseores:block0:13' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreAluminium' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='38' range='10' scaleTo='biome' />
 		<Setting name='OreDensity' avg='0.3' range='0' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
@@ -542,9 +548,9 @@
 		<OreBlock block='beyondrealitycore:orePlatinum' weight='0.275' />
 		<OreBlock block='denseores:block0:14' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyorePlatinum' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='27' range='10' scaleTo='biome' />
 		<Setting name='OreDensity' avg='0.3' range='0' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
@@ -573,9 +579,9 @@
 		<OreBlock block='beyondrealitycore:oreCadmium' weight='0.275' />
 		<OreBlock block='denseores:block0:15' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreCadmium' weight='0.185' />
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='45' range='5' scaleTo='biome' />
 		<Setting name='OreDensity' avg='0.3' range='0' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
@@ -650,11 +656,11 @@
 		<OreBlock block='beyondrealitycore:oreZinc' weight='0.275' />
 		<OreBlock block='denseores:block1:5' weight='0.023' />
 		<OreBlock block='beyondrealitycore:tinyoreZinc' weight='0.185' />	
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
-		<Setting name='CloudRadius' avg='15' range='10' />
-		<Setting name='CloudThickness' avg='10' range='6' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
+		<Setting name='CloudRadius' avg='12' range='2' />
+		<Setting name='CloudThickness' avg='10' range='3' />
 		<Setting name='CloudHeight' avg='50' range='10' scaleTo='biome' />
-		<Setting name='OreDensity' avg='0.5' range='0' />
+		<Setting name='OreDensity' avg='0.6' range='1' />
 		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
 	</Cloud>
 	
@@ -678,7 +684,7 @@
 			
 	<Cloud name='LimeStone' inherits='LargeStone' wireframeColor='0xf0ff0f00'>
 		<OreBlock block='chisel:limestone' weight='0.7' />		
-		<Setting name='DistributionFrequency' avg='0.001' range='0' scaleTo='biome' />
+		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='biome' />
 		<Setting name='CloudRadius' avg='20' range='10' />
 		<Setting name='CloudThickness' avg='20' range='10' />
 		<Setting name='CloudHeight' avg='64' range='1' scaleTo='biome' />
