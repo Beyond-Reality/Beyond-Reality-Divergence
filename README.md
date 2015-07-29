@@ -5,7 +5,7 @@ Pack is currenty in development. This pack is meant continue our mission to brin
 Issues
 ==================
 Please post any issues here under the issues tab
-
+If testing please submit enhancements, Suggestions, Balance or bugs to issues.
 
 Configs
 ==================
