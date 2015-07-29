@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "type": "ElementText",
+      "properties": {
+        "text": "Testing This new system out to see what its all about yo.\n",
+        "color": -1,
+        "x": 36,
+        "y": 10,
+        "width": 200,
+        "height": 100,
+        "size": 2.0
+      }
+    }
+  ],
+  "scrollMax": 0,
+  "isPriority": true,
+  "backgroundColor": -301989888,
+  "name": "BeyondReality.Divergence.Basics.Tutorial.en_US",
+  "canEdit": true,
+  "saveDir": ""
+}

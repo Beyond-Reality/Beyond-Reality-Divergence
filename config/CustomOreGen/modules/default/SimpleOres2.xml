@@ -41,7 +41,7 @@
         <!--*******************   Copper   *********************-->
         <ConfigSection>
             
-            <OptionChoice name='so2CopperDist' displayState='hidden' displayGroup='groupSO2'>
+            <OptionChoice name='so2CopperDist' displayState='shown' displayGroup='groupSO2'>
                 <Description> Controls how SimpleOres 2 Copper is generated </Description>
                 <DisplayName>SO2 Copper Type</DisplayName>
                 <Default>:= if(blockExists("simpleores:copper_ore"),"layeredVeins","disabled")</Default>
@@ -61,33 +61,24 @@
                     </Description>
                 </Choice>
                 <Choice value='none' displayValue='None' description='No copper is generated at all.'/>
-                <Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no copper symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='so2CopperFreq' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2CopperFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Frequency multiplier for SimpleOres 2 Copper distributions </Description>
                 <DisplayName>SO2 Copper Freq.</DisplayName>
             </OptionNumeric>
             
-            <OptionNumeric name='so2CopperSize' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2CopperSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Size multiplier for SimpleOres 2 Copper distributions </Description>
                 <DisplayName>SO2 Copper Size</DisplayName>
             </OptionNumeric>
             
-            <IfCondition condition=':= so2CopperDist != "disabled"'>
-                <MystcraftSymbol name='so2CopperClusters' displayName='Copper Clusters'/>
-                <MystcraftSymbol name='so2CopperVeins' displayName='Copper Veins'/>
-                <MystcraftSymbol name='so2CopperClouds' displayName='Copper Clouds'>
-                    <Instability>:= 50 * (age.so2CopperClusters + age.so2CopperVeins + age.so2CopperClouds - 1)^3</Instability>
-                </MystcraftSymbol>
-            </IfCondition>
-       
         </ConfigSection>           
         
         <!--********************   Tin   ***********************-->
         <ConfigSection>
             
-            <OptionChoice name='so2TinDist' displayState='hidden' displayGroup='groupSO2'>
+            <OptionChoice name='so2TinDist' displayState='shown' displayGroup='groupSO2'>
                 <Description> Controls how SimpleOres 2 Tin is generated </Description>
                 <DisplayName>SO2 Tin Type</DisplayName>
                 <Default>:= if(blockExists("simpleores:tin_ore"),"layeredVeins","disabled")</Default>
@@ -107,33 +98,23 @@
                     </Description>
                 </Choice>
                 <Choice value='none' displayValue='None' description='No tin is generated at all.'/>
-                <Choice value='disabled' displayValue='Disabled' description='No tin is generated, and no tin symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='so2TinFreq' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2TinFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Frequency multiplier for SimpleOres 2 Tin distributions </Description>
                 <DisplayName>SO2 Tin Freq.</DisplayName>
             </OptionNumeric>
             
-            <OptionNumeric name='so2TinSize' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2TinSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Size multiplier for SimpleOres 2 Tin distributions </Description>
                 <DisplayName>SO2 Tin Size</DisplayName>
             </OptionNumeric>  
-            
-            <IfCondition condition=':= so2TinDist != "disabled"'>
-                <MystcraftSymbol name='so2TinClusters' displayName='Tin Clusters'/>
-                <MystcraftSymbol name='so2TinVeins' displayName='Tin Veins'/>
-                <MystcraftSymbol name='so2TinClouds' displayName='Tin Clouds'>
-                    <Instability>:= 50 * (age.so2TinClusters + age.so2TinVeins + age.so2TinClouds - 1)^3</Instability>
-                </MystcraftSymbol>
-            </IfCondition>
-
 		</ConfigSection>           
 
         <!--********************   Mythril   ***********************-->
         <ConfigSection>
             
-            <OptionChoice name='so2MythrilDist' displayState='hidden' displayGroup='groupSO2'>
+            <OptionChoice name='so2MythrilDist' displayState='shown' displayGroup='groupSO2'>
                 <Description> Controls how SimpleOres 2 Mythril is generated </Description>
                 <DisplayName>SO2 Mythril Type</DisplayName>
                 <Default>:= if(blockExists("simpleores:mythril_ore"),"layeredVeins","disabled")</Default>
@@ -153,33 +134,23 @@
                     </Description>
                 </Choice>
                 <Choice value='none' displayValue='None' description='No mythril is generated at all.'/>
-                <Choice value='disabled' displayValue='Disabled' description='No mythril is generated, and no mythril symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='so2MythrilFreq' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2MythrilFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Frequency multiplier for SimpleOres 2 Mythril distributions </Description>
                 <DisplayName>SO2 Mythril Freq.</DisplayName>
             </OptionNumeric>
             
-            <OptionNumeric name='so2MythrilSize' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2MythrilSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Size multiplier for SimpleOres 2 Mythril distributions </Description>
                 <DisplayName>SO2 Mythril Size</DisplayName>
             </OptionNumeric>  
-            
-            <IfCondition condition=':= so2MythrilDist != "disabled"'>
-                <MystcraftSymbol name='so2MythrilClusters' displayName='Mythril Clusters'/>
-                <MystcraftSymbol name='so2MythrilVeins' displayName='Mythril Veins'/>
-                <MystcraftSymbol name='so2MythrilClouds' displayName='Mythril Clouds'>
-                    <Instability>:= 50 * (age.so2MythrilClusters + age.so2MythrilVeins + age.so2MythrilClouds - 1)^3</Instability>
-                </MystcraftSymbol>
-            </IfCondition>
-
 		</ConfigSection>           
 
         <!--********************   Adamantium   ***********************-->
         <ConfigSection>
             
-            <OptionChoice name='so2AdamantiumDist' displayState='hidden' displayGroup='groupSO2'>
+            <OptionChoice name='so2AdamantiumDist' displayState='shown' displayGroup='groupSO2'>
                 <Description> Controls how SimpleOres 2 Adamantium is generated </Description>
                 <DisplayName>SO2 Adamantium Type</DisplayName>
                 <Default>:= if(blockExists("simpleores:adamantium_ore"),"layeredVeins","disabled")</Default>
@@ -199,27 +170,18 @@
                     </Description>
                 </Choice>
                 <Choice value='none' displayValue='None' description='No adamantium is generated at all.'/>
-                <Choice value='disabled' displayValue='Disabled' description='No adamantium is generated, and no adamantium symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='so2AdamantiumFreq' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2AdamantiumFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Frequency multiplier for SimpleOres 2 Adamantium distributions </Description>
                 <DisplayName>SO2 Adamantium Freq.</DisplayName>
             </OptionNumeric>
             
-            <OptionNumeric name='so2AdamantiumSize' default='1'  min='0' max='5' displayState='hidden' displayGroup='groupSO2'>
+            <OptionNumeric name='so2AdamantiumSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupSO2'>
                 <Description> Size multiplier for SimpleOres 2 Adamantium distributions </Description>
                 <DisplayName>SO2 Adamantium Size</DisplayName>
             </OptionNumeric>  
             
-            <IfCondition condition=':= so2AdamantiumDist != "disabled"'>
-                <MystcraftSymbol name='so2AdamantiumClusters' displayName='Adamantium Clusters'/>
-                <MystcraftSymbol name='so2AdamantiumVeins' displayName='Adamantium Veins'/>
-                <MystcraftSymbol name='so2AdamantiumClouds' displayName='Adamantium Clouds'>
-                    <Instability>:= 50 * (age.so2AdamantiumClusters + age.so2AdamantiumVeins + age.so2AdamantiumClouds - 1)^3</Instability>
-                </MystcraftSymbol>
-            </IfCondition>
-
 		</ConfigSection>           
 
         

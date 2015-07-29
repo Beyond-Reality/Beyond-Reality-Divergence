@@ -1,0 +1,13 @@
+{
+  "lava": 1600,
+  "oil": 200,
+  "fuel": 2200,
+  "rocket_fuel": 60,
+  "fire_water": 80,
+  "bioethanol": 2000,
+  "biofuel": 2000,
+  "redstone": 800,
+  "glowstone": 1000,
+  "ender": 1200,
+  "pyrotheum": 1200
+}

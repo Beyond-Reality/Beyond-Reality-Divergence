@@ -1,0 +1,3349 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/BRdiv.png",
+            "xPos": 28,
+            "yPos": 13,
+            "width": 175.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:crafting_table",
+            "xPos": 19,
+            "yPos": 141,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Befor you get started you should know a few things about this pack. \n\nThe pack itself has many changes to default play. While most recipes are left unchanged. We still ask for all bug/Issue reports be directed towards us and not the mod authors  \n\n    The Basis of vanilla minecraft have been altered by a great deal in Divergence as well. Dont worry this guide along with some quest will get you going in this grand new adventure.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 61,
+            "width": 183.0,
+            "height": 128.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "To start off your journey you need to locate the Temple that should spawn within 100 blocks of your starting location. This building is required to progress in the pack. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 223,
+            "yPos": 16,
+            "width": 175.0,
+            "height": 52.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/temple.png",
+            "xPos": 221,
+            "yPos": 73,
+            "width": 180.0,
+            "height": 123.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "3",
+            "texture": "",
+            "xPos": 43,
+            "yPos": 34,
+            "width": 128.0,
+            "height": 35.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "5",
+            "texture": "",
+            "xPos": 31,
+            "yPos": 79,
+            "width": 119.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "8",
+            "texture": "",
+            "xPos": 33,
+            "yPos": 136,
+            "width": 138.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/steve.png",
+            "xPos": 119,
+            "yPos": 31,
+            "width": 54.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/world2.jpg",
+            "xPos": 31,
+            "yPos": 81,
+            "width": 40.0,
+            "height": 36.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HardcoreQuesting:quest_book",
+            "xPos": 134,
+            "yPos": 143,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "List of detailed changes\n\n        \n       The player \n       Pages 2 - 4",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 16,
+            "width": 155.0,
+            "height": 36.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The World \nPages 5  - 18",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 79,
+            "yPos": 88,
+            "width": 86.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Unique Features, Quest and progression\nPages 19-21",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 36,
+            "yPos": 138,
+            "width": 104.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "thirstmod:filtered_water_cup",
+            "xPos": 309,
+            "yPos": 199,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "thirstmod:water_cup",
+            "xPos": 390,
+            "yPos": 121,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There is a few things that may be new to your character itself.\nAs you may have noticed above your food bar there is now water drops! Not only will you have to worry about feeding yourself to stay alive. You will also need to stay hydrated. No worries how ever you dont have to keep up with your body temputure or sanity in Divergence.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 214,
+            "yPos": 12,
+            "width": 191.0,
+            "height": 88.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There is a lot of ways to hydrate yourself! But there is also risk. You can jump in water and Sneak (HoldShift) Use bottles or this cup",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 213,
+            "yPos": 105,
+            "width": 195.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "thirstmod:filter 0",
+            "xPos": 219,
+            "yPos": 185,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "How ever thoughs sources of water may not be the cleanest and you could very well get sick. To prevent it use a filter!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 214,
+            "yPos": 143,
+            "width": 188.0,
+            "height": 33.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "To get",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 276,
+            "yPos": 192,
+            "width": 37.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "thirstmod:water_cup",
+            "xPos": 256,
+            "yPos": 199,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:potion 0",
+            "xPos": 255,
+            "yPos": 178,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "thirstmod:fresh_water",
+            "xPos": 308,
+            "yPos": 179,
+            "width": 18.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "+",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 247,
+            "yPos": 192,
+            "width": 16.0,
+            "height": 9.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "ocean 60%\nplains 30%\ndesert 20%\nhills 40%\nforest 50%\ntaiga 40%\nswap 80%\nriver 20%\nfrozen ocean 20%\nice plains 20%\nice mountains 20%\nmushroom island 50%\nmushroom island shore 60%\nbeach 60%\ndesert hill 30%\nforest hills 40%\nothers 30%",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 26,
+            "yPos": 43,
+            "width": 144.0,
+            "height": 153.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Chance of getting poisioned by sneak drinking per biome",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 16,
+            "width": 196.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:chest_minecart",
+            "xPos": 356,
+            "yPos": 85,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Railcraft:track 736 {track:\"railcraft:track.slow\"}",
+            "xPos": 325,
+            "yPos": 86,
+            "width": 18.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:potion 8196",
+            "xPos": 126,
+            "yPos": 48,
+            "width": 73.0,
+            "height": 73.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Next up! You are no longer superman yup that is right hate to tell you but everything weighs something. As you fill up your Inventory you will notice a Weight notification on the top right of the screen. The more you carry the slower you become. Once you get over the normal limit you will not be able to function.\n\nSo Mining carts and tracks leading down to your mine will be needed early game to prevent encumbrance. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 215,
+            "yPos": 12,
+            "width": 189.0,
+            "height": 88.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "On the subject of mining you are now also a bit dumber. You need to get used to handling all these differnt tools. By leveling up your skill one glourious block break at a time. Along with this book you might of noticed you had some tables and such to build tool parts!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 215,
+            "yPos": 132,
+            "width": 194.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:ToolStationBlock 10",
+            "xPos": 252,
+            "yPos": 198,
+            "width": 18.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:ToolStationBlock 1",
+            "xPos": 292,
+            "yPos": 197,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:ToolStationBlock 0",
+            "xPos": 272,
+            "yPos": 196,
+            "width": 18.0,
+            "height": 18.0
+          }
+        }
+      ],
+      "pageName": " carte"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
+            "xPos": 193,
+            "yPos": 15,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:pickaxeHead 3",
+            "xPos": 387,
+            "yPos": 11,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "minecraft:gravel:0:minecraft:gravel:0:minecraft:gravel:0",
+            "recipeType": "ShapelessRecipes",
+            "item": "minecraft:flint",
+            "xPos": 160,
+            "yPos": 79,
+            "width": 51.0,
+            "height": 25.5
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:stickWood:stickWood:plankWood",
+            "recipeType": "ShapedOreRecipe",
+            "item": "TConstruct:blankPattern 0",
+            "xPos": 20,
+            "yPos": 117,
+            "width": 62.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:ToolStationBlock 0",
+            "xPos": 368,
+            "yPos": 28,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:toolRod 0",
+            "xPos": 387,
+            "yPos": 54,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:binding 0",
+            "xPos": 389,
+            "yPos": 29,
+            "width": 22.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:ToolStationBlock 10",
+            "xPos": 180,
+            "yPos": 115,
+            "width": 26.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:woodPattern 2",
+            "xPos": 71,
+            "yPos": 148,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:woodPattern 9",
+            "xPos": 71,
+            "yPos": 179,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:woodPattern 1",
+            "xPos": 71,
+            "yPos": 163,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:ToolStationBlock 1",
+            "xPos": 103,
+            "yPos": 163,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "bcadditions:kineticMultiTool 0",
+            "xPos": 307,
+            "yPos": 164,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "RedstoneArsenal:tool.pickaxeFlux 0 {Energy:159600}",
+            "xPos": 355,
+            "yPos": 170,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ImmersiveEngineering:drill 0",
+            "xPos": 261,
+            "yPos": 171,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "To get started you need to craft your very own Flint Pickaxe!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 14,
+            "width": 171.0,
+            "height": 14.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now there will be a starting quest to guide you through this as well. This section is meant for thoughs new to Iguna\u0027s features. In Divergence you can still find Flint by breaking gravel. \n\nThere is a additonal recipe",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 20,
+            "yPos": 34,
+            "width": 195.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "To assemble you will need to combine a Flint Pickaxe head along with a binding and tool rod in your Tool Station",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 222,
+            "yPos": 16,
+            "width": 140.0,
+            "height": 42.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Start off crafting a blank pattern",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 20,
+            "yPos": 104,
+            "width": 190.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Toss it into your stincil table",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 90,
+            "yPos": 123,
+            "width": 80.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "And craft these three patterns ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 155,
+            "width": 52.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now use the part builder to assemble your parts",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 89,
+            "yPos": 146,
+            "width": 134.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "        Notice you cannot use wood or stone to craft the head but they do work for the binding and rod",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 89,
+            "yPos": 169,
+            "width": 122.0,
+            "height": 42.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now you are ready to start your mining adventures in Divergence. You must rely on these tools to progress within the pack. Most of provided alternative pick axes will not function in the world and can only be used in crafting recipes. Also you will not be able to craft tinker hammer\u0027s at all. There is other alternatives that require fuel or RF to power that will provide your area mining! Here is a few",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 217,
+            "yPos": 68,
+            "width": 189.0,
+            "height": 98.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "beyondrealitycore:tinyIron:0:beyondrealitycore:tinyIron:0:beyondrealitycore:tinyIron:0:beyondrealitycore:tinyIron:0",
+            "recipeType": "ShapedRecipes",
+            "item": "minecraft:iron_ore",
+            "xPos": 110,
+            "yPos": 155,
+            "width": 100.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:tinyIron",
+            "xPos": 179,
+            "yPos": 109,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:tinyoreIron",
+            "xPos": 190,
+            "yPos": 83,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_gold 15",
+            "xPos": 379,
+            "yPos": 92,
+            "width": 30.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": " The World!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 86,
+            "yPos": 10,
+            "width": 74.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:gold_nugget",
+            "xPos": 277,
+            "yPos": 173,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_chunk 1",
+            "xPos": 382,
+            "yPos": 141,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Much has changed in the world of divergence. Starting with ore generation.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 18,
+            "width": 184.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ores do not generate in clusters within every chunk like they normaly would in a vanilla world. There is two distribution types that we will go over. \nThe first type of ore generation comes in the form of sparse ores  ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 47,
+            "width": 189.0,
+            "height": 44.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Every type of sparse ore generates as a single block at random hieghts within a chunk. When they are mined each produce a ore chunk. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 113,
+            "width": 183.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can combine 4 chunks to craft a standard ore variant.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 161,
+            "width": 83.0,
+            "height": 42.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The Second type of ore generation comes in the form of huge viens consisting of hundreds of connected ores. over a vast range underground. While each of these nodes are plentiful they are also rare. A chunk could have 2 or 3 of these viens crossing within its boundries or none at all.\n\nThese ores are also special in there own right. Each ore has a value of 1 up to 21. The higher the value the more times you can mine the ore. Each time one is mined (Broken) it will drop up to three   raw ore pieces.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 215,
+            "yPos": 12,
+            "width": 183.0,
+            "height": 142.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "These Raw ores can ether be smelted into nuggets \nor for a higher yield processed into tiny dust",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 214,
+            "yPos": 167,
+            "width": 192.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:smallDust 1",
+            "xPos": 254,
+            "yPos": 186,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": "eu"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 0",
+            "xPos": 15,
+            "yPos": 59,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_iron 15",
+            "xPos": 19,
+            "yPos": 88,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 1",
+            "xPos": 38,
+            "yPos": 62,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "With these huge viens there is uniqe method of prospecting that you can utilize. Each type of ore has a plant indicator that will sometimes grow if a vien is below it. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 15,
+            "width": 185.0,
+            "height": 36.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_gold 15",
+            "xPos": 39,
+            "yPos": 88,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 2",
+            "xPos": 57,
+            "yPos": 59,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_diamond 15",
+            "xPos": 59,
+            "yPos": 88,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 3",
+            "xPos": 80,
+            "yPos": 64,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_redstone 0",
+            "xPos": 81,
+            "yPos": 88,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 4",
+            "xPos": 101,
+            "yPos": 62,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_tin 15",
+            "xPos": 103,
+            "yPos": 88,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 5",
+            "xPos": 122,
+            "yPos": 66,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_copper 15",
+            "xPos": 124,
+            "yPos": 88,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers2 1",
+            "xPos": 144,
+            "yPos": 66,
+            "width": 22.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_nickel 15",
+            "xPos": 145,
+            "yPos": 88,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers2 0",
+            "xPos": 167,
+            "yPos": 67,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_silver 15",
+            "xPos": 166,
+            "yPos": 88,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_flowers 6",
+            "xPos": 188,
+            "yPos": 67,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Additionaly by using bonemeal to grow flowers you will occasionally grow some of the flowers if their associated ore is nearby. You will get more of them and get them more often, the more ore is available in the chunk, as far down as about 48 blocks.  If the primary ore cluster is farther than 32 blocks down, the flower occurance rate will drop off quickly",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 108,
+            "width": 188.0,
+            "height": 58.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_lead 15",
+            "xPos": 188,
+            "yPos": 88,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can also prospect for ores using a sluice. Below is a proper way to set up your sluice. the blocks below the flowing water are sluice\u0027s They look like a wooden pressure plate. you can connect up to three in a row. Each one takes time to process your sand or gravel to produce tiny ore dust. The blocks on the side can be any non ground block IE gravel sand dirt. you simply toss in the block into the water. It can be automated with Hoppers and Sifters.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 214,
+            "yPos": 10,
+            "width": 189.0,
+            "height": 119.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/Sluice.png",
+            "xPos": 215,
+            "yPos": 132,
+            "width": 193.0,
+            "height": 67.0
+          }
+        }
+      ],
+      "pageName": "etine"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 68,
+            "yPos": 41,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 51,
+            "yPos": 48,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 35,
+            "yPos": 57,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 84,
+            "yPos": 49,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 68,
+            "yPos": 56,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 52,
+            "yPos": 65,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 100,
+            "yPos": 56,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 84,
+            "yPos": 65,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 67,
+            "yPos": 72,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 66,
+            "yPos": 43,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 83,
+            "yPos": 51,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 141,
+            "yPos": 58,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 102,
+            "yPos": 61,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 133,
+            "yPos": 60,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 121,
+            "yPos": 84,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 120,
+            "yPos": 69,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 120,
+            "yPos": 28,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 119,
+            "yPos": 51,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 106,
+            "yPos": 75,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 97,
+            "yPos": 78,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 121,
+            "yPos": 104,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "How to build the Mill Multi Block. And its many uses that you will need.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 15,
+            "width": 189.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The Mill is needed to grind sugar cane into sugar, bones into bone meal and wheat into flour. It can also be used as a better way to process your raw ores early in the game.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 18,
+            "yPos": 121,
+            "width": 192.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:sugar",
+            "xPos": 42,
+            "yPos": 98,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "DragonAPI:minecraft:reeds_technical",
+            "xPos": 21,
+            "yPos": 96,
+            "width": 18.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "To insert items ether by hand or with a hopper if you want to automate it. You have to ether right click on a edge of the mill blocks with the item or insert them via a hopper. Below is a demostartion of which blocks to use and how it can be automated.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 220,
+            "yPos": 15,
+            "width": 185.0,
+            "height": 47.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 250,
+            "yPos": 101,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 234,
+            "yPos": 108,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 267,
+            "yPos": 108,
+            "width": 33.0,
+            "height": 33.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:hopper",
+            "xPos": 236,
+            "yPos": 95,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 249,
+            "yPos": 117,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 217,
+            "yPos": 116,
+            "width": 34.0,
+            "height": 34.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 233,
+            "yPos": 125,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 282,
+            "yPos": 117,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 266,
+            "yPos": 124,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ExpandedIndustry:machine_filter",
+            "xPos": 270,
+            "yPos": 94,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ExpandedIndustry:machine_wood_hopper",
+            "xPos": 237,
+            "yPos": 112,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The three blocks with hoppers directly above them can be used to insert items into the mill",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 315,
+            "yPos": 81,
+            "width": 92.0,
+            "height": 54.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The resulting product will be ejected below the center block. You can capture these with a hopper for instance",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 314,
+            "yPos": 137,
+            "width": 94.0,
+            "height": 44.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:hopper",
+            "xPos": 253,
+            "yPos": 157,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_millstone",
+            "xPos": 250,
+            "yPos": 132,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:chest",
+            "xPos": 250,
+            "yPos": 178,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemswood 0",
+            "xPos": 253,
+            "yPos": 170,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can check your mill to make sure it has enough air flow. It needs to be above 650 to operate",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 166,
+            "width": 188.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/windmillwallia.png",
+            "xPos": 130,
+            "yPos": 184,
+            "width": 79.0,
+            "height": 29.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "It must be built above 60 Y level to operate",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 162,
+            "yPos": 50,
+            "width": 49.0,
+            "height": 64.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Sifters can also be used in early automations. Much like a hopper it will colllect siftable items above it and output (With item transportation or hoppers) below it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 13,
+            "width": 188.0,
+            "height": 42.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_sifter",
+            "xPos": 152,
+            "yPos": 72,
+            "width": 35.0,
+            "height": 35.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "It automatically combines tiny piles of dust into large piles in an 8:1 ratio, which is slightly more efficient than hand-crafting 9:1",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 61,
+            "width": 99.0,
+            "height": 51.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:smallDust 0",
+            "xPos": 153,
+            "yPos": 50,
+            "width": 29.0,
+            "height": 29.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:smallDust 0",
+            "xPos": 141,
+            "yPos": 52,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:smallDust 1",
+            "xPos": 159,
+            "yPos": 53,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:smallDust 11",
+            "xPos": 164,
+            "yPos": 42,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:smallDust 12",
+            "xPos": 142,
+            "yPos": 42,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "bcadditions:dust 1",
+            "xPos": 156,
+            "yPos": 101,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:sugar",
+            "xPos": 171,
+            "yPos": 100,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "It is useful when automating a Mill or Sluice. for better ore processing or to combine tiny piles of sugar and flour into a finished product.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 23,
+            "yPos": 131,
+            "width": 169.0,
+            "height": 47.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 309,
+            "yPos": 91,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The Pressure Packager processes items (and some blocks) into their compressed forms, coal to coal block, hay to hay block, snow balls to snow, snow to ice, ice to packed ice, etc.  Any vanilla item that has a 2x2 or 3x3 and results in a block is registered as a pressure packing recipe.  Additionally a few others, such as snow to ice and ice to packed ice, are supplied.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 214,
+            "yPos": 10,
+            "width": 189.0,
+            "height": 94.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_processor",
+            "xPos": 263,
+            "yPos": 116,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 265,
+            "yPos": 103,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 280,
+            "yPos": 109,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 293,
+            "yPos": 115,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 329,
+            "yPos": 111,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 311,
+            "yPos": 129,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 321,
+            "yPos": 115,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_axle",
+            "xPos": 308,
+            "yPos": 121,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 310,
+            "yPos": 104,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 299,
+            "yPos": 125,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 293,
+            "yPos": 129,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:machine_windvane",
+            "xPos": 311,
+            "yPos": 143,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Much like the MillStone is requires a windmill to power it",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 356,
+            "yPos": 101,
+            "width": 51.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The primary purpose of this block was to compact the ore chunks provided by Harder Ores into a block that mods could duplicate process in the expected manner. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 215,
+            "yPos": 164,
+            "width": 187.0,
+            "height": 37.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:dummyOreGold",
+            "xPos": 226,
+            "yPos": 108,
+            "width": 22.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ThermalExpansion:Machine 1 {RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:4860s,Count:1b,Damage:0s},1:{Slot:1,id:4860s,Count:1b,Damage:32s},2:{Slot:2,id:4860s,Count:1b,Damage:16s}]}",
+            "xPos": 226,
+            "yPos": 125,
+            "width": 23.0,
+            "height": 23.0
+          }
+        }
+      ],
+      "pageName": "sugar"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Underground and you",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFA52A2A",
+            "xPos": 257,
+            "yPos": 10,
+            "width": 126.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Some things to note about automated mining. While machines like a buildcraft quarry or thaumcrafts arcane bore will break and mine the ore blocks. They will only do so once. so while a vein may yield 500 raw ore if you manualy mine it. Automating it will yield possibly 10 times less. The only automated system that works as intended is Immersive engineerings Excavator",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 14,
+            "width": 187.0,
+            "height": 94.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Harder Underground is a set of changes to make exploration underground both more interesting and potentially more dangerous. Mining through stone is not a simple task and its not always easy to protect yourself from dangers. Explosive gas, smoke, and collapsing ceilings are all things to watch out for. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 215,
+            "yPos": 26,
+            "width": 191.0,
+            "height": 90.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/excavator.png",
+            "xPos": 23,
+            "yPos": 111,
+            "width": 183.0,
+            "height": 89.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Stone Blocks have a physics system in place. They will begain to fracture if the load is to great. Past this stage the block becomes broken and will go into a free fall unless supported directly below. Cobble Stone is the most damage stage of stone and cannot be supported at all over a open space.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 217,
+            "yPos": 109,
+            "width": 190.0,
+            "height": 66.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:unstable_stone 1",
+            "xPos": 273,
+            "yPos": 184,
+            "width": 30.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:unstable_stone 0",
+            "xPos": 241,
+            "yPos": 193,
+            "width": 18.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:unstable_stone 2",
+            "xPos": 306,
+            "yPos": 184,
+            "width": 30.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:unstable_stone 3",
+            "xPos": 357,
+            "yPos": 185,
+            "width": 28.0,
+            "height": 28.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "New dangers await you underground. in the forms of gases.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF228B22",
+            "xPos": 20,
+            "yPos": 15,
+            "width": 186.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Volatile Gas",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 21,
+            "yPos": 36,
+            "width": 74.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "comes in two varieties\n\nThin volatile gas is lighter than air, floats, and is almost invisible. It\u0027s also incredibly flammable and prone to exploding.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 53,
+            "width": 190.0,
+            "height": 39.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Thick volatile gas is heavier than air, sinks, and is not terribly flammable. It will flow into fires and put them out, although fires along its top surface tend to stick around for a very long time. While it does not set on fire very easily, it may explode if an explosion happens nearby",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 123,
+            "width": 185.0,
+            "height": 68.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Both types are replaced (displaced) by water flowing into the area. It is possible to clear much of a gas vein by placing and picking up a bucket of water.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 217,
+            "yPos": 13,
+            "width": 186.0,
+            "height": 46.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Smoke",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 216,
+            "yPos": 62,
+            "width": 33.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:volatile_gas",
+            "xPos": 221,
+            "yPos": 150,
+            "width": 53.0,
+            "height": 53.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:thin_volatile_gas",
+            "xPos": 277,
+            "yPos": 156,
+            "width": 46.0,
+            "height": 46.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Lava and fires will spawn smoke any time a player is in vicinity (32 blocks horizontal and 16 vertical). Smoke, which is lighter than air, doesn\u0027t \"live\" very long, so it doesn\u0027t flow very far. But it will collect in confined spaces and make navigation in any area with lava difficult. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 218,
+            "yPos": 74,
+            "width": 188.0,
+            "height": 67.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderUnderground:volcanic_gas",
+            "xPos": 329,
+            "yPos": 150,
+            "width": 52.0,
+            "height": 52.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Rock Dust",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 20,
+            "yPos": 14,
+            "width": 73.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "spawns whenever unstable stone collapses. Aside from not being a fluid, instead moving about semi-randomly, it acts like any other semi-breathable gas. It will rapidly deplete a player\u0027s lung capacity and cause damage, but will typically dissipate before causing enough damage to kill a healthy player, even if there is no escape. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 22,
+            "width": 192.0,
+            "height": 85.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "All gaseous fluids added by Harder Underground will attempt to balance their flows (unlike standard fluids, which have a constant and even downward slope), which can allow a large volume of gas to spread very far indeed. Gasses will also attempt to flow past standard non-solid blocks that block water, such as ladders, signs, and doors. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 20,
+            "yPos": 109,
+            "width": 193.0,
+            "height": 88.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Breathing gasses (being inside their volume) will slowly deplete entity air meters and eventually cause nausea, non-potion blindness, and suffocation. Due to the way vanilla does drowning, air bubbles on the status hud will not be displayed. This makes hard-to-see gasses particularly dangerous.\n\nEvery entity has a \"lung volume\" calculated from their volume, so chickens will suffocate sooner than players; take a mining canary with you!  Undead monsters, Iron Golems, and snowmen do not need to breath and will be unaffected. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 216,
+            "yPos": 12,
+            "width": 192.0,
+            "height": 153.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/chickenrope.png",
+            "xPos": 215,
+            "yPos": 156,
+            "width": 108.0,
+            "height": 57.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Harder Wildlife is an alteration to the Minecraft world at large. Animals and trees automatically repopulate and die off leaving behind rotting wood, seasons change, snow falls, accumulates, and melts. Crop growth is slowed and takes into account biome attributes: warm (but not hot) and wet (but not soggy) biomes will grow crops the fastest (especially during the spring and summer). Saplings and other plantable items (mushrooms, reeds, etc.) will automatically get planted if left on the ground if possible. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 34,
+            "width": 186.0,
+            "height": 133.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Crops, Seasons, WildLife and more",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF3CB371",
+            "xPos": 22,
+            "yPos": 14,
+            "width": 183.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "In addition it takes more wheat (seeds, etc) to make animals go into \"love mode\" but they drop more meat, etc. Leather is no longer painfully scarce, as both pigs and cows drop it and in larger quantities. Killing a sheep gives more wool on average than sheering (but shearing leaves the sheep alive) making it easier to get started without having to murderize a whole flock just to make a bed (but with long-term usefulness of shears).\n\nGoats and Monitor Lizards are added to the mesa biomes, to provide additional access to leather, wool, and food for biomes where it is otherwise scarce,",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 220,
+            "yPos": 17,
+            "width": 184.0,
+            "height": 174.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:rainmeter",
+            "xPos": 48,
+            "yPos": 175,
+            "width": 38.0,
+            "height": 38.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:thermometer",
+            "xPos": 88,
+            "yPos": 178,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Crops",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF8C00",
+            "xPos": 92,
+            "yPos": 12,
+            "width": 33.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Crop growth is slowed significantly and ignoring biome conditions, crops are slowed to approximately 1/10th the speed of vanilla, meaning they get only one in every ten standard block update ticks, the rest are canceled.  Additionally biome conditions affect this rate, either up or down, Also, weeds might spawn and slow down crop growth even more.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 22,
+            "width": 185.0,
+            "height": 113.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Seaons have a broad impact on crop growth, by altering the biome temperature and rainfall values, largely being wet in spring and dry in fall, warm in summer and cold in winter. We will talk more about season a bit further in the book.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 118,
+            "width": 187.0,
+            "height": 56.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Temperature and Rainfall",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF4169E1",
+            "xPos": 215,
+            "yPos": 10,
+            "width": 146.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9Â° Minecraft (Â°MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth delines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values betwen -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 215,
+            "yPos": 21,
+            "width": 191.0,
+            "height": 53.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "At the most ideal, crop growth rates will be about one sixth vanilla.  Worst case is an extreme biome that is either extremely dry (0) or extremely wet (2) as well as extremely cold (\u003c0) or extremely hot (\u003e2).  Nether biomes are all adjusted upwards, having a base temperature of 3.0Â°MC, making them much hotter than the vanilla overworld desert",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 37,
+            "width": 186.0,
+            "height": 94.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Greenhouses",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF228B22",
+            "xPos": 220,
+            "yPos": 16,
+            "width": 66.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Growing crops indoors or underground may be a neccessity in extreme weather conditions.  Doing this averages the ideal conditions with the actual (outdoors) conditions.  In the extreme, this will have a profound effect on the growth rate, while in more mild climes will have only a small effect.  Note that this effectively makes all indoor spaces a comfortable temperature and humidity and not neccessarily the temperature any given plant prefers. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 220,
+            "yPos": 31,
+            "width": 184.0,
+            "height": 119.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Temperature and Rainfall Cont..",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF1E90FF",
+            "xPos": 50,
+            "yPos": 14,
+            "width": 130.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:thermometer",
+            "xPos": 88,
+            "yPos": 140,
+            "width": 53.0,
+            "height": 53.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Crop Climate Data",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFF08080",
+            "xPos": 158,
+            "yPos": -42,
+            "width": 105.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The following is a table of crops and their ideal growth conditions.  These are presented using a set of offsets and the resulting ideal, in MCU.  Seaons notes are \"in a plains biome\" relative.  Offsets using \"months\" treat the year as being that many months ahead or behind of the actual date. 10Â°F ~\u003d 0.1Â°MC with the same freezing point (30Â°F ~\u003d 0.3Â°MC). Using the thermometer and hydrometer, you can get an idea of the current conditions, both generally and for a specific crop. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 12,
+            "width": 125.0,
+            "height": 183.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/table.png",
+            "xPos": 156,
+            "yPos": 13,
+            "width": 253.0,
+            "height": 183.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:item_frame",
+            "xPos": 25,
+            "yPos": 126,
+            "width": 50.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Temperature",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF00BFFF",
+            "xPos": 87,
+            "yPos": 13,
+            "width": 70.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:item_frame",
+            "xPos": 222,
+            "yPos": 126,
+            "width": 50.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:rainmeter",
+            "xPos": 231,
+            "yPos": 135,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:thermometer",
+            "xPos": 35,
+            "yPos": 136,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown in Â°F (or Â°C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 25,
+            "width": 190.0,
+            "height": 76.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/temp.png",
+            "xPos": 77,
+            "yPos": 121,
+            "width": 132.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Rain Fall",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000CD",
+            "xPos": 301,
+            "yPos": 15,
+            "width": 57.0,
+            "height": 14.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The hydrometer will show the real or relative humidity for a given crop block (right click on a crop block to link it or any other block to unlink it).\n\nThe humidity display is shown in inches (or centimeters with the config option) of rainfall per month when using WAILA and shows both the real-rainfall and preferred-rainfall. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 218,
+            "yPos": 24,
+            "width": 186.0,
+            "height": 90.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/hydro.png",
+            "xPos": 273,
+            "yPos": 124,
+            "width": 132.0,
+            "height": 62.0
+          }
+        }
+      ],
+      "pageName": "e"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Minecraft now has a yearly cycle of seasons. The game starts in Spring (approximately May 1st) and a year lasts (by default) 128 days.\n\nOne full cycle of the moon is a \"month\" with 2 \"months\" per season and 4 seasons (below) per year.\nThus, by default of 2 days per phase, the year is 2*8*2*4 \u003d 128 days. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 20,
+            "yPos": 23,
+            "width": 188.0,
+            "height": 108.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Seasons",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF4500",
+            "xPos": 89,
+            "yPos": 13,
+            "width": 50.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "    Spring is standard temp, plus or minus, and very wet.\n    Summer is very warm, and dry.\n    Fall is colder than normal, and very dry.\n    Winter is very cold and slightly wet. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 23,
+            "yPos": 128,
+            "width": 183.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Be aware that these are modifiers on top of the base. Cold Taiga is never going to get above freezing, even in the summer, and the desert isn\u0027t going to get below freezing",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 218,
+            "yPos": 12,
+            "width": 185.0,
+            "height": 44.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So the plains biome you have grown to love will one day during the year be a cold place with snowfall",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 219,
+            "yPos": 71,
+            "width": 188.0,
+            "height": 40.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Wild Life",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF4B0082",
+            "xPos": 106,
+            "yPos": 9,
+            "width": 64.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Animals will age and die over time, as well as attempt to repopulate their local numbers, although small groups can still die out. It is also more resource costly to breed animals, taking on average 6 feeding attempts to encourage \"love mode.\" Each animal has its own probabilities, depending on their type.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 4,
+            "yPos": 16,
+            "width": 204.0,
+            "height": 78.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Drops from animals have been increased substantially. Cows drop more leather and beef, pigs drop more pork and additionally some leather, sheep drop multiple wool, horses also drop a small amount of additional leather. This makes killing animals more a viable food source, especially during the early game, as well as making leather an early-game resource for armor as it was intended to be.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 4,
+            "yPos": 93,
+            "width": 204.0,
+            "height": 104.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "RawHide",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF7F50",
+            "xPos": 266,
+            "yPos": 11,
+            "width": 74.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Animals that normally drop leather instead drop rawhide, which needs to be tanned on a tanning rack, before it is usable for crafting.  ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 219,
+            "yPos": 21,
+            "width": 183.0,
+            "height": 42.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:rawLeather",
+            "xPos": 251,
+            "yPos": 61,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderWildlife:machine_tanner",
+            "xPos": 287,
+            "yPos": 61,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "One last thing to note Herbivorous animals also need a source of food they could eat, their AI task will urge them towards Death\u0027s door if no suitable block is found nearby.  For most animals this means grass or leaves within a 5x5x5 area centered on them. So dont keep them in a 1x1 farming wool or milk and expect them to live long.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 222,
+            "yPos": 107,
+            "width": 182.0,
+            "height": 76.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "I need FOOD!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFD2691E",
+            "xPos": 280,
+            "yPos": 97,
+            "width": 81.0,
+            "height": 16.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Divergence is all about being different hence the name. When I created this pack it was the single goal in mind. The quest and progression part is mainly covered inside the quest book. You should start out with the tutorial section and then advance through there.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFDC143C",
+            "xPos": 22,
+            "yPos": 16,
+            "width": 184.0,
+            "height": 54.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The design of this pack is to intergrate the quest system while still holding true to minecrafts sandbox feel. you are not forced to complete quest for your basic items like in most packs that are built around it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 92,
+            "width": 187.0,
+            "height": 60.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So as far as unique features goes. Most mods will require you to research/quest to aquire the ability to craft the required items to use said mod. Complete a quest gain a key. Click on the research matrix inside          the room to gain the knowlege ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 149,
+            "width": 189.0,
+            "height": 57.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 352,
+            "yPos": 124,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Lets cover how to attain Steel and Tritanium",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF7B68EE",
+            "xPos": 22,
+            "yPos": 16,
+            "width": 188.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 336,
+            "yPos": 132,
+            "width": 33.0,
+            "height": 33.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 322,
+            "yPos": 139,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:materials 16",
+            "xPos": 70,
+            "yPos": 25,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "mo:tritanium_ingot",
+            "xPos": 116,
+            "yPos": 23,
+            "width": 22.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 369,
+            "yPos": 130,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 353,
+            "yPos": 139,
+            "width": 34.0,
+            "height": 34.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For the sake of a clear direction in advancing to higher tier tools. You will need steel to bridge the gap normaly covered by bronze in tinker tweaks. To produce Steel you will be required to use Tinkers Steel Works. While it does not have a NEI handler as of right now to tell you the recipe. It is covered in the book itself. I will go over it in a tad bit more detail along with Tritanium production which is custom to this pack. Tritanium is produced this way to cut down on needless Ore Generation.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 47,
+            "width": 190.0,
+            "height": 44.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 0",
+            "xPos": 162,
+            "yPos": 171,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 386,
+            "yPos": 138,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 338,
+            "yPos": 147,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "First build your High Oven. Example below is a small oven it can be expanded up to 8 blocks high",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 12,
+            "width": 190.0,
+            "height": 34.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 371,
+            "yPos": 148,
+            "width": 31.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 308,
+            "yPos": 82,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 355,
+            "yPos": 155,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 323,
+            "yPos": 91,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 292,
+            "yPos": 90,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 275,
+            "yPos": 99,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 0",
+            "xPos": 291,
+            "yPos": 107,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 340,
+            "yPos": 98,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Bottom layer solid scorched block\u0027s",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 263,
+            "yPos": 187,
+            "width": 152.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 2",
+            "xPos": 324,
+            "yPos": 106,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TSteelworks:HighOven 1",
+            "xPos": 308,
+            "yPos": 114,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Bottom and Top Layer ---\u003e",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 217,
+            "yPos": 176,
+            "width": 158.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "High Oven Controller,Drain or Ducks cannot be placed on the bottom or top row",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF4682B4",
+            "xPos": 216,
+            "yPos": 82,
+            "width": 76.0,
+            "height": 80.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/highoven.png",
+            "xPos": 19,
+            "yPos": 22,
+            "width": 192.0,
+            "height": 176.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/Tritanium.png",
+            "xPos": 221,
+            "yPos": 38,
+            "width": 179.0,
+            "height": 142.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "A completed High Oven",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 58,
+            "yPos": 12,
+            "width": 127.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003c- Steel",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 251,
+            "yPos": 41,
+            "width": 55.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Sulfur",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 272,
+            "yPos": 56,
+            "width": 32.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ardite Dust",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 273,
+            "yPos": 71,
+            "width": 27.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Diamond",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 273,
+            "yPos": 96,
+            "width": 41.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "mo:tritanium_dust",
+            "xPos": 273,
+            "yPos": 184,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Outputs \u003d",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 198,
+            "width": 69.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "mo:tritanium_ingot",
+            "xPos": 307,
+            "yPos": 4,
+            "width": 32.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Divergence/Steel.png",
+            "xPos": 22,
+            "yPos": -19,
+            "width": 188.0,
+            "height": 190.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Redstone",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 74,
+            "yPos": 84,
+            "width": 44.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Gun powder",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 72,
+            "yPos": 53,
+            "width": 33.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Sand",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 74,
+            "yPos": 111,
+            "width": 23.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003c- Iron Ingot",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 35,
+            "yPos": 31,
+            "width": 84.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:fluid.molten.steel",
+            "xPos": 92,
+            "yPos": 180,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Output \u003d ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 39,
+            "yPos": 186,
+            "width": 48.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "TConstruct:materials 16",
+            "xPos": 109,
+            "yPos": 3,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Reserved For future versions",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 289,
+            "yPos": 76,
+            "width": 50.0,
+            "height": 50.0
+          }
+        }
+      ],
+      "pageName": "e"
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "BeyondRealityDivergence",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "BeyondRealityDivergence",
+  "displayInCreative": true
+}

@@ -1,0 +1,24 @@
+{
+  "output": "sb",
+  "width": 3,
+  "height": 3,
+  "row1": [
+    {
+      "isBlock": false,
+      "name": "minecraft:potion",
+      "metadata": 8206
+    },
+    null,
+    null
+  ],
+  "row2": [
+    null,
+    null,
+    null
+  ],
+  "row3": [
+    null,
+    null,
+    null
+  ]
+}
