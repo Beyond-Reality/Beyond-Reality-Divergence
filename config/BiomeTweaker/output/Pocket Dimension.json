@@ -1,0 +1,37 @@
+
+{
+  "ID": 147,
+  "Name": "Pocket Dimension",
+  "Class": "StevenDimDoors.mod_pocketDim.world.BiomeGenPocket",
+  "Color": 0,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.3,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Tweaked": false
+}

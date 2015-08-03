@@ -215,8 +215,8 @@ Found creative tab: buildingBlocks
 Found creative tab: tools
 Found creative tab: BiblioCraft
 Found creative tab: BiblioCraftLights
+Found creative tab: BigReactors
 Found creative tab: apiculture
-Found creative tab: Botania
 Found creative tab: Botany
 Found creative tab: buildcraft.main
 Found creative tab: buildcraft.pipes
@@ -241,6 +241,9 @@ Found creative tab: transportation
 Found creative tab: arboriculture
 Found creative tab: lepidopterology
 Found creative tab: floodlights
+Found creative tab: forbidden
+Found creative tab: combat
+Found creative tab: mobcrystal
 Found creative tab: forestry
 Found creative tab: Genetics
 Found creative tab: tabGrowthCraft
@@ -249,10 +252,10 @@ Found creative tab: Hardcore Questing Mode
 Found creative tab: food
 Found creative tab: ImmersiveEngineering
 Found creative tab: Logistics_Pipes
-Found creative tab: combat
 Found creative tab: modularCreativeTab
 Found creative tab: mutantcreatures
 Found creative tab: Pistronics2
+Found creative tab: tabPneumaticCraft
 Found creative tab: progression
 Found creative tab: core
 Found creative tab: ill
@@ -292,7 +295,6 @@ Found creative tab: witchinggadgets
 Found creative tab: ztones
 Found creative tab: bdew.generators
 Found creative tab: bdew.ae2stuff
-Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: aquaticabyss
@@ -313,7 +315,6 @@ Found creative tab: tabChisel
 Found creative tab: tabMetalChiselBlocks
 Found creative tab: doggystyle
 Found creative tab: Eureka
-Found creative tab: framez
 Found creative tab: guideapi.creativeTab
 Found creative tab: tabHexCraft
 Found creative tab: iBench
@@ -339,6 +340,7 @@ Found creative tab: roadblock.creativeTab
 Found creative tab: runicdungeons
 Found creative tab: shamanry
 Found creative tab: tabSimplyJetpacks
+Found creative tab: ThaumicEnergistics
 Found creative tab: drinks
 Found creative tab: tts
 Found creative tab: tabWitchery
@@ -380,12 +382,12 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_2
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_2
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_14
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_14
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 3485
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3062
+getFacadesSize called. Returned: 3229
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3163
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -517,8 +519,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2572
-override called. Params: appliedenergistics2, item.ItemFacade, 1665
+getNumberOfTypes called. Returned: 2373
+override called. Params: appliedenergistics2, item.ItemFacade, 284
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

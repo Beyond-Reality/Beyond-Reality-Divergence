@@ -1,0 +1,99 @@
+
+{
+  "ID": 195,
+  "Name": "Eldritch",
+  "Class": "thaumcraft.common.lib.world.biomes.BiomeGenEldritch",
+  "Color": 0,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:dirt",
+  "Filler Block": "minecraft:dirt",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.0,
+  "Humidity": -2.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SPOOKY",
+    "END",
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityInhabitedZombie",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityEldritchGuardian",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaWitch",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCreep",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaEnderEye",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaJorogumo",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMimic",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBoneKnight",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaFleshLich",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntitySkeletonn",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Tweaked": false
+}

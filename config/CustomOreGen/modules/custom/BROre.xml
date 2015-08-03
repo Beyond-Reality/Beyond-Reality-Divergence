@@ -20,6 +20,20 @@
 			<ReplacesOre block='orePoorIron' />
 			<ReplacesOre block='orePoorLead' />
 			<ReplacesOre block='orePoorTin' />
+			<Replaces block='ReactorCraft:reactorcraft_block_ore:1' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:2' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:3' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:4' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:7' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:8' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:1' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:2' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:3' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:4' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:5' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:6' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:7' />
 		</Substitute>
 	</IfCondition>
 </ConfigSection>
@@ -172,7 +186,7 @@
 	<Veins name='ApatiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
 		<OreBlock block='beyondrealitycore:oreApatite' weight='0.275' />	
 		<OreBlock block='beyondrealitycore:tinyoreApatite' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.4'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.7'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='55' range='10' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0'/> 
@@ -226,15 +240,6 @@
 		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='38' range='15' scaleTo='biome' />
 	</StandardGen>
-			
-			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Platinum Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->		
-
-	<StandardGen name='Sparse Platinum' inherits='SparseStone'>
-		<OreBlock block='beyondrealitycore:tinyorePlatinum' />	
-		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-		<Setting name='Height' avg='27' range='10' scaleTo='biome' />
-	</StandardGen>
-			
 
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mana Infused Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 					
@@ -243,11 +248,26 @@
 		<Setting name='Frequency' avg='3' range='4' scaleTo='biome' />
 		<Setting name='Height' avg='25' range='3' scaleTo='biome' />
 	</StandardGen>
-    <StandardGen name='Sparse Magnetite' inherits='SparseStone'>
+    <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
 		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />
 		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
-	</StandardGen>	
+	</StandardGen>
+	<StandardGen name='Mana Infused Ore2' inherits='SparseStone'>
+		<OreBlock block='ThermalFoundation:Ore:6' />	
+		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
+		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
+	</StandardGen>
+	<StandardGen name='Mana Infused Ore3' inherits='SparseStone'>
+		<OreBlock block='ThermalFoundation:Ore:6' />	
+		<Setting name='Frequency' avg='0.5' range='2' scaleTo='biome' />
+		<Setting name='Height' avg='48' range='3' scaleTo='biome' />
+	</StandardGen>
+	<StandardGen name='Mana Infused Ore4' inherits='SparseStone'>
+		<OreBlock block='ThermalFoundation:Ore:6' />	
+		<Setting name='Frequency' avg='0.8' range='1' scaleTo='biome' />
+		<Setting name='Height' avg='38' range='1' scaleTo='biome' />
+	</StandardGen>
 		
 </IfCondition>		
 

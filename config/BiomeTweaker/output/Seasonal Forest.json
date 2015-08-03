@@ -1,0 +1,536 @@
+
+{
+  "ID": 86,
+  "Name": "Seasonal Forest",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest",
+  "Color": 12502092,
+  "Root Height": 0.2,
+  "Height Variation": 0.4,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.8,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SPARSE",
+    "DENSE",
+    "LUSH",
+    "FOREST",
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityWolf",
+      "Weight": 5,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityCovenWitch",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityCovenWitch",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityGoblin",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityGoblin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityGoblin",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityTreeEnt",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityFox",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBeaver",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBlackBear",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBrownBear",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityOstrich",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityRhino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityRabbit",
+      "Weight": 15,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityGiraffe",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityElephant",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityHorseBlack",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityDeer",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityGiantRat",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBloomDoom",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityZebra",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaPropFlowerCyan",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaDryad",
+      "Weight": 16,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaWerecat",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaSpriggan",
+      "Weight": 60,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCreep",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaEnderEye",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaJorogumo",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMimic",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBoneKnight",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaFleshLich",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaPropFlowerCyan",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaDryad",
+      "Weight": 16,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaWerecat",
+      "Weight": 80,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaSpriggan",
+      "Weight": 60,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCreep",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaEnderEye",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaJorogumo",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMimic",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBoneKnight",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaFleshLich",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaSatyr",
+      "Weight": 20,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCentaur",
+      "Weight": 24,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMinotaurus",
+      "Weight": 60,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMinotaur",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCreep",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaEnderEye",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaJorogumo",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMimic",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBoneKnight",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaFleshLich",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityCentipede",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityPZBat",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
+    },
+    {
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
+    },
+    {
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityFishA",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityRipperFin",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityFishB",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntitySpirit",
+      "Weight": 1,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityRedFinch",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityGreenFinch",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBlueFinch",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityYellowFinch",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityCrow",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBeetleAS",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityBeetleBS",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Tweaked": false
+}

@@ -1,0 +1,904 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Basic",
+      "sortIndex": 2,
+      "isVisible": true,
+      "stack": "RotaryCraft:rotarycraft_item_shaftcraft 11",
+      "criteria": [
+        {
+          "uniqueName": "1435728135715",
+          "displayName": "AgriCraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "beyondrealitycore:blockAimActive"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedAnalyzer"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:waterTank 0 {matMeta:0,material:\"minecraft:planks\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:waterChannel 0 {matMeta:0,material:\"minecraft:planks\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:channelValve 0 {matMeta:0,material:\"minecraft:planks\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedStorage 0 {matMeta:0,material:\"minecraft:planks\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedStorageController 0 {matMeta:0,material:\"minecraft:planks\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:cropsItem"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:journal"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:magnifyingGlass"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:sprinklerItem"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:handRake 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:handRake 1"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:trowel"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 65,
+          "y": 80,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436443719578",
+          "displayName": "Enchanced Chest",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 0 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 2 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 3 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 4 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 5 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 6 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 7 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 8 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 9 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 10 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 11 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 12 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 13 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 14 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:improvedChest 15 {wool:9b,woodType:\"wood:chisel:birch_planks:5\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "LatBlocks:quartzChest 0"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 223,
+          "y": 9,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436443939171",
+          "displayName": "Rails and Carts",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ExpandedIndustry:machine_distributor"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ExpandedIndustry:machine_wood_hopper"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ExpandedIndustry:machine_cart_loader"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ExpandedIndustry:rail_type_detector"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "minecraft:minecart"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:track 736 {track:\"railcraft:track.slow\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:track 0 {track:\"railcraft:track.slow.boost\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:track 0 {track:\"railcraft:track.slow.junction\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:track 19986 {track:\"railcraft:track.slow.switch\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:track 0 {track:\"railcraft:track.slow.wye\"}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:tool.crowbar 0"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 65,
+          "y": 10,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436759671337",
+          "displayName": "Tinker\u0027s Construct",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "minecraft:stone"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:CraftedSoil 1"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:Smeltery 2"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:materials 2"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 67,
+          "y": 48,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "1436399474422",
+      "displayName": "Tech",
+      "sortIndex": 2,
+      "isVisible": true,
+      "stack": "RotaryCraft:rotarycraft_item_flywheel 0",
+      "criteria": [
+        {
+          "uniqueName": "1436398778362",
+          "displayName": "BuildCraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "beyondrealitycore:blockAimActive"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Builders:machineBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Builders:fillerBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Builders:builderBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Builders:architectBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Builders:libraryBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Factory:miningWellBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Factory:tankBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Factory:pumpBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Factory:floodGateBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Factory:refineryBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Factory:blockHopper"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Robotics:zonePlan"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Robotics:requester"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Silicon:laserBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Silicon:laserTableBlock 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Silicon:laserTableBlock 2"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Silicon:laserTableBlock 3"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Silicon:laserTableBlock 5"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Silicon:packagerBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:filteredBufferBlock"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:pipeWaterproof"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemswood 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemscobblestone 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsstone 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsquartz 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsiron 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsgold 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond 0",
+                "matchDamage": false
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsobsidian 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsemzuli 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsclay 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Core:wrenchItem"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Transport:gateCopier {}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Core:engineBlock 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Core:engineBlock 1"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Core:engineBlock 2"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 4,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436646803549",
+          "displayName": "Compact Machines",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "CompactMachines:resizingcube"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "CompactMachines:psd"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 4,
+          "y": 173,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "1436443558372",
+      "displayName": "Misc",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "witchery:ingredient 35",
+      "criteria": [
+        {
+          "uniqueName": "1436397399969",
+          "displayName": "Armourer\u0027s Workshop",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "beyondrealitycore:blockAimActive"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "armourersWorkshop:block.armourerBrain"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "armourersWorkshop:block.armourLibrary"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 312,
+          "y": 18,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436647785952",
+          "displayName": "DecoCraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "props:props 508"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "props:props 508"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "props:props 508"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "props:clay 0 *64"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "props:clay 1 *64"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "props:clay 2 *64"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 215,
+          "y": 15,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436648170100",
+          "displayName": "Chisel",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "chisel:chisel 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "chisel:diamondChisel 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "chisel:obsidianChisel 0"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 202,
+          "y": 50,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "1436760983803",
+      "displayName": "Advanced",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "Thaumcraft:blockMetalDevice 3",
+      "criteria": []
+    },
+    {
+      "uniqueName": "1436443548221",
+      "displayName": "Magic",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "Thaumcraft:FocusFrost",
+      "criteria": [
+        {
+          "uniqueName": "1436398557567",
+          "displayName": "ThaumCraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "beyondrealitycore:blockAimActive"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Thaumcraft:ItemThaumonomicon 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Thaumcraft:ItemThaumometer"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 153,
+          "y": 125,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1436733069815",
+          "displayName": "ChromatiCraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ChromatiCraft:chromaticraft_item_placer 5"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ChromatiCraft:chromaticraft_item_placer 5"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ChromatiCraft:chromaticraft_item_tool"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ChromatiCraft:chromaticraft_item_tool"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 104,
+          "y": 33,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanCraftAnything": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "interfaceItem": "minecraft:book",
+  "displayRequirementsOnNEIClick": true
+}

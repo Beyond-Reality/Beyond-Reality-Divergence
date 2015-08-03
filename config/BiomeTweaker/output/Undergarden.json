@@ -1,0 +1,246 @@
+
+{
+  "ID": 119,
+  "Name": "Undergarden",
+  "Class": "biomesoplenty.common.biome.nether.BiomeGenUndergarden",
+  "Color": 15657658,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "BiomesOPlenty:overgrownNetherrack",
+  "Filler Block": "minecraft:netherrack",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 3.0,
+  "Humidity": -2.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "JUNGLE",
+    "SPOOKY",
+    "NETHER"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityArmadillo",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityGorilla",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityMonkey",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityGhast",
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityMagmaCube",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.emoniph.witchery.entity.EntityHellhound",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaWitch",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCreep",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaEnderEye",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaJorogumo",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMimic",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBoneKnight",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaFleshLich",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCobbleGolem",
+      "Weight": 16,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaHunter",
+      "Weight": 24,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaShaman",
+      "Weight": 60,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCobblestoneGolem",
+      "Weight": 60,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaCreep",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaEnderEye",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaJorogumo",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaMimic",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBoneKnight",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaFleshLich",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaSuccubus",
+      "Weight": 16,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaWitherCow",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.EntityGaiaBaphomet",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntitySkeletonn",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "tconstruct.world.entity.BlueSlime",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 20
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityFireBat",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityFishA",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityRipperFin",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityFishB",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "com.stek101.projectzulu.common.mobs.entity.EntityHornBill",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Tweaked": false
+}

@@ -90,7 +90,7 @@
           "properties": {
             "jumpTo": "8",
             "texture": "",
-            "xPos": 33,
+            "xPos": 31,
             "yPos": 136,
             "width": 138.0,
             "height": 43.0
@@ -155,7 +155,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Unique Features, Quest and progression\nPages 19-21",
+            "text": "Unique Features, Quest and progression\nPages 19-26",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -289,6 +289,30 @@
             "width": 16.0,
             "height": 9.0
           }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Disclaimer Page 27",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 59,
+            "yPos": 198,
+            "width": 111.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "27",
+            "texture": "",
+            "xPos": 52,
+            "yPos": 195,
+            "width": 110.0,
+            "height": 12.0
+          }
         }
       ],
       "pageName": ""
@@ -415,7 +439,7 @@
         {
           "type": "FeatureItem",
           "properties": {
-            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
+            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
             "xPos": 193,
             "yPos": 15,
             "width": 16.0,
@@ -1615,56 +1639,6 @@
         {
           "type": "FeatureItem",
           "properties": {
-            "item": "HarderOres:smallDust 0",
-            "xPos": 153,
-            "yPos": 50,
-            "width": 29.0,
-            "height": 29.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "HarderOres:smallDust 0",
-            "xPos": 141,
-            "yPos": 52,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "HarderOres:smallDust 1",
-            "xPos": 159,
-            "yPos": 53,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "HarderOres:smallDust 11",
-            "xPos": 164,
-            "yPos": 42,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "HarderOres:smallDust 12",
-            "xPos": 142,
-            "yPos": 42,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
             "item": "bcadditions:dust 1",
             "xPos": 156,
             "yPos": 101,
@@ -2308,7 +2282,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9Ã‚Â° Minecraft (Ã‚Â°MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth delines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values betwen -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
+            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° Minecraft (ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth delines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values betwen -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2326,7 +2300,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "At the most ideal, crop growth rates will be about one sixth vanilla.  Worst case is an extreme biome that is either extremely dry (0) or extremely wet (2) as well as extremely cold (\u003c0) or extremely hot (\u003e2).  Nether biomes are all adjusted upwards, having a base temperature of 3.0Ã‚Â°MC, making them much hotter than the vanilla overworld desert",
+            "text": "At the most ideal, crop growth rates will be about one sixth vanilla.  Worst case is an extreme biome that is either extremely dry (0) or extremely wet (2) as well as extremely cold (\u003c0) or extremely hot (\u003e2).  Nether biomes are all adjusted upwards, having a base temperature of 3.0ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°MC, making them much hotter than the vanilla overworld desert",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2406,14 +2380,14 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The following is a table of crops and their ideal growth conditions.  These are presented using a set of offsets and the resulting ideal, in MCU.  Seaons notes are \"in a plains biome\" relative.  Offsets using \"months\" treat the year as being that many months ahead or behind of the actual date. 10Ã‚Â°F ~\u003d 0.1Ã‚Â°MC with the same freezing point (30Ã‚Â°F ~\u003d 0.3Ã‚Â°MC). Using the thermometer and hydrometer, you can get an idea of the current conditions, both generally and for a specific crop. ",
+            "text": "The following is a table of crops and their ideal growth conditions.  These are presented using a set of offsets and the resulting ideal, in MCU.  Seaons notes are \"in a plains biome\" relative.  Offsets using \"months\" treat the year as being that many months ahead or behind of the actual date. with the same freezing point Using the thermometer and hydrometer, you can get an idea of the current conditions, both generally and for a specific crop. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
             "xPos": 21,
             "yPos": 12,
-            "width": 125.0,
-            "height": 183.0
+            "width": 130.0,
+            "height": 212.0
           }
         },
         {
@@ -2487,7 +2461,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown in Ã‚Â°F (or Ã‚Â°C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
+            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown in Â°F or Â°C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2763,7 +2737,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So as far as unique features goes. Most mods will require you to research/quest to aquire the ability to craft the required items to use said mod. Complete a quest gain a key. Click on the research matrix inside          the room to gain the knowlege ",
+            "text": "So as far as unique features goes. Most mods will require you to research/quest to aquire the ability to craft the required items to use said mod. Complete a quest gain a key. Click on the Chair inside the room to         gain the knowlege ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2771,6 +2745,151 @@
             "yPos": 149,
             "width": 189.0,
             "height": 57.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Each type of research has 3 tiers. There is two types of items one for Tech and one for magic.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 220,
+            "yPos": 15,
+            "width": 184.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item6",
+            "xPos": 381,
+            "yPos": 50,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item2",
+            "xPos": 215,
+            "yPos": 51,
+            "width": 26.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item3",
+            "xPos": 214,
+            "yPos": 94,
+            "width": 26.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item4",
+            "xPos": 214,
+            "yPos": 130,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item5",
+            "xPos": 214,
+            "yPos": 153,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item7",
+            "xPos": 381,
+            "yPos": 95,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item8",
+            "xPos": 384,
+            "yPos": 130,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item9",
+            "xPos": 382,
+            "yPos": 153,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003c-----Tier 1 -----\u003e",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 258,
+            "yPos": 59,
+            "width": 118.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003c----- Tier 2 -----\u003e",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF228B22",
+            "xPos": 257,
+            "yPos": 103,
+            "width": 137.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003c----- Tier 3 -----\u003e",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 256,
+            "yPos": 148,
+            "width": 122.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For a more in deph crafting guide go to page 23",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 260,
+            "yPos": 165,
+            "width": 116.0,
+            "height": 34.0
           }
         }
       ],
@@ -2791,14 +2910,14 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Lets cover how to attain Steel and Tritanium",
+            "text": "Lets cover how to attain Steel, Platinum and Tritanium",
             "wrap": 0,
             "size": 1.0,
             "color": "FF7B68EE",
-            "xPos": 22,
-            "yPos": 16,
-            "width": 188.0,
-            "height": 13.0
+            "xPos": 15,
+            "yPos": 13,
+            "width": 194.0,
+            "height": 11.0
           }
         },
         {
@@ -2825,8 +2944,8 @@
           "type": "FeatureItem",
           "properties": {
             "item": "TConstruct:materials 16",
-            "xPos": 70,
-            "yPos": 25,
+            "xPos": 130,
+            "yPos": 26,
             "width": 21.0,
             "height": 21.0
           }
@@ -2835,8 +2954,8 @@
           "type": "FeatureItem",
           "properties": {
             "item": "mo:tritanium_ingot",
-            "xPos": 116,
-            "yPos": 23,
+            "xPos": 163,
+            "yPos": 25,
             "width": 22.0,
             "height": 22.0
           }
@@ -3054,6 +3173,16 @@
             "yPos": 82,
             "width": 76.0,
             "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ElectriCraft:electricraft_item_ingots 5",
+            "xPos": 98,
+            "yPos": 23,
+            "width": 24.0,
+            "height": 24.0
           }
         }
       ],
@@ -3282,18 +3411,763 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Reserved For future versions",
+            "text": "Due to Platinum having few uses in this pack. Natural ore gen has been disabled. To craft use this method.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
-            "xPos": 289,
-            "yPos": 76,
-            "width": 50.0,
-            "height": 50.0
+            "xPos": 219,
+            "yPos": 29,
+            "width": 179.0,
+            "height": 33.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ElectriCraft:electricraft_item_ingots 5",
+            "xPos": 294,
+            "yPos": 2,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/HighOvenGUI.png",
+            "xPos": 215,
+            "yPos": 56,
+            "width": 193.0,
+            "height": 98.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:iron_ingot",
+            "xPos": 222,
+            "yPos": 92,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:iron_ingot",
+            "xPos": 222,
+            "yPos": 66,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "bcadditions:dust 2",
+            "xPos": 244,
+            "yPos": 73,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "bcadditions:dust 51",
+            "xPos": 245,
+            "yPos": 99,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:sand 0",
+            "xPos": 247,
+            "yPos": 128,
+            "width": 22.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ElectriCraft:electricraft_item_ingots 5",
+            "xPos": 290,
+            "yPos": 169,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Output \u003d",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 241,
+            "yPos": 182,
+            "width": 61.0,
+            "height": 21.0
           }
         }
       ],
       "pageName": "e"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/amprecipe.png",
+            "xPos": 21,
+            "yPos": 87,
+            "width": 91.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item6",
+            "xPos": 89,
+            "yPos": 89,
+            "width": 23.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item2",
+            "xPos": 315,
+            "yPos": 57,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "BuildCraft|Silicon:laserTableBlock 0",
+            "xPos": 256,
+            "yPos": 55,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:runeAltar",
+            "xPos": 50,
+            "yPos": 70,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For the magic research you will be utilizing Botania\u0027s Runic Alter to craft the Amplifications. As seen below all the information you need can be found using NEI.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 17,
+            "width": 184.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ThermalFoundation:material 65",
+            "xPos": 27,
+            "yPos": 171,
+            "width": 20.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:dye 4",
+            "xPos": 53,
+            "yPos": 170,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "appliedenergistics2:item.ItemMultiMaterial 0",
+            "xPos": 83,
+            "yPos": 171,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:wheat",
+            "xPos": 111,
+            "yPos": 172,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:livingwood 0",
+            "xPos": 140,
+            "yPos": 170,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "As an example the tier 1 Amplication requires the below items. Tier 2 requires a tier 1 and addition items. It progressively becomes much harder to attain thehigher tiers.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 118,
+            "yPos": 80,
+            "width": 96.0,
+            "height": 70.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The same goes for the Tech side how ever you will be using lasers and a Assembly Table to attain Augmentation\u0027s",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 14,
+            "width": 176.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The only two quest on the magic and tech lines that do not require Eether Amplification\u0027s or Augmentation\u0027s Would be ether Botania For magic and Buildcraft for tech. This is due to each of these mods are needed to construct further research. Think of them as starting magic or tech.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 223,
+            "yPos": 93,
+            "width": 178.0,
+            "height": 93.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ok now that you know how to craft Amplifications and Augmentations. Lets show you how they will be used, Why they exist and a overview of the Quest/Research system. Below is a picture of the Tech Tree",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 23,
+            "yPos": 17,
+            "width": 187.0,
+            "height": 47.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/TechQuest.png",
+            "xPos": 20,
+            "yPos": 72,
+            "width": 190.0,
+            "height": 106.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "This is located using the Quest Book provided by Hard Core Questing Mode.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 181,
+            "width": 207.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So using Railcraft as a example of a Tier one quest. You have to first of unlocked BuildCraft a pre requirment. which is considered Tier 0. Without First unlocking a prerequisite you will not be able to complete a quest.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 222,
+            "yPos": 14,
+            "width": 176.0,
+            "height": 41.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So to Unlock Railcraft as you can see in your Quest book it requires 20 Tier one or Exceptional Augmentation\u0027s. Once Completed you will recieve a reward. In the case of railcraft and most quest it will be a Key.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 221,
+            "yPos": 116,
+            "width": 179.0,
+            "height": 38.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/Augturnin.png",
+            "xPos": 220,
+            "yPos": 81,
+            "width": 186.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "AmnesiaDecorations:Key",
+            "xPos": 230,
+            "yPos": 178,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "These keys will only unlock one door within the temple.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 267,
+            "yPos": 178,
+            "width": 149.0,
+            "height": 34.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "As so all of the keys are labeled to match a banner located near the door it is used in.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 14,
+            "width": 184.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/DaggerDoor.png",
+            "xPos": 22,
+            "yPos": 42,
+            "width": 187.0,
+            "height": 128.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Strongly Suggest you not break these banners as finding a door without them can be time consuming",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 20,
+            "yPos": 171,
+            "width": 190.0,
+            "height": 33.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So behind each door there will always be a Chair and sometimes some mod related items",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 219,
+            "yPos": 14,
+            "width": 192.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/rcstuff.png",
+            "xPos": 219,
+            "yPos": 42,
+            "width": 192.0,
+            "height": 66.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The Chair being the most important block. This is used to unlock the mod so you can place blocks, Use item\u0027s or Craft. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 222,
+            "yPos": 131,
+            "width": 85.0,
+            "height": 95.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:chair:31",
+            "xPos": 319,
+            "yPos": 117,
+            "width": 98.0,
+            "height": 98.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Once you interact with the chair it will automaticly unlock ether the entire mod or parts of it. In this case railcraft. Would be compeltely unlocked showing a notification!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 22,
+            "yPos": 15,
+            "width": 176.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/complete.png",
+            "xPos": 20,
+            "yPos": 64,
+            "width": 190.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "It will display simular to that of a achievement. This is a per player basis. If playing in SMP Each person will have to interact with a chair. This is good in cases that there is multiple groups that do not wish to share there knowlege freely. You can simply lock the door behind you to prevent others from attaining the research for free.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 109,
+            "width": 187.0,
+            "height": 88.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now without completing the quest there is some indications. That will show you if the item or block is  locked. Looking through NEI",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 12,
+            "width": 168.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/locked.png",
+            "xPos": 221,
+            "yPos": 48,
+            "width": 185.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Or simply if something you attained by finding it in the world or in other shady means Does not work or you cannot place it. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 221,
+            "yPos": 152,
+            "width": 179.0,
+            "height": 29.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/Magentite.png",
+            "xPos": 1,
+            "yPos": 70,
+            "width": 104.0,
+            "height": 54.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There is some limitations to this \"Locking mods mechanic\". For instance autocrafting something in AE or Logistic Pipes should still work. If you want to really get crafty and have a block placer install the block for you or a turrtle use a item for you. Yes you can and will find a way to bypass the system. You are not being cleaver or smart. You are simply ruining your own gameplay and the basis on which this pack was built. If you wish to play this way there is always creative mode. Or 100 other mod packs out there that do not have these restrictions. So in short Please do not report issues or think its broken. We use what Tools we can and are limited to what they are capable of",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 218,
+            "yPos": 28,
+            "width": 187.0,
+            "height": 177.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Disclaimer",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFB22222",
+            "xPos": 295,
+            "yPos": 16,
+            "width": 119.0,
+            "height": 14.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "ReactorCrafts Ores",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFB22222",
+            "xPos": 60,
+            "yPos": 9,
+            "width": 123.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/cad\u0026idium.png",
+            "xPos": 116,
+            "yPos": 68,
+            "width": 94.0,
+            "height": 53.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Much Like the alternative metheod to get platinum mentioned earlier in this book. Some of ReactorCrafts Ores have been disabled. Mainly due to 4-5 of them crafting a single item each. Attain these using the rock crusher from railcraft",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 6,
+            "yPos": 17,
+            "width": 212.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Cadmium And Indium",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF4169E1",
+            "xPos": 116,
+            "yPos": 122,
+            "width": 112.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Magnetite",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF800000",
+            "xPos": 36,
+            "yPos": 122,
+            "width": 46.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:sand 0",
+            "xPos": 2,
+            "yPos": 71,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_chunk 8",
+            "xPos": 1,
+            "yPos": 99,
+            "width": 26.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HarderOres:ore_chunk 14",
+            "xPos": 116,
+            "yPos": 69,
+            "width": 33.0,
+            "height": 33.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Calcite And Fluorite",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF4B0082",
+            "xPos": 6,
+            "yPos": 192,
+            "width": 113.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ammonium Chloride",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFA0522D",
+            "xPos": 117,
+            "yPos": 191,
+            "width": 101.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/Cholr.png",
+            "xPos": 115,
+            "yPos": 132,
+            "width": 95.0,
+            "height": 58.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "BeyondRealityDivergence/limestone.png",
+            "xPos": 1,
+            "yPos": 132,
+            "width": 105.0,
+            "height": 58.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "chisel:limestone 0",
+            "xPos": 1,
+            "yPos": 136,
+            "width": 37.0,
+            "height": 37.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:netherrack",
+            "xPos": 116,
+            "yPos": 133,
+            "width": 39.0,
+            "height": 39.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
     },
     {
       "features": [],
