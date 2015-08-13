@@ -1,5 +1,5 @@
 <!--*********************  CustomOreGen Harder Extra Ores Module ******************************
-*
+*ADSF
 *   This file contains Presets, Options, and Distributions for the 6 additioanl ores:
 *       Copper, Tin, Lead, Uranium, Silver, and Nickel.
 *
@@ -22,7 +22,7 @@
                 Distribution options for copper, tin, lead, uranium, silver, and nickel (ferrous).  These will override any settings from other tabs related to these ores.
             </Description>
         </OptionDisplayGroup>
-		<OptionChoice name='forceExtraOres' default='false' displayState='shown_dynamic' displayGroup='groupHardExtras'>
+		<OptionChoice name='forceExtraOres' default='true' displayState='shown_dynamic' displayGroup='groupHardExtras'>
             <Description> 
                 Forces the other ores (copper, tin, lead, uranium, silver, and nickel) to spawn even if IC2, ThermalFoundation, or Metallurgy is not installed.
 				Note: these ores may not be usable, but will be placed into the world.
@@ -215,12 +215,12 @@
                 <Choice value='disabled' displayValue='Disabled' description='No silver is generated, and no silver symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='hardSilverFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupHardExtras'>
+            <OptionNumeric name='hardSilverFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardSilverDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
                 <Description> Frequency multiplier for Silver distributions </Description>
                 <DisplayName>Silver Freq.</DisplayName>
             </OptionNumeric>
             
-            <OptionNumeric name='hardSilverSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupHardExtras'>
+            <OptionNumeric name='hardSilverSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardSilverDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
                 <Description> Size multiplier for Silver distributions </Description>
                 <DisplayName>Silver Size</DisplayName>
             </OptionNumeric>
@@ -254,17 +254,52 @@
                 <Choice value='disabled' displayValue='Disabled' description='No nickel ore is generated, and no nickel ore symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='hardNickelFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupHardExtras'>
+            <OptionNumeric name='hardNickelFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardNickelDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
                 <Description> Frequency multiplier for Nickel Ore distributions </Description>
                 <DisplayName>Nickel Ore Freq.</DisplayName>
             </OptionNumeric>
             
-            <OptionNumeric name='hardNickelSize' default='1'  min='0' max='5' displayState=':= if(?advOptions,"shown","hidden")' displayGroup='groupHardExtras'>
+            <OptionNumeric name='hardNickelSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardNickelDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
                 <Description> Size multiplier for Nickel Ore distributions </Description>
                 <DisplayName>Nickel Ore Size</DisplayName>
             </OptionNumeric>
        
         </ConfigSection>
+			
+		<!--*******************   Aluminum Ore   *********************-->
+        <ConfigSection>
+			<OptionChoice name='hardBauxiteDist' displayGroup='groupHardExtras'>
+                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"surfaceClouds","disabled")</Default>
+            	<DisplayState>:= if(?forceExtraOres|blockExists("oreAluminum"),"shown","hidden")</DisplayState>
+                <Description>Controls how Bauxite (Aluminum) is generated </Description>
+                <DisplayName>Bauxite Type</DisplayName>
+                
+                <Choice value='surfaceClouds' displayValue='Clouds'>
+                    <Description> 
+                        Flat Clouds found near the surface.  Only found in mesa, swamp, and jungle biomes.  Distribution is significantly more CPU intensive than others, if you typically experience slow chunk gen, use Veins.  
+                    </Description>
+                </Choice>
+				<Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Flat veins found near the surface.  Motherloads are found in mesa, swamp, and jungle biomes with veins stretching up to 200 blocks in every direction.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No bauxite is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No Bauxite is generated, and no Bauxite symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='hardBauxiteFreq' default='1'  min='0' max='5'
+                           displayState=':= if(?advOptions &amp; hardBauxiteDist != "disabled","shown","hidden")'
+                           displayGroup='groupHardExtras'>
+                <Description> Frequency multiplier for Bauxite distributions </Description>
+                <DisplayName>Bauxite Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='hardBauxiteSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardBauxiteDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
+                <Description> Size multiplier for Bauxite distributions </Description>
+                <DisplayName>Bauxite Size</DisplayName>
+            </OptionNumeric>
+		</ConfigSection>
 
      </ConfigSection>
    
@@ -289,6 +324,8 @@
             <Replaces block='oreSilver'/>
             <Replaces block='oreNickel'/>
 			<Replaces block='orePitchblende'/>
+            <Replaces block='oreAluminum'/>
+            <Replaces block='oreBauxite'/>
         </Substitute>
         
         <!--*******************   Copper   *********************-->
@@ -927,9 +964,219 @@
                                  range=':= 0.65 * hardNickelSize * _default_'/>
                     </Veins>
                 </Cloud>
-            </IfCondition>  
+            </IfCondition>
             
         </ConfigSection>
+
+        <!--*******************   Aluminum Ore   *********************-->            
+		
+		<ConfigSection>
+			<ConfigSection>
+				<!-- Bauxite Preset -->
+				 
+				<CloudPreset name='SurfaceBauxite'>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x209F8C74</WireframeColor>
+					<Setting name='DistributionFrequency' avg=':=0.004 * hardBauxiteFreq' range='0'/>
+					<Setting name='CloudRadius' avg=':=16 + 2 * hardBauxiteSize' range='0' />
+					<Setting name='CloudThickness' avg='8' range='0' />
+					<Setting name='CloudSizeNoise' avg='0.1' range='0' />
+					<Setting name='CloudHeight' avg=':=61.5 / 64 * dimension.groundLevel' range='0' />
+					<Setting name='OreDensity' avg='1' />
+					<Setting name='CloudInclination' avg='0' range='0' />
+					<Setting name='OreVolumeNoiseCutoff' avg='0' range='0' />
+					<Setting name='OreRadiusMult' avg='1' range='0.1' />
+					<ReplacesOre block='stone' />
+					<Replaces block='minecraft:gravel'/>
+					<Replaces block='minecraft:dirt'/>
+					<Replaces block='minecraft:hardened_clay'/>
+					<Replaces block='minecraft:stained_hardened_clay'/>
+					
+                    <BiomeType name='Mesa' weight='0.5'/>
+                    <Biome name='River' weight='0.2'/>
+                    <BiomeType name='Swamp' weight='1'/>
+                    <BiomeType name='Jungle' weight='0.2'/>
+				</CloudPreset>
+		
+		
+			</ConfigSection>	
+				
+			<!-- Distribution -->	
+				
+			<IfCondition condition=':= hardBauxiteDist = "surfaceClouds"'>
+				<!-- Above -->
+				<Cloud name='BauxiteDenseCoreMain' block='HarderOres:ore_bauxite:12' inherits='SurfaceBauxite'>
+					<WireframeColor>0x20E1A75B</WireframeColor>
+					<seed> 43293 </seed>
+					<Setting name='CloudRadius' avg=':=9 + hardBauxiteSize' range='0' />
+					<Setting name='CloudThickness' avg='4' range='0' />
+					<Setting name='CloudSizeNoise' avg='0.6' range='0' />
+					<Setting name='CloudHeight' avg=':=58.0 / 64 * dimension.groundLevel' range='0' />
+					<Setting name='HeightOffset' avg='3' range='1'/>
+				</Cloud>
+				<Cloud name='BauxiteLayerOneSide' block='HarderOres:ore_bauxite:7' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.6' />
+					<PlacesBeside block='HarderOres:ore_bauxite:12' />
+				</Cloud>
+				<Cloud name='BauxiteLayerOneTop' block='HarderOres:ore_bauxite:7' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.3' />
+					<PlacesAbove block='HarderOres:ore_bauxite:12' />
+				</Cloud>
+				<Cloud name='BauxiteLayerOneBot' block='HarderOres:ore_bauxite:7' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.3' />
+					<PlacesBelow block='HarderOres:ore_bauxite:12' />
+				</Cloud>
+				<Cloud name='BauxiteLayerTwoSide' block='HarderOres:ore_bauxite:5' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.6' />
+					<PlacesBeside block='HarderOres:ore_bauxite:12' />
+					<PlacesBeside block='HarderOres:ore_bauxite:7' />
+				</Cloud>
+				<Cloud name='BauxiteLayerTwoTop' block='HarderOres:ore_bauxite:5' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.6' />
+					<PlacesAbove block='HarderOres:ore_bauxite:12' />
+					<PlacesAbove block='HarderOres:ore_bauxite:7' />
+				</Cloud>
+				<Cloud name='BauxiteLayerTwoBot' block='HarderOres:ore_bauxite:5' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.6' />
+					<PlacesBelow block='HarderOres:ore_bauxite:12' />
+					<PlacesBelow block='HarderOres:ore_bauxite:7' />
+				</Cloud>
+				<Cloud name='BauxiteLayerThreeSide' block='HarderOres:ore_bauxite:4' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='OreDensity' avg='0.8' />
+					<PlacesBeside block='HarderOres:ore_bauxite:12' />
+					<PlacesBeside block='HarderOres:ore_bauxite:7' />
+					<PlacesBeside block='HarderOres:ore_bauxite:5' />
+				</Cloud>
+				<Cloud name='BauxiteLayerFourSide' block='HarderOres:ore_bauxite:1' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='CloudRadius' avg=':=20 + 2 * hardBauxiteSize' range='0' />
+					<PlacesBeside block='HarderOres:ore_bauxite:7' />
+					<PlacesBeside block='HarderOres:ore_bauxite:5' />
+					<PlacesBeside block='HarderOres:ore_bauxite:4' />
+				</Cloud>
+				<Cloud name='BauxiteLayerFourTop' block='HarderOres:ore_bauxite:1' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='CloudRadius' avg=':=20 + 2 * hardBauxiteSize' range='0' />
+					<PlacesAbove block='HarderOres:ore_bauxite:7' />
+					<PlacesAbove block='HarderOres:ore_bauxite:5' />
+					<PlacesAbove block='HarderOres:ore_bauxite:4' />
+				</Cloud>
+				<Cloud name='BauxiteLayerFourBot' block='HarderOres:ore_bauxite:1' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='CloudRadius' avg=':=20 + 2 * hardBauxiteSize' range='0' />
+					<PlacesBelow block='HarderOres:ore_bauxite:7' />
+					<PlacesBelow block='HarderOres:ore_bauxite:5' />
+					<PlacesBelow block='HarderOres:ore_bauxite:4' />
+				</Cloud>
+				<Cloud name='BauxiteClayLayerSideOne' block='HarderOres:ore_bauxite:0' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='CloudHeight' avg=':=58.5 / 64 * dimension.groundLevel' range='0' scaleto= 'SeaLevel' />
+					<Setting name='CloudThickness' avg='10' range='0' />
+					<Setting name='CloudRadius' avg=':=22 + 2 * hardBauxiteSize' range='0' />
+					<PlacesBeside block='HarderOres:ore_bauxite:7' />
+					<PlacesBeside block='HarderOres:ore_bauxite:5' />
+					<PlacesBeside block='HarderOres:ore_bauxite:4' />
+					<PlacesBeside block='HarderOres:ore_bauxite:1' />
+					<ReplacesOre block='stone' />
+					<Replaces block='minecraft:gravel'/>
+					<Replaces block='minecraft:dirt'/>
+				</Cloud>
+				<Cloud name='BauxiteClayLayerSideTwo' block='minecraft:hardened_clay' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='CloudHeight' avg=':=58.5 / 64 * dimension.groundLevel' range='0' scaleto= 'SeaLevel' />
+					<Setting name='CloudThickness' avg='10' range='0' />
+					<Setting name='CloudRadius' avg=':=22 + 2 * hardBauxiteSize' range='0' />
+					<PlacesBeside block='HarderOres:ore_bauxite' />
+					<ReplacesOre block='stone' />
+					<Replaces block='minecraft:gravel'/>
+					<Replaces block='minecraft:dirt'/>
+				</Cloud>
+				<Cloud name='BauxiteClayLayerBot' block='minecraft:hardened_clay' inherits='SurfaceBauxite'>
+					<seed> 43293 </seed>
+					<Setting name='CloudThickness' avg='11' range='0' />
+					<Setting name='CloudRadius' avg=':=22 + 2 * hardBauxiteSize' range='0' />
+					<PlacesBelow block='HarderOres:ore_bauxite' />
+					<ReplacesOre block='stone' />
+					<Replaces block='minecraft:gravel'/>
+					<Replaces block='minecraft:dirt'/>
+				</Cloud>
+				<Cloud name='BauxiteClayLayerReplaceTemp' block='minecraft:hardened_clay' inherits='SurfaceBauxite'>
+					<DrawWireframe>false</DrawWireframe>
+					<seed> 43293 </seed>
+					<Setting name='CloudThickness' avg='13' range='0' />
+					<Setting name='CloudRadius' avg=':=26 + 2 * hardBauxiteSize' range='0' />
+					<ReplacesOre block='stone' />
+					<Replaces block='minecraft:gravel'/>
+					<Replaces block='minecraft:dirt'/>
+					<Replaces block='HarderOres:ore_bauxite:0'/>
+				</Cloud>
+			</IfCondition>
+			
+			<IfCondition condition=':= hardBauxiteDist = "layeredVeins"'>
+                <VeinsPreset name='CustomizedBigBauxite' block='HarderOres:ore_bauxite:12' inherits='PresetHugeVeins'>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x209F8C74</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * hardBauxiteFreq * _default_ * 3.0'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.5 * hardBauxiteSize * _default_' range=':= hardBauxiteSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 58/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel' type='normal'/>
+                    <!-- <Setting name='MotherlodeHeight' avg='43'
+                             range='10.5' type='normal' scaleTo='sealevel'/> -->
+					<Setting name='BranchInclination' avg='0.1' range='0.15' />
+					<Setting name='SegmentAngle' avg='0' range='0.65' type='inverse' />
+					<Setting name='SegmentPitch' avg='0' range='0.1' />
+                    <Setting name='BranchHeightLimit' avg='20'/>
+                    <Setting name='SegmentRadius' avg=':= hardBauxiteSize * _default_' range=':= hardBauxiteSize * _default_'/>
+                    <Setting name='BranchLength' avg=':= 150 ' />
+					<ReplacesOre block='stone'/>
+					<ReplacesOre block='ganyssurface:.*' weight='-1'/>
+					<Replaces block='minecraft:dirt'/>
+					<Replaces block='minecraft:hardened_clay'/>
+					<Replaces block='minecraft:stained_hardened_clay'/>
+					
+                    <BiomeType name='Mesa' weight='0.5'/>
+                    <Biome name='River' weight='0.2'/>
+                    <BiomeType name='Swamp' weight='1'/>
+                    <BiomeType name='Jungle' weight='0.2'/>
+                </VeinsPreset>
+                <Veins name='hardBauxiteVeins2' inherits='CustomizedBigBauxite' block='HarderOres:ore_bauxite:9' >
+                    <seed> 43293 </seed> <!-- Arbitrary; keep consistent -->
+                    <!-- Start forcing these veins to be wider! -->
+                    <Setting name='SegmentRadius' avg=':= min(0.2, 2.0 * _default_)' range=':= min(0, 1.25 * _default_)' />
+                    <!-- Center of the motherlode is the big stuff, edge is one notch less -->
+                    <Setting name='MotherlodeSize' avg=':= 1.0 * _default_' range=':= _default_' />
+                </Veins>
+                <Veins name='hardBauxiteVeins3' inherits='CustomizedBigBauxite' block='HarderOres:ore_bauxite:4' >
+                    <seed> 43293 </seed> <!-- Arbitrary; keep consistent -->
+                    <!-- Now the segments are noticeable -->
+                    <Setting name='SegmentRadius' avg=':= min(0.4, 4.0 * _default_)' range=':= min(0, 2.0 * _default_)' />
+                </Veins>
+                <Veins name='hardBauxiteVeins4' inherits='CustomizedBigBauxite' block='HarderOres:ore_bauxite:0' >
+                    <seed> 43293 </seed> <!-- Arbitrary; keep consistent -->
+                    <!-- And the segments are now "fully" joined with the "junk" level ore -->
+                    <!-- This is a big enough radius to be "likely" to be joined most of the time -->
+                    <!-- NB: It is possible for a diagonal 3d line to skip a few. -->
+                    <Setting name='SegmentRadius' avg='0.8 ' range='0' />
+                    <!-- Add some extra length, to make them even more noticeable -->
+                    <Setting name='BranchLength' avg=':= 1.5 * _default_ ' />
+                </Veins>
+                <Veins name='hardBauxiteVeins4' inherits='CustomizedBigBauxite' block='minecraft:hardened_clay' >
+                    <seed> 43293 </seed> <!-- Arbitrary; keep consistent -->
+                    <!-- Encase ore in hard clay -->
+                    <Setting name='SegmentRadius' avg='2.5 ' range='0' />
+                    <Setting name='BranchLength' avg=':= 1.52 * _default_ ' />
+					<ReplacesOre block='stone'/>
+					<ReplacesOre block='ganyssurface:.*' weight='-1'/>
+					<Replaces block='minecraft:dirt'/>
+                </Veins>
+            </IfCondition>
+		</ConfigSection>
 
     </IfCondition>
 </ConfigSection>

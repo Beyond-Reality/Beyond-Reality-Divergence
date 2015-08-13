@@ -25,7 +25,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Befor you get started you should know a few things about this pack. \n\nThe pack itself has many changes to default play. While most recipes are left unchanged. We still ask for all bug/Issue reports be directed towards us and not the mod authors  \n\n    The Basis of vanilla minecraft have been altered by a great deal in Divergence as well. Dont worry this guide along with some quest will get you going in this grand new adventure.",
+            "text": "Before you get started you should know a few things about this pack. \n\nThe pack itself has many changes to default play. While most recipes are left unchanged. We still ask for all bug/Issue reports be directed towards us and not the mod authors  \n\n    The Basis of vanilla minecraft have been altered by a great deal in Divergence as well. Dont worry this guide along with some quest will get you going in this grand new adventure.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -176,37 +176,27 @@
           }
         },
         {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "thirstmod:water_cup",
-            "xPos": 390,
-            "yPos": 121,
-            "width": 20.0,
-            "height": 20.0
-          }
-        },
-        {
           "type": "FeatureText",
           "properties": {
-            "text": "There is a few things that may be new to your character itself.\nAs you may have noticed above your food bar there is now water drops! Not only will you have to worry about feeding yourself to stay alive. You will also need to stay hydrated. No worries how ever you dont have to keep up with your body temputure or sanity in Divergence.",
+            "text": "There is a few things that may be new to your character itself.\nAs you may have noticed There is 3 additional meters on your screen. Each one monitors your hydration levels, air quality and body temperature. It is important to keep track of these else you may start to see negative effects or die.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
             "xPos": 214,
-            "yPos": 12,
-            "width": 191.0,
-            "height": 88.0
+            "yPos": 10,
+            "width": 189.0,
+            "height": 71.0
           }
         },
         {
           "type": "FeatureText",
           "properties": {
-            "text": "There is a lot of ways to hydrate yourself! But there is also risk. You can jump in water and Sneak (HoldShift) Use bottles or this cup",
+            "text": "There is a lot of ways to hydrate yourself! You can simply right click on water or drink from a filled bottle",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
-            "xPos": 213,
-            "yPos": 105,
+            "xPos": 215,
+            "yPos": 120,
             "width": 195.0,
             "height": 31.0
           }
@@ -224,45 +214,22 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "How ever thoughs sources of water may not be the cleanest and you could very well get sick. To prevent it use a filter!",
+            "text": "How ever thoughts sources of water may not be the cleanest and you could very well get sick. Any unclear water bottles can be distilled by boiling them in a furnace. You can also boil water in a cauldron if it has lava/fire below it.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
-            "xPos": 214,
-            "yPos": 143,
+            "xPos": 215,
+            "yPos": 147,
             "width": 188.0,
             "height": 33.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "To get",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF555555",
-            "xPos": 276,
-            "yPos": 192,
-            "width": 37.0,
-            "height": 10.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "thirstmod:water_cup",
-            "xPos": 256,
-            "yPos": 199,
-            "width": 16.0,
-            "height": 16.0
           }
         },
         {
           "type": "FeatureItem",
           "properties": {
             "item": "minecraft:potion 0",
-            "xPos": 255,
-            "yPos": 178,
+            "xPos": 395,
+            "yPos": 141,
             "width": 19.0,
             "height": 19.0
           }
@@ -275,19 +242,6 @@
             "yPos": 179,
             "width": 18.0,
             "height": 18.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "+",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF555555",
-            "xPos": 247,
-            "yPos": 192,
-            "width": 16.0,
-            "height": 9.0
           }
         },
         {
@@ -313,6 +267,19 @@
             "width": 110.0,
             "height": 12.0
           }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For more Details please visit https://github.com/Funwayguy/EnviroMine/wiki",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF4500",
+            "xPos": 215,
+            "yPos": 92,
+            "width": 189.0,
+            "height": 23.0
+          }
         }
       ],
       "pageName": ""
@@ -322,27 +289,14 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "ocean 60%\nplains 30%\ndesert 20%\nhills 40%\nforest 50%\ntaiga 40%\nswap 80%\nriver 20%\nfrozen ocean 20%\nice plains 20%\nice mountains 20%\nmushroom island 50%\nmushroom island shore 60%\nbeach 60%\ndesert hill 30%\nforest hills 40%\nothers 30%",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF555555",
-            "xPos": 26,
-            "yPos": 43,
-            "width": 144.0,
-            "height": 153.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Chance of getting poisioned by sneak drinking per biome",
+            "text": "Last but not least is the Camel Pack",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
             "xPos": 21,
             "yPos": 16,
-            "width": 196.0,
-            "height": 32.0
+            "width": 198.0,
+            "height": 9.0
           }
         },
         {
@@ -366,16 +320,6 @@
           }
         },
         {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "minecraft:potion 8196",
-            "xPos": 126,
-            "yPos": 48,
-            "width": 73.0,
-            "height": 73.0
-          }
-        },
-        {
           "type": "FeatureText",
           "properties": {
             "text": "Next up! You are no longer superman yup that is right hate to tell you but everything weighs something. As you fill up your Inventory you will notice a Weight notification on the top right of the screen. The more you carry the slower you become. Once you get over the normal limit you will not be able to function.\n\nSo Mining carts and tracks leading down to your mine will be needed early game to prevent encumbrance. ",
@@ -391,7 +335,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "On the subject of mining you are now also a bit dumber. You need to get used to handling all these differnt tools. By leveling up your skill one glourious block break at a time. Along with this book you might of noticed you had some tables and such to build tool parts!",
+            "text": "On the subject of mining you are now also a bit dumber. You need to get used to handling all these different tools. By levelling up your skill one glorious block break at a time. Along with this book you might of noticed you had some tables and such to build tool parts!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -430,6 +374,31 @@
             "width": 18.0,
             "height": 18.0
           }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "if you need a more convenient source of water while travelling and don\u0027t want to carry so many bottles then the Camel Pack is for you. This piece of equipment is vital for long mining trips or exploration where temperatures are high and inventory space is precious. This little backpack can be filled in a crafting table with 4 bottles worth of water and automatically fills 1% hydration every second when worn in the chest armour slot and if you feel like sharing the filling process can be reversed to fill bottles with clean water.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 68,
+            "width": 190.0,
+            "height": 44.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "minecraft:leather:0:minecraft:leather:0:minecraft:leather:0:minecraft:leather:0:minecraft:glass_bottle:0:minecraft:leather:0:minecraft:leather:0:minecraft:leather:0:minecraft:leather:0",
+            "recipeType": "ShapedRecipes",
+            "item": "enviromine:camelPack 0",
+            "xPos": 21,
+            "yPos": 26,
+            "width": 79.0,
+            "height": 39.5
+          }
         }
       ],
       "pageName": " carte"
@@ -439,7 +408,7 @@
         {
           "type": "FeatureItem",
           "properties": {
-            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
+            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
             "xPos": 193,
             "yPos": 15,
             "width": 16.0,
@@ -465,7 +434,7 @@
             "xPos": 160,
             "yPos": 79,
             "width": 51.0,
-            "height": 51.0
+            "height": 25.5
           }
         },
         {
@@ -477,7 +446,7 @@
             "xPos": 20,
             "yPos": 117,
             "width": 62.0,
-            "height": 62.0
+            "height": 31.0
           }
         },
         {
@@ -606,7 +575,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Now there will be a starting quest to guide you through this as well. This section is meant for thoughs new to Iguna\u0027s features. In Divergence you can still find Flint by breaking gravel. \n\nThere is a additonal recipe",
+            "text": "Now there will be a starting quest to guide you through this as well. This section is meant for thoughts new to Iguna\u0027s features. In Divergence you can still find Flint by breaking gravel. \n\nThere is a additional recipe",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -645,7 +614,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Toss it into your stincil table",
+            "text": "Toss it into your stencil table",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -803,7 +772,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Ores do not generate in clusters within every chunk like they normaly would in a vanilla world. There is two distribution types that we will go over. \nThe first type of ore generation comes in the form of sparse ores  ",
+            "text": "Ores do not generate in clusters within every chunk like they normally would in a vanilla world. There is two distribution types that we will go over. \nThe first type of ore generation comes in the form of sparse ores  ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -816,7 +785,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Every type of sparse ore generates as a single block at random hieghts within a chunk. When they are mined each produce a ore chunk. ",
+            "text": "Every type of sparse ore generates as a single block at random heights within a chunk. When they are mined each produce a ore chunk. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -842,7 +811,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The Second type of ore generation comes in the form of huge viens consisting of hundreds of connected ores. over a vast range underground. While each of these nodes are plentiful they are also rare. A chunk could have 2 or 3 of these viens crossing within its boundries or none at all.\n\nThese ores are also special in there own right. Each ore has a value of 1 up to 21. The higher the value the more times you can mine the ore. Each time one is mined (Broken) it will drop up to three   raw ore pieces.",
+            "text": "The Second type of ore generation comes in the form of huge veins consisting of hundreds of connected ores. over a vast range underground. While each of these nodes are plentiful they are also rare. A chunk could have 2 or 3 of these veins crossing within its boundaries or none at all.\n\nThese ores are also special in there own right. Each ore has a value of 1 up to 21. The higher the value the more times you can mine the ore. Each time one is mined (Broken) it will drop up to three   raw ore pieces.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -913,7 +882,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "With these huge viens there is uniqe method of prospecting that you can utilize. Each type of ore has a plant indicator that will sometimes grow if a vien is below it. ",
+            "text": "With these huge veins there is unique method of prospecting that you can utilize. Each type of ore has a plant indicator that will sometimes grow if a vein is below it. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1066,7 +1035,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Additionaly by using bonemeal to grow flowers you will occasionally grow some of the flowers if their associated ore is nearby. You will get more of them and get them more often, the more ore is available in the chunk, as far down as about 48 blocks.  If the primary ore cluster is farther than 32 blocks down, the flower occurance rate will drop off quickly",
+            "text": "Additionally by using bonemeal to grow flowers you will occasionally grow some of the flowers if their associated ore is nearby. You will get more of them and get them more often, the more ore is available in the chunk, as far down as about 48 blocks.  If the primary ore cluster is farther than 32 blocks down, the flower occurrence rate will drop off quickly",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1373,7 +1342,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "To insert items ether by hand or with a hopper if you want to automate it. You have to ether right click on a edge of the mill blocks with the item or insert them via a hopper. Below is a demostartion of which blocks to use and how it can be automated.",
+            "text": "To insert items ether by hand or with a hopper if you want to automate it. You have to ether right click on a edge of the mill blocks with the item or insert them via a hopper. Below is a demonstration of which blocks to use and how it can be automated.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1603,7 +1572,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Sifters can also be used in early automations. Much like a hopper it will colllect siftable items above it and output (With item transportation or hoppers) below it.",
+            "text": "Sifters can also be used in early automations. Much like a hopper it will collect sift-able items above it and output (With item transportation or hoppers) below it.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1879,7 +1848,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Some things to note about automated mining. While machines like a buildcraft quarry or thaumcrafts arcane bore will break and mine the ore blocks. They will only do so once. so while a vein may yield 500 raw ore if you manualy mine it. Automating it will yield possibly 10 times less. The only automated system that works as intended is Immersive engineerings Excavator",
+            "text": "Some things to note about automated mining. While machines like a buildcraft quarry or thaumcrafts arcane bore will break and mine the ore blocks. They will only do so once. so while a vein may yield 500 raw ore if you manually mine it. Automating it will yield possibly 10 times less. The only automated system that works as intended is Immersive engineering\u0027s Excavator",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1915,7 +1884,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Stone Blocks have a physics system in place. They will begain to fracture if the load is to great. Past this stage the block becomes broken and will go into a free fall unless supported directly below. Cobble Stone is the most damage stage of stone and cannot be supported at all over a open space.",
+            "text": "Stone Blocks have a physics system in place. They will begin to fracture if the load is to great. Past this stage the block becomes broken and will go into a free fall unless supported directly below. Cobble Stone is the most damage stage of stone and cannot be supported at all over a open space.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2071,7 +2040,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Lava and fires will spawn smoke any time a player is in vicinity (32 blocks horizontal and 16 vertical). Smoke, which is lighter than air, doesn\u0027t \"live\" very long, so it doesn\u0027t flow very far. But it will collect in confined spaces and make navigation in any area with lava difficult. ",
+            "text": "Lava and fires will spawn smoke any time a player is in vicinity (32 blocks horizontal and 16 vertical). Smoke, which is lighter than air, doesnt\u0027t \"live\" very long, so it doesnt\u0027t flow very far. But it will collect in confined spaces and make navigation in any area with lava difficult. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2192,7 +2161,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "In addition it takes more wheat (seeds, etc) to make animals go into \"love mode\" but they drop more meat, etc. Leather is no longer painfully scarce, as both pigs and cows drop it and in larger quantities. Killing a sheep gives more wool on average than sheering (but shearing leaves the sheep alive) making it easier to get started without having to murderize a whole flock just to make a bed (but with long-term usefulness of shears).\n\nGoats and Monitor Lizards are added to the mesa biomes, to provide additional access to leather, wool, and food for biomes where it is otherwise scarce,",
+            "text": "In addition it takes more wheat (seeds, etc) to make animals go into \"love mode\" but they drop more meat, etc. Leather is no longer painfully scarce, as both pigs and cows drop it and in larger quantities. Killing a sheep gives more wool on average than sheering (but shearing leaves the sheep alive) making it easier to get started without having to murder a whole flock just to make a bed (but with long-term usefulness of shears).\n\nGoats and Monitor Lizards are added to the mesa biomes, to provide additional access to leather, wool, and food for biomes where it is otherwise scarce,",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2243,7 +2212,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Crop growth is slowed significantly and ignoring biome conditions, crops are slowed to approximately 1/10th the speed of vanilla, meaning they get only one in every ten standard block update ticks, the rest are canceled.  Additionally biome conditions affect this rate, either up or down, Also, weeds might spawn and slow down crop growth even more.",
+            "text": "Crop growth is slowed significantly and ignoring biome conditions, crops are slowed to approximately 1/10th the speed of vanilla, meaning they get only one in every ten standard block update ticks, the rest are cancelled.  Additionally biome conditions affect this rate, either up or down, Also, weeds might spawn and slow down crop growth even more.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2256,7 +2225,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Seaons have a broad impact on crop growth, by altering the biome temperature and rainfall values, largely being wet in spring and dry in fall, warm in summer and cold in winter. We will talk more about season a bit further in the book.",
+            "text": "Seasons have a broad impact on crop growth, by altering the biome temperature and rainfall values, largely being wet in spring and dry in fall, warm in summer and cold in winter. We will talk more about season a bit further in the book.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2282,7 +2251,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° Minecraft (ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth delines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values betwen -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
+            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° Minecraft (ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth declines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values between -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2300,7 +2269,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "At the most ideal, crop growth rates will be about one sixth vanilla.  Worst case is an extreme biome that is either extremely dry (0) or extremely wet (2) as well as extremely cold (\u003c0) or extremely hot (\u003e2).  Nether biomes are all adjusted upwards, having a base temperature of 3.0ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°MC, making them much hotter than the vanilla overworld desert",
+            "text": "At the most ideal, crop growth rates will be about one sixth vanilla.  Worst case is an extreme biome that is either extremely dry (0) or extremely wet (2) as well as extremely cold (\u003c0) or extremely hot (\u003e2).  Nether biomes are all adjusted upwards, having a base temperature of 3.0 MC, making them much hotter than the vanilla overworld desert",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2326,7 +2295,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Growing crops indoors or underground may be a neccessity in extreme weather conditions.  Doing this averages the ideal conditions with the actual (outdoors) conditions.  In the extreme, this will have a profound effect on the growth rate, while in more mild climes will have only a small effect.  Note that this effectively makes all indoor spaces a comfortable temperature and humidity and not neccessarily the temperature any given plant prefers. ",
+            "text": "Growing crops indoors or underground may be a necessity in extreme weather conditions.  Doing this averages the ideal conditions with the actual (outdoors) conditions.  In the extreme, this will have a profound effect on the growth rate, while in more mild climes will have only a small effect.  Note that this effectively makes all indoor spaces a comfortable temperature and humidity and not necessarily the temperature any given plant prefers. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2380,7 +2349,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The following is a table of crops and their ideal growth conditions.  These are presented using a set of offsets and the resulting ideal, in MCU.  Seaons notes are \"in a plains biome\" relative.  Offsets using \"months\" treat the year as being that many months ahead or behind of the actual date. with the same freezing point Using the thermometer and hydrometer, you can get an idea of the current conditions, both generally and for a specific crop. ",
+            "text": "The following is a table of crops and their ideal growth conditions.  These are presented using a set of offsets and the resulting ideal, in MCU.  Seasons notes are \"in a plains biome\" relative.  Offsets using \"months\" treat the year as being that many months ahead or behind of the actual date. with the same freezing point Using the thermometer and hydrometer, you can get an idea of the current conditions, both generally and for a specific crop. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2461,7 +2430,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown in Â°F or Â°C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
+            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown in°F or °C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2497,7 +2466,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The hydrometer will show the real or relative humidity for a given crop block (right click on a crop block to link it or any other block to unlink it).\n\nThe humidity display is shown in inches (or centimeters with the config option) of rainfall per month when using WAILA and shows both the real-rainfall and preferred-rainfall. ",
+            "text": "The hydrometer will show the real or relative humidity for a given crop block (right click on a crop block to link it or any other block to unlink it).\n\nThe humidity display is shown in inches (or centimetres with the config option) of rainfall per month when using WAILA and shows both the real-rainfall and preferred-rainfall. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2680,7 +2649,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "One last thing to note Herbivorous animals also need a source of food they could eat, their AI task will urge them towards Death\u0027s door if no suitable block is found nearby.  For most animals this means grass or leaves within a 5x5x5 area centered on them. So dont keep them in a 1x1 farming wool or milk and expect them to live long.",
+            "text": "One last thing to note Herbivorous animals also need a source of food they could eat, their AI task will urge them towards Death\u0027s door if no suitable block is found nearby.  For most animals this means grass or leaves within a 5x5x5 area centered on them. So don\u0027t keep them in a 1x1 farming wool or milk and expect them to live long.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2724,7 +2693,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The design of this pack is to intergrate the quest system while still holding true to minecrafts sandbox feel. you are not forced to complete quest for your basic items like in most packs that are built around it.",
+            "text": "The design of this pack is to integrate the quest system while still holding true to Minecraft\u0027s sandbox feel. you are not forced to complete quest for your basic items like in most packs that are built around it.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2737,7 +2706,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So as far as unique features goes. Most mods will require you to research/quest to aquire the ability to craft the required items to use said mod. Complete a quest gain a key. Click on the Chair inside the room to         gain the knowlege ",
+            "text": "So as far as unique features goes. Most mods will require you to research/quest to acquire the ability to craft the required items to use said mod. Complete a quest gain a key. Click on the Chair inside the room to         gain the knowledge ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2882,7 +2851,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "For a more in deph crafting guide go to page 23",
+            "text": "For a more in depth crafting guide go to page 23",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2983,7 +2952,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "For the sake of a clear direction in advancing to higher tier tools. You will need steel to bridge the gap normaly covered by bronze in tinker tweaks. To produce Steel you will be required to use Tinkers Steel Works. While it does not have a NEI handler as of right now to tell you the recipe. It is covered in the book itself. I will go over it in a tad bit more detail along with Tritanium production which is custom to this pack. Tritanium is produced this way to cut down on needless Ore Generation.",
+            "text": "For the sake of a clear direction in advancing to higher tier tools. You will need steel to bridge the gap normally covered by bronze in tinker tweaks. To produce Steel you will be required to use Tinkers Steel Works. While it does not have a NEI handler as of right now to tell you the recipe. It is covered in the book itself. I will go over it in a tad bit more detail along with Tritanium production which is custom to this pack. Tritanium is produced this way to cut down on needless Ore Generation.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3635,7 +3604,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "As an example the tier 1 Amplication requires the below items. Tier 2 requires a tier 1 and addition items. It progressively becomes much harder to attain thehigher tiers.",
+            "text": "As an example the tier 1 Amplification requires the below items. Tier 2 requires a tier 1 and addition items. It progressively becomes much harder to attain the higher tiers.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3661,7 +3630,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The only two quest on the magic and tech lines that do not require Eether Amplification\u0027s or Augmentation\u0027s Would be ether Botania For magic and Buildcraft for tech. This is due to each of these mods are needed to construct further research. Think of them as starting magic or tech.",
+            "text": "The only two quest on the magic and tech lines that do not require ether Amplification\u0027s or Augmentation\u0027s Would be ether Botania For magic and Buildcraft for tech. This is due to each of these mods are needed to construct further research. Think of them as starting magic or tech.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3715,7 +3684,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So using Railcraft as a example of a Tier one quest. You have to first of unlocked BuildCraft a pre requirment. which is considered Tier 0. Without First unlocking a prerequisite you will not be able to complete a quest.",
+            "text": "So using Railcraft as a example of a Tier one quest. You have to first of unlocked BuildCraft a pre requirement. which is considered Tier 0. Without First unlocking a prerequisite you will not be able to complete a quest.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3728,7 +3697,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So to Unlock Railcraft as you can see in your Quest book it requires 20 Tier one or Exceptional Augmentation\u0027s. Once Completed you will recieve a reward. In the case of railcraft and most quest it will be a Key.",
+            "text": "So to Unlock Railcraft as you can see in your Quest book it requires 20 Tier one or Exceptional Augmentation\u0027s. Once Completed you will receive a reward. In the case of railcraft and most quest it will be a Key.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3779,7 +3748,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "As so all of the keys are labeled to match a banner located near the door it is used in.",
+            "text": "As so all of the keys are labelled to match a banner located near the door it is used in.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3866,7 +3835,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Once you interact with the chair it will automaticly unlock ether the entire mod or parts of it. In this case railcraft. Would be compeltely unlocked showing a notification!",
+            "text": "Once you interact with the chair it will automaticly unlock ether the entire mod or parts of it. In this case railcraft. Would be completely unlocked showing a notification!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3889,7 +3858,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "It will display simular to that of a achievement. This is a per player basis. If playing in SMP Each person will have to interact with a chair. This is good in cases that there is multiple groups that do not wish to share there knowlege freely. You can simply lock the door behind you to prevent others from attaining the research for free.",
+            "text": "It will display similar to that of a achievement. This is a per player basis. If playing in SMP Each person will have to interact with a chair. This is good in cases that there is multiple groups that do not wish to share there knowledge freely. You can simply lock the door behind you to prevent others from attaining the research for free.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3953,7 +3922,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "There is some limitations to this \"Locking mods mechanic\". For instance autocrafting something in AE or Logistic Pipes should still work. If you want to really get crafty and have a block placer install the block for you or a turrtle use a item for you. Yes you can and will find a way to bypass the system. You are not being cleaver or smart. You are simply ruining your own gameplay and the basis on which this pack was built. If you wish to play this way there is always creative mode. Or 100 other mod packs out there that do not have these restrictions. So in short Please do not report issues or think its broken. We use what Tools we can and are limited to what they are capable of",
+            "text": "There is some limitations to this \"Locking mods mechanic\". For instance autocrafting something in AE or Logistic Pipes should still work. If you want to really get crafty and have a block placer install the block for you or a turtle use a item for you. Yes you can and will find a way to bypass the system. You are not being cleaver or smart. You are simply ruining your own game play and the basis on which this pack was built. If you wish to play this way there is always creative mode. Or 100 other mod packs out there that do not have these restrictions. So in short Please do not report issues or think its broken. We use what Tools we can and are limited to what they are capable of",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -4002,7 +3971,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Much Like the alternative metheod to get platinum mentioned earlier in this book. Some of ReactorCrafts Ores have been disabled. Mainly due to 4-5 of them crafting a single item each. Attain these using the rock crusher from railcraft",
+            "text": "Much Like the alternative method to get platinum mentioned earlier in this book. Some of ReactorCrafts Ores have been disabled. Mainly due to 4-5 of them crafting a single item each. Attain these using the rock crusher from railcraft",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",

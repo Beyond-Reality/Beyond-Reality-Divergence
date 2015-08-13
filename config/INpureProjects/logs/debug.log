@@ -201,6 +201,14 @@ beyondrealitycore:chair:72 has a bad registry name! Attempting to parse and reas
 Parsed bad name into: modid: beyondrealitycore, name: chair:72. If this is not correct please report it as a bug!
 beyondrealitycore:chair:73 has a bad registry name! Attempting to parse and reassemble correctly...
 Parsed bad name into: modid: beyondrealitycore, name: chair:73. If this is not correct please report it as a bug!
+beyondrealitycore:chair:74 has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: beyondrealitycore, name: chair:74. If this is not correct please report it as a bug!
+beyondrealitycore:chair:75 has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: beyondrealitycore, name: chair:75. If this is not correct please report it as a bug!
+beyondrealitycore:chair:76 has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: beyondrealitycore, name: chair:76. If this is not correct please report it as a bug!
+beyondrealitycore:chair:77 has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: beyondrealitycore, name: chair:77. If this is not correct please report it as a bug!
 beyondrealitycore:chair:8 has a bad registry name! Attempting to parse and reassemble correctly...
 Parsed bad name into: modid: beyondrealitycore, name: chair:8. If this is not correct please report it as a bug!
 beyondrealitycore:chair:9 has a bad registry name! Attempting to parse and reassemble correctly...
@@ -211,12 +219,13 @@ Found creative tab: agricraft
 Found creative tab: materials
 Found creative tab: Amnesia Decorations
 Found creative tab: Automagy
-Found creative tab: buildingBlocks
 Found creative tab: tools
 Found creative tab: BiblioCraft
 Found creative tab: BiblioCraftLights
 Found creative tab: BigReactors
 Found creative tab: apiculture
+Found creative tab: buildingBlocks
+Found creative tab: Botania
 Found creative tab: Botany
 Found creative tab: buildcraft.main
 Found creative tab: buildcraft.pipes
@@ -255,7 +264,6 @@ Found creative tab: Logistics_Pipes
 Found creative tab: modularCreativeTab
 Found creative tab: mutantcreatures
 Found creative tab: Pistronics2
-Found creative tab: tabPneumaticCraft
 Found creative tab: progression
 Found creative tab: core
 Found creative tab: ill
@@ -295,6 +303,7 @@ Found creative tab: witchinggadgets
 Found creative tab: ztones
 Found creative tab: bdew.generators
 Found creative tab: bdew.ae2stuff
+Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: aquaticabyss
@@ -313,10 +322,12 @@ Found creative tab: tabStoneChiselBlocks
 Found creative tab: tabOtherChiselBlocks
 Found creative tab: tabChisel
 Found creative tab: tabMetalChiselBlocks
-Found creative tab: doggystyle
+Found creative tab: enviromine.enviroTab
 Found creative tab: Eureka
 Found creative tab: guideapi.creativeTab
-Found creative tab: tabHexCraft
+Found creative tab: tabDecorative
+Found creative tab: tabMachines
+Found creative tab: tabComponents
 Found creative tab: iBench
 Found creative tab: immersiveintegration
 Found creative tab: malisisdoors
@@ -338,10 +349,10 @@ Found creative tab: RfTools
 Found creative tab: RfToolsDimlets
 Found creative tab: roadblock.creativeTab
 Found creative tab: runicdungeons
+Found creative tab: SFArtifacts
 Found creative tab: shamanry
 Found creative tab: tabSimplyJetpacks
 Found creative tab: ThaumicEnergistics
-Found creative tab: drinks
 Found creative tab: tts
 Found creative tab: tabWitchery
 Found creative tab: yegamolchattels
@@ -382,12 +393,12 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_14
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_14
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_12
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_12
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 3229
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3163
+getFacadesSize called. Returned: 3536
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 554
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -519,8 +530,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2373
-override called. Params: appliedenergistics2, item.ItemFacade, 284
+getNumberOfTypes called. Returned: 2573
+override called. Params: appliedenergistics2, item.ItemFacade, 1322
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

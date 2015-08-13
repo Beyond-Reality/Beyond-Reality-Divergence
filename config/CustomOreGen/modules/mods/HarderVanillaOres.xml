@@ -380,7 +380,7 @@
     **************************************************************************-->
     <IfCondition condition=':= ?COGActive'>
         
-        <!--**********   Vanilla Deposit Removal   *************-->
+      <!--**********   Vanilla Deposit Removal   *************-->
       <IfCondition condition=':= vanillaOreGen'>
         <Substitute name='StandardOreSubstitute' block='minecraft:stone'>
             <Description>
