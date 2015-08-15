@@ -36,6 +36,7 @@
             <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:5' />
             <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:6' />
             <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:7' />
+			<Replaces block='sfartifacts:sfartifacts_blockOreAsgardite' />
 		</Substitute>
 	</IfCondition>
 </ConfigSection>
@@ -188,7 +189,7 @@
 	<Veins name='ApatiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
 		<OreBlock block='beyondrealitycore:oreApatite' weight='0.275' />	
 		<OreBlock block='beyondrealitycore:tinyoreApatite' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.7'/> <!-- Change of generating in a 16x16 Chunk -->
+		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
 		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
 		<Setting name='MotherlodeHeight' avg='55' range='10' type='normal'/>
 		<Setting name='OreDensity' avg='1.0' range='0'/> 
@@ -244,7 +245,17 @@
 	</StandardGen>
 
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mana Infused Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-					
+	
+	<Veins name='ManaInfused' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60EBD6E9</WireframeColor>
+                        <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
+                        <Setting name='MotherlodeSize' avg='1' range='1' />
+                        <Setting name='OreDensity' avg='1' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.001' />
+                        <ReplacesOre block='stone' />
+                    </Veins>
+	
 	<StandardGen name='Mana Infused Ore' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
 		<Setting name='Frequency' avg='3' range='4' scaleTo='biome' />
@@ -271,58 +282,69 @@
 		<Setting name='Height' avg='38' range='1' scaleTo='biome' />
 	</StandardGen>
 	
-	<!--- AE2 -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Asgardite Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<Veins name='Asgardite' block='sfartifacts:sfartifacts_blockOreAsgardite' inherits='PresetSmallDeposits'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60EBD6E9</WireframeColor>
+                        <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
+                        <Setting name='MotherlodeSize' avg='1' range='1' />
+                        <Setting name='OreDensity' avg='1' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.001' />
+                        <ReplacesOre block='stone' />
+                    </Veins>
+	
+	<StandardGen name='Asgardite Ore' inherits='SparseStone'>
+		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
+		<Setting name='Frequency' avg='3' range='4' scaleTo='biome' />
+		<Setting name='Height' avg='25' range='3' scaleTo='biome' />
+	</StandardGen>
+    <StandardGen name='Asgardite Ore1' inherits='SparseStone'>
+		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
+		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />
+		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
+	</StandardGen>
+	<StandardGen name='Asgardite Ore2' inherits='SparseStone'>
+		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
+		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
+		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
+	</StandardGen>
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Certus Quartz Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	
 	<Veins name='apenQuartzBaseVeins' block='appliedenergistics2:tile.OreQuartz' inherits='PresetLayeredVeins'>
-                        <Description>
-                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
-                        </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
                         <Setting name='MotherlodeSize' avg='1' range='1'/>
                         <Setting name='MotherlodeHeight' avg='43' range='10.5' type='normal' scaleTo='SeaLevel'/> 
                         <Setting name='SegmentRadius' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='1'/>
+                        <Setting name='MotherlodeFrequency' avg='0.001'/>
                         <Setting name='BranchHeightLimit' avg='10.5'/>
                         <ReplacesOre block='stone' />
                     </Veins>
                     
-                    <!-- Begin Preferred Biome Distribution (Quartz Layered Veins) Settings -->
+                    <!-- Preferred Biome Distribution (Quartz Layered Veins) -->
                     <Veins name='apenQuartzPrefersVeins' block='appliedenergistics2:tile.OreQuartz' inherits='apenQuartzBaseVeins'>
                         <Description>
                             Spawns 2 more times in preferred biomes.
                         </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='2' />
+                        <Setting name='MotherlodeFrequency' avg='0.002' />
                         <BiomeType name='Desert'/>
                     </Veins>
 					
 					<!--Charged-->
 					 <Veins name='apenChargedQuartzBaseVeins' block='appliedenergistics2:tile.OreQuartzCharged' inherits='PresetSmallDeposits'>
-                        <Description>
-                            Small motherlodes without any branches.
-                            Similar to the deposits produced by StandardGen distributions.
-                        </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
                         <Setting name='MotherlodeHeight' avg='43' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.5' />
+                        <Setting name='MotherlodeFrequency' avg='0.001' />
                         <ReplacesOre block='stone' />
-                    </Veins>
-                    
-                    <!-- Begin Preferred Biome Distribution (Charged Quartz Small Deposits) Settings -->
-                    <Veins name='apenChargedQuartzPrefersVeins' block='appliedenergistics2:tile.OreQuartzCharged' inherits='apenChargedQuartzBaseVeins'>
-                        <Description>
-                            Spawns 2 more times in preferred biomes.
-                        </Description>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='2' />
-                        <BiomeType name='Desert'/>
                     </Veins>
 		
 </IfCondition>		
