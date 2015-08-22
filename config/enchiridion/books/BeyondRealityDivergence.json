@@ -408,7 +408,7 @@
         {
           "type": "FeatureItem",
           "properties": {
-            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
+            "item": "TConstruct:pickaxe 0 {InfiTool:{BaseDurability:60,Head:3,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:360,RenderAccessory:3,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:60,Modifiers:3},display:{Name:\"ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§fFlint Pickaxe\"}}",
             "xPos": 193,
             "yPos": 15,
             "width": 16.0,
@@ -2251,7 +2251,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° Minecraft (ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth declines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values between -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
+            "text": "These two biome properties are the largest contributors to crop growth speed.  Generally speaking the ideal temperature is 0.8 to 0.9 Minecraft °MC, approximately vanilla plains) and the ideal rainfall amount is around 1.1 to 1.2 MCU (the jungle biome is 0.95).  Crop growth declines off this peak with the most severe drop off being once the temperature drops below freezing.  Both functions are quartic (polynomial to the degree of 4) with expected input values between -0.5 and 2.5 (beyond those limits, the result will be capped to a configurable value).  As the curves are very flat at the peak values, ideal conditions are actually fairly wide ranging, but (0.8, 1.1) is assumed to be the actual peak, even though (0.7, 1.2) will have identical growth rates. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -2430,7 +2430,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown in°F or °C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
+            "text": "The thermometer will show the real or relative temperature for a given crop (right click on a crop block to link it or any other block to unlink it).\n\nTemperature display is shown inÂ°F or Â°C with the config option) when using WAILA and shows both the real-temp and the preferred-temp. ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3910,23 +3910,13 @@
     {
       "features": [
         {
-          "type": "FeatureImage",
-          "properties": {
-            "path": "BeyondRealityDivergence/Magentite.png",
-            "xPos": 1,
-            "yPos": 70,
-            "width": 104.0,
-            "height": 54.0
-          }
-        },
-        {
           "type": "FeatureText",
           "properties": {
             "text": "There is some limitations to this \"Locking mods mechanic\". For instance autocrafting something in AE or Logistic Pipes should still work. If you want to really get crafty and have a block placer install the block for you or a turtle use a item for you. Yes you can and will find a way to bypass the system. You are not being cleaver or smart. You are simply ruining your own game play and the basis on which this pack was built. If you wish to play this way there is always creative mode. Or 100 other mod packs out there that do not have these restrictions. So in short Please do not report issues or think its broken. We use what Tools we can and are limited to what they are capable of",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
-            "xPos": 218,
+            "xPos": 217,
             "yPos": 28,
             "width": 187.0,
             "height": 177.0
@@ -3948,163 +3938,74 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "ReactorCrafts Ores",
+            "text": "The how to for Basic Research",
             "wrap": 0,
             "size": 1.0,
-            "color": "FFB22222",
-            "xPos": 60,
-            "yPos": 9,
-            "width": 123.0,
-            "height": 5.0
-          }
-        },
-        {
-          "type": "FeatureImage",
-          "properties": {
-            "path": "BeyondRealityDivergence/cad\u0026idium.png",
-            "xPos": 116,
-            "yPos": 68,
-            "width": 94.0,
-            "height": 53.0
+            "color": "FFFF0000",
+            "xPos": 34,
+            "yPos": 12,
+            "width": 173.0,
+            "height": 13.0
           }
         },
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Much Like the alternative method to get platinum mentioned earlier in this book. Some of ReactorCrafts Ores have been disabled. Mainly due to 4-5 of them crafting a single item each. Attain these using the rock crusher from railcraft",
+            "text": "Unlike Tech and Magic the basic tier tree has a different way to attain the items needed to unlock the usage of the mod. In Divergence there is a total of 4 new dungeons that generate. 2 of which can be found every 250 chunks the other two being a bit more rare can be found once every 1500 chunks. The first two easier but still challenging ones hold up too two    all dungeons entrances are located on the surface.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 7,
+            "yPos": 20,
+            "width": 203.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "beyondrealitycore:item10",
+            "xPos": 43,
+            "yPos": 97,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The rarer variants hold not only Expedition Memento\u0027s but also two keys that when crafted into each other from your personal or a crafting table will unlock access to ether the END or the Nether. By crafting it into itself it will trigger a in game achiement. Without doing this all access to ether dimension is blocked ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
             "xPos": 6,
-            "yPos": 17,
-            "width": 212.0,
-            "height": 49.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Cadmium And Indium",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF4169E1",
-            "xPos": 116,
-            "yPos": 122,
-            "width": 112.0,
-            "height": 12.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Magnetite",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF800000",
-            "xPos": 36,
-            "yPos": 122,
-            "width": 46.0,
-            "height": 7.0
+            "yPos": 121,
+            "width": 204.0,
+            "height": 75.0
           }
         },
         {
           "type": "FeatureItem",
           "properties": {
-            "item": "minecraft:sand 0",
-            "xPos": 2,
-            "yPos": 71,
-            "width": 25.0,
-            "height": 25.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "HarderOres:ore_chunk 8",
-            "xPos": 1,
-            "yPos": 99,
-            "width": 26.0,
-            "height": 26.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "HarderOres:ore_chunk 14",
-            "xPos": 116,
-            "yPos": 69,
-            "width": 33.0,
-            "height": 33.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Calcite And Fluorite",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF4B0082",
-            "xPos": 6,
-            "yPos": 192,
-            "width": 113.0,
-            "height": 8.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Ammonium Chloride",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FFA0522D",
-            "xPos": 117,
+            "item": "beyondrealitycore:item0",
+            "xPos": 69,
             "yPos": 191,
-            "width": 101.0,
-            "height": 10.0
-          }
-        },
-        {
-          "type": "FeatureImage",
-          "properties": {
-            "path": "BeyondRealityDivergence/Cholr.png",
-            "xPos": 115,
-            "yPos": 132,
-            "width": 95.0,
-            "height": 58.0
-          }
-        },
-        {
-          "type": "FeatureImage",
-          "properties": {
-            "path": "BeyondRealityDivergence/limestone.png",
-            "xPos": 1,
-            "yPos": 132,
-            "width": 105.0,
-            "height": 58.0
+            "width": 27.0,
+            "height": 27.0
           }
         },
         {
           "type": "FeatureItem",
           "properties": {
-            "item": "chisel:limestone 0",
-            "xPos": 1,
-            "yPos": 136,
-            "width": 37.0,
-            "height": 37.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "minecraft:netherrack",
-            "xPos": 116,
-            "yPos": 133,
-            "width": 39.0,
-            "height": 39.0
+            "item": "beyondrealitycore:item1",
+            "xPos": 139,
+            "yPos": 192,
+            "width": 28.0,
+            "height": 28.0
           }
         }
       ],
-      "pageName": ""
+      "pageName": "exped"
     },
     {
       "features": [],

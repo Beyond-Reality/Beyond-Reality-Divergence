@@ -242,7 +242,6 @@ Found creative tab: CC Info Fragments
 Found creative tab: compactmachines
 Found creative tab: ComputerCraft
 Found creative tab: decorations
-Found creative tab: ElectriCraft
 Found creative tab: enchiridion
 Found creative tab: EnhancedInventories
 Found creative tab: redstone
@@ -261,24 +260,22 @@ Found creative tab: Hardcore Questing Mode
 Found creative tab: food
 Found creative tab: ImmersiveEngineering
 Found creative tab: Logistics_Pipes
+Found creative tab: Magneticraft|Industrial Age
+Found creative tab: Magneticraft|Steam Age
+Found creative tab: Magneticraft|Main
+Found creative tab: Magneticraft|Electrical Age
+Found creative tab: Magneticraft|Information Age
 Found creative tab: modularCreativeTab
 Found creative tab: mutantcreatures
 Found creative tab: Pistronics2
+Found creative tab: tabPneumaticCraft
 Found creative tab: progression
 Found creative tab: core
 Found creative tab: ill
 Found creative tab: int
 Found creative tab: trans
 Found creative tab: railcraft
-Found creative tab: ReactorCraft
-Found creative tab: ReactorCraft Components
-Found creative tab: ReactorCraft Items
 Found creative tab: redstonearsenal.creativeTab
-Found creative tab: RotaryCraft
-Found creative tab: RotaryCraft Tools
-Found creative tab: RotaryCraft Items
-Found creative tab: Mod Ores
-Found creative tab: Spawners
 Found creative tab: tabSanguimancy
 Found creative tab: storageDrawers
 Found creative tab: TConstructBlocks
@@ -322,6 +319,7 @@ Found creative tab: tabStoneChiselBlocks
 Found creative tab: tabOtherChiselBlocks
 Found creative tab: tabChisel
 Found creative tab: tabMetalChiselBlocks
+Found creative tab: tabElectrometrics
 Found creative tab: enviromine.enviroTab
 Found creative tab: Eureka
 Found creative tab: guideapi.creativeTab
@@ -339,20 +337,21 @@ Found creative tab: tabMatterOverdrive_buildings
 Found creative tab: tabMatterOverdrive_ships
 Found creative tab: tabMatterOverdrive_upgrades
 Found creative tab: tabMatterOverdrive_modules
+Found creative tab: tabModularSystems
 Found creative tab: openmodularturrets
-Found creative tab: props.Main
-Found creative tab: search
 Found creative tab: inventoryGenerators
 Found creative tab: structureTools
 Found creative tab: RfTools
 Found creative tab: RfToolsDimlets
 Found creative tab: roadblock.creativeTab
 Found creative tab: runicdungeons
+Found creative tab: search
 Found creative tab: SFArtifacts
 Found creative tab: shamanry
 Found creative tab: tabSimplyJetpacks
 Found creative tab: ThaumicEnergistics
 Found creative tab: tts
+Found creative tab: wallpaper
 Found creative tab: tabWitchery
 Found creative tab: yegamolchattels
 Found creative tab: ygc_entityvita
@@ -392,12 +391,12 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_15
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_15
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_8
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_8
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 3538
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 2059
+getFacadesSize called. Returned: 3539
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1389
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -529,8 +528,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2574
-override called. Params: appliedenergistics2, item.ItemFacade, 675
+getNumberOfTypes called. Returned: 2579
+override called. Params: appliedenergistics2, item.ItemFacade, 2498
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

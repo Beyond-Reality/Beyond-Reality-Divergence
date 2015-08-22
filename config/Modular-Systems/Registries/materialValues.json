@@ -1,0 +1,60 @@
+{
+  "rock": {
+    "speedFunction": {
+      "scaleFactorNumerator": -1.0,
+      "scaleFactorDenominator": 200.0,
+      "xOffset": 0.0,
+      "power": 1.0,
+      "yOffset": 0.0,
+      "floor": -100.0,
+      "ceiling": 0.0
+    },
+    "efficiencyFunction": {
+      "scaleFactorNumerator": 1.0,
+      "scaleFactorDenominator": 100.0,
+      "xOffset": 0.0,
+      "power": 1.0,
+      "yOffset": 0.0,
+      "floor": 0.0,
+      "ceiling": 450.0
+    },
+    "multiplicityFunction": {
+      "scaleFactorNumerator": 1.0,
+      "scaleFactorDenominator": 1.0,
+      "xOffset": 0.0,
+      "power": 1.0,
+      "yOffset": 0.0,
+      "floor": 0.0,
+      "ceiling": 0.0
+    }
+  },
+  "iron": {
+    "speedFunction": {
+      "scaleFactorNumerator": 1.0,
+      "scaleFactorDenominator": 100.0,
+      "xOffset": 0.0,
+      "power": 1.0,
+      "yOffset": 0.0,
+      "floor": 100.0,
+      "ceiling": 0.0
+    },
+    "efficiencyFunction": {
+      "scaleFactorNumerator": 10.0,
+      "scaleFactorDenominator": 1.0,
+      "xOffset": 0.0,
+      "power": 1.0,
+      "yOffset": 0.0,
+      "floor": 0.0,
+      "ceiling": 1600.0
+    },
+    "multiplicityFunction": {
+      "scaleFactorNumerator": 1.0,
+      "scaleFactorDenominator": 1.0,
+      "xOffset": 0.0,
+      "power": 1.0,
+      "yOffset": 0.0,
+      "floor": 0.0,
+      "ceiling": 0.0
+    }
+  }
+}

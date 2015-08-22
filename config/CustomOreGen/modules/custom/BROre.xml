@@ -20,22 +20,9 @@
 			<ReplacesOre block='orePoorIron' />
 			<ReplacesOre block='orePoorLead' />
 			<ReplacesOre block='orePoorTin' />
+			<ReplacesOre block='orelimestone' />
 			<Replaces block='appliedenergistics2:tile.OreQuartz:0' />
             <Replaces block='appliedenergistics2:tile.OreQuartzCharged:0' />
-			<Replaces block='ReactorCraft:reactorcraft_block_ore:1' />
-            <Replaces block='ReactorCraft:reactorcraft_block_ore:2' />
-            <Replaces block='ReactorCraft:reactorcraft_block_ore:3' />
-            <Replaces block='ReactorCraft:reactorcraft_block_ore:4' />
-            <Replaces block='ReactorCraft:reactorcraft_block_ore:7' />
-            <Replaces block='ReactorCraft:reactorcraft_block_ore:8' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:0' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:1' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:2' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:3' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:4' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:5' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:6' />
-            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:7' />
 			<Replaces block='sfartifacts:sfartifacts_blockOreAsgardite' />
 		</Substitute>
 	</IfCondition>
@@ -271,16 +258,6 @@
 		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
 		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
 	</StandardGen>
-	<StandardGen name='Mana Infused Ore3' inherits='SparseStone'>
-		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='0.5' range='2' scaleTo='biome' />
-		<Setting name='Height' avg='48' range='3' scaleTo='biome' />
-	</StandardGen>
-	<StandardGen name='Mana Infused Ore4' inherits='SparseStone'>
-		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='0.8' range='1' scaleTo='biome' />
-		<Setting name='Height' avg='38' range='1' scaleTo='biome' />
-	</StandardGen>
 	
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Asgardite Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	
@@ -316,7 +293,7 @@
 	<Veins name='apenQuartzBaseVeins' block='appliedenergistics2:tile.OreQuartz' inherits='PresetLayeredVeins'>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeSize' avg='1' range='1'/>
+                        <Setting name='MotherlodeSize' avg='0.5' range='1'/>
                         <Setting name='MotherlodeHeight' avg='43' range='10.5' type='normal' scaleTo='SeaLevel'/> 
                         <Setting name='SegmentRadius' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
@@ -346,7 +323,89 @@
                         <Setting name='MotherlodeFrequency' avg='0.001' />
                         <ReplacesOre block='stone' />
                     </Veins>
+					
+		             <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Limestone ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		
+					 <Veins name='Limestone' block='TSteelworks:Limestone' inherits='PresetLayeredVeins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60CD3AC4</WireframeColor>
+                        <Setting name='MotherlodeSize' avg='1' range='1'/>
+                        <Setting name='MotherlodeHeight' avg='128' range='128' type='uniform' scaleTo='SeaLevel'/> 
+                        <Setting name='SegmentRadius' avg='1' range='1' />
+                        <Setting name='OreDensity' avg='1' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.003'/>
+                        <ReplacesOre block='stone' />
+                    </Veins>
+                    
+                    <!-- Preferred Biome Distribution -->
+                    <Veins name='LimestonePrefersVeins' block='TSteelworks:Limestone' inherits='Limestone'>
+                        <Description>
+                            Spawns 2 more times in preferred biomes.
+                        </Description>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60CD3AC4</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg='0.008'/>
+                        <BiomeType name='swamp'/>
+                    </Veins>
+					
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Tungsten ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					
+					<Veins name='Tungsten' block='Magneticraft:tungsten_ore' inherits='PresetLayeredVeins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60FFE25C</WireframeColor>
+                        <Setting name='MotherlodeSize' avg='0.7' range='1'/>
+                        <Setting name='MotherlodeHeight' avg='14' range='4' type='uniform' scaleTo='SeaLevel'/> 
+                        <Setting name='SegmentRadius' avg='0.7' range='1' />
+                        <Setting name='OreDensity' avg='0.5' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.001'/>
+                        <ReplacesOre block='stone' />
+                    </Veins>
+                    
+                    <!-- Preferred Biome Distribution -->
+                    <Veins name='TungstenPrefersVeins' block='Magneticraft:tungsten_ore' inherits='Tungsten'>
+                        <Description>
+                            Spawns 2 more times in preferred biomes.
+                        </Description>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60CD3AC4</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg='0.002'/>
+                        <BiomeType name='Mountain'/>
+                    </Veins>
+		
+		
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Thorium ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					
+					<Veins name='Thorium' block='Magneticraft:thorium_ore' inherits='PresetLayeredVeins'>
+                        <Description>
+                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
+                        </Description>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60FFE25C</WireframeColor>
+                        <Setting name='MotherlodeSize' avg='0.5' range='1'/>
+                        <Setting name='MotherlodeHeight' avg='14' range='4' type='uniform' scaleTo='SeaLevel'/> 
+                        <Setting name='SegmentRadius' avg='0.6' range='1' />
+                        <Setting name='OreDensity' avg='0.7' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.001'/>
+                        <ReplacesOre block='stone' />
+                    </Veins>
+                    
+                    <!-- Preferred Biome Distribution -->
+                    <Veins name='ThoriumPrefersVeins' block='Magneticraft:thorium_ore' inherits='Tungsten'>
+                        <Description>
+                            Spawns 2 more times in preferred biomes.
+                        </Description>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60CD3AC4</WireframeColor>
+                        <Setting name='MotherlodeFrequency' avg='0.002'/>
+                        <BiomeType name='Desert'/>
+                    </Veins>
+					
 </IfCondition>		
 
 		</ConfigSection>

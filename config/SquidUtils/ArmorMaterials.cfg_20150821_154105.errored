@@ -1,0 +1,470 @@
+# Configuration file
+
+ {
+    I:damageReduction <
+        0
+        0
+        0
+        0
+     >
+    I:enchantability=0
+    I:maxDamageFactor=25
+}
+
+
+b_elementium {
+    I:damageReduction <
+        2
+        6
+        5
+        2
+     >
+    I:enchantability=18
+    I:maxDamageFactor=18
+}
+
+
+biblioarmor {
+    I:damageReduction <
+        1
+        1
+        1
+        1
+     >
+    I:enchantability=1
+    I:maxDamageFactor=5
+}
+
+
+boronarmormaterial {
+    I:damageReduction <
+        3
+        7
+        5
+        3
+     >
+    I:enchantability=5
+    I:maxDamageFactor=30
+}
+
+
+bronzearmormaterial {
+    I:damageReduction <
+        2
+        6
+        5
+        2
+     >
+    I:enchantability=9
+    I:maxDamageFactor=20
+}
+
+
+camelpack {
+    I:damageReduction <
+        2
+        2
+        0
+        0
+     >
+    I:enchantability=0
+    I:maxDamageFactor=100
+}
+
+
+chain {
+    I:damageReduction <
+        2
+        5
+        4
+        1
+     >
+    I:enchantability=12
+    I:maxDamageFactor=15
+}
+
+
+cloth {
+    I:damageReduction <
+        1
+        3
+        2
+        1
+     >
+    I:enchantability=15
+    I:maxDamageFactor=5
+}
+
+
+diamond {
+    I:damageReduction <
+        3
+        8
+        6
+        3
+     >
+    I:enchantability=10
+    I:maxDamageFactor=33
+}
+
+
+fortress {
+    I:damageReduction <
+        3
+        7
+        6
+        3
+     >
+    I:enchantability=25
+    I:maxDamageFactor=40
+}
+
+
+gold {
+    I:damageReduction <
+        2
+        5
+        3
+        1
+     >
+    I:enchantability=25
+    I:maxDamageFactor=7
+}
+
+
+iron {
+    I:damageReduction <
+        2
+        6
+        5
+        2
+     >
+    I:enchantability=9
+    I:maxDamageFactor=15
+}
+
+
+manasteel {
+    I:damageReduction <
+        2
+        6
+        5
+        2
+     >
+    I:enchantability=18
+    I:maxDamageFactor=16
+}
+
+
+"ra:fluxelectrum" {
+    I:damageReduction <
+        3
+        8
+        6
+        3
+     >
+    I:enchantability=20
+    I:maxDamageFactor=100
+}
+
+
+railcraft_goggles {
+    I:damageReduction <
+        1
+        3
+        2
+        1
+     >
+    I:enchantability=15
+    I:maxDamageFactor=20
+}
+
+
+railcraft_overalls {
+    I:damageReduction <
+        1
+        3
+        2
+        1
+     >
+    I:enchantability=15
+    I:maxDamageFactor=5
+}
+
+
+railcraft_steel {
+    I:damageReduction <
+        2
+        6
+        5
+        2
+     >
+    I:enchantability=8
+    I:maxDamageFactor=25
+}
+
+
+robesarmor {
+    I:damageReduction <
+        3
+        5
+        5
+        2
+     >
+    I:enchantability=7
+    I:maxDamageFactor=750
+}
+
+
+runicsteelarmor {
+    I:damageReduction <
+        3
+        8
+        6
+        3
+     >
+    I:enchantability=23
+    I:maxDamageFactor=30
+}
+
+
+sanguinearmour {
+    I:damageReduction <
+        3
+        8
+        6
+        3
+     >
+    I:enchantability=30
+    I:maxDamageFactor=33
+}
+
+
+special {
+    I:damageReduction <
+        1
+        3
+        2
+        1
+     >
+    I:enchantability=25
+    I:maxDamageFactor=25
+}
+
+
+steel {
+    I:damageReduction <
+        3
+        7
+        5
+        3
+     >
+    I:enchantability=10
+    I:maxDamageFactor=25
+}
+
+
+terrasteel {
+    I:damageReduction <
+        3
+        8
+        6
+        3
+     >
+    I:enchantability=26
+    I:maxDamageFactor=34
+}
+
+
+"tf:bronze" {
+    I:damageReduction <
+        3
+        6
+        6
+        2
+     >
+    I:enchantability=15
+    I:maxDamageFactor=17
+}
+
+
+"tf:copper" {
+    I:damageReduction <
+        1
+        3
+        3
+        1
+     >
+    I:enchantability=6
+    I:maxDamageFactor=6
+}
+
+
+"tf:electrum" {
+    I:damageReduction <
+        2
+        4
+        4
+        2
+     >
+    I:enchantability=30
+    I:maxDamageFactor=8
+}
+
+
+"tf:invar" {
+    I:damageReduction <
+        2
+        7
+        5
+        2
+     >
+    I:enchantability=16
+    I:maxDamageFactor=25
+}
+
+
+"tf:lead" {
+    I:damageReduction <
+        3
+        5
+        4
+        2
+     >
+    I:enchantability=9
+    I:maxDamageFactor=15
+}
+
+
+"tf:nickel" {
+    I:damageReduction <
+        2
+        5
+        5
+        2
+     >
+    I:enchantability=18
+    I:maxDamageFactor=15
+}
+
+
+"tf:platinum" {
+    I:damageReduction <
+        3
+        8
+        6
+        3
+     >
+    I:enchantability=9
+    I:maxDamageFactor=40
+}
+
+
+"tf:silver" {
+    I:damageReduction <
+        2
+        4
+        4
+        1
+     >
+    I:enchantability=20
+    I:maxDamageFactor=11
+}
+
+
+"tf:tin" {
+    I:damageReduction <
+        1
+        4
+        3
+        1
+     >
+    I:enchantability=7
+    I:maxDamageFactor=8
+}
+
+
+thaumium {
+    I:damageReduction <
+        2
+        6
+        5
+        2
+     >
+    I:enchantability=25
+    I:maxDamageFactor=25
+}
+
+
+tougharmormaterial {
+    I:damageReduction <
+        4
+        9
+        6
+        3
+     >
+    I:enchantability=10
+    I:maxDamageFactor=50
+}
+
+
+void {
+    I:damageReduction <
+        3
+        7
+        6
+        3
+     >
+    I:enchantability=10
+    I:maxDamageFactor=10
+}
+
+
+voidfortress {
+    I:damageReduction <
+        4
+        8
+        7
+        4
+     >
+    I:enchantability=10
+    I:maxDamageFactor=18
+}
+
+
+"wg:advancedcloth" {
+    I:damageReduction <
+        2
+        4
+        3
+        2
+     >
+    I:enchantability=25
+    I:maxDamageFactor=25
+}
+
+
+"wg:primordialarmor" {
+    I:damageReduction <
+        3
+        7
+        6
+        3
+     >
+    I:enchantability=30
+    I:maxDamageFactor=40
+}
+
+
+wood {
+    I:damageReduction <
+        1
+        2
+        2
+        1
+     >
+    I:enchantability=3
+    I:maxDamageFactor=2
+}
+
+
