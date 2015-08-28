@@ -139,7 +139,7 @@
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Diamond Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Diamond' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreDiamond'/>
-		<Setting name='Frequency' avg='20' range='8' scaleTo='biome' />
+		<Setting name='Frequency' avg='5' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='18' range='4' scaleTo='biome' />
 	</StandardGen>
 			
@@ -242,12 +242,7 @@
                         <Setting name='MotherlodeFrequency' avg='0.001' />
                         <ReplacesOre block='stone' />
                     </Veins>
-	
-	<StandardGen name='Mana Infused Ore' inherits='SparseStone'>
-		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='3' range='4' scaleTo='biome' />
-		<Setting name='Height' avg='25' range='3' scaleTo='biome' />
-	</StandardGen>
+
     <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
 		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />
@@ -271,11 +266,6 @@
                         <ReplacesOre block='stone' />
                     </Veins>
 	
-	<StandardGen name='Asgardite Ore' inherits='SparseStone'>
-		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
-		<Setting name='Frequency' avg='3' range='4' scaleTo='biome' />
-		<Setting name='Height' avg='25' range='3' scaleTo='biome' />
-	</StandardGen>
     <StandardGen name='Asgardite Ore1' inherits='SparseStone'>
 		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
 		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />

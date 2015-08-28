@@ -391,7 +391,6 @@
 
     <!-- ***************** Import Mod-provided configs ********************* -->
     <!-- NOTE: mods will overwrite these configs upon each load -->
-    <OptionalImport file='modules/mods/*.xml'/>
     
     <!-- ******************** Import Custom Configs ************************ -->
     <OptionalImport file='modules/custom/*.xml'/>
