@@ -170,23 +170,6 @@
 		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='55' range='25' scaleTo='biome' />
 	</StandardGen>
-			
-			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Forestry Apatite~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-			
-	<Veins name='ApatiteMix' inherits='HugeVeins' wireframeColor='0xffffff00' >
-		<OreBlock block='beyondrealitycore:oreApatite' weight='0.275' />	
-		<OreBlock block='beyondrealitycore:tinyoreApatite' weight='0.185' />
-		<Setting name='MotherlodeFrequency' avg='0.005'/> <!-- Change of generating in a 16x16 Chunk -->
-		<Setting name='MotherlodeSize' avg='2.5' range='1' type='normal'/>
-		<Setting name='MotherlodeHeight' avg='55' range='10' type='normal'/>
-		<Setting name='OreDensity' avg='1.0' range='0'/> 
-	</Veins>  
-			
-	<StandardGen name='Sparse Apatite' inherits='SparseStone'>
-		<OreBlock block='beyondrealitycore:tinyoreApatite' />
-		<Setting name='Frequency' avg='24' range='8' scaleTo='biome' />
-		<Setting name='Height' avg='55' range='10' scaleTo='biome' />
-	</StandardGen>
 
              <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Copper Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Copper' inherits='SparseStone'>
