@@ -1,4 +1,3 @@
-Enchiridion2:book,1,0,{identifier:"BeyondRealityDivergence"}
-minecraft:apple,15,0
+minecraft:apple,15,0,{EM_ROT_DATE:1L,EM_ROT_TIME:168000L}
 minecraft:boat,1,0
-Enchiridion:items,1,1
+Enchiridion2:book,1,0,{identifier:"BeyondRealityDivergence"}

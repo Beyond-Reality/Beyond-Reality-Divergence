@@ -233,8 +233,8 @@ Found creative tab: buildcraft.boards
 Found creative tab: buildcraft.facades
 Found creative tab: buildcraft.gates
 Found creative tab: CarpentersBlocks
-Found creative tab: ChromatiCraft Worldgen
 Found creative tab: ChromatiCraft Deco
+Found creative tab: ChromatiCraft Worldgen
 Found creative tab: ChromatiCraft
 Found creative tab: ChromatiCraft Tools
 Found creative tab: ChromatiCraft Items
@@ -303,7 +303,6 @@ Found creative tab: bdew.ae2stuff
 Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
-Found creative tab: aquaticabyss
 Found creative tab: armourersworkshop
 Found creative tab: aura
 Found creative tab: BuildcraftAdditions
@@ -322,12 +321,14 @@ Found creative tab: tabMetalChiselBlocks
 Found creative tab: tabElectrometrics
 Found creative tab: enviromine.enviroTab
 Found creative tab: Eureka
+Found creative tab: fluxPads
 Found creative tab: guideapi.creativeTab
 Found creative tab: tabDecorative
 Found creative tab: tabMachines
 Found creative tab: tabComponents
 Found creative tab: iBench
 Found creative tab: immersiveintegration
+Found creative tab: jaff
 Found creative tab: malisisdoors
 Found creative tab: menagerie
 Found creative tab: brewing
@@ -391,12 +392,12 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_12
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_12
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_9
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_9
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 3563
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1684
+getFacadesSize called. Returned: 3567
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1227
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -528,8 +529,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2603
-override called. Params: appliedenergistics2, item.ItemFacade, 1913
+getNumberOfTypes called. Returned: 2604
+override called. Params: appliedenergistics2, item.ItemFacade, 853
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
