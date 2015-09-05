@@ -89,7 +89,7 @@
             <Choice value='false' displayValue='Off'/>
         </OptionChoice> 
         
-        <OptionNumeric name='deferredPopulationRange' default='16' displayGroup='groupGeneral'>
+        <OptionNumeric name='deferredPopulationRange' default='0' displayGroup='groupGeneral'>
             <Description> 
                 Radius (in blocks) around a chunk must be generated before COG will add ores to it. 
             </Description>

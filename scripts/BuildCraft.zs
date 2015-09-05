@@ -7,3 +7,6 @@ AssemblyTable.addRecipe(<beyondrealitycore:item4>, 60000, [<bigfactories:bigfact
 
 //Dilithium
 AssemblyTable.addRecipe(<mo:dilithium_crystal>, 5000, [<mo:tritanium_ingot>, <minecraft:ender_pearl>, <ore:gemEmerald>]);
+
+//Remove quarry
+recipes.remove(<BuildCraft|Builders:machineBlock>);

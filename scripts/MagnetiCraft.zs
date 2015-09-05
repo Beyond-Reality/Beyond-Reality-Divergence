@@ -20,3 +20,5 @@ recipes.remove(<Magneticraft:item.voltmeter>);
 recipes.addShaped(<Magneticraft:item.voltmeter>, [[<TConstruct:materials:14>,<ore:paneGlass>,<TConstruct:materials:14>]
 							,[<TConstruct:materials:14>,<ore:paneGlass>,<TConstruct:materials:14>]
 							,[<Magneticraft:item.cable_low>,<Magneticraft:item.cable_medium>,<Magneticraft:item.cable_high>]]);
+							
+recipes.remove(<Magneticraft:miner>);

@@ -1,12 +1,12 @@
 [
   {
     "input": "ingotIron",
-    "output": "ImmersiveEngineering:metal:8",
+    "output": "ThermalFoundation:material:0",
     "qty": 1
   },
   {
     "input": "ingotGold",
-    "output": "ImmersiveEngineering:metal:9",
+    "output": "ThermalFoundation:material:1",
     "qty": 1
   },
   {
@@ -15,123 +15,53 @@
     "qty": 8
   },
   {
-    "input": "ingotCopper",
-    "output": "ImmersiveEngineering:metal:10",
-    "qty": 1
-  },
-  {
-    "input": "ingotTin",
-    "output": "ThermalFoundation:material:33",
-    "qty": 1
-  },
-  {
-    "input": "ingotBronze",
-    "output": "ThermalFoundation:material:41",
-    "qty": 1
-  },
-  {
-    "input": "ingotBrass",
-    "output": "Magneticraft:item.dustBrass:0",
-    "qty": 1
-  },
-  {
-    "input": "ingotLead",
-    "output": "ImmersiveEngineering:metal:12",
-    "qty": 1
-  },
-  {
-    "input": "oreSulfur",
-    "output": "Railcraft:dust:1",
-    "qty": 2
-  },
-  {
-    "input": "oreSaltpeter",
-    "output": "Railcraft:dust:2",
-    "qty": 2
-  },
-  {
-    "input": "ingotAluminum",
-    "output": "ImmersiveEngineering:metal:11",
-    "qty": 1
-  },
-  {
-    "input": "ingotSilver",
-    "output": "ImmersiveEngineering:metal:13",
-    "qty": 1
-  },
-  {
-    "input": "ingotNickel",
-    "output": "ImmersiveEngineering:metal:14",
-    "qty": 1
-  },
-  {
-    "input": "ingotConstantan",
-    "output": "ImmersiveEngineering:metal:15",
-    "qty": 1
-  },
-  {
-    "input": "ingotElectrum",
-    "output": "ImmersiveEngineering:metal:16",
-    "qty": 1
-  },
-  {
-    "input": "oreIron",
-    "output": "ImmersiveEngineering:metal:8",
-    "qty": 2
-  },
-  {
-    "input": "oreGold",
-    "output": "ImmersiveEngineering:metal:9",
-    "qty": 2
-  },
-  {
-    "input": "oreCopper",
-    "output": "ImmersiveEngineering:metal:10",
-    "qty": 2
-  },
-  {
-    "input": "oreAluminum",
-    "output": "ImmersiveEngineering:metal:11",
-    "qty": 2
-  },
-  {
-    "input": "oreLead",
-    "output": "ImmersiveEngineering:metal:12",
-    "qty": 2
-  },
-  {
-    "input": "oreSilver",
-    "output": "ImmersiveEngineering:metal:13",
-    "qty": 2
-  },
-  {
-    "input": "oreNickel",
-    "output": "ImmersiveEngineering:metal:14",
-    "qty": 2
-  },
-  {
-    "input": "oreQuartz",
-    "output": "ImmersiveEngineering:metal:18",
-    "qty": 2
-  },
-  {
-    "input": "ingotHOPGraphite",
-    "output": "ImmersiveEngineering:metal:19",
-    "qty": 1
-  },
-  {
-    "input": "ingotCupronickel",
-    "output": "ImmersiveEngineering:metal:15",
-    "qty": 1
-  },
-  {
     "input": "oreCoal",
     "output": "ThermalFoundation:material:2",
     "qty": 2
   },
   {
+    "input": "oreSulfur",
+    "output": "ThermalFoundation:material:16",
+    "qty": 2
+  },
+  {
+    "input": "oreSaltpeter",
+    "output": "ThermalFoundation:material:17",
+    "qty": 2
+  },
+  {
+    "input": "oreIron",
+    "output": "ThermalFoundation:material:0",
+    "qty": 2
+  },
+  {
+    "input": "oreGold",
+    "output": "ThermalFoundation:material:1",
+    "qty": 2
+  },
+  {
+    "input": "oreCopper",
+    "output": "ThermalFoundation:material:32",
+    "qty": 2
+  },
+  {
     "input": "oreTin",
     "output": "ThermalFoundation:material:33",
+    "qty": 2
+  },
+  {
+    "input": "oreSilver",
+    "output": "ThermalFoundation:material:34",
+    "qty": 2
+  },
+  {
+    "input": "oreLead",
+    "output": "ThermalFoundation:material:35",
+    "qty": 2
+  },
+  {
+    "input": "oreNickel",
+    "output": "ThermalFoundation:material:36",
     "qty": 2
   },
   {
@@ -145,6 +75,31 @@
     "qty": 2
   },
   {
+    "input": "ingotCopper",
+    "output": "ThermalFoundation:material:32",
+    "qty": 1
+  },
+  {
+    "input": "ingotTin",
+    "output": "ThermalFoundation:material:33",
+    "qty": 1
+  },
+  {
+    "input": "ingotSilver",
+    "output": "ThermalFoundation:material:34",
+    "qty": 1
+  },
+  {
+    "input": "ingotLead",
+    "output": "ThermalFoundation:material:35",
+    "qty": 1
+  },
+  {
+    "input": "ingotNickel",
+    "output": "ThermalFoundation:material:36",
+    "qty": 1
+  },
+  {
     "input": "ingotPlatinum",
     "output": "ThermalFoundation:material:37",
     "qty": 1
@@ -155,8 +110,18 @@
     "qty": 1
   },
   {
+    "input": "ingotElectrum",
+    "output": "ThermalFoundation:material:39",
+    "qty": 1
+  },
+  {
     "input": "ingotInvar",
     "output": "ThermalFoundation:material:40",
+    "qty": 1
+  },
+  {
+    "input": "ingotBronze",
+    "output": "ThermalFoundation:material:41",
     "qty": 1
   },
   {
@@ -172,6 +137,91 @@
   {
     "input": "ingotEnderium",
     "output": "ThermalFoundation:material:44",
+    "qty": 1
+  },
+  {
+    "input": "ingotYellorium",
+    "output": "BigReactors:BRIngot:4",
+    "qty": 1
+  },
+  {
+    "input": "ingotCyanite",
+    "output": "BigReactors:BRIngot:5",
+    "qty": 1
+  },
+  {
+    "input": "ingotGraphite",
+    "output": "BigReactors:BRIngot:6",
+    "qty": 1
+  },
+  {
+    "input": "ingotBlutonium",
+    "output": "BigReactors:BRIngot:7",
+    "qty": 1
+  },
+  {
+    "input": "oreYellorium",
+    "output": "BigReactors:BRIngot:4",
+    "qty": 2
+  },
+  {
+    "input": "ingotLudicrite",
+    "output": "BigReactors:BRIngot:9",
+    "qty": 1
+  },
+  {
+    "input": "ingotUranium",
+    "output": "BigReactors:BRIngot:4",
+    "qty": 1
+  },
+  {
+    "input": "ingotPlutonium",
+    "output": "BigReactors:BRIngot:7",
+    "qty": 1
+  },
+  {
+    "input": "oreUranium",
+    "output": "BigReactors:BRIngot:4",
+    "qty": 2
+  },
+  {
+    "input": "orePlutonium",
+    "output": "BigReactors:BRIngot:7",
+    "qty": 2
+  },
+  {
+    "input": "ingotBrass",
+    "output": "Magneticraft:item.dustBrass:0",
+    "qty": 1
+  },
+  {
+    "input": "ingotAluminum",
+    "output": "ImmersiveEngineering:metal:11",
+    "qty": 1
+  },
+  {
+    "input": "ingotConstantan",
+    "output": "ImmersiveEngineering:metal:15",
+    "qty": 1
+  },
+  {
+    "input": "oreAluminum",
+    "output": "ImmersiveEngineering:metal:11",
+    "qty": 2
+  },
+  {
+    "input": "oreQuartz",
+    "output": "ImmersiveEngineering:metal:18",
+    "qty": 2
+  },
+  {
+    "input": "ingotHOPGraphite",
+    "output": "ImmersiveEngineering:metal:19",
+    "qty": 1
+  },
+  {
+    "input": "ingotCupronickel",
+    "output": "ImmersiveEngineering:metal:15",
     "qty": 1
   },
   {
@@ -206,7 +256,7 @@
   },
   {
     "input": "ingotObsidian",
-    "output": "Railcraft:dust:0",
+    "output": "ThermalFoundation:material:4",
     "qty": 1
   },
   {
@@ -247,11 +297,6 @@
   {
     "input": "oreTungsten",
     "output": "Magneticraft:item.dust_tungsten:0",
-    "qty": 2
-  },
-  {
-    "input": "oreUranium",
-    "output": "Magneticraft:item.dust_uranium:0",
     "qty": 2
   },
   {
