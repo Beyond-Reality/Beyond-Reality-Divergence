@@ -33,14 +33,14 @@ key_key.hotbar.9:10
 key_AutoRun:69
 key_key.binder:40
 key_key.open_ibench.desc:46
+key_igwmod.keys.wiki:37
 key_Pneumatic Helmet Options:33
-key_Pneumatic Helmet Hack:35
+key_Pneumatic Helmet Hack:201
 key_simplyjetpacks.keybind.toggle.primary:33
 key_simplyjetpacks.keybind.toggle.secondary:0
 key_simplyjetpacks.keybind.mode.primary:46
 key_simplyjetpacks.keybind.mode.secondary:0
 key_simplyjetpacks.keybind.openPackGUI:22
-key_key.sapmanpack.updateKey:201
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -59,6 +59,10 @@ key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
+key_key.irc.screenshotShare:0
+key_key.irc.openScreenshots:0
+key_key.irc.toggleTarget:15
+key_key.irc.openMenu:23
 key_Reload Configs:201
 key_Add Custom Config:201
 key_Enviromine Menu:201
@@ -66,7 +70,7 @@ key_invtweaks.key.sort:19
 key_Open Matter Scanner GUI:41
 key_Android Ability key:45
 key_Android Switch Ability key:77
-key_Hammer Config Panel:35
+key_Hammer Config Panel:210
 key_key.aspectMenu:23
 key_TG.keybind.openInv:55
 key_TG.keybind.activeaAbilities:39
@@ -85,4 +89,4 @@ key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:26
+key_key.journeymap.create_waypoint:48
