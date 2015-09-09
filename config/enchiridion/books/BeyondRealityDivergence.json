@@ -5,7 +5,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/BRdiv.png",
+            "path": "BeyondRealityDivergence/BRdiv.png",
             "xPos": 28,
             "yPos": 13,
             "width": 175.0,
@@ -51,7 +51,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/temple.png",
+            "path": "BeyondRealityDivergence/temple.png",
             "xPos": 221,
             "yPos": 73,
             "width": 180.0,
@@ -99,7 +99,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/steve.png",
+            "path": "BeyondRealityDivergence/steve.png",
             "xPos": 119,
             "yPos": 31,
             "width": 54.0,
@@ -109,7 +109,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/world2.jpg",
+            "path": "BeyondRealityDivergence/world2.jpg",
             "xPos": 31,
             "yPos": 81,
             "width": 40.0,
@@ -1071,7 +1071,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/Sluice.png",
+            "path": "BeyondRealityDivergence/Sluice.png",
             "xPos": 215,
             "yPos": 132,
             "width": 193.0,
@@ -1544,7 +1544,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/windmillwallia.png",
+            "path": "BeyondRealityDivergence/windmillwallia.png",
             "xPos": 130,
             "yPos": 184,
             "width": 79.0,
@@ -1874,7 +1874,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/excavator.png",
+            "path": "BeyondRealityDivergence/excavator.png",
             "xPos": 23,
             "yPos": 111,
             "width": 183.0,
@@ -2120,7 +2120,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/chickenrope.png",
+            "path": "BeyondRealityDivergence/chickenrope.png",
             "xPos": 215,
             "yPos": 156,
             "width": 108.0,
@@ -2362,7 +2362,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/table.png",
+            "path": "BeyondRealityDivergence/table.png",
             "xPos": 156,
             "yPos": 13,
             "width": 253.0,
@@ -2443,7 +2443,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/temp.png",
+            "path": "BeyondRealityDivergence/temp.png",
             "xPos": 77,
             "yPos": 121,
             "width": 132.0,
@@ -2479,7 +2479,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/hydro.png",
+            "path": "BeyondRealityDivergence/hydro.png",
             "xPos": 273,
             "yPos": 124,
             "width": 132.0,
@@ -2879,7 +2879,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Lets cover how to attain Steel, Platinum and Tritanium",
+            "text": "Lets cover how to attain Steel and Tritanium",
             "wrap": 0,
             "size": 1.0,
             "color": "FF7B68EE",
@@ -3162,7 +3162,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/highoven.png",
+            "path": "BeyondRealityDivergence/highoven.png",
             "xPos": 19,
             "yPos": 22,
             "width": 192.0,
@@ -3172,7 +3172,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/Tritanium.png",
+            "path": "BeyondRealityDivergence/Tritanium.png",
             "xPos": 221,
             "yPos": 38,
             "width": 179.0,
@@ -3285,7 +3285,7 @@
         {
           "type": "FeatureImage",
           "properties": {
-            "path": "Divergence/Steel.png",
+            "path": "BeyondRealityDivergence/Steel.png",
             "xPos": 22,
             "yPos": -19,
             "width": 188.0,
@@ -3367,7 +3367,7 @@
             "height": 9.0
           }
         },
-        {
+        {		
           "type": "FeatureItem",
           "properties": {
             "item": "TConstruct:materials 16",
@@ -3375,112 +3375,6 @@
             "yPos": 3,
             "width": 32.0,
             "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Due to Platinum having few uses in this pack. Natural ore gen has been disabled. To craft use this method.",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF555555",
-            "xPos": 219,
-            "yPos": 29,
-            "width": 179.0,
-            "height": 33.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "ElectriCraft:electricraft_item_ingots 5",
-            "xPos": 294,
-            "yPos": 2,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureImage",
-          "properties": {
-            "path": "BeyondRealityDivergence/HighOvenGUI.png",
-            "xPos": 215,
-            "yPos": 56,
-            "width": 193.0,
-            "height": 98.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "minecraft:iron_ingot",
-            "xPos": 222,
-            "yPos": 92,
-            "width": 19.0,
-            "height": 19.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "minecraft:iron_ingot",
-            "xPos": 222,
-            "yPos": 66,
-            "width": 20.0,
-            "height": 20.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "bcadditions:dust 2",
-            "xPos": 244,
-            "yPos": 73,
-            "width": 28.0,
-            "height": 28.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "bcadditions:dust 51",
-            "xPos": 245,
-            "yPos": 99,
-            "width": 27.0,
-            "height": 27.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "minecraft:sand 0",
-            "xPos": 247,
-            "yPos": 128,
-            "width": 22.0,
-            "height": 22.0
-          }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "ElectriCraft:electricraft_item_ingots 5",
-            "xPos": 290,
-            "yPos": 169,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "Output \u003d",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF555555",
-            "xPos": 241,
-            "yPos": 182,
-            "width": 61.0,
-            "height": 21.0
           }
         }
       ],
@@ -3697,7 +3591,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So to Unlock Railcraft as you can see in your Quest book it requires 20 Tier one or Exceptional Augmentation\u0027s. Once Completed you will receive a reward. In the case of railcraft and most quest it will be a Key.",
+            "text": "So to Unlock Railcraft as you can see in your Quest book it requires 20 Tier one or Exceptional Augmentation\u0027s. Once Completed you will receive access to a room.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3716,29 +3610,6 @@
             "width": 186.0,
             "height": 32.0
           }
-        },
-        {
-          "type": "FeatureItem",
-          "properties": {
-            "item": "AmnesiaDecorations:Key",
-            "xPos": 230,
-            "yPos": 178,
-            "width": 32.0,
-            "height": 32.0
-          }
-        },
-        {
-          "type": "FeatureText",
-          "properties": {
-            "text": "These keys will only unlock one door within the temple.",
-            "wrap": 0,
-            "size": 1.0,
-            "color": "FF555555",
-            "xPos": 267,
-            "yPos": 178,
-            "width": 149.0,
-            "height": 34.0
-          }
         }
       ],
       "pageName": ""
@@ -3748,7 +3619,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "As so all of the keys are labelled to match a banner located near the door it is used in.",
+            "text": "All rooms are labelled to match a banner located near the entrance.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3771,7 +3642,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Strongly Suggest you not break these banners as finding a door without them can be time consuming",
+            "text": "I strongly suggest you not break these banners as finding a door without them can be time consuming",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -3974,7 +3845,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The rarer variants hold not only Expedition Memento\u0027s but also two keys that when crafted into each other from your personal or a crafting table will unlock access to ether the END or the Nether. By crafting it into itself it will trigger a in game achiement. Without doing this all access to ether dimension is blocked ",
+            "text": "The rarer variants hold not only Expedition Memento\u0027s but also two keys that when repaired will unlock access to ether the END or the Nether. By crafting them they will trigger a in game achievement. Without doing this all access to ether dimension is blocked ",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -4010,71 +3881,8 @@
     {
       "features": [],
       "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
-    },
-    {
-      "features": [],
-      "pageName": ""
     }
+
   ],
   "uniqueName": "BeyondRealityDivergence",
   "color": 16777215,
@@ -4088,6 +3896,6 @@
   "iconColorPass1": 0,
   "iconColorPass2": 0,
   "language": "en_US",
-  "displayName": "BeyondRealityDivergence",
+  "displayName": "Divergence",
   "displayInCreative": true
 }

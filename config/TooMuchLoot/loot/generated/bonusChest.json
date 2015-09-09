@@ -1,0 +1,239 @@
+{
+  "category": "bonusChest",
+  "count_min": 10,
+  "count_max": 10,
+  "loot": [
+    {
+      "item": "minecraft:stick",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:planks",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:log",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:apple",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:log2",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "Botania:lexicon",
+      "damage": 0,
+      "weight": 7,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Botania:blackLotus",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 1,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 2,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 3,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 4,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 5,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 6,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 7,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 8,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 9,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 10,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 11,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 12,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 13,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 14,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 15,
+      "weight": 1,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "TConstruct:pickaxe",
+      "damage": 0,
+      "nbt": {
+        "InfiTool": {
+          "BaseDurability^i": 40,
+          "Head^i": 0,
+          "BaseAttack^i": 2,
+          "HarvestLevel^i": 0,
+          "Attack^i": 2,
+          "RenderHead^i": 0,
+          "ModDurability^f": 0.0,
+          "Handle^i": 0,
+          "Broken^b": 0,
+          "Shoddy^f": 0.0,
+          "RenderHandle^i": 0,
+          "Accessory^i": 0,
+          "MiningSpeed^i": 135,
+          "RenderAccessory^i": 0,
+          "Unbreaking^i": 0,
+          "Damage^i": 0,
+          "BonusDurability^i": 0,
+          "TotalDurability^i": 40,
+          "Modifiers^i": 3
+        },
+        "display": {
+          "Name": "§fStarter Pickaxe"
+        }
+      },
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "TConstruct:hatchet",
+      "damage": 0,
+      "nbt": {
+        "InfiTool": {
+          "BaseDurability^i": 40,
+          "Head^i": 0,
+          "BaseAttack^i": 4,
+          "HarvestLevel^i": 0,
+          "Attack^i": 4,
+          "RenderHead^i": 0,
+          "ModDurability^f": 0.0,
+          "Handle^i": 0,
+          "Broken^b": 0,
+          "Shoddy^f": 0.0,
+          "RenderHandle^i": 0,
+          "MiningSpeed^i": 135,
+          "Unbreaking^i": 0,
+          "Damage^i": 0,
+          "BonusDurability^i": 0,
+          "TotalDurability^i": 40,
+          "Modifiers^i": 3
+        },
+        "display": {
+          "Name": "§fStarter Hatchet"
+        }
+      },
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}

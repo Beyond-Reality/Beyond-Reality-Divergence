@@ -1,0 +1,19 @@
+[
+  {
+    "server": "irc.esper.net",
+    "channel": "#beyondreality",
+    "modpack-display": "Divergence",
+    "modpack-id": "BRD",
+	"description": "Official IRC channel for Beyond Reality Visit us @ http://www.beyondrealitypack.com",
+    "recommended": true
+  },
+  
+  {
+    "server": "irc.esper.net",
+    "channel": "#OTEGamers",
+    "modpack-display": "On The Edge Gamers",
+    "modpack-id": "OTE",
+    "description": "IRC channel For the official public server and all around amazing minecraft community.",
+	"recommended": true
+  }
+  ]

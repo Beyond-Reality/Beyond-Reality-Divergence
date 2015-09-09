@@ -345,7 +345,7 @@
     "qty": 1
   },
   {
-    "input": "rodBlaze",
+    "input": "itemBlazeRod",
     "output": "minecraft:blaze_powder:0",
     "qty": 4
   },

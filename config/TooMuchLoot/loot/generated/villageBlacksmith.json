@@ -1,0 +1,224 @@
+{
+  "category": "villageBlacksmith",
+  "count_min": 4,
+  "count_max": 11,
+  "loot": [
+    {
+      "item": "minecraft:diamond",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:apple",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:iron_pickaxe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_chestplate",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_helmet",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_leggings",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_boots",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 7,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:sapling",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 7,
+      "count_max": 7
+    },
+    {
+      "item": "minecraft:saddle",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:golden_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Botania:blackLotus",
+      "damage": 0,
+      "weight": 6,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.crowbar",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.shears",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.sword",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.shovel",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.pickaxe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.axe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.helmet",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.plate",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.legs",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:armor.steel.boots",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:ingot",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "Railcraft:fuel.coke",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 16,
+      "count_max": 16
+    },
+    {
+      "item": "Railcraft:cube",
+      "damage": 2,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}

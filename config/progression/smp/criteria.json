@@ -1,0 +1,19 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": []
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanCraftAnything": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "interfaceItem": "minecraft:book",
+  "displayRequirementsOnNEIClick": true
+}

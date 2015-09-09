@@ -1,0 +1,140 @@
+{
+  "category": "pyramidJungleDispenser",
+  "count_min": 2,
+  "count_max": 2,
+  "loot": [
+    {
+      "item": "minecraft:arrow",
+      "damage": 0,
+      "weight": 30,
+      "count_min": 7,
+      "count_max": 7
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 1,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 2,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 3,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 4,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 5,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 6,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 7,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 8,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 9,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 10,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 11,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 12,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 13,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 14,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_item_shard",
+      "damage": 15,
+      "weight": 3,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "ChromatiCraft:chromaticraft_block_glowsapling",
+      "damage": 0,
+      "weight": 8,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "lootbags:itemlootbag",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}

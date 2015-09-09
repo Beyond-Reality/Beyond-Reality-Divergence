@@ -1,0 +1,238 @@
+{
+  "category": "mineshaftCorridor",
+  "count_min": 4,
+  "count_max": 9,
+  "loot": [
+    {
+      "item": "minecraft:iron_ingot",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 5,
+      "count_max": 5
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:redstone",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "minecraft:dye",
+      "damage": 4,
+      "weight": 5,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "minecraft:diamond",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 2,
+      "count_max": 2
+    },
+    {
+      "item": "minecraft:coal",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 8,
+      "count_max": 8
+    },
+    {
+      "item": "minecraft:bread",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:iron_pickaxe",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:rail",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 8,
+      "count_max": 8
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 4,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 4,
+      "count_max": 4
+    },
+    {
+      "item": "minecraft:saddle",
+      "damage": 0,
+      "weight": 3,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Botania:blackLotus",
+      "damage": 0,
+      "weight": 6,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Botania:overgrowthSeed",
+      "damage": 0,
+      "weight": 2,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:fluid.creosote.bottle",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 16,
+      "count_max": 16
+    },
+    {
+      "item": "Railcraft:tool.crowbar",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.shears",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.shovel",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.pickaxe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:tool.steel.axe",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:ingot",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 9,
+      "count_max": 9
+    },
+    {
+      "item": "minecraft:minecart",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:chest_minecart",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:tnt_minecart",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:rail",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 8,
+      "count_max": 8
+    },
+    {
+      "item": "minecraft:hopper_minecart",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:part.tie",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 16,
+      "count_max": 16
+    },
+    {
+      "item": "Railcraft:fuel.coke",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 16,
+      "count_max": 16
+    },
+    {
+      "item": "Railcraft:cube",
+      "damage": 2,
+      "weight": 5,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "Railcraft:cart.tnt.wood",
+      "damage": 0,
+      "weight": 5,
+      "count_min": 3,
+      "count_max": 3
+    },
+    {
+      "item": "Railcraft:cart.work",
+      "damage": 0,
+      "weight": 8,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}
