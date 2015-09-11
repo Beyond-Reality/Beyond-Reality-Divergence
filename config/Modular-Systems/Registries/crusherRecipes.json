@@ -428,5 +428,45 @@
     "input": "crystalFluix",
     "output": "appliedenergistics2:item.ItemMultiMaterial:8",
     "qty": 1
+  },
+  {
+    "input": "HarderOres:ore_chunk:8",
+    "output": "HarderOres:smallDust:8",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:9",
+    "output": "HarderOres:smallDust:9",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:12",
+    "output": "HarderOres:smallDust:12",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:13",
+    "output": "HarderOres:smallDust:13",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:14",
+    "output": "HarderOres:smallDust:14",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:16",
+    "output": "HarderOres:smallDust:16",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:17",
+    "output": "HarderOres:smallDust:17",
+    "qty": 2
+  },
+  {
+    "input": "HarderOres:ore_chunk:18",
+    "output": "HarderOres:smallDust:18",
+    "qty": 2
   }
 ]
