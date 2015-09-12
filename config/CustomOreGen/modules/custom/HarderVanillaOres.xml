@@ -410,6 +410,24 @@
 			<Veins name='CoalVeinsSwamp' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaCoalBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaCoalPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaCoalBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaCoalPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaCoalBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaCoalBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Cloud name='CoalCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
@@ -486,6 +504,24 @@
 			<Veins name='IronVeinsCold' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaIronBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaIronPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaIronBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaIronPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaIronBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaIronBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Cloud name='IronCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
@@ -664,6 +700,24 @@
 			<Veins name='GoldVeinsForest' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaGoldBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaGoldPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaGoldBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaGoldPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaGoldBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaGoldBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Cloud name='GoldCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
@@ -841,6 +895,24 @@
 			<Veins name='RedstoneVeinsDesert' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaRedstoneBaseParentVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaRedstonePrefersParentVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaRedstoneBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaRedstonePrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaRedstoneBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaRedstoneBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Cloud name='RedstoneCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
@@ -908,6 +980,21 @@
 			<Veins name='DiamondVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaDiamondBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaDiamondBasePipe' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaDiamondBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaDiamondBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaDiamondBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Veins name='DiamondVeinsLava' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
@@ -989,6 +1076,24 @@
 			<Veins name='hardLapisLazuliVeinsOcean' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaLapisLazuliBaseParentVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaLapisLazuliPrefersParentVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaLapisLazuliBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaLapisLazuliPrefersVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaLapisLazuliBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaLapisLazuliBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Cloud name='LapisLazuliCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
@@ -1059,6 +1164,21 @@
 			<Veins name='EmeraldVeinsSilverfish' inherits='PresetLayeredVeins' block='minecraft:stone'> 
 				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
 			</Veins>
+			<Veins name='vnlaEmeraldBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaEmeraldBasePipe' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Veins name='vnlaEmeraldBaseVeins' inherits='PresetLayeredVeins' block='minecraft:stone'> 
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name='vnlaEmeraldBaseCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<StandardGen name='vnlaEmeraldBaseStandard' inherits='PresetStandardGen' block='minecraft:stone'> 
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>
 			<Cloud name='EmeraldCloud' inherits='PresetStrategicCloud' block='minecraft:stone'> 
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>

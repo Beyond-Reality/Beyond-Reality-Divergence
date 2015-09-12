@@ -301,7 +301,7 @@
                         <Setting name='MotherlodeHeight' avg='43' range='10.5' type='normal' scaleTo='SeaLevel'/> 
                         <Setting name='SegmentRadius' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001'/>
+                        <Setting name='MotherlodeFrequency' avg='0.002'/>
                         <Setting name='BranchHeightLimit' avg='10.5'/>
                         <ReplacesOre block='stone' />
                     </Veins>
@@ -313,7 +313,7 @@
                         </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='0.002' />
+                        <Setting name='MotherlodeFrequency' avg='0.004' />
                         <BiomeType name='Desert'/>
                     </Veins>
 					
@@ -367,7 +367,7 @@
                         <Setting name='MotherlodeHeight' avg='14' range='4' type='uniform' scaleTo='SeaLevel'/> 
                         <Setting name='SegmentRadius' avg='0.7' range='1' />
                         <Setting name='OreDensity' avg='0.5' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001'/>
+                        <Setting name='MotherlodeFrequency' avg='0.002'/>
                         <ReplacesOre block='stone' />
                     </Veins>
                     
@@ -378,7 +378,7 @@
                         </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60CD3AC4</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='0.002'/>
+                        <Setting name='MotherlodeFrequency' avg='0.004'/>
                         <BiomeType name='Mountain'/>
                     </Veins>
 		
@@ -395,7 +395,7 @@
                         <Setting name='MotherlodeHeight' avg='14' range='4' type='uniform' scaleTo='SeaLevel'/> 
                         <Setting name='SegmentRadius' avg='0.6' range='1' />
                         <Setting name='OreDensity' avg='0.7' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001'/>
+                        <Setting name='MotherlodeFrequency' avg='0.002'/>
                         <ReplacesOre block='stone' />
                     </Veins>
                     
@@ -406,7 +406,7 @@
                         </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60CD3AC4</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='0.002'/>
+                        <Setting name='MotherlodeFrequency' avg='0.004'/>
                         <BiomeType name='Desert'/>
                     </Veins>
 					
