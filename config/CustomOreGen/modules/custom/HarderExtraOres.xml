@@ -1133,7 +1133,8 @@
                     <BiomeType name='Mesa' weight='0.5'/>
                     <Biome name='River' weight='0.2'/>
                     <BiomeType name='Swamp' weight='1'/>
-                    <BiomeType name='Jungle' weight='0.2'/>
+                    <BiomeType name='Jungle' weight='0.3'/>
+					<BiomeType name='Plains' weight='0.2'/>
 				</CloudPreset>
 		
 		
