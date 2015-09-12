@@ -1,2 +1,12 @@
 recipes.remove(<TConstruct:rail.wood>);
 mods.tconstruct.Smeltery.addMelting(<beyondrealitycore:oreAluminium>, <liquid:aluminum.molten> * 288, 400);
+mods.tconstruct.Smeltery.addMelting(<beyondrealitycore:oreAluminium>, <liquid:aluminum.molten> * 288, 400);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:8>, <liquid:iron.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk>, <liquid:iron.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:9>, <liquid:gold.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:12>, <liquid:tin.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:13>, <liquid:copper.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:14>, <liquid:lead.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:16>, <liquid:silver.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:17>, <liquid:nickel.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:18>, <liquid:aluminum.molten> * 18, 200, <minecraft:iron_block>);
