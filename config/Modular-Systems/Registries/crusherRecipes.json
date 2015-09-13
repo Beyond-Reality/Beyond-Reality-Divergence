@@ -468,5 +468,10 @@
     "input": "HarderOres:ore_chunk:18",
     "output": "HarderOres:smallDust:18",
     "qty": 2
+  },
+  {
+    "input": "minecraft:reeds:0",
+    "output": "minecraft:sugar:0",
+    "qty": 2
   }
 ]
