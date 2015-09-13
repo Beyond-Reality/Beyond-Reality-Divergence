@@ -215,14 +215,13 @@ beyondrealitycore:chair:9 has a bad registry name! Attempting to parse and reass
 Parsed bad name into: modid: beyondrealitycore, name: chair:9. If this is not correct please report it as a bug!
 Found creative tab: tabBloodMagic
 Found creative tab: misc
-Found creative tab: agricraft
-Found creative tab: materials
 Found creative tab: Amnesia Decorations
 Found creative tab: Automagy
 Found creative tab: tools
 Found creative tab: BiblioCraft
 Found creative tab: BiblioCraftLights
 Found creative tab: BigReactors
+Found creative tab: materials
 Found creative tab: apiculture
 Found creative tab: buildingBlocks
 Found creative tab: Botania
@@ -276,7 +275,11 @@ Found creative tab: int
 Found creative tab: trans
 Found creative tab: railcraft
 Found creative tab: redstonearsenal.creativeTab
+Found creative tab: soul_shards_the_old_ways
 Found creative tab: tabSanguimancy
+Found creative tab: SC2Blocks
+Found creative tab: SC2Modules
+Found creative tab: SC2Items
 Found creative tab: storageDrawers
 Found creative tab: TConstructBlocks
 Found creative tab: TConstructWeaponry
@@ -396,8 +399,8 @@ getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_13
 obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_13
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 3588
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1829
+getFacadesSize called. Returned: 3614
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 252
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -533,8 +536,8 @@ Found ItemStack BiblioCraft:tile.BiblioFramedChest. 64xtile.BiblioFramedChest@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2621
-override called. Params: appliedenergistics2, item.ItemFacade, 138
+getNumberOfTypes called. Returned: 2639
+override called. Params: appliedenergistics2, item.ItemFacade, 734
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
