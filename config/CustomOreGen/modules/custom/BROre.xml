@@ -229,9 +229,19 @@
                         <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001' />
+                        <Setting name='MotherlodeFrequency' avg='0.004' />
                         <ReplacesOre block='stone' />
                     </Veins>
+					
+	<Veins name='ManaInfused1' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60EBD6E9</WireframeColor>
+                        <Setting name='MotherlodeHeight' avg='30' range='5.5' type='normal' scaleTo='SeaLevel' /> 
+                        <Setting name='MotherlodeSize' avg='1' range='1' />
+                        <Setting name='OreDensity' avg='1' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.002' />
+                        <ReplacesOre block='stone' />
+                    </Veins>				
 
     <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
@@ -257,7 +267,7 @@
                         <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001' />
+                        <Setting name='MotherlodeFrequency' avg='0.002' />
                         <ReplacesOre block='stone' />
                     </Veins>
 	
@@ -281,7 +291,7 @@
                         <Setting name='MotherlodeHeight' avg='30' range='6' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001' />
+                        <Setting name='MotherlodeFrequency' avg='0.002' />
                         <ReplacesOre block='stone' />
                     </Veins>
 					
@@ -293,6 +303,16 @@
 	
 	
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Certus Quartz Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<Veins name='clusterQuartz' block='appliedenergistics2:tile.OreQuartz' inherits='PresetSmallDeposits'>
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x60EBD6E9</WireframeColor>
+                        <Setting name='MotherlodeHeight' avg='40' range='6' type='normal' scaleTo='SeaLevel' /> 
+                        <Setting name='MotherlodeSize' avg='1' range='1' />
+                        <Setting name='OreDensity' avg='1' range='1' />
+                        <Setting name='MotherlodeFrequency' avg='0.003' />
+                        <ReplacesOre block='stone' />
+                    </Veins>
 	
 	<Veins name='apenQuartzBaseVeins' block='appliedenergistics2:tile.OreQuartz' inherits='PresetLayeredVeins'>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
