@@ -1,4 +1,3 @@
-recipes.remove(<TConstruct:rail.wood>);
 mods.tconstruct.Smeltery.addMelting(<beyondrealitycore:oreAluminium>, <liquid:aluminum.molten> * 288, 400);
 mods.tconstruct.Smeltery.addMelting(<beyondrealitycore:oreAluminium>, <liquid:aluminum.molten> * 288, 400);
 mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:8>, <liquid:iron.molten> * 18, 200, <minecraft:iron_block>);
