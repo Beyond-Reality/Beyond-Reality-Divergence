@@ -17389,12 +17389,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "minecraft:furnace"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "Magneticraft:item.alternator"
               }
             },
