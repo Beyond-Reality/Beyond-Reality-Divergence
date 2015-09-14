@@ -16993,12 +16993,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "minecraft:furnace"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "Magneticraft:fluid_hopper"
               }
             },
