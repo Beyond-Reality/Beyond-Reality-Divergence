@@ -4,11 +4,11 @@
 	<recipe>
 		<input>beyondrealitycore:item4</input>
 		<output>beyondrealitycore:item5</output>
-		<rf>1000000</rf>
+		<rf>12000000</rf>
 	</recipe>
 	<recipe>
 		<input>beyondrealitycore:item8</input>
 		<output>beyondrealitycore:item9</output>
-		<rf>1000000</rf>
+		<rf>12000000</rf>
 	</recipe>
 </recipes>
