@@ -9,3 +9,5 @@ mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:14>, <liquid:lead.molt
 mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:16>, <liquid:silver.molten> * 18, 200, <minecraft:iron_block>);
 mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:17>, <liquid:nickel.molten> * 18, 200, <minecraft:iron_block>);
 mods.tconstruct.Smeltery.addMelting(<HarderOres:ore_chunk:18>, <liquid:aluminum.molten> * 18, 200, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:golden_apple>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:golden_apple:1>);
