@@ -1,3 +1,4 @@
+import mods.magneticraft.Grinder;
 var brick = <minecraft:brick>;
 
 recipes.remove(<BiblioCraft:BiblioStuffs:3>);
@@ -22,3 +23,6 @@ recipes.addShaped(<Magneticraft:item.voltmeter>, [[<TConstruct:materials:14>,<or
 							,[<Magneticraft:item.cable_low>,<Magneticraft:item.cable_medium>,<Magneticraft:item.cable_high>]]);
 							
 recipes.remove(<Magneticraft:miner>);
+
+# Raw Aluminum Processing
+mods.magneticraft.Grinder.addRecipe(<HarderOres:ore_chunk:18>, <Magneticraft:item.rubble:13>, <Magneticraft:item.dust:13>, 0.05, <Magneticraft:item.dust>, 0.05);

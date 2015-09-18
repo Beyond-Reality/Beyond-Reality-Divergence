@@ -7,3 +7,6 @@ furnace.addRecipe(<TConstruct:materials:11>, <beyondrealitycore:oreAluminium>);
 recipes.addShaped(<minecraft:golden_rail> * 2, [[<ore:ingotIron>,null,<ore:ingotIron>]
 							,[<ore:stickWood>,<minecraft:lever>,<ore:stickWood>]
 							,[<ore:ingotIron>,null,<ore:ingotIron>]]);
+
+# Add Aluminum to the aluminium ore dict
+<ore:chunkAluminium>.add(<HarderOres:ore_chunk:18>);
