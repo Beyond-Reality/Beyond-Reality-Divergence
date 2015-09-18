@@ -1,0 +1,1 @@
+recipes.remove(<modularsystems:storageCrafting>);
