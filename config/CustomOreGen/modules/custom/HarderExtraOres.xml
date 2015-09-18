@@ -269,7 +269,7 @@
 		<!--*******************   Aluminum Ore   *********************-->
         <ConfigSection>
 			<OptionChoice name='hardBauxiteDist' displayGroup='groupHardExtras'>
-                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"surfaceClouds","disabled")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"layeredVeins","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreAluminum"),"shown","hidden")</DisplayState>
                 <Description>Controls how Bauxite (Aluminum) is generated </Description>
                 <DisplayName>Bauxite Type</DisplayName>
@@ -310,7 +310,7 @@
     *************************************************************************************-->
     <IfCondition condition=':= ?COGActive'>
         
-        <Substitute name='HIC2Substitute' block='minecraft:stone'>
+        <!-- <Substitute name='HIC2Substitute' block='minecraft:stone'>
             <Description>
                 Replace IC2-generated ore clusters with stone.
             </Description>
@@ -326,7 +326,7 @@
 			<Replaces block='orePitchblende'/>
             <Replaces block='oreAluminum'/>
             <Replaces block='oreBauxite'/>
-        </Substitute>
+        </Substitute>  Disabled -->
         
         <!--*******************   Copper   *********************-->
         <ConfigSection>
