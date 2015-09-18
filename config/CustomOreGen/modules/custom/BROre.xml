@@ -14,8 +14,8 @@
 	<Comment>  
 		Clearing all ore spawn.
 	</Comment>
-			<ReplacesOre block='oreVibranium' />
-			<Replaces block='sfartifacts:sfartifacts_blockOreAsgardite' />
+			<ReplacesOre block='sfartifacts:sfartifacts_blockOreVibranium' />
+			<ReplacesOre block='sfartifacts:sfartifacts_blockOreAsgardite' />
 		</Substitute>
 	</IfCondition>
 </ConfigSection>
@@ -220,7 +220,7 @@
                         <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.004' />
+                        <Setting name='MotherlodeFrequency' avg='0.008' />
                         <ReplacesOre block='stone' />
                     </Veins>
 					
@@ -230,28 +230,28 @@
                         <Setting name='MotherlodeHeight' avg='30' range='5.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.002' />
+                        <Setting name='MotherlodeFrequency' avg='0.006' />
                         <ReplacesOre block='stone' />
                     </Veins>				
 
     <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />
+		<Setting name='Frequency' avg='4' range='3' scaleTo='biome' />
 		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
 	</StandardGen>
 	<StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />
+		<Setting name='Frequency' avg='3' range='3' scaleTo='biome' />
 		<Setting name='Height' avg='24' range='3' scaleTo='biome' />
 	</StandardGen>
 	<StandardGen name='Mana Infused Ore2' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
+		<Setting name='Frequency' avg='4' range='1' scaleTo='biome' />
 		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
 	</StandardGen>
 	
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Asgardite Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	
+
 	<Veins name='Asgardite' block='sfartifacts:sfartifacts_blockOreAsgardite' inherits='PresetSmallDeposits'>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
@@ -261,7 +261,6 @@
                         <Setting name='MotherlodeFrequency' avg='0.002' />
                         <ReplacesOre block='stone' />
                     </Veins>
-	
 	
     <StandardGen name='Asgardite Ore1' inherits='SparseStone'>
 		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
@@ -274,8 +273,7 @@
 		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
 	</StandardGen>
 	
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OreVibranium~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OreVibranium~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 	<Veins name='OreVibranium' block='sfartifacts:sfartifacts_blockOreVibranium' inherits='PresetSmallDeposits'>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
@@ -290,7 +288,7 @@
 		<OreBlock block='sfartifacts:sfartifacts_blockOreVibranium' />	
 		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
 		<Setting name='Height' avg='28' range='3' scaleTo='biome' />
-	</StandardGen>
+	</StandardGen> -->
 	
 	
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Certus Quartz Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -301,7 +299,7 @@
                         <Setting name='MotherlodeHeight' avg='40' range='6' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.003' />
+                        <Setting name='MotherlodeFrequency' avg='0.005' />
                         <ReplacesOre block='stone' />
                     </Veins>
 	

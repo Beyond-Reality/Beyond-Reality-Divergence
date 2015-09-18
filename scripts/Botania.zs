@@ -3,6 +3,9 @@
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ThermalFoundation:material:70>, 5000);
 
+//Add Vibranium allow method
+mods.botania.ManaInfusion.addInfusion(<sfartifacts:sfartifacts_blockOreAsgardite>, <sfartifacts:sfartifacts_blockOreVibranium>, 5000);
+
 //Start Runic Research
 # Tier 1 - NMA
 mods.botania.RuneAltar.addRecipe(<beyondrealitycore:item6>, [<Botania:livingwood>, <appliedenergistics2:item.ItemMultiMaterial>, <Botania:rune>, <Botania:rune:3>, <Botania:specialFlower>.withTag({type: "daybloom"}), <Botania:specialFlower>.withTag({type: "nightshade"})], 10000);
