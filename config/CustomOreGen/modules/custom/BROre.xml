@@ -14,16 +14,7 @@
 	<Comment>  
 		Clearing all ore spawn.
 	</Comment>
-	
-			<ReplacesOre block='orePoorCopper' />
-			<ReplacesOre block='orePoorGold' />
-			<ReplacesOre block='orePoorIron' />
-			<ReplacesOre block='orePoorLead' />
-			<ReplacesOre block='orePoorTin' />
-			<ReplacesOre block='oreLimestone' />
 			<ReplacesOre block='oreVibranium' />
-			<Replaces block='appliedenergistics2:tile.OreQuartz:0' />
-            <Replaces block='appliedenergistics2:tile.OreQuartzCharged:0' />
 			<Replaces block='sfartifacts:sfartifacts_blockOreAsgardite' />
 		</Substitute>
 	</IfCondition>
