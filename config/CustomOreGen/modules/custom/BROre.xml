@@ -225,13 +225,15 @@
                     </Veins>
 					
 	<Veins name='ManaInfused1' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x60EBD6E9</WireframeColor>
                         <Setting name='MotherlodeHeight' avg='30' range='5.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.006' />
+                        <Setting name='MotherlodeFrequency' avg='2.5' />
                         <ReplacesOre block='stone' />
+						 <Description>
+                            Spawns 3 more times in preferred biomes.
+                        </Description>
+                        <BiomeType name='Magical'/>
                     </Veins>				
 
     <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
@@ -324,6 +326,8 @@
                         <WireframeColor>0x60EBD6E9</WireframeColor>
                         <Setting name='MotherlodeFrequency' avg='0.004' />
                         <BiomeType name='Desert'/>
+						<BiomeType name='Wasteland'/>
+						<BiomeType name='Plains'/>
                     </Veins>
 					
 					<!--Charged-->
@@ -389,6 +393,7 @@
                         <WireframeColor>0x60CD3AC4</WireframeColor>
                         <Setting name='MotherlodeFrequency' avg='0.004'/>
                         <BiomeType name='Mountain'/>
+						<BiomeType name='Wasteland'/>
                     </Veins>
 		
 		
@@ -417,6 +422,7 @@
                         <WireframeColor>0x60CD3AC4</WireframeColor>
                         <Setting name='MotherlodeFrequency' avg='0.004'/>
                         <BiomeType name='Desert'/>
+						<BiomeType name='Wasteland'/>
                     </Veins>
 					
 </IfCondition>		
