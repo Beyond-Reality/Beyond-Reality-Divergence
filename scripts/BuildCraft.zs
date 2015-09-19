@@ -17,3 +17,9 @@ AssemblyTable.addRecipe(<mo:dilithium_crystal>, 5000, [<mo:tritanium_ingot>, <mi
 
 //Remove quarry
 recipes.remove(<BuildCraft|Builders:machineBlock>);
+
+# Remove BCA - Pyrotheum, Signalum, Lumium, Enderium
+recipes.remove(<bcadditions:dust:89>);
+recipes.remove(<bcadditions:dust:73>);
+recipes.remove(<bcadditions:dust:70>);
+recipes.remove(<bcadditions:dust:71>);
