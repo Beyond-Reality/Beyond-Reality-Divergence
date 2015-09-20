@@ -49,3 +49,20 @@ recipes.addShaped(<minecraft:diamond_hoe>, [[<ore:gemDiamond>,<ore:gemDiamond>,n
 recipes.addShaped(<minecraft:diamond_hoe>, [[null,<ore:gemDiamond>,<ore:gemDiamond>]
 							,[null,<ore:stickWood>,null]
 							,[null,<ore:stickWood>,null]]);
+							
+//Shovels
+
+//Stone							
+recipes.addShaped(<minecraft:stone_shovel>, [[null,<ore:stone>,null]
+							,[null,<ore:stickWood>,null]
+							,[null,<ore:stickWood>,null]]);
+
+//Iron							
+recipes.addShaped(<minecraft:iron_shovel>, [[null,<ore:ingotIron>,null]
+							,[null,<ore:stickWood>,null]
+							,[null,<ore:stickWood>,null]]);
+							
+//Diamond							
+recipes.addShaped(<minecraft:diamond_shovel>, [[null,<ore:gemDiamond>,null]
+							,[null,<ore:stickWood>,null]
+							,[null,<ore:stickWood>,null]]);
