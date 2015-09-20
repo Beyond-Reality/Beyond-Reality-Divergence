@@ -20,3 +20,7 @@ mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:bucket>, <liquid:redst
 
 # Smeltery - Energized Glowstone
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:bucket:1>, <liquid:glowstone> * 1000, <minecraft:bucket>, true, 20);
+
+# Change Seared Brick back to 36 mb to match grout
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:materials:2>);
+mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:2>, <liquid:stone.seared> * 36, 800, <TConstruct:Smeltery:2>);
