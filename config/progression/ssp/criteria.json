@@ -8743,6 +8743,12 @@
                 "item": "Railcraft:tool.crowbar 0"
               }
             },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:machine.alpha 15"
+              }
+            },
             {
               "type": "crafting",
               "data": {
