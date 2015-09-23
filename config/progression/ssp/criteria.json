@@ -6139,12 +6139,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "Railcraft:anvil 0"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "Railcraft:tool.steel.shears 0"
               }
             },
@@ -6676,6 +6670,18 @@
                 "item": "Railcraft:machine.alpha 13"
               }
             },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:machine.alpha 15"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:machine.alpha 7"
+              }
+            }
             {
               "type": "crafting",
               "data": {
@@ -8742,19 +8748,7 @@
               "data": {
                 "item": "Railcraft:tool.crowbar 0"
               }
-            },
-			{
-              "type": "crafting",
-              "data": {
-                "item": "Railcraft:machine.alpha 15"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "Railcraft:machine.alpha 7"
-              }
-            }
+            }			
           ],
           "repeatable": 1,
           "infinite": false,
