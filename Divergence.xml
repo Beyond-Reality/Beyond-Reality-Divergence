@@ -401,10 +401,11 @@
         
         <!-- ~~~~~ Difficulty ~~~~ -->
         
+        <mod name="======= Choose your mode =======" version="1.0" url="packs/BeyondRealityDivergence/files/Beta/1.2.1/Empty.zip" file="Empty.zip" download="server" type="mods" colour="orange" client="yes" server="yes" optional="yes" recommended="no" website="http://www.Nothinghereyo.com" description="You must pick one"/>
                 
-        <mod name="Hard Mode (Default)" version="1.0" url="packs/BeyondRealityDivergence/files/Beta/1.2.3/hard.zip" file="hard.zip" md5="db402320abd6a2a0da17caca9f0175b6" download="server" type="extract" extractto="root" colour="lime" website="http://beyondrealitypack.com" description="The default mode for Divergence" />
+        <mod name="Hard Mode (Default)" version="1.0" url="packs/BeyondRealityDivergence/files/Beta/1.2.3/hardscripts.zip" file="hardscripts.zip" md5="e8c2357770b691793201b62086f31ed2" download="server" type="extract" extractto="root" colour="gold" client="yes" server="yes" optional="yes" recommended="yes" group="mode" website="http://beyondrealitypack.com" description="The default mode for Divergence" />
         
-        <mod name="Easy Mode" version="1.0" url="packs/BeyondRealityDivergence/files/Beta/1.2.3/easy.zip" file="easy.zip" md5="6065a91ce884befad727271a00f5a3fc" download="server" type="extract" extractto="root" colour="brightred" website="http://beyondrealitypack.com" description="Easier Set of recipes for research" />
+        <mod name="Easy Mode" version="1.0" url="packs/BeyondRealityDivergence/files/Beta/1.2.3/ezscripts.zip" file="ezscripts.zip" md5="d319ee4d209ec9b3d5e38e5c10441bc0" download="server" type="extract" extractto="root" colour="brightred" client="yes" server="yes" optional="yes" recommended="no" group="mode" website="http://beyondrealitypack.com" description="Easier Set of recipes for research" />
         
         <!-- ~~~~~ Client Sided Mods no preformance impact ~~~~ -->
         
