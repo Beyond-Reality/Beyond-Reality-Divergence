@@ -1354,6 +1354,36 @@
                 "item": "simplyjetpacks:jetpackFueller"
               }
             },
+			
+              "type": "crafting",
+              "data": {
+                "item": "simplyjetpacks:jetpacksBC 101"
+              }
+            },
+			 {
+              "type": "crafting",
+              "data": {
+                "item": "simplyjetpacks:jetpacksBC 2"
+              }
+            },
+			 {
+              "type": "crafting",
+              "data": {
+                "item": "simplyjetpacks:jetpacksBC 102"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "simplyjetpacks:jetpacksBC 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "simplyjetpacks:components"
+              }
+            },
             {
               "type": "crafting",
               "data": {
