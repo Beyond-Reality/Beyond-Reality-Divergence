@@ -19444,6 +19444,63 @@
           "mustClaim": false,
           "displayAchievement": true
         },
+		{
+          "uniqueName": "1443058699809",
+          "displayName": "Computronics",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "minecraft:stone"
+              }
+            }
+          ],
+          "rewards": [
+{ "type": "crafting", "data": { "item": "computronics:computronics.cipher" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.digitalBox" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.detector" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.locomotiveRelay" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.colorfulLamp" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.cipher_advanced" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ticketMachine" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ironNoteBlock" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.chatBox 0" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.chatBox 8" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.camera" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tapeReader" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.radar" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.relaySensor" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.droneStation" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.dockingUpgrade" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.parts" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 0" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 1" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 2" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 3" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 4" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 5" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 6" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.tape 8" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.partsForestry 0" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.partsForestry 1" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 0" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 1" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 2" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 3" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 4" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 5" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 6" } },
+{ "type": "crafting", "data": { "item": "computronics:computronics.ocParts 7" } }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 328,
+          "y": 177,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
         {
           "uniqueName": "1443037602717",
           "displayName": "Open Computers",
