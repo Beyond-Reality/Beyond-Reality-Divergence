@@ -473,5 +473,10 @@
     "input": "minecraft:reeds:0",
     "output": "minecraft:sugar:0",
     "qty": 2
+  },
+  {
+    "input": "minecraft:wheat:0",
+    "output": "appliedenergistics2:item.ItemMultiMaterial:4",
+    "qty": 1
   }
 ]
