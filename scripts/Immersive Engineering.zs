@@ -26,7 +26,7 @@ recipes.addShaped(<minecraft:torch>, [[null,null,null]
 							,[null,<ImmersiveEngineering:fluidContainers:1>.transformReplace(<minecraft:bucket>),null]
 							,[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
 							
-Railcraft block
+//Railcraft block
 
 recipes.addShaped(<Railcraft:cube:8>, [[<ore:logWood>,<ImmersiveEngineering:fluidContainers:1>.transformReplace(<minecraft:bucket>),null]
 							,[null,null,null]
