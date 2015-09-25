@@ -11830,12 +11830,6 @@
               "data": {
                 "item": "WitchingGadgets:item.WG_PrimordialBoots 0 {}"
               }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "minecraft:furnace"
-              }
             }
           ],
           "repeatable": 1,
