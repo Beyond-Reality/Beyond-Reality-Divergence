@@ -339,12 +339,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "rftools:modularStorageBlock"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "modularsystems:furnaceCore"
               }
             },
@@ -14186,6 +14180,12 @@
                 "item": "rftools:dimletFilterBlock"
               }
             },
+			            {
+              "type": "crafting",
+              "data": {
+                "item": "rftools:storageModuleItem 6"
+              }
+            },
             {
               "type": "crafting",
               "data": {
@@ -21727,6 +21727,12 @@
                 "item": "rftools:machineFrame"
               }
             },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "rftools:modularStorageBlock"
+              }
+            },
             {
               "type": "crafting",
               "data": {
@@ -21779,12 +21785,6 @@
               "type": "crafting",
               "data": {
                 "item": "rftools:storageModuleItem 2"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "rftools:storageModuleItem 6"
               }
             },
             {
