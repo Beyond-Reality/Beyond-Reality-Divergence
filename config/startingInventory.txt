@@ -1,3 +1,4 @@
-minecraft:apple,15,0,{EM_ROT_DATE:1L,EM_ROT_TIME:168000L}
+minecraft:apple,15,0,{EM_ROT_DATE:312000L,EM_ROT_TIME:168000L}
 minecraft:boat,1,0
 Enchiridion2:book,1,0,{identifier:"BeyondRealityDivergence"}
+HardcoreQuesting:quest_book,1,0
