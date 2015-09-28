@@ -38,7 +38,7 @@
 	  
 	  <!-- Sparse presets -->
 	<StandardGenPreset name='SparseStone'>
-		<Setting name='Size' avg='1' range='0' />
+		<Setting name='Size' avg='1' range='3' />
 		<ReplacesOre block='blockLimestone' />
 		<ReplacesOre block='blockMarble' />
 		<ReplacesOre block='marble' />
@@ -67,13 +67,12 @@
             <Setting name='CloudSizeNoise' avg='0.1' range='0' />
             <Setting name='CloudInclination' avg='0' range='0.35' />
             <Setting name='OreVolumeNoiseCutoff' avg='0' range='0' />
-            <Setting name='OreRadiusMult' avg='1' range='0.1' />
+            <Setting name='OreRadiusMult' avg='1' range='0.1' />			
         </CloudPreset>
 		
         <CloudPreset name='LargeStone' inherits='Large'>
 			<ReplacesOre block='stone' />
             <ReplacesOre block='stoneBasalt' />    
-            <Replaces block='bluepower:marble' />
 			<Replaces block='minecraft:gravel'/>
             <Replaces block='minecraft:sandstone'/>
         </CloudPreset>
@@ -85,6 +84,8 @@
         <CloudPreset name='LargeEndstone' inherits='Large'>
             <ReplacesOre block='stoneEndstone' />
         </CloudPreset>
+		
+		
 		
 		<!--HugeVeins-->
 		
@@ -127,6 +128,12 @@
 		<Setting name='Frequency' avg='8' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='20' range='30' scaleTo='biome' />
 	</StandardGen>	
+	
+	<StandardGen name='Sparse Gold2' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreGold' />
+		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='25' range='5' scaleTo='biome' />
+	</StandardGen>	
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Diamond Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Diamond' inherits='SparseStone'>
@@ -155,12 +162,36 @@
 		<Setting name='Frequency' avg='13' range='4' scaleTo='biome' />
 		<Setting name='Height' avg='13' range='4' scaleTo='biome' />
 		</StandardGen>
+		
+	<StandardGen name='Sparse Lapis' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreLapis' />
+		<Setting name='Frequency' avg='18' range='4' scaleTo='biome' />
+		<Setting name='Height' avg='10' range='4' scaleTo='biome' />
+		</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Coal Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Coal' inherits='SparseStone'>
 		<OreBlock block='minecraft:coal_ore' />
 		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='55' range='25' scaleTo='biome' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Coal1' inherits='SparseStone'>
+		<OreBlock block='minecraft:coal_ore' />
+		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='45' range='25' scaleTo='biome' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Coal2' inherits='SparseStone'>
+		<OreBlock block='minecraft:coal_ore' />
+		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='35' range='25' scaleTo='biome' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Coal3' inherits='SparseStone'>
+		<OreBlock block='minecraft:coal_ore' />
+		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='25' range='25' scaleTo='biome' />
 	</StandardGen>
 
              <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Copper Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -208,7 +239,7 @@
 	
 	<StandardGen name='Sparse Aluminium' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreAluminium' />	
-		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
+		<Setting name='Frequency' avg='13' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='28' range='5' scaleTo='biome' />
 	</StandardGen>
 
@@ -220,21 +251,39 @@
                         <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.008' />
+                        <Setting name='MotherlodeFrequency' avg='1.5' />
                         <ReplacesOre block='stone' />
                     </Veins>
 					
 	<Veins name='ManaInfused1' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
                         <Setting name='MotherlodeHeight' avg='30' range='5.5' type='normal' scaleTo='SeaLevel' /> 
-                        <Setting name='MotherlodeSize' avg='1' range='1' />
+                        <Setting name='MotherlodeSize' avg='1.3' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='2.5' />
+                        <Setting name='MotherlodeFrequency' avg='4.5' />
                         <ReplacesOre block='stone' />
 						 <Description>
                             Spawns 3 more times in preferred biomes.
                         </Description>
                         <BiomeType name='Magical'/>
-                    </Veins>				
+                    </Veins>	
+
+	<!-- Not the best way to handle indicators.
+	<Cloud name='ManaInfusedCloud' block='ThermalFoundation:Ore:6' inherits='LargeStone' wireframeColor='0xffff00ff'>
+-		<Setting name='DistributionFrequency' avg='0.002' range='0' scaleTo='Sealevel' />
+-		<Setting name='CloudRadius' avg='12' range='3' />
+-		<Setting name='CloudThickness' avg='10' range='3' />
+-		<Setting name='CloudHeight' avg='30' range='5' scaleTo='biome' />
+-		<Setting name='OreDensity' avg='0.6' range='1' />
+-		<setting name='CloudSizeNoise' avg='0.2' range ='0' />
+			<StandardGen name='ManaIndicatorspawn' block='Thaumcraft:blockCustomPlant:1' >
+					<Setting name='Size' avg='1' range='0' />
+					<Setting name='Frequency' avg='100' range='0' />
+					<Setting name='Height' avg='64' range='10' scaleTo='SeaLevel' />
+					<PlacesAbove block='minecraft:grass' />
+					<Replaces block='minecraft:air'/>
+					<Setting name='ParentRangeLimit' avg='1' range='3' />
+			</StandardGen>
+-	</Cloud>	-->				
 
     <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
@@ -324,7 +373,7 @@
                         </Description>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='0.004' />
+                        <Setting name='MotherlodeFrequency' avg='0.005' />
                         <BiomeType name='Desert'/>
 						<BiomeType name='Wasteland'/>
 						<BiomeType name='Plains'/>
