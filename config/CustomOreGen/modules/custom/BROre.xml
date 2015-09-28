@@ -345,7 +345,7 @@
                         <Setting name='MotherlodeHeight' avg='43' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.001' />
+                        <Setting name='MotherlodeFrequency' avg='0.002' />
                         <ReplacesOre block='stone' />
                     </Veins>
 					

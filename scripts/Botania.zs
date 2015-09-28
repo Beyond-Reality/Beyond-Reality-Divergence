@@ -2,6 +2,9 @@
 
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ThermalFoundation:material:70>, 5000);
+mods.botania.ManaInfusion.removeRecipe(<Botania:storage>);
+mods.botania.ManaInfusion.addInfusion(<Botania:storage>, <ThermalFoundation:Storage:6>, 45000);
+
 
 //Add Vibranium allow method
 mods.botania.ManaInfusion.addInfusion(<sfartifacts:sfartifacts_blockOreAsgardite>, <sfartifacts:sfartifacts_blockOreVibranium>, 5000);
