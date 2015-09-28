@@ -17,3 +17,11 @@ recipes.remove(<oredowsing:oredowsingoredowsing_DiamondDowsingRod>);
 recipes.addShaped(<oredowsing:oredowsingoredowsing_DiamondDowsingRod>, [[<beyondrealitycore:item10>,<ore:gemEmerald>,<beyondrealitycore:item10>]
 							,[<ore:gemDiamond>,<ore:gemDiamond>,<ore:gemDiamond>]
 							,[<ore:gemDiamond>,<oredowsing:oredowsingoredowsing_GoldDowsingRod>,<ore:gemDiamond>]]);
+							
+recipes.addShaped(<oredowsing:oredowsingoredowsing_DiamondDowsingRod>, [[null,<BuildCraft|Silicon:laserBlock>,null]
+							,[<ore:gemDiamond>,<beyondrealitycore:item10>,<ore:gemDiamond>]
+							,[<ore:gemDiamond>,<oredowsing:oredowsingoredowsing_GoldDowsingRod>,<ore:gemDiamond>]]);
+							
+recipes.addShaped(<oredowsing:oredowsingoredowsing_DiamondDowsingRod>, [[null,<Botania:pylon>,null]
+							,[<ore:gemDiamond>,<beyondrealitycore:item10>,<ore:gemDiamond>]
+							,[<ore:gemDiamond>,<oredowsing:oredowsingoredowsing_GoldDowsingRod>,<ore:gemDiamond>]]);
