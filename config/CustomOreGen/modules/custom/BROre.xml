@@ -14,8 +14,7 @@
 	<Comment>  
 		Clearing all ore spawn.
 	</Comment>
-			<ReplacesOre block='sfartifacts:sfartifacts_blockOreVibranium' />
-			<ReplacesOre block='sfartifacts:sfartifacts_blockOreAsgardite' />
+
 		</Substitute>
 	</IfCondition>
 </ConfigSection>
@@ -301,46 +300,6 @@
 		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
 	</StandardGen>
 	
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Asgardite Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-	<Veins name='Asgardite' block='sfartifacts:sfartifacts_blockOreAsgardite' inherits='PresetSmallDeposits'>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
-                        <Setting name='MotherlodeSize' avg='1' range='1' />
-                        <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.002' />
-                        <ReplacesOre block='stone' />
-                    </Veins>
-	
-    <StandardGen name='Asgardite Ore1' inherits='SparseStone'>
-		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
-		<Setting name='Frequency' avg='2' range='3' scaleTo='biome' />
-		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
-	</StandardGen>
-	<StandardGen name='Asgardite Ore2' inherits='SparseStone'>
-		<OreBlock block='sfartifacts:sfartifacts_blockOreAsgardite' />	
-		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
-		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
-	</StandardGen>
-	
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OreVibranium~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-	<Veins name='OreVibranium' block='sfartifacts:sfartifacts_blockOreVibranium' inherits='PresetSmallDeposits'>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x60EBD6E9</WireframeColor>
-                        <Setting name='MotherlodeHeight' avg='30' range='6' type='normal' scaleTo='SeaLevel' /> 
-                        <Setting name='MotherlodeSize' avg='1' range='1' />
-                        <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.002' />
-                        <ReplacesOre block='stone' />
-                    </Veins>
-					
-	<StandardGen name='OreVibranium1' inherits='SparseStone'>
-		<OreBlock block='sfartifacts:sfartifacts_blockOreVibranium' />	
-		<Setting name='Frequency' avg='1' range='1' scaleTo='biome' />
-		<Setting name='Height' avg='28' range='3' scaleTo='biome' />
-	</StandardGen> -->
-	
 	
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Certus Quartz Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	
@@ -350,7 +309,7 @@
                         <Setting name='MotherlodeHeight' avg='40' range='6' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.005' />
+                        <Setting name='MotherlodeFrequency' avg='0.009' />
                         <ReplacesOre block='stone' />
                     </Veins>
 	
@@ -388,33 +347,6 @@
                         <Setting name='OreDensity' avg='1' range='1' />
                         <Setting name='MotherlodeFrequency' avg='0.001' />
                         <ReplacesOre block='stone' />
-                    </Veins>
-					
-		             <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Limestone ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-		
-					 <Veins name='Limestone' block='TSteelworks:Limestone' inherits='PresetLayeredVeins'>
-                        <Description>
-                            Small, fairly rare motherlodes with 2-4 horizontal veins each.
-                        </Description>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x60CD3AC4</WireframeColor>
-                        <Setting name='MotherlodeSize' avg='1' range='1'/>
-                        <Setting name='MotherlodeHeight' avg='128' range='128' type='uniform' scaleTo='SeaLevel'/> 
-                        <Setting name='SegmentRadius' avg='1' range='1' />
-                        <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.003'/>
-                        <ReplacesOre block='stone' />
-                    </Veins>
-                    
-                    <!-- Preferred Biome Distribution -->
-                    <Veins name='LimestonePrefersVeins' block='TSteelworks:Limestone' inherits='Limestone'>
-                        <Description>
-                            Spawns 2 more times in preferred biomes.
-                        </Description>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x60CD3AC4</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg='0.008'/>
-                        <BiomeType name='swamp'/>
                     </Veins>
 					
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Tungsten ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
