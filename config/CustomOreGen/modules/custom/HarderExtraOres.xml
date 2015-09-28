@@ -1280,11 +1280,11 @@
 					<Replaces block='minecraft:hardened_clay'/>
 					<Replaces block='minecraft:stained_hardened_clay'/>
 					
-                    <BiomeType name='Mesa' weight='0.5'/>
-                    <Biome name='River' weight='0.2'/>
-                    <BiomeType name='Swamp' weight='1'/>
-                    <BiomeType name='Jungle' weight='0.4'/>
-					<BiomeType name='Plains' weight='0.3'/>
+                    <BiomeType name='Mesa' weight='1'/>
+                    <Biome name='River' weight='0.3'/>
+                    <BiomeType name='Swamp' weight='1.5'/>
+                    <BiomeType name='Jungle' weight='0.6'/>
+					<BiomeType name='Plains' weight='0.7'/>
                 </VeinsPreset>
                 <Veins name='hardBauxiteVeins2' inherits='CustomizedBigBauxite' block='HarderOres:ore_bauxite:9' >
                     <seed> 43293 </seed> <!-- Arbitrary; keep consistent -->
