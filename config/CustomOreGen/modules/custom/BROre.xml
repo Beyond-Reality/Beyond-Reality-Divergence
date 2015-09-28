@@ -1,7 +1,7 @@
 <IfModInstalled name='beyondrealitycore'>
 
 	  
-<ConfigSection>
+<!-- <ConfigSection>
 	
 	<IfCondition condition=':= ?COGActive'>
 	
@@ -17,7 +17,7 @@
 
 		</Substitute>
 	</IfCondition>
-</ConfigSection>
+</ConfigSection> -->
 		
 		
 <ConfigSection>
@@ -37,7 +37,7 @@
 	  
 	  <!-- Sparse presets -->
 	<StandardGenPreset name='SparseStone'>
-		<Setting name='Size' avg='1' range='3' />
+		<Setting name='Size' avg='2' range='2' />
 		<ReplacesOre block='blockLimestone' />
 		<ReplacesOre block='blockMarble' />
 		<ReplacesOre block='marble' />
@@ -119,8 +119,14 @@
 		<OreBlock block='beyondrealitycore:tinyoreIron' />
 		<Setting name='Frequency' avg='18' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='45' range='30' scaleTo='biome' />
-	</StandardGen>			
-			
+	</StandardGen>
+
+	<StandardGen name='Sparse Iron' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreIron' />
+		<Setting name='Frequency' avg='13' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='35' range='30' scaleTo='biome' />
+	</StandardGen>	
+		
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Gold Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
 	<StandardGen name='Sparse Gold' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreGold' />
@@ -128,7 +134,7 @@
 		<Setting name='Height' avg='20' range='30' scaleTo='biome' />
 	</StandardGen>	
 	
-	<StandardGen name='Sparse Gold2' inherits='SparseStone'>
+	<StandardGen name='Sparse Gold1' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreGold' />
 		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='25' range='5' scaleTo='biome' />
@@ -154,6 +160,12 @@
 		<Setting name='Frequency' avg='16' range='4' scaleTo='biome' />
 		<Setting name='Height' avg='20' range='26' scaleTo='biome' />
 	</StandardGen>
+	
+	<StandardGen name='Sparse RedStone' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreRedstone' />
+		<Setting name='Frequency' avg='8' range='4' scaleTo='biome' />
+		<Setting name='Height' avg='10' range='6' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Lapis Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Lapis' inherits='SparseStone'>
@@ -162,7 +174,7 @@
 		<Setting name='Height' avg='13' range='4' scaleTo='biome' />
 		</StandardGen>
 		
-	<StandardGen name='Sparse Lapis' inherits='SparseStone'>
+	<StandardGen name='Sparse Lapis1' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreLapis' />
 		<Setting name='Frequency' avg='18' range='4' scaleTo='biome' />
 		<Setting name='Height' avg='10' range='4' scaleTo='biome' />
@@ -199,6 +211,12 @@
 		<Setting name='Frequency' avg='22' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='58' range='10' scaleTo='biome' />
 	</StandardGen>
+	
+	<StandardGen name='Sparse Copper' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreCopper' />	
+		<Setting name='Frequency' avg='12' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='48' range='2' scaleTo='biome' />
+	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Tin Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Tin' inherits='SparseStone'>
@@ -206,12 +224,24 @@
 		<Setting name='Frequency' avg='20' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='65' range='10' scaleTo='biome' />
 	</StandardGen>
+	
+	<StandardGen name='Sparse Tin1' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreTin' />	
+		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='45' range='10' scaleTo='biome' />
+	</StandardGen>
 			
 		    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Lead Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Lead' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreLead' />	
-		<Setting name='Frequency' avg='16' range='8' scaleTo='biome' />
+		<Setting name='Frequency' avg='13' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='26' range='3' scaleTo='biome' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Lead' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreLead' />	
+		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
 	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Silver Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -220,12 +250,24 @@
 		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='35' range='5' scaleTo='biome' />
 	</StandardGen>
-			
+	
+	<StandardGen name='Sparse Silver1' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreSilver' />	
+		<Setting name='Frequency' avg='6' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='25' range='5' scaleTo='biome' />
+	</StandardGen>
+	
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Nickel Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<StandardGen name='Sparse Nickel' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreNickel' />	
 		<Setting name='Frequency' avg='11' range='5' scaleTo='biome' />
 		<Setting name='Height' avg='20' range='30' scaleTo='biome' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Nickel1' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyoreNickel' />	
+		<Setting name='Frequency' avg='11' range='5' scaleTo='biome' />
+		<Setting name='Height' avg='15' range='10' scaleTo='biome' />
 	</StandardGen>
 			
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Aluminium Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
@@ -236,10 +278,18 @@
 		<Setting name='Height' avg='38' range='15' scaleTo='biome' />
 	</StandardGen>
 	
-	<StandardGen name='Sparse Aluminium' inherits='SparseStone'>
+	<StandardGen name='Sparse Aluminium1' inherits='SparseStone'>
 		<OreBlock block='beyondrealitycore:tinyoreAluminium' />	
 		<Setting name='Frequency' avg='13' range='8' scaleTo='biome' />
 		<Setting name='Height' avg='28' range='5' scaleTo='biome' />
+	</StandardGen>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Platnium Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+
+	<StandardGen name='Sparse Aluminium' inherits='SparseStone'>
+		<OreBlock block='beyondrealitycore:tinyorePlatinum' />	
+		<Setting name='Frequency' avg='10' range='8' scaleTo='biome' />
+		<Setting name='Height' avg='18' range='5' scaleTo='biome' />
 	</StandardGen>
 
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mana Infused Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -255,7 +305,7 @@
                     </Veins>
 					
 	<Veins name='ManaInfused1' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
-                        <Setting name='MotherlodeHeight' avg='30' range='5.5' type='normal' scaleTo='SeaLevel' /> 
+                        <Setting name='MotherlodeHeight' avg='30' range='5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1.3' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
                         <Setting name='MotherlodeFrequency' avg='4.5' />
@@ -289,12 +339,12 @@
 		<Setting name='Frequency' avg='4' range='3' scaleTo='biome' />
 		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
 	</StandardGen>
-	<StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
+	<StandardGen name='Mana Infused Ore2' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
 		<Setting name='Frequency' avg='3' range='3' scaleTo='biome' />
 		<Setting name='Height' avg='24' range='3' scaleTo='biome' />
 	</StandardGen>
-	<StandardGen name='Mana Infused Ore2' inherits='SparseStone'>
+	<StandardGen name='Mana Infused Ore3' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
 		<Setting name='Frequency' avg='4' range='1' scaleTo='biome' />
 		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
@@ -309,7 +359,7 @@
                         <Setting name='MotherlodeHeight' avg='40' range='6' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='0.009' />
+                        <Setting name='MotherlodeFrequency' avg='0.008' />
                         <ReplacesOre block='stone' />
                     </Veins>
 	

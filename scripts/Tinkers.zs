@@ -24,3 +24,5 @@ mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:bucket:1>, <liquid:glo
 # Change Seared Brick back to 36 mb to match grout
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:materials:2>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:2>, <liquid:stone.seared> * 36, 800, <TConstruct:Smeltery:2>);
+
+recipes.remove(<TConstruct:knapsack>);
