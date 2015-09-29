@@ -269,7 +269,7 @@
 		<!--*******************   Aluminum Ore   *********************-->
         <ConfigSection>
 			<OptionChoice name='hardBauxiteDist' displayGroup='groupHardExtras'>
-                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"layeredVeins","disabled")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"surfaceClouds","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreAluminum"),"shown","hidden")</DisplayState>
                 <Description>Controls how Bauxite (Aluminum) is generated </Description>
                 <DisplayName>Bauxite Type</DisplayName>
@@ -1116,7 +1116,7 @@
 				<CloudPreset name='SurfaceBauxite'>
 					<DrawWireframe>:=drawWireframes</DrawWireframe>
 					<WireframeColor>0x209F8C74</WireframeColor>
-					<Setting name='DistributionFrequency' avg=':=0.004 * hardBauxiteFreq' range='0'/>
+					<Setting name='DistributionFrequency' avg=':=0.006 * hardBauxiteFreq' range='0'/>
 					<Setting name='CloudRadius' avg=':=16 + 2 * hardBauxiteSize' range='0' />
 					<Setting name='CloudThickness' avg='8' range='0' />
 					<Setting name='CloudSizeNoise' avg='0.1' range='0' />
@@ -1131,10 +1131,10 @@
 					<Replaces block='minecraft:hardened_clay'/>
 					<Replaces block='minecraft:stained_hardened_clay'/>
 					
-                    <BiomeType name='Mesa' weight='0.5'/>
+                    <BiomeType name='Mesa' weight='0.9'/>
                     <Biome name='River' weight='0.2'/>
                     <BiomeType name='Swamp' weight='1'/>
-                    <BiomeType name='Jungle' weight='0.3'/>
+                    <BiomeType name='Jungle' weight='0.5'/>
 					<BiomeType name='Plains' weight='0.2'/>
 				</CloudPreset>
 		
