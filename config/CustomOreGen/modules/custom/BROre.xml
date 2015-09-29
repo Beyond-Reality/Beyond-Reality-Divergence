@@ -189,19 +189,19 @@
 	
 	<StandardGen name='Sparse Coal1' inherits='SparseStone'>
 		<OreBlock block='minecraft:coal_ore' />
-		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
+		<Setting name='Frequency' avg='25' range='4' scaleTo='biome' />
 		<Setting name='Height' avg='45' range='25' scaleTo='biome' />
 	</StandardGen>
 	
 	<StandardGen name='Sparse Coal2' inherits='SparseStone'>
 		<OreBlock block='minecraft:coal_ore' />
-		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
+		<Setting name='Frequency' avg='20' range='3' scaleTo='biome' />
 		<Setting name='Height' avg='35' range='25' scaleTo='biome' />
 	</StandardGen>
 	
 	<StandardGen name='Sparse Coal3' inherits='SparseStone'>
 		<OreBlock block='minecraft:coal_ore' />
-		<Setting name='Frequency' avg='30' range='8' scaleTo='biome' />
+		<Setting name='Frequency' avg='15' range='2' scaleTo='biome' />
 		<Setting name='Height' avg='25' range='25' scaleTo='biome' />
 	</StandardGen>
 
@@ -300,15 +300,15 @@
                         <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='1.5' />
+                        <Setting name='MotherlodeFrequency' avg='2' />
                         <ReplacesOre block='stone' />
                     </Veins>
 					
 	<Veins name='ManaInfused1' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
                         <Setting name='MotherlodeHeight' avg='30' range='5' type='normal' scaleTo='SeaLevel' /> 
-                        <Setting name='MotherlodeSize' avg='1.3' range='1' />
+                        <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='4.5' />
+                        <Setting name='MotherlodeFrequency' avg='4.7' />
                         <ReplacesOre block='stone' />
 						 <Description>
                             Spawns 3 more times in preferred biomes.
@@ -336,17 +336,17 @@
 
     <StandardGen name='Mana Infused Ore1' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='4' range='3' scaleTo='biome' />
+		<Setting name='Frequency' avg='3' range='2' scaleTo='biome' />
 		<Setting name='Height' avg='16' range='3' scaleTo='biome' />
 	</StandardGen>
 	<StandardGen name='Mana Infused Ore2' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='3' range='3' scaleTo='biome' />
+		<Setting name='Frequency' avg='2.3' range='1' scaleTo='biome' />
 		<Setting name='Height' avg='24' range='3' scaleTo='biome' />
 	</StandardGen>
 	<StandardGen name='Mana Infused Ore3' inherits='SparseStone'>
 		<OreBlock block='ThermalFoundation:Ore:6' />	
-		<Setting name='Frequency' avg='4' range='1' scaleTo='biome' />
+		<Setting name='Frequency' avg='2' range='1' scaleTo='biome' />
 		<Setting name='Height' avg='8' range='3' scaleTo='biome' />
 	</StandardGen>
 	
