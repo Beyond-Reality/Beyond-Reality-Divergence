@@ -66,3 +66,8 @@ recipes.addShaped(<minecraft:iron_shovel>, [[null,<ore:ingotIron>,null]
 recipes.addShaped(<minecraft:diamond_shovel>, [[null,<ore:gemDiamond>,null]
 							,[null,<ore:stickWood>,null]
 							,[null,<ore:stickWood>,null]]);
+							
+//Logs to chest
+recipes.addShaped(<minecraft:chest> * 4, [[<ore:logWood>,<ore:logWood>,<ore:logWood>]
+							,[<ore:logWood>,null,<ore:logWood>]
+							,[<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
