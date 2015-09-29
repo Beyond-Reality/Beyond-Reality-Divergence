@@ -300,7 +300,7 @@
                         <Setting name='MotherlodeHeight' avg='23' range='10.5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='2' />
+                        <Setting name='MotherlodeFrequency' avg='2.3' />
                         <ReplacesOre block='stone' />
                     </Veins>
 					
@@ -308,7 +308,7 @@
                         <Setting name='MotherlodeHeight' avg='30' range='5' type='normal' scaleTo='SeaLevel' /> 
                         <Setting name='MotherlodeSize' avg='1' range='1' />
                         <Setting name='OreDensity' avg='1' range='1' />
-                        <Setting name='MotherlodeFrequency' avg='4.7' />
+                        <Setting name='MotherlodeFrequency' avg='5.2' />
                         <ReplacesOre block='stone' />
 						 <Description>
                             Spawns 3 more times in preferred biomes.

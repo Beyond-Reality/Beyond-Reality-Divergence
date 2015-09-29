@@ -1263,7 +1263,7 @@
                 <VeinsPreset name='CustomizedBigBauxite' block='HarderOres:ore_bauxite:12' inherits='PresetHugeVeins'>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x209F8C74</WireframeColor>
-                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * hardBauxiteFreq * _default_ * 3.0'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 1.3 * hardBauxiteFreq * _default_ * 3.0'/>
                     <Setting name='MotherlodeSize' avg=':= 0.5 * hardBauxiteSize * _default_' range=':= hardBauxiteSize * _default_'/>
                     <Setting name='MotherlodeHeight' avg=':= 58/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel' type='normal'/>
                     <!-- <Setting name='MotherlodeHeight' avg='43'
@@ -1282,9 +1282,9 @@
 					
                     <BiomeType name='Mesa' weight='1'/>
                     <Biome name='River' weight='0.3'/>
-                    <BiomeType name='Swamp' weight='1.5'/>
+                    <BiomeType name='Swamp' weight='1'/>
                     <BiomeType name='Jungle' weight='0.6'/>
-					<BiomeType name='Plains' weight='0.7'/>
+					<BiomeType name='Plains' weight='0.5'/>
                 </VeinsPreset>
                 <Veins name='hardBauxiteVeins2' inherits='CustomizedBigBauxite' block='HarderOres:ore_bauxite:9' >
                     <seed> 43293 </seed> <!-- Arbitrary; keep consistent -->
