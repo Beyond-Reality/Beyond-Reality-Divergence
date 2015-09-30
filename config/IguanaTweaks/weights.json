@@ -107,7 +107,7 @@
 	{
 	 "name": "beyondrealitycore:tinyRedstone",
 	 "weight" : 0.13
-	}
+	},
 	{
 	 "name": "Botania:enderHand",
 	 "weight" : 100
@@ -139,5 +139,5 @@
 	{
 	 "name": "StorageDrawers:tape",
 	 "weight" : 50
-	},
+	}
 ]
