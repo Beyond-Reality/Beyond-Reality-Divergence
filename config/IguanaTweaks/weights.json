@@ -1,10 +1,6 @@
 [
 
 	{
-	 "name": "ImmersiveEngineering:woodenDevice:4",
-	 "weight" : 200.0
-	},
-	{
 	 "name": "HarderOres:ore_chunk:8",
 	 "weight" : 0.13
 	},
@@ -139,5 +135,9 @@
 	{
 	 "name": "Forestry:builderBag",
 	 "weight" : 35
+	},
+	{
+	 "name": "StorageDrawers:tape",
+	 "weight" : 50
 	},
 ]
