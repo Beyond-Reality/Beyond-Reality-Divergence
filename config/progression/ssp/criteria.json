@@ -2263,6 +2263,36 @@
                 "item": "rftools:dimletFilterBlock"
               }
             },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "rftools:modularStorageBlock"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "rftools:storageModuleItem 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "rftools:storageModuleItem 1"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "rftools:storageModuleItem 2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "rftools:storageModuleTabletItem"
+              }
+            },
             {
               "type": "crafting",
               "data": {
@@ -9813,12 +9843,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "rftools:modularStorageBlock"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "rftools:machineBase"
               }
             },
@@ -9844,30 +9868,6 @@
               "type": "crafting",
               "data": {
                 "item": "rftools:syringeItem"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "rftools:storageModuleTabletItem"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "rftools:storageModuleItem 0"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "rftools:storageModuleItem 1"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "rftools:storageModuleItem 2"
               }
             },
             {
