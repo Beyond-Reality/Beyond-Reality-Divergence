@@ -1,4 +1,5 @@
 recipes.remove(<ImmersiveEngineering:stoneDevice:2>);
+recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
 
 # Add creosote bottles to oreDictionary
 # <ore:bottleCreosote>.add(<Railcraft:fluid.creosote.bottle>);
