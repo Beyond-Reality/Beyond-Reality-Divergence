@@ -5,10 +5,6 @@
 	 "weight" : 200.0
 	},
 	{
-	 "name": "ThermalExpansion:satchel:1",
-	 "weight" : 30.0
-	},
-	{
 	 "name": "HarderOres:ore_chunk:8",
 	 "weight" : 0.13
 	},
@@ -116,4 +112,32 @@
 	 "name": "beyondrealitycore:tinyRedstone",
 	 "weight" : 0.13
 	}
+	{
+	 "name": "Botania:enderHand",
+	 "weight" : 100
+	},
+	{
+	 "name": "Forestry:diggerBag",
+	 "weight" : 35
+	},
+	{
+	 "name": "Forestry:foresterBag",
+	 "weight" : 35
+	},
+	{
+	 "name": "Forestry:minerBag",
+	 "weight" : 35
+	},
+	{
+	 "name": "Forestry:builderBag",
+	 "weight" : 35
+	},
+	{
+	 "name": "Forestry:hunterBag",
+	 "weight" : 35
+	},
+	{
+	 "name": "Forestry:builderBag",
+	 "weight" : 35
+	},
 ]
