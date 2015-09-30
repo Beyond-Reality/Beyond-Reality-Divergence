@@ -1058,7 +1058,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "You can also prospect for ores using a sluice. Below is a proper way to set up your sluice. The blocks below the flowing water are sluices. They look like a wooden pressure plate. You can connect up to three in a row. Each one takes time to process your sand or gravel to produce tiny ore dust. The blocks on the side can be any non-ground block, i.e., any block other than gravel, sand, or dirt. You simply toss in the block to be processed into the water. It can be automated with hoppers and sifters.",
+            "text": "You can also prospect for ores using a sluice. Below is a proper way to set up your sluice. The blocks below the flowing water are sluices. They look like a wooden pressure plate. You can connect up to three in a row. Each one takes time to process your sand or gravel to produce tiny ore dust. The blocks on the side can be any non-ground block, i.e., any block other than gravel, sand, or dirt. You simply toss in the block to be processed into the water. It can be automated to insert material with Hoppers.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
