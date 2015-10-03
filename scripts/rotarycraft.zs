@@ -1,0 +1,1 @@
+recipes.removeShapeless(<appliedenergistics2:item.ItemMultiMaterial>, [<RotaryCraft:rotarycraft_item_modingots:9>]);
