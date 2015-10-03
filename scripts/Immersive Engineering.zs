@@ -38,3 +38,7 @@ recipes.addShaped(<Railcraft:cube:8>, [[<ore:logWood>,<ImmersiveEngineering:flui
 recipes.addShaped(<Railcraft:cube:8>, [[<ore:logWood>,<ImmersiveEngineering:fluidContainers>,null]
 							,[null,null,null]
 							,[null,null,null]]);
+							
+// Steel conversion
+
+recipes.addShapeless(<ImmersiveEngineering:storage:7>, [<ore:blockSteel>]);
