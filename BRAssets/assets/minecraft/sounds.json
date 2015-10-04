@@ -1,0 +1,23 @@
+{
+    "music.game": {
+	    "category": "music",
+	    "sounds": [
+		    {
+			    "name": "music/game/track1",
+			    "stream": true
+		    },
+		    {
+			    "name": "music/game/track2",
+			    "stream": true
+		    },
+		    {
+			    "name": "music/game/track3",
+			    "stream": true
+		    },
+			{
+			    "name": "music/game/track4",
+			    "stream": true
+		    }
+	    ]
+    }
+}
