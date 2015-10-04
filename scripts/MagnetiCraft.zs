@@ -135,15 +135,6 @@ mods.magneticraft.Grinder.addRecipe(chunkUranium, rubbleUranium, tinyUranium, 0.
 mods.magneticraft.Grinder.addRecipe(rubbleUranium, pebbleUranium, tinyUranium, 0.05, tinyThorium, 0.05);
 mods.magneticraft.Sifter.addRecipe(pebbleUranium, tinyUranium * 3, tinyThorium, 0.05);
 
-# Balance Rubble Smelting
-for i, rawOre in rawOres {
-    var tinyDust = tinyOres[i];
-
-    furnace.remove(<*>, rawOre);
-	furnace.addRecipe(tinyDust * 1, rawOre);
-	mods.thermalexpansion.Furnace.removeRecipe(rawOre);
-	mods.thermalexpansion.Furnace.addRecipe(1600, rawOre, tinyDust * 1);	
-}
 
 for i, rubbleOre in rubbleOres {
     var tinyDust = tinyOres[i];
