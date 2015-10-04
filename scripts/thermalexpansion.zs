@@ -1,3 +1,5 @@
+import mods.thermalexpansion.Pulverizer ;
+
 //Fix recipes behind Progression
 
 //Auto Activator
@@ -37,3 +39,40 @@ recipes.addShaped(<ThermalFoundation:material:515>, [[<minecraft:clay_ball>, <or
 # Pyrotheum Dust
 recipes.remove(<ThermalFoundation:material:512>);
 recipes.addShaped(<ThermalFoundation:material:512>, [[<ore:dustCoal>, <ore:dustSulfur>, null], [<ore:dustRedstone>, <ore:powderBlaze>, null], [null, null, null]]);
+
+#Fix Pulverizer Recipes
+//Iron
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:8>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:8>, <HarderOres:smallDust:8> *2, <HarderOres:smallDust:17>, 10);
+
+//Gold
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:9>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:9>, <HarderOres:smallDust:9> *2, <ThermalFoundation:material:20>, 5);
+
+//Tin
+mods.thermalexpansion.Pulverizer.removeRecipe(<<HarderOres:ore_chunk:12>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:12>, <HarderOres:smallDust:12> *2, <HarderOres:smallDust:8>, 10);
+
+//Copper
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:13>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:13>, <HarderOres:smallDust:13> *2, <HarderOres:smallDust:9>, 10);
+
+//Lead
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:14>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:14>, <HarderOres:smallDust:14> *2, <HarderOres:smallDust:16>, 10);
+
+//Silver
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:16>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:16>, <HarderOres:smallDust:16> *2, <HarderOres:smallDust:14>, 10);
+
+//Nickel
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:17>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:17>, <HarderOres:smallDust:17> *2, <beyondrealitycore:tinyPlatinum>, 2);
+
+//Aluminum
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:18>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:18>, <HarderOres:smallDust:18> *2, <HarderOres:smallDust:13>, 10);
+
+//Uranium
+mods.thermalexpansion.Pulverizer.removeRecipe(<HarderOres:ore_chunk:15>);
+mods.thermalexpansion.Pulverizer.addRecipe(500, <HarderOres:ore_chunk:15>, <aobd:nuggetUranium> *2, <beyondrealitycore:tinyUranium>, 2);
