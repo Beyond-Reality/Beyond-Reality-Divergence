@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:1
 clouds:true
-resourcePacks:["BRassets.zip"]
+resourcePacks:["DivergenceAssets.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
