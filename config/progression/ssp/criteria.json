@@ -2851,18 +2851,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "ThermalExpansion:Glass 0"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalExpansion:Glass 1"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "ThermalExpansion:Rockwool 0"
               }
             },
@@ -2996,24 +2984,6 @@
               "type": "crafting",
               "data": {
                 "item": "ThermalExpansion:chiller 0 {Energy:0}"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalExpansion:satchel 2 {Accessible:1b}"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalExpansion:satchel 3 {Accessible:1b}"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalExpansion:satchel 4 {Accessible:1b}"
               }
             },
             {
@@ -20361,6 +20331,52 @@
           "repeatable": 1,
           "infinite": false,
           "x": 25,
+          "y": 125,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+		{
+          "uniqueName": "1437124566897",
+          "displayName": "PermaLocked",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "beyondrealitycore:chair:70"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ThermalExpansion:satchel 1 {Accessible:1b}"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "ThermalExpansion:satchel 2 {Accessible:1b}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ThermalExpansion:satchel 3 {Accessible:1b}"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ThermalExpansion:satchel 4 {Accessible:1b}"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 35,
           "y": 125,
           "isVisible": true,
           "mustClaim": false,
