@@ -1,4 +1,4 @@
 recipes.remove(<tts:tube>);
-recipes.addShaped(<tts:tube>, [[<ore:stone>,<ore:blockGlass>,<ore:stone>]
+recipes.addShaped(<tts:tube> * 16, [[<ore:stone>,<ore:blockGlass>,<ore:stone>]
 							,[<ore:blockGlass>,<ore:pearlEnder>,<ore:blockGlass>]
 							,[<ore:stone>,<ore:blockGlass>,<ore:stone>]]);
