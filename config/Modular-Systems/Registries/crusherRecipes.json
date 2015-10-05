@@ -211,8 +211,8 @@
   },
   {
     "input": "oreQuartz",
-    "output": "ImmersiveEngineering:metal:18",
-    "qty": 2
+    "output": "minecraft:quartz:0",
+    "qty": 3
   },
   {
     "input": "ingotHOPGraphite",
@@ -358,11 +358,6 @@
     "input": "minecraft:bone:0",
     "output": "minecraft:dye:15",
     "qty": 6
-  },
-  {
-    "input": "oreQuartz",
-    "output": "minecraft:quartz:0",
-    "qty": 4
   },
   {
     "input": "minecraft:clay:0",
