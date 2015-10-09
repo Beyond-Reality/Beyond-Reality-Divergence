@@ -10,3 +10,5 @@ recipes.addShaped(<minecraft:golden_rail> * 2, [[<ore:ingotIron>,null,<ore:ingot
 
 # Add Aluminum to the aluminium ore dict
 <ore:chunkAluminium>.add(<HarderOres:ore_chunk:18>);
+
+recipes.addShapeless(<Enchiridion2:book>.withTag({identifier: "BeyondRealityDivergence"}), [<minecraft:book>,<minecraft:dye>]);
