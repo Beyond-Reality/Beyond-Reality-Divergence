@@ -1,7 +1,3 @@
-import minetweaker.item.IItemStack;
-import mods.magneticraft.Grinder;
-import mods.magneticraft.Sifter;
-
 # Harder Ores Balancing
 var tinyIron = <HarderOres:smallDust:8>;
 var tinyGold = <HarderOres:smallDust:9>;
@@ -68,15 +64,15 @@ mods.magneticraft.Grinder.removeRecipe(rubbleAlum);
 mods.magneticraft.Grinder.removeRecipe(rubbleUranium);
 
 //Chunk remove
-mods.magneticraft.Grinder.removeRecipe(ChunkIron);
-mods.magneticraft.Grinder.removeRecipe(ChunkGold);
-mods.magneticraft.Grinder.removeRecipe(ChunkTin);
-mods.magneticraft.Grinder.removeRecipe(ChunkCopper);
-mods.magneticraft.Grinder.removeRecipe(ChunkLead);
-mods.magneticraft.Grinder.removeRecipe(ChunkSilver);
-mods.magneticraft.Grinder.removeRecipe(ChunkNickel);
-mods.magneticraft.Grinder.removeRecipe(ChunkAlum);
-mods.magneticraft.Grinder.removeRecipe(ChunkUranium);
+mods.magneticraft.Grinder.removeRecipe(chunkIron);
+mods.magneticraft.Grinder.removeRecipe(chunkGold);
+mods.magneticraft.Grinder.removeRecipe(chunkTin);
+mods.magneticraft.Grinder.removeRecipe(chunkCopper);
+mods.magneticraft.Grinder.removeRecipe(chunkLead);
+mods.magneticraft.Grinder.removeRecipe(chunkSilver);
+mods.magneticraft.Grinder.removeRecipe(chunkNickel);
+mods.magneticraft.Grinder.removeRecipe(chunkAlum);
+mods.magneticraft.Grinder.removeRecipe(chunkUranium);
 
 //Pebble
 
