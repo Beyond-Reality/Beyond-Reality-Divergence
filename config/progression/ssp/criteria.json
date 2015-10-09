@@ -20414,7 +20414,7 @@
               "data": {
                 "item": "TConstruct:knapsack"
               }
-            },
+            }
           ],
           "repeatable": 1,
           "infinite": false,
