@@ -47,12 +47,12 @@
 	</StandardGenPreset>
 	
     <StandardGenPreset name='SparseNetherrack'>
-       <Setting name='Size' avg='1' range='0' />
+       <Setting name='Size' avg='3' range='2' />
        <ReplacesOre block='stoneNetherrack' />
 	</StandardGenPreset>
 	
     <StandardGenPreset name='SparseEndstone'>
-		<Setting name='Size' avg='1' range='0' />
+		<Setting name='Size' avg='3' range='1' />
 		<ReplacesOre block='stoneEndstone' />	
 	</StandardGenPreset>
 	
@@ -292,6 +292,32 @@
 		<Setting name='Height' avg='18' range='5' scaleTo='biome' />
 	</StandardGen>
 
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Cobalt & Ardite Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<StandardGen name='Sparse Cobalt1' inherits='SparseNetherrack'>
+		<OreBlock block='TConstruct:SearedBrick:1' />	
+		<Setting name='Frequency' avg='12' range='6' type='normal' scaleTo='base' />
+		<Setting name='Height' avg='64' range='64' type='uniform' scaleTo='base' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Cobalt2' inherits='SparseNetherrack'>
+		<OreBlock block='TConstruct:SearedBrick:1' />	
+		<Setting name='Frequency' avg='6' range='4' type='normal' scaleTo='base' />
+		<Setting name='Height' avg='64' range='64' type='uniform' scaleTo='base' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Ardite1' inherits='SparseNetherrack'>
+		<OreBlock block='TConstruct:SearedBrick:2' />	
+		<Setting name='Frequency' avg='12' range='6' type='normal' scaleTo='base' />
+		<Setting name='Height' avg='64' range='64' type='uniform' scaleTo='base' />
+	</StandardGen>
+	
+	<StandardGen name='Sparse Ardite2' inherits='SparseNetherrack'>
+		<OreBlock block='TConstruct:SearedBrick:2' />	
+		<Setting name='Frequency' avg='6' range='4' type='normal' scaleTo='base' />
+		<Setting name='Height' avg='64' range='64' type='uniform' scaleTo='base' />
+	</StandardGen>
+	
 			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mana Infused Ore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	
 	<Veins name='ManaInfused' block='ThermalFoundation:Ore:6' inherits='PresetSmallDeposits'>
