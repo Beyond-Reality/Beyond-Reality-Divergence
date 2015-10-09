@@ -459,12 +459,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "modularsystems:storageCrafting"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "modularsystems:storageHopping"
               }
             }
@@ -6812,13 +6806,7 @@
               }
             }
           ],
-          "rewards": [
-            {
-              "type": "crafting",
-              "data": {
-                "item": "BuildCraft|Builders:machineBlock"
-              }
-            },
+          "rewards": [           
             {
               "type": "crafting",
               "data": {
@@ -13887,12 +13875,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "Magneticraft:miner"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "Magneticraft:teslacoil"
               }
             },
@@ -16590,12 +16572,6 @@
               "type": "crafting",
               "data": {
                 "item": "AWWayofTime:blockPlinth"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "AWWayofTime:blockTeleposer"
               }
             },
             {
@@ -20372,7 +20348,73 @@
               "data": {
                 "item": "ThermalExpansion:satchel 4 {Accessible:1b}"
               }
-            }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "Magneticraft:miner"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AWWayofTime:blockTeleposer"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "BuildCraft|Builders:machineBlock"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "ImmersiveEngineering:woodenDevice 4"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "ImmersiveEngineering:stoneDecoration 2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "modularsystems:storageCrafting"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "modularsystems:generatorCore"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:machine.alpha 12"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:hammer"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:Crossbow"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:knapsack"
+              }
+            },
           ],
           "repeatable": 1,
           "infinite": false,
