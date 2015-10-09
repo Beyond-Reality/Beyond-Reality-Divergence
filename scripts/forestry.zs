@@ -1,13 +1,31 @@
+recipes.remove(<Forestry:adventurerBag>);
+recipes.remove(<Forestry:builderBag>);
 recipes.remove(<Forestry:diggerBag>);
 recipes.remove(<Forestry:foresterBag>);
-recipes.remove(<Forestry:minerBag>);
-recipes.remove(<Forestry:builderBagT2>);
-recipes.remove(<Forestry:foresterBagT2>);
-recipes.remove(<Forestry:builderBag>);
-recipes.remove(<Forestry:adventurerBag>);
-recipes.remove(<Forestry:diggerBagT2>);
-recipes.remove(<Forestry:adventurerBagT2>);
-recipes.remove(<Forestry:hunterBagT2>);
 recipes.remove(<Forestry:hunterBag>);
-recipes.remove(<Forestry:diggerBag>);
-recipes.remove(<Forestry:diggerBag>);
+recipes.remove(<Forestry:minerBag>);
+
+mods.forestry.Carpenter.removeRecipe(<Forestry:adventurerBagT2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:adventurerBagT2>, [[<Forestry:craftingMaterial:3>, <beyondrealitycore:item10> *3, <Forestry:craftingMaterial:3>],
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:adventurerBag>, <Forestry:craftingMaterial:3>], 
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]], 20);
+mods.forestry.Carpenter.removeRecipe(<Forestry:builderBagT2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:builderBagT2>, [[<Forestry:craftingMaterial:3>, <beyondrealitycore:item10> *3, <Forestry:craftingMaterial:3>],
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:builderBag>, <Forestry:craftingMaterial:3>], 
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]], 20);
+mods.forestry.Carpenter.removeRecipe(<Forestry:diggerBagT2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:diggerBagT2>, [[<Forestry:craftingMaterial:3>, <beyondrealitycore:item10> *3, <Forestry:craftingMaterial:3>],
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:diggerBag>, <Forestry:craftingMaterial:3>], 
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]], 20);
+mods.forestry.Carpenter.removeRecipe(<Forestry:foresterBagT2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:foresterBagT2>, [[<Forestry:craftingMaterial:3>, <beyondrealitycore:item10> *3, <Forestry:craftingMaterial:3>],
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:foresterBag>, <Forestry:craftingMaterial:3>], 
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]], 20);
+mods.forestry.Carpenter.removeRecipe(<Forestry:hunterBagT2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:hunterBagT2>, [[<Forestry:craftingMaterial:3>, <beyondrealitycore:item10> *3, <Forestry:craftingMaterial:3>],
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:hunterBag>, <Forestry:craftingMaterial:3>], 
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]], 20);
+mods.forestry.Carpenter.removeRecipe(<Forestry:minerBagT2>);
+mods.forestry.Carpenter.addRecipe(<Forestry:minerBagT2>, [[<Forestry:craftingMaterial:3>, <beyondrealitycore:item10> *3, <Forestry:craftingMaterial:3>],
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:minerBag>, <Forestry:craftingMaterial:3>], 
+                                                            [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]], 20);
