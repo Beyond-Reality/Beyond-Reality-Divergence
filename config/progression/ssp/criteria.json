@@ -20424,6 +20424,406 @@
           "mustClaim": false,
           "displayAchievement": true
         },
+		{
+          "uniqueName": "1437124588541",
+          "displayName": "Magic Bees",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "beyondrealitycore:chair:70"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:hive"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:hive 1"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:hive 2"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:manaAuraProvider"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:magicbees.enchantedEarth"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:magicApiary"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:effectJar"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:visAuraProvider"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:item.thaumiumGrafter"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:backpack.thaumaturgeT2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:backpack.thaumaturgeT1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 3"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 4"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 5"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 6"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 7"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 8"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 9"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 10"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 11"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 12"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 17"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 18"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 19"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 20"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 21"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 22"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:miscResources 23"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:pollen"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:pollen 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:capsule.magic"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameTemporal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:beeNugget"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:beeNugget 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:beeNugget 2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:beeNugget 3"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:beeNugget 4"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:wax"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:moonDial"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:item.thaumiumScoop"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameMetabolic"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:item.manasteelScoop"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:item.manasteelGrafter"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameResilient"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameOblivion"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameGentle"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis 2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis 3"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis 4"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis 5"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:propolis 6"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameMagic"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:jellyBabies"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:frameNecrotic"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:comb"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:magnet"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:capsule.void"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "MagicBees:drop"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 35,
+          "y": 225,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
         {
           "uniqueName": "1437115943317",
           "displayName": "Road Blocks",
