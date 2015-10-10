@@ -48,7 +48,7 @@
 	
     <StandardGenPreset name='SparseNetherrack'>
        <Setting name='Size' avg='3' range='2' />
-       <ReplacesOre block='stoneNetherrack' />
+       <Replaces block='minecraft:netherrack' />
 	</StandardGenPreset>
 	
     <StandardGenPreset name='SparseEndstone'>
@@ -77,7 +77,7 @@
         </CloudPreset>
 		
         <CloudPreset name='LargeNetherrack' inherits='Large'>
-            <ReplacesOre block='stoneNetherrack' />
+            <Replaces block='minecraft:netherrack' />
         </CloudPreset>
 		
         <CloudPreset name='LargeEndstone' inherits='Large'>
