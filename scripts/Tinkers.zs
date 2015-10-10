@@ -25,4 +25,24 @@ mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:bucket:1>, <liquid:glo
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:materials:2>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:2>, <liquid:stone.seared> * 36, 800, <TConstruct:Smeltery:2>);
 
+# Removed Tinker's Construct Knapsack
 recipes.remove(<TConstruct:knapsack>);
+
+# Reduced yields for Signalum, Enderium, Lumium
+var moltenSilver = <liquid:silver.molten>;
+var moltenCopper = <liquid:copper.molten>;
+var moltenTin = <liquid:tin.molten>;
+var moltenShiny = <liquid:platinum.molten>;
+
+var moltenEnder = <liquid:ender>;
+var moltenRedstone = <liquid:redstone>;
+var moltenGlowstone = <liquid:glowstone>;
+
+mods.tconstruct.Smeltery.removeAlloy(<liquid:signalum.molten>);
+mods.tconstruct.Smeltery.addAlloy(<liquid:signalum.molten> * 288, [moltenSilver * 144, moltenCopper * 432, moltenRedstone * 1000]);
+
+mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
+mods.tconstruct.Smeltery.addAlloy(<liquid:enderium.molten> * 288, [moltenSilver * 144, moltenShiny * 144, moltenTin * 288, moltenEnder * 1000]);
+
+mods.tconstruct.Smeltery.removeAlloy(<liquid:lumium.molten>);
+mods.tconstruct.Smeltery.addAlloy(<liquid:lumium.molten> * 288, [moltenSilver * 144, moltenTin * 432, moltenGlowstone * 1000]);

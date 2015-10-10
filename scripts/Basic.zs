@@ -12,3 +12,7 @@ recipes.addShaped(<minecraft:golden_rail> * 2, [[<ore:ingotIron>,null,<ore:ingot
 <ore:chunkAluminium>.add(<HarderOres:ore_chunk:18>);
 
 recipes.addShapeless(<Enchiridion2:book>.withTag({identifier: "BeyondRealityDivergence"}), [<minecraft:book>,<minecraft:dye>]);
+
+# Add AE Flour to the dustFlour ore dict
+<ore:dustFlour>.addAll(<ore:dustWheat>);
+<ore:dustWheat>.mirror(<ore:dustFlour>);
