@@ -55,10 +55,15 @@ var pebbleAlum = <Magneticraft:item.pebbles:13>;
 var pebbleUranium = <Magneticraft:item.pebbles:7>;
 
 # rawOres intentionally excludes iron and gold
-var rawOres = [rawTin, rawCopper, rawLead, rawSilver, rawNickel, rawAlum, rawUranium] as IItemStack[];
+var rawOres1 = [rawIron, rawGold] as IItemStack[];
+var rawOres2 = [rawTin, rawCopper, rawLead, rawSilver, rawNickel, rawAlum, rawUranium] as IItemStack[];
+var rawOres = [rawIron, rawGold, rawTin, rawCopper, rawLead, rawSilver, rawNickel, rawAlum, rawUranium] as IItemStack[];
 var rubbleOres = [rubbleIron, rubbleGold, rubbleTin, rubbleCopper, rubbleLead, rubbleSilver, rubbleNickel, rubbleAlum, rubbleUranium] as IItemStack[];
 var chunkOres = [chunkIron, chunkGold, chunkTin, chunkCopper, chunkLead, chunkSilver, chunkNickel, chunkAlum, chunkUranium] as IItemStack[];
 var pebbleOres = [pebbleIron, pebbleGold, pebbleTin, pebbleCopper, pebbleLead, pebbleSilver, pebbleNickel, pebbleAlum, pebbleUranium] as IItemStack[];
+
+var tinyOres1 = [tinyIron, tinyGold] as IItemStack[];
+var tinyOres2 = [tinyTin, tinyCopper, tinyLead, tinySilver, tinyNickel, tinyAlum, tinyUranium] as IItemStack[];
 var tinyOres = [tinyIron, tinyGold, tinyTin, tinyCopper, tinyLead, tinySilver, tinyNickel, tinyAlum, tinyUranium] as IItemStack[];
 
 # Removing Grinder/Sifter Recipes
@@ -112,10 +117,21 @@ mods.magneticraft.Grinder.addRecipe(rubbleUranium, pebbleUranium, tinyUranium, 0
 mods.magneticraft.Sifter.addRecipe(pebbleUranium, tinyUranium * 3, tinyThorium, 0.05);
 
 # Balance Rubble Smelting
-for i, rawOre in rawOres {
-    var tinyDust = tinyOres[i];
-    
+for i, rawOre in rawOres1 {
+    var tinyDust = tinyOres1[i];
+
+    furnace.remove(<*>, rawOre);
  	furnace.addRecipe(tinyDust * 1, rawOre);
+ 	mods.thermalexpansion.Furnace.removeRecipe(rawOre);
+ 	mods.thermalexpansion.Furnace.addRecipe(1600, rawOre, tinyDust * 1);
+}
+
+for i, rawOre in rawOres2 {
+    var tinyDust = tinyOres2[i];
+
+    # furnace.remove(<*>, rawOre);
+ 	furnace.addRecipe(tinyDust * 1, rawOre);
+ 	# mods.thermalexpansion.Furnace.removeRecipe(rawOre);
  	mods.thermalexpansion.Furnace.addRecipe(1600, rawOre, tinyDust * 1);
 }
 
