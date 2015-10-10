@@ -1,3 +1,7 @@
+import minetweaker.item.IItemStack;
+import mods.magneticraft.Grinder;
+import mods.magneticraft.Sifter;
+
 # Harder Ores Balancing
 var tinyIron = <HarderOres:smallDust:8>;
 var tinyGold = <HarderOres:smallDust:9>;
@@ -50,41 +54,30 @@ var pebbleNickel = <Magneticraft:item.pebbles:9>;
 var pebbleAlum = <Magneticraft:item.pebbles:13>;
 var pebbleUranium = <Magneticraft:item.pebbles:7>;
 
+# rawOres intentionally excludes iron and gold
+var rawOres1 = [rawIron, rawGold] as IItemStack[];
+var rawOres2 = [rawTin, rawCopper, rawLead, rawSilver, rawNickel, rawAlum, rawUranium] as IItemStack[];
+var rawOres = [rawIron, rawGold, rawTin, rawCopper, rawLead, rawSilver, rawNickel, rawAlum, rawUranium] as IItemStack[];
+var rubbleOres = [rubbleIron, rubbleGold, rubbleTin, rubbleCopper, rubbleLead, rubbleSilver, rubbleNickel, rubbleAlum, rubbleUranium] as IItemStack[];
+var chunkOres = [chunkIron, chunkGold, chunkTin, chunkCopper, chunkLead, chunkSilver, chunkNickel, chunkAlum, chunkUranium] as IItemStack[];
+var pebbleOres = [pebbleIron, pebbleGold, pebbleTin, pebbleCopper, pebbleLead, pebbleSilver, pebbleNickel, pebbleAlum, pebbleUranium] as IItemStack[];
+
+var tinyOres1 = [tinyIron, tinyGold] as IItemStack[];
+var tinyOres2 = [tinyTin, tinyCopper, tinyLead, tinySilver, tinyNickel, tinyAlum, tinyUranium] as IItemStack[];
+var tinyOres = [tinyIron, tinyGold, tinyTin, tinyCopper, tinyLead, tinySilver, tinyNickel, tinyAlum, tinyUranium] as IItemStack[];
+
 # Removing Grinder/Sifter Recipes
+for i, rubbleOre in rubbleOres {
+	mods.magneticraft.Grinder.removeRecipe(rubbleOre);
+}
 
-//Rubble remove
-mods.magneticraft.Grinder.removeRecipe(rubbleIron);
-mods.magneticraft.Grinder.removeRecipe(rubbleGold);
-mods.magneticraft.Grinder.removeRecipe(rubbleTin);
-mods.magneticraft.Grinder.removeRecipe(rubbleCopper);
-mods.magneticraft.Grinder.removeRecipe(rubbleLead);
-mods.magneticraft.Grinder.removeRecipe(rubbleSilver);
-mods.magneticraft.Grinder.removeRecipe(rubbleNickel);
-mods.magneticraft.Grinder.removeRecipe(rubbleAlum);
-mods.magneticraft.Grinder.removeRecipe(rubbleUranium);
+for i, chunkOre in chunkOres {
+	mods.magneticraft.Grinder.removeRecipe(chunkOre);
+}
 
-//Chunk remove
-mods.magneticraft.Grinder.removeRecipe(chunkIron);
-mods.magneticraft.Grinder.removeRecipe(chunkGold);
-mods.magneticraft.Grinder.removeRecipe(chunkTin);
-mods.magneticraft.Grinder.removeRecipe(chunkCopper);
-mods.magneticraft.Grinder.removeRecipe(chunkLead);
-mods.magneticraft.Grinder.removeRecipe(chunkSilver);
-mods.magneticraft.Grinder.removeRecipe(chunkNickel);
-mods.magneticraft.Grinder.removeRecipe(chunkAlum);
-mods.magneticraft.Grinder.removeRecipe(chunkUranium);
-
-//Pebble
-
-mods.magneticraft.Sifter.removeRecipe(pebbleIron);
-mods.magneticraft.Sifter.removeRecipe(pebbleGold);
-mods.magneticraft.Sifter.removeRecipe(pebbleTin);
-mods.magneticraft.Sifter.removeRecipe(pebbleCopper);
-mods.magneticraft.Sifter.removeRecipe(pebbleLead);
-mods.magneticraft.Sifter.removeRecipe(pebbleSilver);
-mods.magneticraft.Sifter.removeRecipe(pebbleNickel);
-mods.magneticraft.Sifter.removeRecipe(pebbleAlum);
-mods.magneticraft.Sifter.removeRecipe(pebbleUranium);
+for i, pebbleOre in pebbleOres {
+	mods.magneticraft.Sifter.removeRecipe(pebbleOre);
+}
 
 # Harder Ores
 mods.magneticraft.Grinder.addRecipe(chunkIron, rubbleIron, tinyIron, 0.05, tinyNickel, 0.05);
@@ -123,158 +116,53 @@ mods.magneticraft.Grinder.addRecipe(chunkUranium, rubbleUranium, tinyUranium, 0.
 mods.magneticraft.Grinder.addRecipe(rubbleUranium, pebbleUranium, tinyUranium, 0.05, tinyThorium, 0.05);
 mods.magneticraft.Sifter.addRecipe(pebbleUranium, tinyUranium * 3, tinyThorium, 0.05);
 
-#Removing Furnace Recipes
+# Balance Rubble Smelting
+for i, rawOre in rawOres1 {
+    var tinyDust = tinyOres1[i];
 
-//Rubble
-furnace.remove(<*>, rubbleIron);
-furnace.remove(<*>, rubbleGold);
-furnace.remove(<*>, rubbleTin);
-furnace.remove(<*>, rubbleCopper);
-furnace.remove(<*>, rubbleLead);
-furnace.remove(<*>, rubbleSilver);
-furnace.remove(<*>, rubbleNickel);
-furnace.remove(<*>, rubbleAlum);
-furnace.remove(<*>, rubbleUranium);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleIron);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleGold);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleTin);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleCopper);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleLead);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleSilver);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleNickel);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleAlum);
-mods.thermalexpansion.Furnace.removeRecipe(rubbleUranium);
+    furnace.remove(<*>, rawOre);
+ 	furnace.addRecipe(tinyDust * 1, rawOre);
+ 	mods.thermalexpansion.Furnace.removeRecipe(rawOre);
+ 	mods.thermalexpansion.Furnace.addRecipe(1600, rawOre, tinyDust * 1);
+}
 
-//Chunk
+for i, rawOre in rawOres2 {
+    var tinyDust = tinyOres2[i];
 
-furnace.remove(<*>, chunkIron);
-furnace.remove(<*>, chunkGold);
-furnace.remove(<*>, chunkTin);
-furnace.remove(<*>, chunkCopper);
-furnace.remove(<*>, chunkLead);
-furnace.remove(<*>, chunkSilver);
-furnace.remove(<*>, chunkNickel);
-furnace.remove(<*>, chunkAlum);
-furnace.remove(<*>, chunkUranium);
-mods.thermalexpansion.Furnace.removeRecipe(chunkIron);
-mods.thermalexpansion.Furnace.removeRecipe(chunkGold);
-mods.thermalexpansion.Furnace.removeRecipe(chunkTin);
-mods.thermalexpansion.Furnace.removeRecipe(chunkCopper);
-mods.thermalexpansion.Furnace.removeRecipe(chunkLead);
-mods.thermalexpansion.Furnace.removeRecipe(chunkSilver);
-mods.thermalexpansion.Furnace.removeRecipe(chunkNickel);
-mods.thermalexpansion.Furnace.removeRecipe(chunkAlum);
-mods.thermalexpansion.Furnace.removeRecipe(chunkUranium);
+    # furnace.remove(<*>, rawOre);
+ 	furnace.addRecipe(tinyDust * 1, rawOre);
+ 	# mods.thermalexpansion.Furnace.removeRecipe(rawOre);
+ 	mods.thermalexpansion.Furnace.addRecipe(1600, rawOre, tinyDust * 1);
+}
 
-//Pebble
+for i, rubbleOre in rubbleOres {
+    var tinyDust = tinyOres[i];
 
-furnace.remove(<*>, pebbleIron);
-furnace.remove(<*>, pebbleGold);
-furnace.remove(<*>, pebbleTin);
-furnace.remove(<*>, pebbleCopper);
-furnace.remove(<*>, pebbleLead);
-furnace.remove(<*>, pebbleSilver);
-furnace.remove(<*>, pebbleNickel);
-furnace.remove(<*>, pebbleAlum);
-furnace.remove(<*>, pebbleUranium);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleIron);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleGold);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleTin);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleCopper);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleLead);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleNickel);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleSilver);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleAlum);
-mods.thermalexpansion.Furnace.removeRecipe(pebbleUranium);
+    furnace.remove(<*>, rubbleOre);
+	furnace.addRecipe(tinyDust * 2, rubbleOre);
+	mods.thermalexpansion.Furnace.removeRecipe(rubbleOre);
+	mods.thermalexpansion.Furnace.addRecipe(1600, rubbleOre, tinyDust * 2);
+}
 
-#Add Furnace Recipes
+# Balance Chunk Smelting
+for i, chunkOre in chunkOres {
+    var tinyDust = tinyOres[i];
 
-// Iron
+    furnace.remove(<*>, chunkOre);
+	furnace.addRecipe(tinyDust * 2, chunkOre);
+	mods.thermalexpansion.Furnace.removeRecipe(chunkOre);
+	mods.thermalexpansion.Furnace.addRecipe(1600, chunkOre, tinyDust * 2);
+}
 
-furnace.addRecipe(tinyIron * 2, rubbleIron);
-furnace.addRecipe(tinyIron * 2, chunkIron);
-furnace.addRecipe(tinyIron * 2, pebbleIron);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleIron, tinyIron * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkIron, tinyIron * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleIron, tinyIron * 2);
+# Balance Pebble Smelting
+for i, pebbleOre in pebbleOres {
+    var tinyDust = tinyOres[i];
 
-//Gold
-
-furnace.addRecipe(tinyGold * 2, rubbleGold);
-furnace.addRecipe(tinyGold * 2, chunkGold);
-furnace.addRecipe(tinyGold * 2, pebbleGold);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleGold, tinyGold * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkGold, tinyGold * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleGold, tinyGold * 2);
-
-
-//Tin
-
-furnace.addRecipe(tinyTin * 2, rubbleTin);
-furnace.addRecipe(tinyTin * 2, chunkTin);
-furnace.addRecipe(tinyTin * 2, pebbleTin);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleTin, tinyTin * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkTin, tinyTin * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleTin, tinyTin * 2);
-
-//Copper
-
-furnace.addRecipe(tinyCopper * 2, rubbleCopper);
-furnace.addRecipe(tinyCopper * 2, chunkCopper);
-furnace.addRecipe(tinyCopper * 2, pebbleCopper);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleCopper, tinyCopper * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkCopper, tinyCopper * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleCopper, tinyCopper * 2);
-
-
-//Lead
-
-furnace.addRecipe(tinyLead * 2, rubbleLead);
-furnace.addRecipe(tinyLead * 2, chunkLead);
-furnace.addRecipe(tinyLead * 2, pebbleLead);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleLead, tinyLead * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkLead, tinyLead * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleLead, tinyLead * 2);
-
-
-//Silver
-
-furnace.addRecipe(tinySilver * 2, rubbleSilver);
-furnace.addRecipe(tinySilver * 2, chunkSilver);
-furnace.addRecipe(tinySilver * 2, pebbleSilver);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleSilver, tinySilver * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkSilver, tinySilver * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleSilver, tinySilver * 2);
-
-
-//Nickel
-
-furnace.addRecipe(tinyNickel * 2, rubbleNickel);
-furnace.addRecipe(tinyNickel * 2, chunkNickel);
-furnace.addRecipe(tinyNickel * 2, pebbleNickel);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleNickel, tinyNickel * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkNickel, tinyNickel * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleNickel, tinyNickel * 2);
-
-
-//Aluminum
-
-furnace.addRecipe(tinyAlum * 2, rubbleAlum);
-furnace.addRecipe(tinyAlum * 2, chunkAlum);
-furnace.addRecipe(tinyAlum * 2, pebbleAlum);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleAlum, tinyAlum * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkAlum, tinyAlum * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleAlum, tinyAlum * 2);
-
-
-//Uranium
-
-furnace.addRecipe(tinyUranium * 2, rubbleUranium);
-furnace.addRecipe(tinyUranium * 2, chunkUranium);
-furnace.addRecipe(tinyUranium * 2, pebbleUranium);
-mods.thermalexpansion.Furnace.addRecipe(1600, rubbleUranium, tinyUranium * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, chunkUranium, tinyUranium * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, pebbleUranium, tinyUranium * 2);
+    furnace.remove(<*>, pebbleOre);
+	furnace.addRecipe(tinyDust * 2, pebbleOre);
+	mods.thermalexpansion.Furnace.removeRecipe(pebbleOre);
+	mods.thermalexpansion.Furnace.addRecipe(1600, pebbleOre, tinyDust * 2);
+}
 
 #Random
 
