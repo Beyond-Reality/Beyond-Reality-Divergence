@@ -28,9 +28,9 @@ recipes.addShaped(<ThermalFoundation:material:43> * 2, [[<ore:dustTin>,<ore:dust
 
 # Enderium Dust
 recipes.remove(<ThermalFoundation:material:44>);
-recipes.addShaped(<ThermalFoundation:material:44> * 2, [[<ore:dustSilver>,<ore:dustSilver>,<ore:dustAluminum>]
-,[<ore:dustMithril>,<ore:dustMithril>,<ore:dustAluminum>]
-,[null,<ThermalFoundation:bucket:2>.transformReplace(<minecraft:bucket>),null]]);
+recipes.addShaped(<ThermalFoundation:material:44> * 2, [[<ore:dustSilver>,<ore:dustPlatinum>,null]
+,[<ore:dustTin>,<ore:dustTin>,null]
+,[<ThermalFoundation:bucket:2>.transformReplace(<minecraft:bucket>),null,null]]);
 
 # Petrotheum Dust
 recipes.remove(<ThermalFoundation:material:515>);
