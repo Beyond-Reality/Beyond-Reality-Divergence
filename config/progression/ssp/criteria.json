@@ -21409,12 +21409,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "ThermalDynamics:cover 0 {Meta:0b,Block:\"malisisdoors:rustyLadder\"}"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "malisisdoors:rustyHatch"
               }
             },
@@ -21423,13 +21417,7 @@
               "data": {
                 "item": "malisisdoors:player_sensor"
               }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalDynamics:cover 0 {Meta:0b,Block:\"malisisdoors:player_sensor\"}"
-              }
-            }
+            }          
           ],
           "repeatable": 1,
           "infinite": false,
@@ -21991,13 +21979,7 @@
               "data": {
                 "item": "witchery:leechchest"
               }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "shamanry:blockRitualAltar"
-              }
-            },
+            },            
             {
               "type": "crafting",
               "data": {
@@ -22105,13 +22087,7 @@
               "data": {
                 "item": "witchery:spinningwheel"
               }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "WitchingGadgets:tile.WG_WoodenDevice.name 0"
-              }
-            },
+            },           
             {
               "type": "crafting",
               "data": {
@@ -22249,13 +22225,7 @@
               "data": {
                 "item": "witchery:daylightcollector"
               }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalDynamics:cover 0 {Meta:0b,Block:\"witchery:daylightcollector\"}"
-              }
-            },
+            },           
             {
               "type": "crafting",
               "data": {
