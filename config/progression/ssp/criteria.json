@@ -4753,12 +4753,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "ae2stuff:Inscriber"
               }
             },
