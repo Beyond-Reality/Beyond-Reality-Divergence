@@ -14,3 +14,6 @@ recipes.remove(<minecraft:golden_carrot>);
 recipes.addShaped(<minecraft:golden_carrot>, [[<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>]
 							,[<ore:ingotGold>,<minecraft:carrot>,<ore:ingotGold>]
 							,[<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>]]);
+							
+// ANvil conversion
+recipes.addShapeless(<minecraft:anvil>, [<Railcraft:anvil>,<minecraft:stick>.transformReplace(<minecraft:stick>)]);
