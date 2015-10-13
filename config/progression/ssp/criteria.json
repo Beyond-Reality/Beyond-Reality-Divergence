@@ -20328,6 +20328,18 @@
 			{
               "type": "crafting",
               "data": {
+                "item": "aura:consumerBlockloot"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "aura:consumerBlockmob"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
                 "item": "ThermalExpansion:satchel 2 {Accessible:1b}"
               }
             },
