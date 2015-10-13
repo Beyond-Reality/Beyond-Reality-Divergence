@@ -276,10 +276,6 @@
       "x": 66,
       "y": 118,
       "bigIcon": true,
-      "icon": {
-        "id": "WitchingGadgets:tile.WG_MetalDevice.name",
-        "damage": 6
-      },
       "requirements": [
         0
       ],
