@@ -26,4 +26,4 @@
 <ore:rawchunkNickel>.add(<HarderOres:ore_chunk:17>);
 <ore:rawchunkAluminum>.add(<HarderOres:ore_chunk:18>);
 <ore:rawchunkDiamond>.add(<HarderOres:ore_chunk:10>);
-<ore:oreRedstone>.add<HarderOres:ore_redstone>;
+<ore:oreRedstone>.add(<HarderOres:ore_redstone>);
