@@ -17795,121 +17795,121 @@
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_StoneDevice.name 0"
+                "item": "WitchingGadgets:WG_StoneDevice 0"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_StoneDevice.name 1"
+                "item": "WitchingGadgets:WG_StoneDevice 1"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_StoneDevice.name 2"
+                "item": "WitchingGadgets:WG_StoneDevice 2"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_StoneDevice.name 3"
+                "item": "WitchingGadgets:WG_StoneDevice 3"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_StoneDevice.name 6"
+                "item": "WitchingGadgets:WG_StoneDevice 6"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_StoneDevice.name 7"
+                "item": "WitchingGadgets:WG_StoneDevice 7"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_WoodenDevice.name 0"
+                "item": "WitchingGadgets:WG_WoodenDevice 0"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_WoodenDevice.name 2"
+                "item": "WitchingGadgets:WG_WoodenDevice 2"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_WoodenDevice.name 3"
+                "item": "WitchingGadgets:WG_WoodenDevice 3"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_WoodenDevice.name 4"
+                "item": "WitchingGadgets:WG_WoodenDevice 4"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_WoodenDevice.name 5"
+                "item": "WitchingGadgets:WG_WoodenDevice 5"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 0"
+                "item": "WitchingGadgets:WG_MetalDevice 0"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 1"
+                "item": "WitchingGadgets:WG_MetalDevice 1"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 2"
+                "item": "WitchingGadgets:WG_MetalDevice 2"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 3"
+                "item": "WitchingGadgets:WG_MetalDevice 3"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 4"
+                "item": "WitchingGadgets:WG_MetalDevice 4"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 5"
+                "item": "WitchingGadgets:WG_MetalDevice 5"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 6"
+                "item": "WitchingGadgets:WG_MetalDevice 6"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 8"
+                "item": "WitchingGadgets:WG_MetalDevice 8"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "WitchingGadgets:tile.WG_MetalDevice.name 9"
+                "item": "WitchingGadgets:WG_MetalDevice 9"
               }
             },
             {
