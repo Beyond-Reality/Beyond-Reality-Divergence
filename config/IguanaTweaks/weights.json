@@ -139,5 +139,9 @@
 	{
 	 "name": "StorageDrawers:tape",
 	 "weight" : 50
+	},
+	{
+	 "name": "YeOldeTanks:yot.barrel",
+	 "weight" : 32
 	}
 ]
