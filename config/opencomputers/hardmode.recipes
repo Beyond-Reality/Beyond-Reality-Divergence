@@ -80,6 +80,14 @@ abstractBusCard {
   input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
           ["", "oc:materialCard", ""]]
 }
+dataCard2 {
+  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:dataCard1", ""]]
+}
+dataCard3 {
+  input: [[diamond, "oc:cpu2", "oc:ram5"]
+          ["", "oc:dataCard2", ""]]
+}
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
           ["", "oc:materialCard", ""]]
@@ -101,7 +109,7 @@ redstoneCard1 {
           ["", "oc:materialCard", ""]]
 }
 redstoneCard2 {
-  input: [[blockRedstone, "oc:circuitChip2", enderPearl]
+  input: [[blockRedstone, "oc:circuitChip2", materialEnderPearl]
           ["", "oc:redstoneCard1", ""]]
 }
 lanCard {
@@ -109,7 +117,7 @@ lanCard {
           ["", "oc:materialCard", ""]]
 }
 wlanCard {
-  input: [[enderPearl, "oc:circuitChip2", ""]
+  input: [[materialEnderPearl, "oc:circuitChip2", ""]
           ["", "oc:lanCard", ""]]
 }
 linkedCard {
@@ -170,7 +178,7 @@ signUpgrade {
           [ingotIron, pistonStickyBase, ingotIron]]
 }
 solarGeneratorUpgrade {
-  input: [[glass, glass, glass]
+  input: [[blockGlass, blockGlass, blockGlass]
           ["oc:circuitChip3", "oc:generatorUpgrade", "oc:circuitChip3"]]
 }
 
@@ -181,10 +189,6 @@ nuggetIron {
 }
 cuttingWire {
   input: [[stickWood, nuggetIron, stickWood]]
-}
-acid {
-  type: shapeless
-  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
 }
 disk {
   input: [["", nuggetIron, ""]
@@ -287,9 +291,9 @@ card {
 }
 
 interweb {
-  input: [[string, enderPearl, string]
-          [enderPearl, string, enderPearl]
-          [string, enderPearl, string]]
+  input: [[string, materialEnderPearl, string]
+          [materialEnderPearl, string, materialEnderPearl]
+          [string, materialEnderPearl, string]]
 }
 
 adapter {
@@ -355,22 +359,22 @@ powerDistributor {
 serverRack {
   input: [["oc:circuitChip3", "oc:wlanCard", "oc:circuitChip3"]
           [fenceIron, chest, fenceIron]
-          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   input: [[ingotIron, "oc:circuitChip3", ingotIron]
           [blockRedstone, "oc:redstoneCard1", blockRedstone]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
-switch {
+relay {
   input: [[ingotIron, "oc:cable", ingotIron]
           ["oc:cable", "oc:lanCard", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 screen1 {
-  input: [[ingotIron, ingotIron, glass]
-          [redstone, "oc:materialTransistor", glass]
-          [ingotIron, ingotIron, glass]]
+  input: [[ingotIron, ingotIron, blockGlass]
+          [redstone, "oc:materialTransistor", blockGlass]
+          [ingotIron, ingotIron, blockGlass]]
 }
 screen2 {
   input: [[ingotGold, dyeRed, ingotGold]
