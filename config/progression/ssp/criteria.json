@@ -2989,24 +2989,6 @@
             {
               "type": "crafting",
               "data": {
-                "item": "ThermalExpansion:material 1"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalExpansion:material 2"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "ThermalExpansion:material 3"
-              }
-            },
-            {
-              "type": "crafting",
-              "data": {
                 "item": "ThermalExpansion:material 516"
               }
             },
