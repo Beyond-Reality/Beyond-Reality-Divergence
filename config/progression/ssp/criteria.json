@@ -20313,6 +20313,18 @@
                 "item": "aura:consumerBlockloot"
               }
             },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "EnhancedInventories:blockWorktable"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": <EnhancedInventories:blockAutoAssembler"
+              }
+            },
             {
               "type": "crafting",
               "data": {
