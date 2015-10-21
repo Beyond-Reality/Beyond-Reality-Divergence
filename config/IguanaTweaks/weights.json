@@ -143,5 +143,9 @@
 	{
 	 "name": "YeOldeTanks:yot.barrel",
 	 "weight" : 32
+	},
+	{
+	 "name": "QuantumStorage:quantumdsu",
+	 "weight" : 50
 	}
 ]
