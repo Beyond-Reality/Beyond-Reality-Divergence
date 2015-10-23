@@ -14,3 +14,7 @@ mods.botania.ManaInfusion.addInfusion(<sfartifacts:sfartifacts_blockOreAsgardite
 
 //Dilithium
 mods.botania.RuneAltar.addRecipe(<mo:dilithium_crystal>, [<mo:tritanium_ingot>, <minecraft:ender_pearl>, <ore:gemEmerald>], 6000);
+
+//Redstone shit
+mods.botania.ManaInfusion.removeRecipe(<minecraft:redstone> * 2); //Conjuration
+mods.botania.ManaInfusion.removeRecipe(<minecraft:redstone>); //Alchemy
