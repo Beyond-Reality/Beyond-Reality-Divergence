@@ -7,7 +7,7 @@ AssemblyTable.addRecipe(<beyondrealitycore:item2>, 15000, [<BuildCraft|Silicon:r
 AssemblyTable.addRecipe(<beyondrealitycore:item3>, 150000, [<ore:ingotInvar>, <ore:ingotGold>, <BuildCraft|Silicon:redstoneChipset:1>, <BuildCraft|Silicon:redstoneChipset:2>, <ore:fuelCoke>, <ore:gearSilver>, <TConstruct:toughRod:16>, <beyondrealitycore:item2>]);
 
 # Tier 3 - PTA
-AssemblyTable.addRecipe(<beyondrealitycore:item4>, 1500000, [<ore:ingotPlatinum>, <BuildCraft|Silicon:redstoneChipset:3>, <BuildCraft|Silicon:redstoneChipset:5>, <ore:dustPetrotheum>, <ThermalFoundation:material:138>, <TConstruct:toughRod:12>, <beyondrealitycore:item3>]);
+AssemblyTable.addRecipe(<beyondrealitycore:item4>, 1500000, [<ore:ingotPlatinum>, <BuildCraft|Silicon:redstoneChipset:3>, <BuildCraft|Silicon:redstoneChipset:5>, <ore:dustPetrotheum>, <ThermalFoundation:material:138>, <TConstruct:toolRod:11> * 2, <TConstruct:toolRod:10> * 2, <beyondrealitycore:item3>]);
 
 # Tier 3 - ITA
-AssemblyTable.addRecipe(<beyondrealitycore:item5>, 15000000, [<ore:ingotSignalum>, <BuildCraft|Silicon:redstoneChipset:4>, <BuildCraft|Silicon:redstoneChipset:6>, <BuildCraft|Silicon:redstoneChipset:7>, <ThermalFoundation:material:139>, <ThermalFoundation:material:140>, <TConstruct:toughRod:12>, <beyondrealitycore:item4>]);
+AssemblyTable.addRecipe(<beyondrealitycore:item5>, 15000000, [<BuildCraft|Silicon:redstoneChipset:4>, <BuildCraft|Silicon:redstoneChipset:6>, <BuildCraft|Silicon:redstoneChipset:7>, <ThermalFoundation:material:139>, <ThermalFoundation:material:140>, <TConstruct:toolRod:12> * 4, <beyondrealitycore:item4>, <YeOldeTanks:yot.barrel>.withTag({FluidName: "biodiesel", Amount: 32000})]);
