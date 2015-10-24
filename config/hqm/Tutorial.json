@@ -126,7 +126,7 @@
     },
     {
       "name": "The Temple",
-      "description": "Now that you can keep yourself fed and watered it is time to explore the temple. Within the structure you will find the secrets of the tribes as gathered by the Principle Librarian. They are yours to unlock but only after you have earned them. The Pyramid is not a generous giver; everything has to be deserved. Seek out the first gate that unlocked.  ",
+      "description": "Now that you can keep yourself fed and watered it is time to explore the temple. Within the structure you will find the secrets of the tribes as gathered by the Principle Librarian. They are yours to unlock but only after you have earned them. The Pyramid is not a generous giver; everything has to be deserved. Seek out the first gate that unlocked in the hall of heros.  ",
       "x": 55,
       "y": 58,
       "icon": {
@@ -183,7 +183,7 @@
       "tasks": [
         {
           "type": "CONSUME",
-          "longDescription": "Go and put that pick to use. Gather 25 cobblestone of any variety to complete this task. When done look for the second gate that unlocks",
+          "longDescription": "Go and put that pick to use. Gather 25 cobblestone of any variety to complete this task. When done look for the second gate that unlocks in the hall of heros",
           "items": [
             {
               "item": {
@@ -213,7 +213,7 @@
     },
     {
       "name": "Early Game Tech",
-      "description": "In the Obsidian Hills old Trask the miner was the first person to develop early prospecting technology. Thanks to him mining efficiency across the world increased tenfold. You may not see the same level of gains as Trask because he was an experienced miner but you should see some. Prove that you have developed some expertise in mining by bringing the specific type of rock requested. When done seek out the room marked with a flask of acid",
+      "description": "In the Obsidian Hills old Trask the miner was the first person to develop early prospecting technology. Thanks to him mining efficiency across the world increased tenfold. You may not see the same level of gains as Trask because he was an experienced miner but you should see some. Prove that you have developed some expertise in mining by bringing the specific type of rock requested. When done seek out the gate that unlocked in the hall of heros",
       "x": 125,
       "y": 115,
       "icon": {
@@ -253,7 +253,7 @@
     },
     {
       "name": "Rails and Carts",
-      "description": "Whilst you can spend the rest of your life mining and moving everything by hand you soon realise this is impractical. Unless you keep up with the other champions you will soon find yourself left behind. To keep up you will need to develop early automation using tracks and carts. Yet to build these takes resources. Keep the temple wood supply stocked and you will be rewarded with knowledge to aid your development.  Once done, look for the door marked by a mouse. ",
+      "description": "Whilst you can spend the rest of your life mining and moving everything by hand you soon realise this is impractical. Unless you keep up with the other champions you will soon find yourself left behind. To keep up you will need to develop early automation using tracks and carts. Yet to build these takes resources. Keep the temple wood supply stocked and you will be rewarded with knowledge to aid your development.  Once done, look for the gate that unlocks in the hall of heros. ",
       "x": 80,
       "y": 145,
       "icon": {
