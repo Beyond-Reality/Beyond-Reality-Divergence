@@ -20322,7 +20322,7 @@
 			{
               "type": "crafting",
               "data": {
-                "item": EnhancedInventories:blockAutoAssembler"
+                "item": "EnhancedInventories:blockAutoAssembler"
               }
             },
             {
