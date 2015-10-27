@@ -20250,7 +20250,7 @@
         },
         {
           "uniqueName": "1437101226897",
-          "displayName": "I bench",
+          "displayName": "Gizmos",
           "displayStack": "minecraft:stone",
           "triggers": [
             {
@@ -20264,25 +20264,197 @@
             {
               "type": "crafting",
               "data": {
-                "item": "ibench:iBench 0"
+                "item": "planetguy_Gizmos:invenswapper 1"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "ibench:iBench 1"
+                "item": "planetguy_Gizmos:invenswapper 0"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "ibench:Blueprints"
+                "item": "planetguy_Gizmos:dynamicWool 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:gravityBomb 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:gravityBomb 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:telekinesisCatalyst 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:timeBomb 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:timeBomb 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:launcher 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:inserter 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:flashlightNether 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:bombDefuser 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:flashlightRF 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:buildTool 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:flashlightGlowstone 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:flashlightHeadlampGlowstone 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:fireExtinguisher 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:redstoneActivator 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:flashlightHeadlampNether 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "planetguy_Gizmos:flashlightHeadlampRF 0"
               }
             }
           ],
           "repeatable": 1,
           "infinite": false,
           "x": 25,
+          "y": 125,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+		{
+          "uniqueName": "1437101226897",
+          "displayName": "Cooking for blockheads",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "beyondrealitycore:chair:85"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:sink 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:cookingoven 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:cookingtable 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:fridge 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:toolrack 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:recipebook 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:recipebook 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "cookingbook:recipebook 3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 45,
           "y": 125,
           "isVisible": true,
           "mustClaim": false,
