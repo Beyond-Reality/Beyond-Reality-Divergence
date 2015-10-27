@@ -14272,6 +14272,436 @@
           "mustClaim": false,
           "displayAchievement": true
         },
+		{
+          "uniqueName": "1436398557567",
+          "displayName": "AgriCraft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "beyondrealitycore:chair:101"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedAnalyzer"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:channelValve"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:waterChannelFull"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedStorage"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:grate"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:waterChannel"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:sprinkler"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:fence"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:fenceGate"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaYellow"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedTulipRed"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:nuggetDiamond"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedQuartzanthemum"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedTulipWhite"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedAurigold"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedJaslumine"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedDaisy"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedTulipOrange"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedDandelion"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedNitorWart"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaLime"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaGray"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedSilverweed"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaPurple"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaBlue"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedNiccissus"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:handRake 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:handRake 1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedLapender"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedCarrot"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:clipper"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedShroomBrown"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedRedstodendron"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedShroomRed"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedDiamahlia"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedPoppy"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaLightBlue"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedSugarcane"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaCyan"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaLightGray"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedAllium"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:cropsItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedVishroom"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedFerranium"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedOrchid"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaBlack"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:trowel"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaMagenta"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedPetinia"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedTaintedRoot"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:magnifyingGlass"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedCinderpearl"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaRed"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedShimmerleaf"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaGreen"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedPlatiolus"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaPink"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:journal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedCuprosia"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaBrown"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedCactus"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedEmeryllis"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaOrange"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedPlombean"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedTulipPink"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedBotaniaWhite"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:seedPotato"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AgriCraft:waterTank"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 50,
+          "y": 188,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
         {
           "uniqueName": "1437094682132",
           "displayName": "Automagy",
