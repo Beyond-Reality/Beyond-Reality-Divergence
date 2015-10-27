@@ -20461,6 +20461,76 @@
           "displayAchievement": true
         },
 		{
+          "uniqueName": "1437101226897",
+          "displayName": "Helper Tools",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "beyondrealitycore:chair:86"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:StokedPipe 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:TranscriberBlock 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:Imitation Bedrock 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:staffoftransformation2 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:torchlauncher 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:euclideantransposer 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:dynamitebolt 0"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:staffofexpansion 0"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 55,
+          "y": 125,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+		{
           "uniqueName": "1437124566897",
           "displayName": "PermaLocked",
           "displayStack": "minecraft:stone",
@@ -20477,6 +20547,18 @@
               "type": "crafting",
               "data": {
                 "item": "ThermalExpansion:satchel 1 {Accessible:1b}"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:MagicalFuelBlock"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "HelperToolsID:ActiveMagicalFuelBlock"
               }
             },
 			{
@@ -22842,7 +22924,7 @@
             {
               "type": "clickBlock",
               "data": {
-                "item": "beyondrealitycore:chair:7"
+                "item": "beyondrealitycore:chair:87"
               }
             }
           ],
