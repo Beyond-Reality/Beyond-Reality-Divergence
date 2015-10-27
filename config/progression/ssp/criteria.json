@@ -20833,7 +20833,7 @@
           "displayAchievement": true
         },
 		{
-          "uniqueName": "1437101226897",
+          "uniqueName": "1437156926897",
           "displayName": "Cooking for blockheads",
           "displayStack": "minecraft:stone",
           "triggers": [
@@ -20903,7 +20903,7 @@
           "displayAchievement": true
         },
 		{
-          "uniqueName": "1437101226897",
+          "uniqueName": "1437101226741",
           "displayName": "Helper Tools",
           "displayStack": "minecraft:stone",
           "triggers": [
@@ -21723,6 +21723,190 @@
           "infinite": false,
           "x": 31,
           "y": 69,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+		{
+          "uniqueName": "1437117881317",
+          "displayName": "Pams Harvest Craft",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "clickBlock",
+              "data": {
+                "item": "beyondrealitycore:chair:88"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:animaltrap"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:apiary"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:bakewareItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:beeswaxItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:churn"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:cuttingboard"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:mixingbowlItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:hardenedleatherItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:cuttingboardItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:quern"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:saucepanItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:sink"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:skilletItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:veggiebaitItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:wovencottonItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:fruitbaitItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:potItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:grainbaitItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:fishtrap"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:freshwaterItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:juicerItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:market"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:mortarandpestleItem"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:oven"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:pot"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:presser"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "harvestcraft:bakewareItem"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 31,
+          "y": 89,
           "isVisible": true,
           "mustClaim": false,
           "displayAchievement": true
