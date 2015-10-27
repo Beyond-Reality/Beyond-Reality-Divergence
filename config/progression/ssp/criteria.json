@@ -14568,6 +14568,18 @@
                 "item": "Automagy:golemLinker"
               }
             },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "Thaumcraft:HandMirror"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "Thaumcraft:blockMirror"
+              }
+            },
             {
               "type": "crafting",
               "data": {
