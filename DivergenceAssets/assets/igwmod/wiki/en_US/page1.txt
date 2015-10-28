@@ -1,1 +1,4 @@
-Test
+
+Before you get started, you should know a few things about this pack.
+The pack itself has many changes to default play. While most recipes are left unchanged, we still ask for all bug/issue reports be directed towards us and not the mod authors. 
+The basics of vanilla Minecraft have been altered by a great deal in Divergence as well. Dont worry; this guide, along with some quests, will get you going in this grand new adventure 

@@ -1,0 +1,583 @@
+{
+  "name": "Basic Research",
+  "description": "Earn Expedition Mementos by venturing into Divergence Dungeons or by slaying monsters and attaining Uncommon, Rare, Epic or Ledgendary Loot Bags.",
+  "quests": [
+    {
+      "name": "Get moving faster! RoadBlocks",
+      "description": "It?s easy when you carry everything you own. As you increase your footprint in the world you will need to move more and more from point A to point B. If you want to grow beyond a certain point you will need to have systems that help you. Such as Roads! By building these you will give yourself both a speed boost and a weight reduction helping you to carry more and move it faster. ",
+      "x": 7,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "TSteelworks:HighOven"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Prove that you are ready to move beyond your own backpack by earning an expedition memento and handing it in.                                                                      ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compacter",
+      "description": "AutoBore Kylar got his name after inventing a simple machine to repeatedly craft a single item. Called the autopackager it proved very useful in automating many industrial processes. Of course this led to widespread redundancies which left a lot of people out of work and very unhappy. What the unhappy mob then did to poor Kylar via the Arcane Bore was not pleasant and not printable. Needless to say he never invented anything every again. Still walks funny though. ",
+      "x": 138,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "compacter:Compacter"
+      },
+      "requirements": [
+        14
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. Seek out the room marked by the orange beer stien",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving with Pistronics",
+      "description": "Ol Blue Eyes Badiel was renowned for the way he transfixed the crowds with his moves. Whilst many people considered him enchanted the secret actually came out after his death when his body was donated to medical science. He had had different types of pistons implanted into his joints. By ingesting a redstone soup this allowed him an internal network which he programmed before all his shows. No one since has been able (or willing) to do what he did. Nevertheless his use of pistons inspired others to do far more with these simple machines. ",
+      "x": 105,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "Pistronics2:Mechanic Piston"
+      },
+      "requirements": [
+        3
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tubes the new elavator!",
+      "description": "I could spend my entire life running from one place to another carrying items. Much better to have systems than transport items and sort them; like Tubes! To do this well i am going to need lots of different tubes for lots of different things. I need lots of Tubes. In fact I need to become a master in tubeology and all things tubey. ",
+      "x": 104,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "tts:station"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enhance your Storage!",
+      "description": "Once you start exploring you will be bringing back all manner of nice things. What are you going to do with those nice things? What you need is an effective way to store them that can grow with you. This is where enhanced storage comes in. Knowledge like this is essential to making an effective base. ",
+      "x": 71,
+      "y": 43,
+      "bigIcon": true,
+      "icon": {
+        "id": "EnhancedInventories:improvedChest",
+        "nbt": "{coreBlockMeta:14s,frameName:\"frame.mc.iron\",colorID:9b,alternate:0b,coreBlockName:\"Forestry:fireproofPlanks1\"}"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento                                                                                          ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modular Defenses!",
+      "description": "One of the best known musical numbers ever released in the Agarthia was ?Have you ever seen a Zombie fry?? This classic tune was based on the Gretih incident when a rogue defensive network coupled with a zombie spawning pit caused no end of trouble. If it hadn\u0027t been for the defences keeping back wave after wave of Zombies the hit song would have been very different. If you want to protect what you have made you too will need to master the art of defence. ",
+      "x": 39,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "openmodularturrets:potatoCannonTurret"
+      },
+      "requirements": [
+        20
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. Look for the room marked by a red bowling pin.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tinkers Mechworks",
+      "description": "When young Finnegan declared he could draw a bridge no one expected him to span a chasm with a load bearing bridge they were looking for something on a piece of paper. He more than anyone proved the benefit of being able to combine tinkering with technology. Now you can find Finnegan Bridges all over the kingdoms. If you too want to learn the knowledge of Tinkering Mechanical works fulfill the given task. ",
+      "x": 7,
+      "y": 89,
+      "bigIcon": true,
+      "icon": {
+        "id": "TMechworks:RedstoneMachine"
+      },
+      "requirements": [
+        0
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steve\u0027s Carts",
+      "description": "Lore Coming Soon!",
+      "x": 155,
+      "y": 181,
+      "bigIcon": true,
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "damage": 37
+      },
+      "requirements": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10,
+        11,
+        16,
+        17,
+        18
+      ],
+      "parentRequirement": 5,
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. You will need to be unlock 5 tier 2 research in this catagory to unlock this amazing knowledge.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SuperCrafting Frame",
+      "description": "Eallen was annoyed that he had to keep doing repetitive tasks. RSI, Carpal Tunnel, he had them all. So annoyed was he that he went out to create a crafting frame for automating these early repetitive tasks. On first displaying it one of the audience shouted out. Thats super! Thus the Super Crafting Frame was born. ",
+      "x": 238,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "supercraftingframe:supercraftingframe"
+      },
+      "requirements": [
+        12
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carpenters Blocks",
+      "description": "There never seems to be the right block of the right material to do justice to your creativity. You are not a square? You want angles and slopes; you want to be able to take any material and use it in any way you want. If only there was a way to do this. Thankfully Carpenter?s Blocks will allow you to do just that. So move beyond the basics and give yourself the tools to express your magnificence. ",
+      "x": 205,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "CarpentersBlocks:blockCarpentersSlope"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ztones",
+      "description": "Ol Blue Eyes Badiel accrued huge riches. By his fourth major album release he was known as a bit of a diva. Asking for things like pink tinged flagstones in his cloakroom. When he was given pink flagstones he described them as ?salmon? coloured and would not believe they were pink. Shouting ?I?ll do it my way? at workmen he became harder and harder to please. For us it means we now have lots more ways of decorating our houses. ",
+      "x": 270,
+      "y": 88,
+      "bigIcon": true,
+      "icon": {
+        "id": "Ztones:tile.bittBlock",
+        "damage": 2
+      },
+      "requirements": [
+        15
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Malisis Doors",
+      "description": "Dai Shorthouse had a real problem in the old palace. He had to carry a box around with him because he couldn?t reach the door handles. So utterly fed up was he that he paid Malisis to create a variety of doors for everyday use. When Malisis created the sensor that opened doors automatically Dai was ecstatic. Realising he was onto a good thing Malisis rented a shop where he now sells his doors full time. Nothing is known about what happened to Dai?s box.",
+      "x": 205,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "malisisdoors:item.saloon"
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I Bench",
+      "description": "Every single builder has been annoyed when they thought they had all the materials they needed for a build only to find they have forgotten one or two things. Turning away to get these items from storage causes the workbench to drop everything else on the ground. Highly unprofessional. We need ways or working that are more efficient.",
+      "x": 238,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "ibench:iBench",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Travelers Gear",
+      "description": "You want your mighty palace to look good. It would be a terrible shame if it looked good but you did not. Imagine someone coming to your base to find you looked more like a beggar than a champion. You need to make sure your bling matches your booty. Here you have the chance to acquire some new knowledge that will let you hold your head high amongst your champions. Just make sure when they make a statue to your greatness they get the right side!",
+      "x": 303,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "TravellersGear:armorstand"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Craft Heraldry",
+      "description": "Who are you? Who do you belong to? What?s your line? The more you spread out from your original base the greater chances someone will come across your magnificent constructions. What a shame then if they don?t know who built such inspiring edifices? What you need is the ability to craft your own heraldic mark. To unlock this knowledge complete this task. ",
+      "x": 137,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "CraftHeraldry:itemHeraldry"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chisel \u0026 Wall Paper",
+      "description": "The old smith McGoibhne once remarked that Laxor was nice but bland. Sure it was big but everything looked the same. It was a boring place to live! He spent the rest of his life going round the blocks with his trusty chisel creating harmonious patterns to differentiate them. The effect transformed a boring place to a shining jewel admired throughout the lands. It would be a shame if everything you built was boring. Don?t you want it to shine? Learn to chisel!                                                                                              Wall Paper                                                                 For years in the old kingdoms people papered over the cracks. Whilst not being able to properly sustain a full kingdom, they did a pretty good job of keeping the walls up. Rather than take down an entire building this is a good way of freshening up the texture of your house.",
+      "x": 271,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "chisel:chisel"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Storage Drawers",
+      "description": "Lore Coming Soon!",
+      "x": 72,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "StorageDrawers:fullDrawers4"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento. ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armourer\u0027s Workshop",
+      "description": "Not content with getting the world around him the right colour; Ol Blue Eyes Badiel then demanded to colour his own clothes in particular ways. In the way of things, the common man started looking for the same ability. This gave rise to a whole new industry of dyeing. Now as time goes by cross the realm you can see any combination of colours on people. All thanks to Ol Blue Eyes and his strange demands.",
+      "x": 304,
+      "y": 90,
+      "bigIcon": true,
+      "icon": {
+        "id": "armourersWorkshop:block.armourLibrary"
+      },
+      "requirements": [
+        13
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FloodLights",
+      "description": "At first Ol Blue Eyes Badiel found it hard to make an impression on the audience because all they had were torches. He then commissioned a local tinkerer to mess around with possible light sources which is where the first floodlights came from. Now he could be seen in all his glory his career really took off. Especially when one of the rocket pistons in his feet misfired, but that?s another story for another day! Now you can find floodlights all over the realm.",
+      "x": 172,
+      "y": 89,
+      "bigIcon": true,
+      "icon": {
+        "id": "FloodLights:carbonFloodlight"
+      },
+      "requirements": [
+        19
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BiblioCraft",
+      "description": "On your travels you will find many ruins with no idea who made them or even what they were originally for. Should you fail to subdue the world your own work may one day be another\u0027s ruin. You want to make sure you leave not only your mark but knowledge of who you were for future generations. That means learning to make books, to print and to cope them. Bibliocraft to the rescue! Be sure to master this so you won?t be forgotten!!!",
+      "x": 172,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "BiblioCraft:Printing Press"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Venture out and explore Dungeons. Brave the dangers and loot the chest to earn a Expedition Memento.",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deco Craft",
+      "description": "Oh the palaces!!! In the old world there were magnificent palaces. Do you have the imagination to makebeauty in the new world? This knowledge will give you the tools but it?s up to you to do something with it. Don?t live in a drab world, add some colour, make it a wonderful places. Craft some decorations!!!",
+      "x": 38,
+      "y": 42,
+      "bigIcon": true,
+      "icon": {
+        "id": "props:props",
+        "damage": 508
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "For access to this knowledge craft XXX number of YYY and use the chair in the room marked with ZZZ ",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cat Walks",
+      "description": "More Lore Coming Soon!",
+      "x": 293,
+      "y": 145,
+      "bigIcon": true,
+      "icon": {
+        "id": "catwalks:catwalk_unlit"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "Unnamed",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ye Gamol Chattels",
+      "description": "Unnamed quest",
+      "x": 16,
+      "y": 144,
+      "bigIcon": true,
+      "icon": {
+        "id": "yegamolchattels:grandfatherClock"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "beyondrealitycore:item10"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
