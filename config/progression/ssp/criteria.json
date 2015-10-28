@@ -20927,12 +20927,6 @@
                 "item": "HelperToolsID:TranscriberBlock 0"
               }
             },
-            {
-              "type": "crafting",
-              "data": {
-                "item": "HelperToolsID:Imitation Bedrock 0"
-              }
-            },
 			{
               "type": "crafting",
               "data": {
