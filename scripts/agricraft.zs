@@ -38,5 +38,5 @@ var Diamond = [
 	] as IItemStack[];
 
 for i, d in Diamond {
-	BaseBlock.set(<AgriCraft:seedDiamahlia>, d, 1, false);
+	BaseBlock.set(<AgriCraft:seedDiamahlia>, d, 1, true);
 }
