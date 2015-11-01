@@ -2,19 +2,19 @@
 #You can get these values from NEI (example: minecraft:wheat_seeds is the vanilla seeds)
 #The tier is an integer between 1 and 5 (1 and 5 included). The higher the tier, the slower it will grow, mutate, be analysed, ...
 #For example: AgriCraft:seedDandelion,2
-AgriCraft:seedFerranium,3
-AgriCraft:seedRedstodendron,3
-AgriCraft:seedAurigold,4
-AgriCraft:seedAllium,4
+AgriCraft:seedFerranium,5
+AgriCraft:seedRedstodendron,5
+AgriCraft:seedAurigold,5
+AgriCraft:seedAllium,5
 AgriCraft:seedDiamahlia,5
 AgriCraft:seedEmeryllis,5
-AgriCraft:seedQuartzanthemum,3
-AgriCraft:seedLapender,3
+AgriCraft:seedQuartzanthemum,5
+AgriCraft:seedLapender,5
 AgriCraft:seedEmeryllis,5
-AgriCraft:seedCuprosia,3
-AgriCraft:seedPetinia,3
-AgriCraft:seedPlombean,3
-AgriCraft:seedSilverweed,4
-AgriCraft:seedJaslumine,4
-AgriCraft:seedNiccissus,4
+AgriCraft:seedCuprosia,5
+AgriCraft:seedPetinia,5
+AgriCraft:seedPlombean,5
+AgriCraft:seedSilverweed,5
+AgriCraft:seedJaslumine,5
+AgriCraft:seedNiccissus,5
 AgriCraft:seedPlatiolus,5
