@@ -14468,12 +14468,6 @@
 			{
               "type": "crafting",
               "data": {
-                "item": "AgriCraft:clipper"
-              }
-            },
-			{
-              "type": "crafting",
-              "data": {
                 "item": "AgriCraft:seedShroomBrown"
               }
             },

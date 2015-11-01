@@ -147,5 +147,9 @@
 	{
 	 "name": "QuantumStorage:quantumdsu",
 	 "weight" : 50
+	},
+	{
+	 "name": "QuantumStorage:linkedbag",
+	 "weight" : 30
 	}
 ]
