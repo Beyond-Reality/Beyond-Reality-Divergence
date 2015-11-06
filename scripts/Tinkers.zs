@@ -48,3 +48,5 @@ mods.tconstruct.Smeltery.removeAlloy(<liquid:lumium.molten>);
 mods.tconstruct.Smeltery.addAlloy(<liquid:lumium.molten> * 288, [moltenSilver * 144, moltenTin * 432, moltenGlowstone * 1000]);
 
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:ender_pearl>);
+
+mods.tconstruct.Drying.addRecipe(<minecraft:milk_bucket>, <enviromine:spoiledMilk>, 500);
