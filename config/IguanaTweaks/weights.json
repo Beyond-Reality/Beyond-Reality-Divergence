@@ -114,27 +114,27 @@
 	},
 	{
 	 "name": "Forestry:diggerBag",
-	 "weight" : 35
+	 "weight" : 25
 	},
 	{
 	 "name": "Forestry:foresterBag",
-	 "weight" : 35
+	 "weight" : 25
 	},
 	{
 	 "name": "Forestry:minerBag",
-	 "weight" : 35
+	 "weight" : 25
 	},
 	{
 	 "name": "Forestry:builderBag",
-	 "weight" : 35
+	 "weight" : 25
 	},
 	{
 	 "name": "Forestry:hunterBag",
-	 "weight" : 35
+	 "weight" : 25
 	},
 	{
-	 "name": "Forestry:builderBag",
-	 "weight" : 35
+	 "name": "Forestry:adventureBag",
+	 "weight" : 25
 	},
 	{
 	 "name": "StorageDrawers:tape",
