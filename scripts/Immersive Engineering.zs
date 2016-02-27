@@ -22,12 +22,12 @@ recipes.addShaped(<Railcraft:part.tie>, [[null,null,null]
 							
 //Torch							
 recipes.addShaped(<minecraft:torch> * 12, [[null,null,null]
-							,[null,<ImmersiveEngineering:fluidContainers:1>,null]
-							,[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
+							,[null,<ImmersiveEngineering:fluidContainers>,null]
+							,[<ore:slabWood>,<minecraft:string>,<ore:slabWood>]]);
 							
 recipes.addShaped(<minecraft:torch> * 12, [[null,null,null]
 							,[null,<ImmersiveEngineering:fluidContainers:1>.transformReplace(<minecraft:bucket>),null]
-							,[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
+							,[<ore:slabWood>,<minecraft:string>,<ore:slabWood>]]);
 							
 //Railcraft block
 
