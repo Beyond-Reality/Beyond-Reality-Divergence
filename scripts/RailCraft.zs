@@ -20,3 +20,7 @@ mods.railcraft.RockCrusher.addRecipe(<ImmersiveEngineering:ore:4>, false, false,
 mods.railcraft.RockCrusher.addRecipe(<HarderOres:dummyOreNickel>, false, false, [<ImmersiveEngineering:metal:14> * 2, <ThermalFoundation:material:37>], [1.0, 0.1]);
 mods.railcraft.RockCrusher.addRecipe(<minecraft:coal>, false, false, [<ThermalFoundation:material:2>], [1.0]);
 mods.railcraft.RockCrusher.addRecipe(<minecraft:coal:1>, false, false, [<ThermalFoundation:material:3>], [1.0]);
+
+
+//YeOldCart
+recipes.addShapeless(<YeOldeTanks:yot.barrelminecart>.withTag({Empty: ""}), [<minecraft:minecart>,<YeOldeTanks:yot.barrel>]);
