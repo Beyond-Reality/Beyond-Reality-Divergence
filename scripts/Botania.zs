@@ -7,7 +7,7 @@ mods.botania.ManaInfusion.addInfusion(<Botania:storage>, <ThermalFoundation:Stor
 
 
 //Add Vibranium allow method
-mods.botania.ManaInfusion.addInfusion(<sfartifacts:sfartifacts_blockOreAsgardite>, <sfartifacts:sfartifacts_blockOreVibranium>, 5000);
+mods.botania.ManaInfusion.addInfusion(<sfartifacts:blockOreAsgardite>, <sfartifacts:blockOreVibranium>, 5000);
 
 # Mana Dust
 # mods.botania.RuneAltar.addRecipe(<ThermalFoundation:material:516>, [<ThermalFoundation:material:44>, <ThermalFoundation:material:44>, <ThermalFoundation:material:44>, <ThermalFoundation:material:44>, <ThermalFoundation:material:43>, <ThermalFoundation:material:43>, <ThermalFoundation:material:43>, <ThermalFoundation:material:43>, <ThermalFoundation:material:38>, <ThermalFoundation:material:38>, <ThermalFoundation:material:38>, <ThermalFoundation:material:38>], 9000);

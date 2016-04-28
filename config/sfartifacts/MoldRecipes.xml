@@ -1,0 +1,48 @@
+<!--
+Always put your new recipe between the <recipes>, recipe must have a unique name.
+If you want to add mold dont forget to increment the itemMeta value.
+You can only use 0 and 1 to make moldline always make a shape of 9 characters and always make 9 moldline.
+0 = nothing, 1 = sand.
+To use your molds just set the itemMeta of your mold input in the mighty foundy equal to the itemMeta of your mold.
+-->
+<recipes>
+    <recipe name="Vibranium Shield">
+		<mold itemMeta="1">
+			<moldline shape="000111000"/>
+			<moldline shape="001111100"/>
+			<moldline shape="011111110"/>
+			<moldline shape="111111111"/>
+			<moldline shape="111111111"/>
+			<moldline shape="111111111"/>
+			<moldline shape="011111110"/>
+			<moldline shape="001111100"/>
+			<moldline shape="000111000"/>
+		</mold>
+    </recipe>
+    <recipe name="Fusion Casing">
+		<mold itemMeta="2">
+			<moldline shape="111111111"/>
+			<moldline shape="110000011"/>
+			<moldline shape="101111101"/>
+			<moldline shape="101111101"/>
+			<moldline shape="101101101"/>
+			<moldline shape="101111101"/>
+			<moldline shape="101111101"/>
+			<moldline shape="110000011"/>
+			<moldline shape="111111111"/>
+		</mold>
+    </recipe>
+    <recipe name="Muon Booster Casing">
+		<mold itemMeta="3">
+			<moldline shape="111111111"/>
+			<moldline shape="100010001"/>
+			<moldline shape="100010001"/>
+			<moldline shape="100010001"/>
+			<moldline shape="111111111"/>
+			<moldline shape="100010001"/>
+			<moldline shape="100010001"/>
+			<moldline shape="100010001"/>
+			<moldline shape="111111111"/>
+		</mold>
+    </recipe>
+</recipes>

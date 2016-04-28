@@ -12,7 +12,7 @@ var tinySilver = <HarderOres:smallDust:16>;
 var tinyNickel = <HarderOres:smallDust:17>;
 var tinyAlum = <HarderOres:smallDust:18>;
 var tinyUranium = <beyondrealitycore:tinyUranium>;
-var tinyThorium = <aobd:nuggetThorium>;
+# var tinyThorium = <aobd:nuggetThorium>;
 
 var rawIron = <HarderOres:ore_chunk:8>;
 var rawGold = <HarderOres:ore_chunk:9>;
