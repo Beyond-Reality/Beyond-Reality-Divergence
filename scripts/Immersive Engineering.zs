@@ -42,3 +42,20 @@ recipes.addShaped(<Railcraft:cube:8>, [[<ore:logWood>,<ImmersiveEngineering:flui
 // Steel conversion
 
 recipes.addShapeless(<ImmersiveEngineering:storage:7>, [<ore:blockSteel>,<minecraft:stick>.transformReplace(<minecraft:stick>)]);
+
+//Capacitor boxes
+
+recipes.removeShapeless(<immersiveintegration:capacitorBox>);
+recipes.addShaped(<immersiveintegration:capacitorBox>, [[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]
+                             				,[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice:1>,<ore:plankTreatedWood>,]
+							,[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
+							
+recipes.removeShapeless(<immersiveintegration:capacitorBox:1>);
+recipes.addShaped(<immersiveintegration:capacitorBox:1>, [[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]
+                            				  ,[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice:3>,<ore:plankTreatedWood>,]
+							  ,[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);
+							
+recipes.removeShapeless(<immersiveintegration:capacitorBox:2>);
+recipes.addShaped(<immersiveintegration:capacitorBox:2>, [[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]
+                            				  ,[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice:7>,<ore:plankTreatedWood>,]
+							  ,[<ore:plankTreatedWood>,<ore:plankTreatedWood>,<ore:plankTreatedWood>]]);	
