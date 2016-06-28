@@ -9,6 +9,7 @@
 * `Another One Bites The Dust` version: 2.9.2
 * `AppleCore` version: 1.3.2
 * `Applied Energistics 2` version: rv3-beta-6
+* `"Armourers-Workshop` version: 1.7.10-0.39.4.105
 * `BiblioCraft` version: 1.11.5
 * `Binnie Patcher` version: 1.8.2
 * `BuildCraft Compat` version: compat-7.1.5
