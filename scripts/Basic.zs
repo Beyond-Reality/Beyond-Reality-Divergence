@@ -16,3 +16,5 @@ recipes.addShapeless(<Enchiridion2:book>.withTag({identifier: "BeyondRealityDive
 # Add AE Flour to the dustFlour ore dict
 <ore:dustFlour>.addAll(<ore:dustWheat>);
 <ore:dustWheat>.mirror(<ore:dustFlour>);
+
+recipes.removeShapeless(YeOldeTanks:yot.creativeBarrel:3236);
