@@ -17,4 +17,4 @@ recipes.addShapeless(<Enchiridion2:book>.withTag({identifier: "BeyondRealityDive
 <ore:dustFlour>.addAll(<ore:dustWheat>);
 <ore:dustWheat>.mirror(<ore:dustFlour>);
 
-recipes.removeShapeless(YeOldeTanks:yot.creativeBarrel:3236);
+recipes.removeShapeless(<YeOldeTanks:yot.creativeBarrel:3236>);
