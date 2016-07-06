@@ -18,11 +18,14 @@
 
 * `Just a few fish`
 * `ChromatiCraft`
+* `Decocraft`
 * `Alternate Terrain Generation` (OLD Worlds generated on ATG are no longer supported with this version onward.)
 
 #### Added:
 
 * `Academy Craft` Replaces ChromatiCraft in HQM and Progression areas. (Disabled ore generation, Items that came from ores now have custom recipes.)
+* `Pratical Logistics` Replaced DecoCraft in the Basic tier.
+* `Sonar Core`
 
 #### Fixed:
 
