@@ -1,3 +1,14 @@
+### VERSION 1.3.1.1 - Beta
+
+#### Updated:
+
+* `AcademyCraft` version: 1.0.2
+* `LambdaLib` version: 1.2.1
+
+#### Fixed:
+
+* PackGuard errors.
+
 ### VERSION 1.3.1.0 - Beta
 
 #### Updated:
