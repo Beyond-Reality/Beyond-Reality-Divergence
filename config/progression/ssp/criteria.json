@@ -18909,8 +18909,8 @@
         },
         {
           "uniqueName": "1439182363291",
-          "displayName": "ChromatiCraft Basic",
-          "displayStack": "minecraft:stone",
+          "displayName": "Academy Craft",
+          "displayStack": "academy-craft:ac_Item_logo",
           "triggers": [
             {
               "type": "clickBlock",
@@ -18923,13 +18923,409 @@
             {
               "type": "crafting",
               "data": {
-                "item": "ChromatiCraft:chromaticraft_item_placer 5"
+                "item": "academy-craft:ac_Block_abilityInterferer"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_developerAdvanced"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_developerNormal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_oreConstraintMetal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_oreImagCrystal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_oreImagSil"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_oreResoCrystal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_imagFusor"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_imagPhase"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_metalFormer"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_infiniteGen"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_matrix"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_nodeAdvanced"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_nodeBasic"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_nodeStandard"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_phaseGen"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_solarGen"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_windgenBase"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_windgenMain"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_windgenPillar"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Block_machineFrame"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:rf_input"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:rf_output"
               }
             },
             {
               "type": "crafting",
               "data": {
-                "item": "ChromatiCraft:chromaticraft_item_tool"
+                "item": "academy-craft:ac_Item_developerPortable"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_developerPortable:13"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_inductionFactor"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_inductionFactor:1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_inductionFactor:2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_inductionFactor:3"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_magneticCoil"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_matterUnit"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_matterUnit:1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_matrixCore"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_matrixCore:1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_matrixCore:2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_DUMMY_ITEM"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_itemMedia"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_itemMedia:1"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_itemMedia:2"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_itemTutorial"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_terminalInstaller"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_coin"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_magHook"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_silbarn"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_logo"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_brainComp"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_calcChip"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_constPlate"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_convComp"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_crystalLow"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_crystalNormal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_crystalPure"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_dataChip"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_infoComp"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_ingotConst"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_ingotImagSil"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_resoComp"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_resoCrystal"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_rfIronPlate"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_silPiece"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_wafer"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_energyUnit"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_energyUnit:13"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_windgenFan"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_Item_needle"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_app_skill_tree"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_app_freq_transmitter"
+              }
+            },
+			{
+              "type": "crafting",
+              "data": {
+                "item": "academy-craft:ac_app_media_player"
               }
             }
           ],
