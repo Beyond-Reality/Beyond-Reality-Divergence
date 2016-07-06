@@ -8,6 +8,9 @@
 #### Fixed:
 
 * PackGuard errors.
+* Turn off AcademyCraft guide from starting invintory
+* Redid all the excavator Veins to use Raw Ores instead of full blocks. Documented in Egineering Handbook.
+* Buffed the amount of ores per vein, Decreased fail chance and Increased speed per operation.
 
 ### VERSION 1.3.1.0 - Beta
 
