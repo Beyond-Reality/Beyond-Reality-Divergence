@@ -34,6 +34,9 @@
 * Removed Chair model from BR Core, Replaced with basic block
 * Removed ChromatiCraft due to it effecting FPS across the board.
 * Removed Just a few fish from clients (Was already disabled for server) Due to a long existing mem leak
+* Fixed console spam
+* Fixed pistronic related crashes.
+* Might be more check commits on github.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
