@@ -1,0 +1,20 @@
+<!--
+Always put your new recipe between the <recipes>, recipe must have a unique name.
+ItemStack should always be inside <input> or <output>.
+ItemStack can be declared :
+-using directly the modid and the name of the item : <itemStack modID="sfartifacts" itemName="itemAsgardite" itemQuantity="4"/>
+-using the oreDictionary name if the item is registered in the oreDictionary : <itemStack oreDictionary="gemQuartz" number="4"/> 
+ItemStackWIthNbt :
+nbtType : int, double, long, boolean, string;
+nbtProcess : default (or nothing), adding(instead of writing the tag directly on the hammer it will add the value of the tag to the existant same name tag on the hammer)
+-->
+<recipes>
+    <recipe name="Liquefied Asgardite" energyCost="100" fluidCost="200">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemAsgardite"/>
+		</input>
+		<output>
+			<fluidStack modID="sfartifacts"  itemName="liquefiedasgardite" amount="1000" />
+		</output>
+    </recipe>
+</recipes>

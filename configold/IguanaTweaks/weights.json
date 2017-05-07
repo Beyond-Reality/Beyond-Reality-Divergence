@@ -1,0 +1,155 @@
+[
+
+	{
+	 "name": "HarderOres:ore_chunk:8",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:9",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:12",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:13",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:14",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:15",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:17",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:18",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "HarderOres:ore_chunk:16",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "minecraft:coal",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "minecraft:coal:1",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "minecraft:torch",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyTin",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyCopper",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyLead",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinySilver",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyNickel",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyAluminium",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyLapis",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyPlatinum",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyIron",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyGold",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyGold",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyDiamond",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyEmerald",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "beyondrealitycore:tinyRedstone",
+	 "weight" : 0.13
+	},
+	{
+	 "name": "Botania:enderHand",
+	 "weight" : 100
+	},
+	{
+	 "name": "Forestry:diggerBag",
+	 "weight" : 25
+	},
+	{
+	 "name": "Forestry:foresterBag",
+	 "weight" : 25
+	},
+	{
+	 "name": "Forestry:minerBag",
+	 "weight" : 25
+	},
+	{
+	 "name": "Forestry:builderBag",
+	 "weight" : 25
+	},
+	{
+	 "name": "Forestry:hunterBag",
+	 "weight" : 25
+	},
+	{
+	 "name": "Forestry:adventureBag",
+	 "weight" : 25
+	},
+	{
+	 "name": "StorageDrawers:tape",
+	 "weight" : 50
+	},
+	{
+	 "name": "YeOldeTanks:yot.barrel",
+	 "weight" : 32
+	},
+	{
+	 "name": "QuantumStorage:quantumdsu",
+	 "weight" : 50
+	},
+	{
+	 "name": "QuantumStorage:linkedbag",
+	 "weight" : 30
+	}
+]

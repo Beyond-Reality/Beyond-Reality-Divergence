@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root>
+
+<server>
+ <name>OTEGamers Official Divergence Server</name>
+	<ip>brd.otegamers.com</ip>
+</server>
+
+<server>
+ <name>Craftaga's Divergence</name>
+	<ip>play.minecraftdivergence.com</ip>
+</server>
+
+</root>

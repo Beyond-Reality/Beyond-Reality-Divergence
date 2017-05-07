@@ -1,0 +1,78 @@
+<!--
+Always put your new recipe between the <recipes>, recipe must have a unique name.
+ItemStack should always be inside <input>.
+ItemStack can be declared :
+-using directly the modid and the name of the item : <itemStack modID="sfartifacts" itemName="itemAsgardite" itemQuantity="4"/>
+-using the oreDictionary name if the item is registered in the oreDictionary : <itemStack oreDictionary="gemQuartz" number="4"/> 
+Here the ouput will be nbttag on the hammer.
+Nbt you can add to the hammer :
+nbtType : int, double, long, boolean, string;
+nbtProcess : default (or nothing), adding(instead of writing the tag directly on the hammer it will add the value of the tag to the existant same name tag on the hammer)
+-->
+<recipes>
+    <recipe name="Capacity" energyCost="0" fluidCost="0" hasOutputs="false" label="Unlimited forging">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemEnergyModule"/>
+		</input>
+		<hammer>
+			<nbt nbtType="int" nbtValue="1" nbtName="AddedCapacityLevel" nbtProcess="adding"/>
+		</hammer>
+    </recipe>
+	
+	<recipe name="Config By Hand" energyCost="0" fluidCost="0" hasOutputs="false">
+		<input>
+			<itemStack modID="sfartifacts" itemName="blockControlPanel"/>
+		</input>
+		<hammer>
+			<nbt nbtType="boolean" nbtValue="true" nbtName="CanBeConfigByHand"/>
+		</hammer>
+    </recipe>
+	
+	<recipe name="Lightning" energyCost="0" fluidCost="0" hasOutputs="false">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemLightningRod" itemMeta="3"/>
+		</input>
+		<hammer>
+			<nbt nbtType="boolean" nbtValue="true" nbtName="CanThrowLightning"/>
+		</hammer>
+    </recipe>
+	
+	<recipe name="Magnet" energyCost="0" fluidCost="0" hasOutputs="false">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemMagnet" />
+		</input>
+		<hammer>
+			<nbt nbtType="boolean" nbtValue="true" nbtName="CanMagnet"/>
+			<nbt nbtType="boolean" nbtValue="true" nbtName="IsMagnetOn"/>
+		</hammer>
+    </recipe>
+	
+	<recipe name="Teleport" energyCost="0" fluidCost="0" hasOutputs="false">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemAsgardiumPearl" itemQuantity="8"/>
+			<itemStack modID="sfartifacts" itemName="itemEnergyModule"/>
+		</input>
+		<hammer>
+			<nbt nbtType="boolean" nbtValue="true" nbtName="CanTeleport"/>
+		</hammer>
+    </recipe>
+	
+	<recipe name="Throw To Move" energyCost="0" fluidCost="0" hasOutputs="false">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemUberMightyFeather"/>
+		</input>
+		<hammer>
+			<nbt nbtType="boolean" nbtValue="true" nbtName="CanThrowToMove"/>
+		</hammer>
+    </recipe>
+	
+	<recipe name="Enchanted Books" energyCost="0" fluidCost="0" hasOutputs="false">
+		<input>
+			<itemStack modID="minecraft" itemName="enchanted_book" />
+		</input>
+		<hammer>
+			<!-- The processing of enchanted book is coded as an expetion in the mod -->
+		</hammer>
+    </recipe>
+	
+</recipes>

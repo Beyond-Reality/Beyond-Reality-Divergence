@@ -1,0 +1,147 @@
+{
+	"howto":"You should not add anything in here, just edit it",
+	"default":{
+		"customXYZ":"0,0,0",
+		"isAttractedToSpawner":"true",
+		"isSpawningOnce":"false",
+		"nbMaxSpawning":"10"
+	},
+	"mobs": {
+		"Zombie" : {
+			"energyCost":"100",
+			"fluidCost":"80"
+			},
+		"Creeper" : {
+			"energyCost":"150",
+			"fluidCost":"100"
+			},    
+		"Skeleton" : {
+			"energyCost":"150",
+			"fluidCost":"50"
+			},
+		"Spider" : {
+			"energyCost":"200",
+			"fluidCost":"80"
+			},
+		"CaveSpider" : {
+			"energyCost":"300",
+			"fluidCost":"100"
+			},
+		"Silverfish" : {
+			"energyCost":"50",
+			"fluidCost":"25"
+			},    
+		"Witch" : {
+			"energyCost":"300",
+			"fluidCost":"150"
+			},                                      
+		"Slime" : {
+			"energyCost":"200",
+			"fluidCost":"50"
+			},          
+		"Enderman" : {
+			"energyCost":"300",
+			"fluidCost":"150"
+			},
+		"LavaSlime" : {
+			"energyCost":"200",
+			"fluidCost":"50"
+			},
+		"PigZombie" : {
+			"energyCost":"350",
+			"fluidCost":"150"
+			},
+		"Ghast" : {
+			"energyCost":"500",
+			"fluidCost":"200"
+			},
+		"Blaze" : {
+			"energyCost":"400",
+			"fluidCost":"150"
+			},
+		"SnowMan" : {
+			"energyCost":"150",
+			"fluidCost":"50"
+			},
+		"VillagerGolem" : {
+			"energyCost":"600",
+			"fluidCost":"300"
+			},
+		"Villager" : {
+			"energyCost":"1500",
+			"fluidCost":"500"
+			},
+		"Wolf" : {
+			"energyCost":"150",
+			"fluidCost":"50"
+			},
+		"Ozelot" : {
+			"energyCost":"150",
+			"fluidCost":"50"
+			},
+		"EntityHorse" : {
+			"energyCost":"150",
+			"fluidCost":"50"
+			},
+		"Bat" : {
+			"energyCost":"10",
+			"fluidCost":"5"
+			},
+		"Squid" : {
+			"energyCost":"100",
+			"fluidCost":"50"
+			},    
+		"Chicken" : {
+			"energyCost":"50",
+			"fluidCost":"25"
+			},   
+		"Sheep" : {
+			"energyCost":"80",
+			"fluidCost":"50"
+			},
+		"Cow" : {
+			"energyCost":"100",
+			"fluidCost":"50"
+			},
+		"Pig" : {
+			"energyCost":"100",
+			"fluidCost":"50"
+			},   
+		"MushroomCow" : {
+			"energyCost":"200",
+			"fluidCost":"100"
+			},
+		"Giant": {
+			"energyCost":"1000",
+			"fluidCost":"400",
+            "customXYZ":"0,50,0"
+			},
+			
+			
+			
+		"EnderDragon": {
+			"energyCost":"250000",
+			"fluidCost":"50000",
+			"customXYZ":"0,50,0",
+			"isAttractedToSpawner":"false",
+			"isSpawningOnce":"false",
+			"nbMaxSpawning":"1"
+			},
+		"WitherBoss": {
+			"energyCost":"250000",
+			"fluidCost":"50000",
+			"customXYZ":"0,20,0",
+			"isAttractedToSpawner":"false",
+			"isSpawningOnce":"false",
+			"nbMaxSpawning":"1"
+			},
+		"sfartifacts.hulk" : {
+			"energyCost":"450000",
+			"fluidCost":"100000",
+			"customXYZ":"0,200,0",
+			"isAttractedToSpawner":"false",
+			"isSpawningOnce":"false",
+			"nbMaxSpawning":"1"
+			}
+	}
+}

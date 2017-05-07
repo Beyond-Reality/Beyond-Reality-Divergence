@@ -1,0 +1,48 @@
+<!--
+Always put your new recipe between the <recipes>, recipe must have a unique name.
+ItemStack should always be inside <input> or <output>.
+
+Input can only contain one mold itemStack and one other itemStack materials.
+Output can only contain one itemStack
+The energyCost of the recipe is for one item of the globalQuantity materials.
+The tickPerItem of the materials is the time in tick between each globalQuantity materials being melted.
+
+ItemStack can be declared :
+-using directly the modid and the name of the item : <itemStack modID="sfartifacts" itemName="itemAsgardite" itemQuantity="4"/>
+-using the oreDictionary name if the item is registered in the oreDictionary : <itemStack oreDictionary="gemQuartz" number="4"/> 
+ItemStackWIthNbt :
+nbtType : int, double, long, boolean, string;
+nbtProcess : default (or nothing), adding(instead of writing the tag directly on the hammer it will add the value of the tag to the existant same name tag on the hammer)
+-->
+
+<recipes>
+    <recipe name="Vibranium Shield" energyCost="2000" fluidCost="0">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemMold" itemMeta="1" label="mold"/>
+			<itemStack modID="sfartifacts" itemName="itemVibraniumAlloySheet" tickPerItem="200" globalQuantity="20"/>
+		</input>
+		<output>
+			<itemStackWithNbt modID="sfartifacts" itemName="itemVibraniumShield">
+				<nbt nbtType="boolean" nbtValue="true" nbtName="CanBlock" />
+			</itemStackWithNbt>
+		</output>
+    </recipe>
+    <recipe name="Fusion Casing" energyCost="1000" fluidCost="0">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemMold" itemMeta="2" label="mold"/>
+			<itemStack modID="minecraft" itemName="iron_ingot" tickPerItem="200" globalQuantity="128"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemFusionCasing" />
+		</output>
+    </recipe>
+    <recipe name="Muon Booster Casing" energyCost="1000" fluidCost="0">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemMold" itemMeta="3" label="mold"/>
+			<itemStack modID="minecraft" itemName="gold_ingot" tickPerItem="50" globalQuantity="64"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemMuonBoosterCasing" itemQuantity="4"/>
+		</output>
+    </recipe>
+</recipes>

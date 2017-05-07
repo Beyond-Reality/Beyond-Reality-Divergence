@@ -1,0 +1,86 @@
+<!--
+Always put your new recipe between the <recipes>, recipe must have a unique name.
+ItemStack should always be inside <input> or <output>.
+ItemStack can be declared :
+-using directly the modid and the name of the item : <itemStack modID="sfartifacts" itemName="itemAsgardite" itemQuantity="4"/>
+-using the oreDictionary name if the item is registered in the oreDictionary : <itemStack oreDictionary="gemQuartz" number="4"/> 
+ItemStackWIthNbt :
+nbtType : int, double, long, boolean, string;
+nbtProcess : default (or nothing), adding(instead of writing the tag directly on the hammer it will add the value of the tag to the existant same name tag on the hammer)
+-->
+<recipes>
+    <recipe name="Mighty Hulk Ring" energyCost="5000" fluidCost="5000">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemAsgardianRing"/>
+			<itemStack modID="sfartifacts" itemName="itemHulkFlesh" itemQuantity="4"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemMightyHulkRing" />
+		</output>
+    </recipe>
+	
+	<recipe name="Vibranium Alloy" energyCost="150" fluidCost="1000">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemVibraniumDust"/>
+			<itemStack modID="minecraft" itemName="iron_ingot"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemVibraniumAlloy" />
+		</output>
+    </recipe>
+	
+	<recipe name="Asgardian Glass" energyCost="100" fluidCost="100">
+		<input>
+			<itemStack modID="minecraft" itemName="glass"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="blockAsgardianGlass" />
+		</output>
+    </recipe>
+	
+	<recipe name="Asgardian Steel Ingot" energyCost="100" fluidCost="500">
+		<input>
+			<itemStack modID="minecraft" itemName="iron_ingot"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemAsgardianSteelIngot" />
+		</output>
+    </recipe>
+	
+	<recipe name="Asgardian Bronze Ingot" energyCost="100" fluidCost="500">
+		<input>
+			<itemStack modID="minecraft" itemName="gold_ingot"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemAsgardianBronzeIngot" />
+		</output>
+    </recipe>
+	
+	<recipe name="Asgardium Pearl" energyCost="500" fluidCost="10000">
+		<input>
+			<itemStack modID="minecraft" itemName="diamond"/>
+			<itemStack modID="minecraft" itemName="ender_pearl"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="itemAsgardiumPearl" />
+		</output>
+    </recipe>
+	
+	<recipe name="Basic Energyzed Inductor" energyCost="500" fluidCost="200">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemCable" itemMeta="2"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="blockInductor" itemMeta="2" />
+		</output>
+    </recipe>
+	<recipe name="Advanced Energyzed Inductor" energyCost="1000" fluidCost="400">
+		<input>
+			<itemStack modID="sfartifacts" itemName="itemCable" itemMeta="3"/>
+		</input>
+		<output>
+			<itemStack modID="sfartifacts" itemName="blockInductor" itemMeta="3" />
+		</output>
+    </recipe>
+	
+</recipes>  

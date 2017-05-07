@@ -45,7 +45,7 @@
         </OptionDisplayGroup>
 
         <OptionChoice name='COGActive'
-                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
+                      default=':= dimension.generator.class = "ChunkProviderGenerate" | dimension.generator.class = "ATGChunkProvider" | dimension.generator.class = "ChunkProviderRTG"'
                       displayGroup='groupInternal'>
             <Choice value='true' displayValue='On'/>
             <Choice value='false' displayValue='Off'/>
@@ -75,8 +75,8 @@
                 A global multiplier for the size of all ore distributions. 
             </Description>
             <DisplayName>Ore Deposit Size</DisplayName>
-        </OptionNumeric> 
-       
+        </OptionNumeric>
+	
         <OptionChoice name='debugMode' default='false' displayState='shown_dynamic' displayGroup='groupGeneral'>
             <Description> 
                 Enable/disable debugging mode, which allows the use of in-game wireframe models and console commands.  Also controls the visibility of some advanced options.
@@ -118,7 +118,7 @@
             <Choice value='true' displayValue='On'/>
             <Choice value='false' displayValue='Off'/>
         </OptionChoice> 
-        
+
         <OptionChoice name='drawWireframes' default='true' displayGroup='groupGeneral'>
             <Description> 
                 Default wireframe state for distributions.  
@@ -275,7 +275,7 @@
             <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
             <Setting name='SegmentLength' avg=':= 30 * oreSize' range=':= 6 * oreSize' />
             <Setting name='SegmentAngle' avg='0.30' range='0.30'/>
-            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.2 * oreSize'/>
+            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.02 * oreSize'/>
             <Setting name='OreDensity' avg='1' range='0'/>
             <Setting name='OreRadiusMult' avg='1' range='0.25'/>
             <ReplacesOre block='stone'/>
@@ -385,6 +385,24 @@
             <ReplacesOre block='stone'/>
             <Biome name='.*'/>
         </CloudPreset>
+
+        <CloudPreset name='PresetStratum'>
+            <Description>
+              Solid clouds that form layers of rock and minerals.  This distribution is best used
+              for distributions of basic materials like stone, rather than valuable ones like ore.
+            </Description>
+            <Setting name='DistributionFrequency' avg=':= 0.01 * oreFreq'/>
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='CloudRadius' avg=':= 16 * oreSize' range=':= 8 * oreSize' type='normal'/>
+            <Setting name='CloudThickness' avg=':= 1 * oreSize' range=':= 0.5 * oreSize' type='normal'/>
+            <Setting name='CloudHeight' avg=':=32' range='16' 
+                     type='uniform' scaleTo='sealevel'/>
+            <Setting name='CloudInclination' avg='0' range='0'/>
+            <Setting name='OreDensity' avg='1.0'/>
+            <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </CloudPreset>
         
     </ConfigSection>
 
@@ -393,34 +411,49 @@
          NOTE: to override a default config, remove the corresponding
          directive (and optionally add something to 'modules/custom')
     -->
+    
+    <!-- First are the stone-based configurations; this way, they can be
+         overridden using the stone oredict entry. -->
+    <Import file='modules/default/Chisel2.xml'/>
+    <Import file='modules/default/GeoStrata.xml'/>   
+    <Import file='modules/default/TinkersSteelworks.xml'/>
+    <Import file='modules/default/EtFuturum.xml'/>
 
-    <!-- Vanilla minecraft should always be the first thing to load. -->
-    <Import file='modules/default/VanillaMinecraft.xml'/>
+    <!-- These rules allow for additional subterranean features. -->
+    <Import file='modules/default/MinecraftSpecialRules.xml'/>
+
+    <!-- Vanilla minecraft ores should always be the first ores to 
+         load. -->
+    <Import file='modules/default/Vanilla.xml'/>
+    
+    <!-- Dense Ores in particular NEEDS to be run after the vanilla
+         configuration, as it clears and regenerates vanilla ores while
+         mixing the dense ores with them. -->
+    <Import file='modules/default/DenseOres.xml'/> 
 
     <!-- Then, the rest are free to come in. -->
     <Import file='modules/default/AppliedEnergistics.xml'/>
     <Import file='modules/default/ArsMagica2.xml'/>
     <Import file='modules/default/BiomesOPlenty.xml'/>
-    <Import file='modules/default/Chisel2.xml'/>
-    <Import file='modules/default/Dartcraft.xml'/>
-    <!-- DO in particular NEEDS to be run after the vanilla config! -->
-    <Import file='modules/default/DenseOres.xml'/> 
+    <Import file='modules/default/CommonOres.xml'/>
     <Import file='modules/default/ElectriCraft.xml'/>
-    <Import file='modules/default/ExtraCaves.xml'/>
     <Import file='modules/default/Factorization.xml'/>
     <Import file='modules/default/FlaxbeardsSteamcraft.xml'/>
     <Import file='modules/default/Forestry.xml'/>
     <Import file='modules/default/FossilsandArchaeology.xml'/>
     <Import file='modules/default/Galacticraft.xml'/>
-    <Import file='modules/default/GeoStrata.xml'/>
     <Import file='modules/default/ImmersiveEngineering.xml'/>
     <Import file='modules/default/IndustrialCraft2.xml'/>
     <Import file='modules/default/Mekanism.xml'/>
+    <Import file='modules/default/MagnetiCraft.xml'/>
+    <Import file='modules/default/Mariculture.xml'/>
     <Import file='modules/default/Metallurgy4.xml'/>
+    <Import file='modules/default/Mimicry.xml'/>
     <Import file='modules/default/MineChem.xml'/>
     <Import file='modules/default/MinecraftComesAlive.xml'/>
     <Import file='modules/default/NetherOres.xml'/>
     <Import file='modules/default/Netherrocks.xml'/>
+    <Import file='modules/default/Nuclearcraft.xml'/>
     <Import file='modules/default/PamsHarvestCraft.xml'/>
     <Import file='modules/default/ProjectRed.xml'/>
     <Import file='modules/default/RailCraft.xml'/>
