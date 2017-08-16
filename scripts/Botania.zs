@@ -18,3 +18,6 @@ mods.botania.RuneAltar.addRecipe(<mo:dilithium_crystal>, [<mo:tritanium_ingot>, 
 //Redstone shit
 mods.botania.ManaInfusion.removeRecipe(<minecraft:redstone> * 2); //Conjuration
 mods.botania.ManaInfusion.removeRecipe(<minecraft:redstone>); //Alchemy
+
+mods.botania.RuneAltar.addRecipe(<witchery:ingredient:36>, [<witchery:witchsapling:1>, <witchery:ingredient:27>,<ore:plankWood>], 500);
+mods.botania.RuneAltar.addRecipe(<witchery:ingredient:35>, [<witchery:witchsapling:2>, <witchery:ingredient:27>,<ore:plankWood>], 500);
